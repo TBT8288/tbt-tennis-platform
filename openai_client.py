@@ -56,7 +56,7 @@ class OpenAIClient:
                     {"role": "user", "content": user_content},
                 ],
                 temperature=0.7,
-                max_tokens=300,
+                max_tokens=1500,
             )
             return response.choices[0].message.content.strip()
         except Exception as e:
