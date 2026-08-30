@@ -1,7 +1,7 @@
 """
 tennis_api_client.py
 ---------------------
-A Tennis API (ATP WTA ITF, RapidAPI) klienskódja.
+Sportscore Tennis API klienskód (RapidAPI).
 """
 
 from __future__ import annotations
@@ -14,8 +14,8 @@ from typing import Optional
 import requests
 
 
-API_HOST = "tennis-api-atp-wta-itf.p.rapidapi.com"
-LIVE_EVENTS_URL = f"https://{API_HOST}/tennis/v2/extend/api/events/live"
+API_HOST = "sportscore1.p.rapidapi.com"
+LIVE_EVENTS_URL = f"https://{API_HOST}/tennis/matches/live"
 
 
 @dataclass
@@ -27,7 +27,7 @@ class MatchState:
     raw: dict = field(default_factory=dict)
 
     def is_complete(self) -> bool:
-        return bool(self.player1 and self.player2 and self.score)
+        return bool(self.player1 and self.player2)
 
 
 def _get_api_key() -> str:
@@ -35,15 +35,14 @@ def _get_api_key() -> str:
     if not api_key:
         raise RuntimeError(
             "Hiányzik a RAPIDAPI_KEY környezeti változó. "
-            "Állítsd be, mielőtt futtatod a programot."
+            "Állítsd be a Streamlit Secrets-ben!"
         )
     return api_key
 
 
 def fetch_live_matches() -> list[dict]:
     """
-    Lekéri az API-tól az összes jelenleg élő meccset, 
-    és kiírja a nyers darabszámot a terminálra.
+    Lekéri a Sportscore API-tól az összes jelenleg élő teniszmeccset.
     """
     headers = {
         "X-RapidAPI-Key": _get_api_key(),
@@ -59,22 +58,22 @@ def fetch_live_matches() -> list[dict]:
             raw_list = []
             if isinstance(data, list):
                 raw_list = data
-            else:
-                for key in ("results", "events", "data", "result", "matches", "live"):
-                    if isinstance(data, dict) and key in data and isinstance(data[key], list):
+            elif isinstance(data, dict):
+                for key in ("data", "results", "events", "matches"):
+                    if key in data and isinstance(data[key], list):
                         raw_list = data[key]
                         break
-                if not raw_list and isinstance(data, dict):
+                if not raw_list:
                     raw_list = [data]
 
-            print(f"-> [API Debug] A RapidAPI összesen {len(raw_list)} nyers meccseseményt adott vissza.")
+            print(f"-> [API Debug] A Sportscore összesen {len(raw_list)} nyers meccset adott vissza.")
             return raw_list
             
         except requests.exceptions.Timeout:
             if attempt == 0:
                 time.sleep(1)
                 continue
-            print("Figyelem: A RapidAPI válasza túl sokáig tartott (időtúllépés).")
+            print("Figyelem: A Sportscore válasza túl sokáig tartott (időtúllépés).")
             return []
         except requests.exceptions.RequestException as e:
             print(f"Hiba történt a hálózati kérés közben: {e}")
@@ -83,47 +82,38 @@ def fetch_live_matches() -> list[dict]:
     return []
 
 
-def _extract_name(player_obj) -> Optional[str]:
-    if isinstance(player_obj, str):
-        return player_obj
-    if isinstance(player_obj, dict):
-        for key in ("name", "player_name", "full_name", "shortName"):
-            if key in player_obj:
-                return player_obj[key]
+def _extract_name(obj) -> Optional[str]:
+    if isinstance(obj, str):
+        return obj
+    if isinstance(obj, dict):
+        for key in ("name", "player_name", "full_name", "short_name"):
+            if key in obj:
+                return obj[key]
     return None
 
 
 def parse_match(raw: dict) -> MatchState:
-    match_obj = raw.get("match", raw)
+    # Sportscore strukturális mezők kezelése
+    home = raw.get("home_team", raw.get("home", {}))
+    away = raw.get("away_team", raw.get("away", {}))
 
-    player1 = (
-        _extract_name(match_obj.get("player1"))
-        or _extract_name(match_obj.get("participant1"))
-        or _extract_name(match_obj.get("player_1"))
-        or _extract_name(match_obj.get("home"))
-    )
-    player2 = (
-        _extract_name(match_obj.get("player2"))
-        or _extract_name(match_obj.get("participant2"))
-        or _extract_name(match_obj.get("player_2"))
-        or _extract_name(match_obj.get("away"))
-    )
-    score = (
-        match_obj.get("score")
-        or raw.get("score")
-        or match_obj.get("current_score")
-    )
-    status = (
-        raw.get("status")
-        or match_obj.get("status")
-        or raw.get("round")
-    )
+    player1 = _extract_name(home) or raw.get("player1")
+    player2 = _extract_name(away) or raw.get("player2")
+
+    # Score kinyerése Sportscore formátumból
+    home_score = raw.get("home_score", {})
+    away_score = raw.get("away_score", {})
+    
+    # Ha objektum vagy szám, formázzuk át olvashatóvá
+    score = raw.get("score") or f"H: {home_score} | A: {away_score}"
+    
+    status = raw.get("status_string") or raw.get("status") or "Live"
 
     return MatchState(
         player1=player1,
         player2=player2,
-        score=str(score) if score is not None else None,
-        status=str(status) if status is not None else None,
+        score=str(score),
+        status=str(status),
         raw=raw,
     )
 
