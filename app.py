@@ -1,14 +1,15 @@
 """
 app.py
 ------
-Streamlit web dashboard for TBT Tennis Intelligence Platform with automated tracking and auto-refresh.
+Streamlit web dashboard for TBT Tennis Intelligence Platform with Gemini AI,
+automated live tracking, and Discord integration.
 """
 
 from __future__ import annotations
 
 import streamlit as st
 from tennis_api_client import list_live_matches, find_match
-from openai_client import OpenAIClient
+from gemini_client import GeminiClient
 from discord_client import send_discord_message
 
 
@@ -18,21 +19,21 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🎾 TBT - Tennis Intelligence Platform")
-st.markdown("Select live matches below to monitor them automatically. The app refreshes every 30 seconds and triggers AI analysis on score changes.")
+st.title("🎾 TBT - Tennis Intelligence Platform (Gemini Edition)")
+st.markdown("Select live matches below to monitor them automatically. The app refreshes every 30 seconds and triggers Gemini AI analysis on score changes.")
 
-# Initialize OpenAI Client safely
+# Initialize Gemini Client safely
 @st.cache_resource
 def get_ai_client():
     try:
-        return OpenAIClient()
+        return GeminiClient()
     except Exception:
         return None
 
 ai_client = get_ai_client()
 
 if ai_client is None:
-    st.error("Error: OPENAI_API_KEY is missing or invalid. Please check your environment variables or Streamlit Secrets.")
+    st.error("Error: GEMINI_API_KEY is missing or invalid. Please check your Streamlit Secrets.")
 
 st.header("1. Live Matches Feed & Automated Analysis")
 
@@ -74,7 +75,7 @@ def render_dashboard():
                 not_analyzed_yet = key not in st.session_state.saved_analyses
                 
                 if not_analyzed_yet or score_changed:
-                    with st.spinner(f"🤖 Automatikus TBT elemzés fut: {state.player1} vs {state.player2}..."):
+                    with st.spinner(f"🤖 Automatikus Gemini TBT elemzés fut: {state.player1} vs {state.player2}..."):
                         commentary = ai_client.get_commentary(state)
                     
                     # Save to session state so it persists across refreshes
@@ -85,7 +86,7 @@ def render_dashboard():
                     
                     # Format message for Discord
                     discord_msg = (
-                        f"🎾 **Automated TBT Tennis Analysis**\n"
+                        f"🎾 **Automated TBT Tennis Analysis (Gemini)**\n"
                         f"──────────────────────────────\n"
                         f"👤 **{state.player1}** vs **{state.player2}**\n"
                         f"📊 **Score:** `{state.score}`\n"
