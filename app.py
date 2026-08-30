@@ -1,7 +1,7 @@
 """
 app.py
 ------
-Streamlit web dashboard for TBT Tennis Intelligence Platform with auto-refresh.
+Streamlit web dashboard for TBT Tennis Intelligence Platform with automated tracking and auto-refresh.
 """
 
 from __future__ import annotations
@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 st.title("🎾 TBT - Tennis Intelligence Platform")
-st.markdown("Select live matches from the auto-refreshing list below, run tactical analysis, and stream insights directly to Discord.")
+st.markdown("Select live matches below to monitor them automatically. The app refreshes every 30 seconds and triggers AI analysis on score changes.")
 
 # Initialize OpenAI Client safely
 @st.cache_resource
@@ -32,14 +32,19 @@ def get_ai_client():
 ai_client = get_ai_client()
 
 if ai_client is None:
-    st.error("Error: OPENAI_API_KEY is missing or invalid. Please check your environment variables.")
+    st.error("Error: OPENAI_API_KEY is missing or invalid. Please check your environment variables or Streamlit Secrets.")
 
-st.header("1. Live Matches Feed & Analysis")
+st.header("1. Live Matches Feed & Automated Analysis")
 
-# Auto-refreshing fragment containing both the list and the analysis execution button
+# Auto-refreshing fragment containing both the list and automated execution loop
 @st.fragment(run_every=30)
 def render_dashboard():
-    st.caption("⚡ Live feed automatically syncs every 30 seconds.")
+    st.caption("⚡ Live feed & automated sync running every 30 seconds.")
+    
+    # Initialize session state for stored analyses
+    if "saved_analyses" not in st.session_state:
+        st.session_state.saved_analyses = {}
+
     matches = list_live_matches()
     
     if not matches:
@@ -49,33 +54,38 @@ def render_dashboard():
     match_options = {f"{m.player1} vs {m.player2} ({m.status})": m for m in matches}
     
     selected_match_keys = st.multiselect(
-        "Select matches to monitor & analyze:",
+        "Select matches to monitor & analyze automatically:",
         options=list(match_options.keys()),
         key="active_matches_multiselect"
     )
 
     if selected_match_keys:
         st.markdown("---")
-        st.subheader("2. TBT Analysis & Discord Push")
+        st.subheader("2. Automated TBT Analysis & Discord Feed")
         
-        if st.button("🚀 Run Analysis for Selected Matches", key="run_analysis_btn"):
-            for key in selected_match_keys:
-                match_info = match_options[key]
-                state = find_match(match_info.player1)
+        for key in selected_match_keys:
+            match_info = match_options[key]
+            state = find_match(match_info.player1)
+            
+            if state and state.is_complete():
+                # Check if already analyzed or if the score has updated
+                last_analysis = st.session_state.saved_analyses.get(key)
+                score_changed = last_analysis and last_analysis["state"].score != state.score
+                not_analyzed_yet = key not in st.session_state.saved_analyses
                 
-                if state and state.is_complete():
-                    st.markdown(f"### 👤 {state.player1} vs {state.player2}")
-                    st.write(f"**Score:** `{state.score}` | **Status:** {state.status}")
-                    
-                    with st.spinner(f"Analyzing {state.player1} vs {state.player2} via OpenAI..."):
+                if not_analyzed_yet or score_changed:
+                    with st.spinner(f"🤖 Automatikus TBT elemzés fut: {state.player1} vs {state.player2}..."):
                         commentary = ai_client.get_commentary(state)
-                        
-                    st.markdown("**TBT Commentary:**")
-                    st.markdown(commentary)
+                    
+                    # Save to session state so it persists across refreshes
+                    st.session_state.saved_analyses[key] = {
+                        "state": state,
+                        "commentary": commentary
+                    }
                     
                     # Format message for Discord
                     discord_msg = (
-                        f"🎾 **Live Tennis Analysis (TBT Dashboard)**\n"
+                        f"🎾 **Automated TBT Tennis Analysis**\n"
                         f"──────────────────────────────\n"
                         f"👤 **{state.player1}** vs **{state.player2}**\n"
                         f"📊 **Score:** `{state.score}`\n"
@@ -83,11 +93,22 @@ def render_dashboard():
                         f"🤖 **TBT Analysis:**\n{commentary}"
                     )
                     
-                    # Send to Discord
                     send_discord_message(discord_msg)
-                    st.success(f"Analysis completed and sent to Discord for {state.player1} vs {state.player2}!")
-                    st.markdown("---")
-                else:
-                    st.warning(f"Could not retrieve complete live data for: {key}")
+
+    # Display persistent and auto-updating analyses on screen
+    if st.session_state.saved_analyses:
+        st.markdown("---")
+        st.subheader("📋 Live Monitored Matches")
+        for key, data in list(st.session_state.saved_analyses.items()):
+            state = data["state"]
+            commentary = data["commentary"]
+            
+            with st.expander(f"📊 {state.player1} vs {state.player2} | Score: {state.score}", expanded=True):
+                st.write(f"**Status:** {state.status}")
+                st.markdown("**TBT Commentary:**")
+                st.markdown(commentary)
+                if st.button(f"🗑️ Stop & Remove", key=f"clear_{key}"):
+                    del st.session_state.saved_analyses[key]
+                    st.rerun()
 
 render_dashboard()
