@@ -1,5 +1,5 @@
 streamlit
 requests>=2.31.0
-openai>=1.40.0
+google-genai
 
 
