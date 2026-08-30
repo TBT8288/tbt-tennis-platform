@@ -1,7 +1,7 @@
 """
 tennis_api_client.py
 ---------------------
-Sportscore Tennis API klienskód a Streamlit dashboardhoz.
+Sportscore Tennis API klienskód (Sport ID: 2 - Tenisz) a Streamlit dashboardhoz.
 """
 
 from __future__ import annotations
@@ -15,7 +15,8 @@ import requests
 
 
 API_HOST = "sportscore1.p.rapidapi.com"
-LIVE_EVENTS_URL = f"https://{API_HOST}/tennis/matches/live"
+# A helyes Sportscore végpont teniszre (Sport ID = 2)
+LIVE_EVENTS_URL = f"https://{API_HOST}/sports/2/events/live"
 
 
 @dataclass
@@ -58,8 +59,8 @@ def fetch_live_matches() -> list[dict]:
             
         data = response.json()
         
-        # Itt látni fogjuk a képernyőn, hogy mit küldött pontosan a Sportscore
-        st.write("🔍 DEBUG - Sportscore nyers válasz:", data)
+        # Opcionális debug, hogy lásd a válasz szerkezetét
+        # st.write("🔍 DEBUG - Sportscore nyers válasz:", data)
         
         raw_list = []
         if isinstance(data, list):
