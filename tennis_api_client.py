@@ -1,7 +1,7 @@
 """
 tennis_api_client.py
 ---------------------
-Sportscore Tennis API klienskód (Sport ID: 2 - Tenisz) a Streamlit dashboardhoz.
+Sportscore Tennis API klienskód szép pontszám formázással.
 """
 
 from __future__ import annotations
@@ -15,7 +15,6 @@ import requests
 
 
 API_HOST = "sportscore1.p.rapidapi.com"
-# A helyes Sportscore végpont teniszre (Sport ID = 2)
 LIVE_EVENTS_URL = f"https://{API_HOST}/sports/2/events/live"
 
 
@@ -59,9 +58,6 @@ def fetch_live_matches() -> list[dict]:
             
         data = response.json()
         
-        # Opcionális debug, hogy lásd a válasz szerkezetét
-        # st.write("🔍 DEBUG - Sportscore nyers válasz:", data)
-        
         raw_list = []
         if isinstance(data, list):
             raw_list = data
@@ -99,13 +95,35 @@ def parse_match(raw: dict) -> MatchState:
 
     home_score = raw.get("home_score", {})
     away_score = raw.get("away_score", {})
-    score = raw.get("score") or f"Home: {home_score} | Away: {away_score}"
+    
+    # Szép, olvasható tenisz eredmény formázás dict-ek helyett
+    score_str = raw.get("score")
+    if not score_str and isinstance(home_score, dict) and isinstance(away_score, dict):
+        set_scores = []
+        for i in range(1, 6):
+            p_key = f"period_{i}"
+            if p_key in home_score and p_key in away_score:
+                h_g = home_score[p_key]
+                a_g = away_score[p_key]
+                if h_g is not None and a_g is not None:
+                    set_scores.append(f"{h_g}-{a_g}")
+        
+        sets_text = ", ".join(set_scores) if set_scores else "0-0"
+        
+        pt_h = home_score.get("point")
+        pt_a = away_score.get("point")
+        point_text = f" (Pont: {pt_h}-{pt_a})" if pt_h is not None and pt_a is not None and pt_h != "" else ""
+        
+        score_str = f"{sets_text}{point_text}"
+    elif not score_str:
+        score_str = "Live"
+
     status = raw.get("status_string") or raw.get("status") or "Live"
 
     return MatchState(
         player1=player1,
         player2=player2,
-        score=str(score),
+        score=str(score_str),
         status=str(status),
         raw=raw,
     )
