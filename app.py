@@ -2,7 +2,7 @@
 app.py
 ------
 Streamlit web dashboard for TBT Tennis Intelligence Platform with Gemini AI,
-automated live tracking, and Discord integration.
+optimized automated live tracking (quota-safe), and Discord integration.
 """
 
 from __future__ import annotations
@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 st.title("🎾 TBT - Tennis Intelligence Platform (Gemini Edition)")
-st.markdown("Select live matches below to monitor them automatically. The app refreshes every 30 seconds and triggers Gemini AI analysis on score changes.")
+st.markdown("Select live matches below to monitor them automatically. The app refreshes every 2 minutes to protect API quotas and triggers Gemini AI analysis on score changes.")
 
 # Initialize Gemini Client safely
 @st.cache_resource
@@ -37,10 +37,10 @@ if ai_client is None:
 
 st.header("1. Live Matches Feed & Automated Analysis")
 
-# Auto-refreshing fragment containing both the list and automated execution loop
-@st.fragment(run_every=30)
+# Auto-refreshing fragment optimized to 120s (2 minutes) to save RapidAPI quota
+@st.fragment(run_every=120)
 def render_dashboard():
-    st.caption("⚡ Live feed & automated sync running every 30 seconds.")
+    st.caption("⚡ Live feed & automated sync running every 2 minutes (Quota-optimized).")
     
     # Initialize session state for stored analyses
     if "saved_analyses" not in st.session_state:
@@ -49,7 +49,7 @@ def render_dashboard():
     matches = list_live_matches()
     
     if not matches:
-        st.info("No live matches currently available via API.")
+        st.info("No live matches currently available via API (or RapidAPI quota exhausted).")
         return
     
     match_options = {f"{m.player1} vs {m.player2} ({m.status})": m for m in matches}
