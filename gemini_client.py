@@ -18,8 +18,8 @@ class GeminiClient:
         api_key = self._get_api_key()
         # Inicializálás a hivatalos google-genai SDK-val
         self.client = genai.Client(api_key=api_key)
-        # Frissítve a helyes, elérhető modellre
-        self.model_name = "gemini-3.1-pro-preview"
+        # Ingyenesen és hibamentesen a Flash modellt használjuk a kártya bekapcsolásáig
+        self.model_name = "gemini-2.5-flash"
 
     def _get_api_key(self) -> str:
         try:
