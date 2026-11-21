@@ -176,3 +176,20 @@ Fejlesztési szabály: `match_is_in_scope(event)` külön döntés az `eligible_
 **Mérkőzés-hatókör:** továbbra is férfi ATP 250/500/Masters 1000/Finals és Grand Slam főtábla. Az esetleg Top150-en kívüli mérkőzésellenfél minimális, ideiglenes mérkőzés-kontextusként szerepelhet, de nem kap állandó teljes játékosprofilt. Challenger/ITF-meccsek nem célmeccsek.
 
 **Ami NINCS kész:** minden játékoshoz személyre szabott, bizonyított ütés-/borítás-/lábmunka-/pszichológiai dosszié; élő adatcsatorna; ténylegesen automatikus ranglistafrissítés; modellek validálása. Ezek a bővítés következő munkafázisai, a statisztikai alapadatoktól elkülönítve. Az üres ismeretlent nem pótoljuk AI-találgatással.
+
+## 15. Játékosdossziék – tényleges adatok és még hiányzó részek (2026-11-21)
+
+A felhasználó kérése: **minden jelenlegi ATP Top150 játékos** kor, súly, magasság, jobb-/balkezesség, szerva/return, taktikai erősségek/gyengeségek, támadó/defenzív stílus, borításonkénti kompetencia, nyomás alatti viselkedés és pszichológiai változáspont-megfigyelések. Csak **forrásolt, ellenőrzött** állítás kerülhet a dossziéba; hiányzó adatot nem szabad kitalálni.
+
+**Készen álló, ellenőrzött adatalapok:**
+- [Teljes Top150 egyesített dossziéregister (40+ oszlop)](research/player_profiles/atp_top150_profile_register_2026_11_21.csv) – **150/150 név, rang, pont, születési dátum, kor, kéz**, **134/150 magasság + testsúly**, **150/150 négy borítás Elo-értéke** PythiaTennis 2026-11-20 modelljéből, **146/150 2026-os szezonadat**, összesen **18 régi+új forrásolt szakértői jegyzet 12 játékosról**. Több játékoshoz forrás szerinti edzőnév; nem feltétlen aktuális edzői kapcsolat.
+- [Magyar áttekintő lista (18 oszlop, mindenki)](research/player_profiles/ATP_TOP150_ATTEKINTHETO_LISTA_2026_11_21.csv).
+- [Életrajzi forrásanyag](research/rosters/atp_top150_biography_2026_11_21.csv), ATP média guide 2024/2025/2026 + friss ATP overview, Australian Open és TennisExplorer profilok.
+- [Hard/Clay/Grass/Indoor Elo 150/150](research/rosters/atp_top150_surface_elo_2026_11_20.csv), az Elo nem egyenlő általános játékstílussal vagy mentális erővel.
+- [Pontos lefedettség és módszertani korlátok](research/player_profiles/README.md).
+- [Notion 08 – teljes 150 játékos, rangsor, kor, súly, kéz, borítás Elo](https://app.notion.com/p/41ff603f0d2e81f08d2bd1d2966d9ed3).
+- [Python adatkonzisztencia tesztek](tests/test_player_profile_register.py); [sikeres GitHub Actions](https://github.com/TBT8288/tbt-tennis-platform/actions/runs/44937514653).
+
+**Lényeges adatminőségi tanulság:** az ATP 2026 media guide Flavio Cobolli magasságát **173 cm**-nek közölte, a jelenlegi ATP overview **183 cm**-nek; a regiszter az aktuális ATP adatát használja, és jelzi a konfliktust. A második forrásból fellelt kg és kézadatok forrás szerinti publikus játékosadatok, de súly dinamikusan változhat.
+
+**Nem kész/tilos úgy állítani, hogy kész:** 16 játékos testsúlya nem volt ellenőrizhető; 4 játékos 2026-os szezonstatisztikája forrásütközéses; csak 12 játékoshoz van attribuált szakértői megfigyelés; **0/150 többmeccsesen validált mentális „összeomlik/erős” jellemzés**, **0/150 teljes, ellenőrzött támadó/defenzív és szakértői erősség-gyengeség-profil**. Ezeket a következő építési fázisban, egyéni mérkőzéshistóriával és edzői megfigyelésekkel kell bizonyítani. A TennisDB `Pressure+` stat nem pszichológiai diagnózis, és a hiányzó adat NEM egyenlő nullával.
