@@ -2,6 +2,8 @@
 
 Mind a 150 adatlap rendelkezik ellenőrizhető statisztikai szerkezettel. Ez NEM 150 teljesen validált videós/edzői vagy mentális profil. 2026-os szezon: TennisDB 2026-11-21 pillanatkép. 2025: archivált mérkőzésszintű eredmények; Davis Cup is előfordul, más mint a TennisDB tour W/L. 2026 H2H archívum: hiányos, az utolsó versenydátum 2026-05-25. A Pythia Elo történeti ratings, nem kétidényes forma. 2024 vagy régebbi H2H közvetlen prediktív súlya nulla.
 
+A 2025-ös nyomáshelyzet-mutatók csak befejezett, szabályosan pontozható mérkőzésekből készültek. Tie-break és döntő szett kis minta esetén különösen bizonytalan; a 2026 Pressure+ másik definíció.
+
 Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv ; https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2026.csv ; https://pythiatennis.com/elo/atp/ . A Sackmann-archívum licencjelzése: CC BY-NC-SA 4.0, a származtatott aggregáció felhasználásánál erre tekintettel kell lenni.
 
 ### 101. Thiago Seyboth Wild (BRA)
@@ -27,6 +29,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Stefanos Tsitsipas: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Fabian Marozsan: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Laslo Djere: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Sebastian Baez: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–2 (4 szett); döntő szett 3–3 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 9; Top20 ellen 0–2, Top50 ellen 3–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -58,6 +62,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Casper Ruud: 1–2 (2025 2, 2026 jan.–máj. 1 mérkőzés); Miomir Kecmanovic: 3–0 (2025 3, 2026 jan.–máj. 0 mérkőzés); Alex Michelsen: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Michael Zheng: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 8–9 (17 szett); döntő szett 9–7 (16 mérkőzés); elveszített első szett után megnyert mérkőzés 6; megnyert első szett után elveszített mérkőzés 14; Top20 ellen 1–7, Top50 ellen 7–13 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -87,6 +93,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Valentin Vacherot: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Adrian Mannarino: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Hubert Hurkacz: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Camilo Ugo Carabelli: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–1, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -118,6 +126,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Andrey Rublev: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Zizou Bergs: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Sebastian Baez: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Taylor Fritz: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 3–3 (6 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–3, Top50 ellen 2–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -147,6 +157,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Karen Khachanov: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Andrey Rublev: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Alexander Zverev: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Felix Auger-Aliassime: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 11–8 (19 szett); döntő szett 5–4 (9 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 11; Top20 ellen 1–4, Top50 ellen 5–8 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -178,6 +190,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Flavio Cobolli: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Daniil Medvedev: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Andrey Rublev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Fabian Marozsan: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–1 (3 szett); döntő szett 4–2 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 1–2, Top50 ellen 3–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -207,6 +221,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Daniel Altmaier: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Tallon Griekspoor: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Daniel Merida: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Carlos Alcaraz: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–3 (7 szett); döntő szett 2–1 (3 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 6; Top20 ellen 0–1, Top50 ellen 1–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -238,6 +254,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Francisco Cerundolo: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Damir Dzumhur: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Valentin Royer: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–3 (5 szett); döntő szett 2–2 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–1, Top50 ellen 0–4 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -267,6 +285,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Lorenzo Musetti: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Alexander Zverev: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Learner Tien: 1–2 (2025 3, 2026 jan.–máj. 0 mérkőzés); Tomas Martin Etcheverry: 1–2 (2025 3, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 12–10 (22 szett); döntő szett 10–11 (21 mérkőzés); elveszített első szett után megnyert mérkőzés 8; megnyert első szett után elveszített mérkőzés 18; Top20 ellen 4–11, Top50 ellen 10–18 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -298,6 +318,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Ben Shelton: 0–3 (2025 3, 2026 jan.–máj. 0 mérkőzés); Ugo Humbert: 0–3 (2025 3, 2026 jan.–máj. 0 mérkőzés); Pedro Martinez: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Andrey Rublev: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 15–17 (32 szett); döntő szett 9–13 (22 mérkőzés); elveszített első szett után megnyert mérkőzés 7; megnyert első szett után elveszített mérkőzés 20; Top20 ellen 1–15, Top50 ellen 6–23 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -327,6 +349,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Francisco Cerundolo: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Cameron Norrie: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jannik Sinner: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–2 (3 szett); döntő szett 2–5 (7 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 12; Top20 ellen 0–2, Top50 ellen 0–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -358,6 +382,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Titouan Droguet: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jakub Mensik: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Stefanos Sakellaridis: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Lorenzo Sonego: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–1 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -387,6 +413,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** James Duckworth: 2–0 (2025 0, 2026 jan.–máj. 2 mérkőzés); Daniil Medvedev: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Jaume Munar: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Flavio Cobolli: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–3, Top50 ellen 0–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -418,6 +446,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Nishesh Basavareddy: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Alex Molcan: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -447,6 +477,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Marco Trungelliti: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Yunchaokete Bu: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alexander Bublik: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Jakub Mensik: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–0 (2 szett); döntő szett 2–0 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 1–0, Top50 ellen 1–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -478,6 +510,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Zizou Bergs: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -507,6 +541,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Learner Tien: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Alex Michelsen: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Karen Khachanov: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Christopher Oconnell: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 3–3 (6 szett); döntő szett 3–1 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 13; Top20 ellen 0–4, Top50 ellen 2–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -538,6 +574,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Marton Fucsovics: 0–3 (2025 1, 2026 jan.–máj. 2 mérkőzés); Cameron Norrie: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Ugo Humbert: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Matteo Berrettini: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–9 (14 szett); döntő szett 4–4 (8 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 18; Top20 ellen 0–5, Top50 ellen 1–11 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -567,6 +605,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Vit Kopriva: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Francisco Comesana: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Jaime Faria: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Thiago Seyboth Wild: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–2 (4 szett); döntő szett 0–2 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -598,6 +638,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Luciano Darderi: 1–2 (2025 2, 2026 jan.–máj. 1 mérkőzés); Damir Dzumhur: 1–2 (2025 2, 2026 jan.–máj. 1 mérkőzés); Lorenzo Sonego: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Francisco Comesana: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–2 (7 szett); döntő szett 6–6 (12 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 22; Top20 ellen 2–6, Top50 ellen 4–12 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -627,6 +669,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Arthur Rinderknech: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Shintaro Mochizuki: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alex de Minaur: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Matteo Berrettini: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–2 (2 szett); döntő szett 2–0 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–1, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -658,6 +702,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Ben Shelton: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -687,6 +733,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Francisco Comesana: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Andrey Rublev: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Benjamin Bonzi: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Denis Shapovalov: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 7–10 (17 szett); döntő szett 4–4 (8 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 10; Top20 ellen 1–4, Top50 ellen 3–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -718,6 +766,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Karen Khachanov: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Jan-Lennard Struff: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Alex de Minaur: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Tomas Martin Etcheverry: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 3–6 (9 szett); döntő szett 2–4 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 11; Top20 ellen 2–3, Top50 ellen 4–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -747,6 +797,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Lorenzo Sonego: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Rafael Jodar: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Daniil Medvedev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Aleksandar Kovacevic: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 0–1 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -778,6 +830,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Taylor Fritz: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Sebastian Baez: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Kyrian Jacquet: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Cameron Norrie: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–1 (5 szett); döntő szett 1–2 (3 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–5, Top50 ellen 0–5 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -807,6 +861,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Miomir Kecmanovic: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Vit Kopriva: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Ben Shelton: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Jiri Lehecka: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–2 (2 szett); döntő szett 0–4 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–1, Top50 ellen 0–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -838,6 +894,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Miomir Kecmanovic: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Marcos Giron: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Yibing Wu: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Adrian Mannarino: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 1–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -867,6 +925,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Casper Ruud: 1–2 (2025 1, 2026 jan.–máj. 2 mérkőzés); Jannik Sinner: 0–3 (2025 1, 2026 jan.–máj. 2 mérkőzés); Jakub Mensik: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Marin Cilic: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 14–8 (22 szett); döntő szett 7–10 (17 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 13; Top20 ellen 5–8, Top50 ellen 6–12 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -898,6 +958,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** A hozzáférhető archívumban nincs Top150-es pár.. Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -927,6 +989,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Stefanos Tsitsipas: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Karen Khachanov: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Jurij Rodionov: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Giovanni Mpetshi Perricard: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 1–3 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–3, Top50 ellen 1–5 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -958,6 +1022,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** A hozzáférhető archívumban nincs Top150-es pár.. Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -987,6 +1053,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Fabian Marozsan: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jan Choinski: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Nuno Borges: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Joao Fonseca: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 1–0 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–0, Top50 ellen 0–2 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1018,6 +1086,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Aleksandar Kovacevic: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jiri Lehecka: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Zachary Svajda: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Ugo Humbert: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1047,6 +1117,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Raphael Collignon: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Terence Atmane: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Carlos Alcaraz: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Jiri Lehecka: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 8–3 (11 szett); döntő szett 5–1 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 5; Top20 ellen 0–3, Top50 ellen 6–4 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1078,6 +1150,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Valentin Royer: 2–0 (2025 0, 2026 jan.–máj. 2 mérkőzés); Pedro Martinez: 2–0 (2025 1, 2026 jan.–máj. 1 mérkőzés); Tomas Martin Etcheverry: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 2–0 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 11–15 (26 szett); döntő szett 6–7 (13 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 21; Top20 ellen 2–5, Top50 ellen 6–11 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1107,6 +1181,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Arthur Rinderknech: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Ignacio Buse: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Carlos Alcaraz: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Marcos Giron: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–10 (15 szett); döntő szett 5–6 (11 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 12; Top20 ellen 0–4, Top50 ellen 5–6 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1138,6 +1214,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Tommy Paul: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Frances Tiafoe: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Raphael Collignon: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Damir Dzumhur: 2–0 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 9–14 (23 szett); döntő szett 9–13 (22 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 25; Top20 ellen 0–9, Top50 ellen 5–14 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1167,6 +1245,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Elmer Moller: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alexander Blockx: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jesper de Jong: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Grigor Dimitrov: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–1 (5 szett); döntő szett 0–2 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 0–1, Top50 ellen 0–2 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1198,6 +1278,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Lorenzo Musetti: 1–3 (2025 3, 2026 jan.–máj. 1 mérkőzés); Felix Auger-Aliassime: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Jakub Mensik: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Tallon Griekspoor: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 22–20 (42 szett); döntő szett 5–8 (13 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 21; Top20 ellen 3–7, Top50 ellen 7–17 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1227,6 +1309,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Elmer Moller: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–1 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1258,6 +1342,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Tomas Martin Etcheverry: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Francisco Comesana: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jannik Sinner: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 1–1 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1287,6 +1373,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Daniil Medvedev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Corentin Moutet: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Ethan Quinn: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Thiago Agustin Tirante: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1318,6 +1406,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Ethan Quinn: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Brandon Nakashima: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Taylor Fritz: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 6–3 (9 szett); döntő szett 2–1 (3 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–1, Top50 ellen 1–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1347,6 +1437,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Daniel Altmaier: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Rinky Hijikata: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Corentin Moutet: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Miomir Kecmanovic: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–3 (8 szett); döntő szett 2–2 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 8; Top20 ellen 0–2, Top50 ellen 2–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1378,6 +1470,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Christopher Oconnell: 3–0 (2025 1, 2026 jan.–máj. 2 mérkőzés); Alexander Shevchenko: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Jaume Munar: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Daniil Medvedev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–3 (7 szett); döntő szett 7–4 (11 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 10; Top20 ellen 0–5, Top50 ellen 6–9 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1407,6 +1501,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** A hozzáférhető archívumban nincs Top150-es pár.. Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
@@ -1438,6 +1534,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Sebastian Baez: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Tomas Martin Etcheverry: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Yannick Hanfmann: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Dino Prizmic: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 1–1 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 0–1, Top50 ellen 1–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1468,6 +1566,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Dino Prizmic: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Tommy Paul: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Francisco Cerundolo: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Roman Andres Burruchaga: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
 
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 2–2 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 6; Top20 ellen 0–3, Top50 ellen 1–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
+
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
 **Bizonyíték:** Jelenleg csak számszerű statisztika; külön taktikai forrás beszerzendő.; 2026 szezon https://tennis-db.com/seasons-and-rankings?year=2026 ; 2025 archív https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv .
@@ -1497,6 +1597,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
 **RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Marcos Giron: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Karen Khachanov: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alejandro Tabilo: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Casper Ruud: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+
+**2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 1–0 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–1, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
 **Mentális és nyomásprofil:** nincs igazolt jellemzés. A Pressure+ döntőszett/tie-break eredményeltérés a várthoz képest; nem bizonyít érzelmi reakciót.
 
