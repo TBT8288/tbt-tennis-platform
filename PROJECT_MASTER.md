@@ -197,3 +197,19 @@ A felhasználó kérése: **minden jelenlegi ATP Top150 játékos** kor, súly, 
 ### Első 7 forrásolt taktikai dosszié-előzetes
 
 [ATP + Hugh Clarke forrásolt megfigyelések](research/player_profiles/atp_top150_tactical_sources_seed_2026_11_21.csv) alapján **7 játékos** (Zverev, Sinner, Alcaraz, Shelton, Medvedev, Fritz, Ruud) kapott *előzetes, dátumozott játékstílus- és matchup-megjegyzést*. Ezek **nem** sok mérkőzésen igazolt állandó gyengeségek vagy pszichológiai diagnózisok. A többi **143** játékos összesített stíluscímkéje továbbra sincs forrásoltan kész. A jelenlegi regiszter forrás-URL-t és bizonyíték-kategóriát is külön tárol.
+
+## 16. Kötelező időablak: mindig a tárgyév és az előző szezon (2026-11-21)
+
+**Felhasználói döntés:** az ATP Top150 játékosok aktuális meccsére vonatkozó **prediktív** formát, borításonkénti eredményeket, serve/return mutatókat, ellenfélhelyzetet és H2H-t az **aktuális és az előző naptári szezonból** állítjuk össze. 2026-ban **2026+2025**; 2027-ben **2027+2026**. A korábbi évekből származó meccseredmény és H2H megőrizhető az archívumban és taktikai történeti előzményként, de **közvetlen aktuális forma/H2H feature-ként nem kaphat súlyt**.
+
+- [Részletes döntés, ellenpéldák és kalibrációs szabályok](docs/TEMPORAL_RELEVANCE_POLICY.md).
+- [Kód: időablak, kísérleti recency-decay és kis mintaszámos H2H-simítás](atp_intelligence/time_relevance.py).
+- [Anti-leakage, évváltás, H2H-tesztek](tests/test_time_relevance.py).
+
+**A H2H mellékes összehasonlító jel:** ha két játékos 2022–24-ben találkozott, de 2025–26-ban nem, akkor a **jelenlegi prediktív H2H=semleges/hiányzó**, és az archív régi 3–0 nem befolyásolja közvetlenül az esélyt. Ha csak egy friss H2H van, az nem bizonyít tartós mentális fölényt.
+
+**Fontos különbség:** a jelenlegi Pythia Tennis 2026-11-20-i pályaborításos Elo **karrier-/történeti bázisú**, nem kizárólag 2025–2026-ból számolt forma. A meglévő [150-es Elo-tábla](research/rosters/atp_top150_surface_elo_2026_11_20.csv) nem törlendő, de friss formának **nem címkézhető át**. A súlyozott, csak 2025/2026 mérkőzéseiből képzett feature-öket még külön kell előállítani, és backtesttel kalibrálni.
+
+A most alkalmazott 270/180/45 napos teljesítmény/H2H/rövid-forma félidők **kezdő mérnöki hiperparaméterek**, NEM kutatás által validált optimumok. Más ablakokkal, a 24 hónapos rolling időablakkal és idősúly nélkül is össze kell vetni, kizárólag korábbi mérkőzéseket felhasználva, időrendi visszatesztben (log-loss, Brier-score, borítás/főtorna szegmens és kis mintás H2H).
+
+**Még nem kész:** az új kétidényes relevanciakód az élő Streamlit modellezési folyamatba, a nyers meccstörténetbe vagy a valószínűségszámításba **még nincs bekötve**; ezért az adatablak jelenleg dokumentált és tesztelt szabály, nem éles predikciós állítás.
