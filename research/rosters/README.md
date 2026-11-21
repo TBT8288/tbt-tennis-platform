@@ -36,3 +36,15 @@ The source lists, expert opinions and age-old descriptions are **not** current f
 ## Upgrade path
 
 Refresh weekly with a legally accessible provider, map stable ATP player IDs, reconcile career/retirement/long-term absences, and only use new ranking editions after successful consistency checks. Keep historical snapshots as versioned input data, not as automatically current rankings.
+
+## Clarification: match eligibility vs deep player profile
+
+**This clarification supersedes the overly strict phrasing of selection rule #3 above.** ATP Top 100 is the **full continuously researched profile cohort**, *not* the only players eligible for match analysis.
+
+- **Match eligibility:** men's main draw singles at ATP 250, ATP 500, Masters 1000, ATP Finals, or Grand Slams, regardless of participant rankings (including qualifiers, wild cards, special exemptions, etc. once in the main draw).
+- **Tier A deep profiles:** current Top 100 and active top-level participants, with extensive ongoing coaching-history data; v1 code currently uses Top 100 as the conservative primary cohort.
+- **Tier B temporary matchup profiles:** outside Top 100, but appearing in a concrete in-scope main-draw match; enough verified information to analyze both players. Not automatically monitored long term.
+- **Tier C excluded:** Challenger/ITF-only match coverage, no systematic player profiles.
+- The Top100 roster guard currently filters **persistent expert archive profiles**, not event-level match entries. It must **never** be used by itself to hide a qualifying ATP/Grand Slam main draw match from the live application.
+
+**Not implemented yet:** a separate verified event-based match-eligibility checker, and a temporary Tier-B matchup player model. They must be added before enforcing the scope in the Streamlit UI.
