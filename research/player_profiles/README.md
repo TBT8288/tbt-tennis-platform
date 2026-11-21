@@ -2,6 +2,16 @@
 
 **Aktuális forrásállapot:** 2026. november 21. `ranking_as_of = 2026-11-16`. A keret kizárólag férfi ATP-egyes Top150 játékosokat tartalmaz, nem az összes ATP-versenyen induló játékost.
 
+## 2026-11-21 – új, teljesen összeszerelt Top150 statisztikai dossziék
+
+**[Aktuális Top150 index](TOP150_EVIDENCE_PROFILES_INDEX_2026_11_21.md)** – 150 játékos egyenkénti, 2025–2026 eredmény/statisztika-vezérelt profilja, 2026.11.15-ig frissített H2H, 2025 és 2026 szerva/fogadás, tie-break és döntőszett kimenetek, borításonkénti rekordok, a korábbi 13 szakértői stílusjegyzet megkülönböztetve.
+
+**Lefedettség:** 150/150 statisztikai profil; 148/150 2026-os friss meccsforrás; 146/150 TennisDB szezonrekord; 13/150 előzetes kvalitatív taktikai jegyzet; 0/150 többmeccses technikai és mentális **validált** profil. A szezonok közötti H2H-archívumot csak 2026-11-15-ig ellenőriztük, nem azonos az aktuális napi teljes H2H-val. H2H-hoz 2024 és korábbi közvetlen prediktív súly 0. A Pythia Elo történeti információ.
+
+Adatforrás/credit: TennisDB; Min Maxxxer / Tennis Odds Actor (2026 meccsek, CC BY 4.0); Sackmann-archívum (2025 meccsek, CC BY-NC-SA 4.0); PythiaTennis. A 2026-os TennisDB és HF/Flashscore archív W/L definíciója eltérhet. A meccseredmény-alapú pressure mutatók nem mérik közvetlenül a mentális állapotot.
+
+---
+
 ## Használható adatok és lefedettség
 
 - [Magyar, 18 oszlopos, pontosvesszővel tagolt, Excelben is megnyitható áttekintő lista](ATP_TOP150_ATTEKINTHETO_LISTA_2026_11_21.csv): 150 játékos, kor, súly, magasság, jobb-/balkezesség, fonák, 2026 W/L, hard/clay/grass/indoor Elo, jegyzetek száma.
