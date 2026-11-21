@@ -1,50 +1,39 @@
-# ATP-only player universe – 16 November 2026 snapshot
+# ATP Intelligence – követett játékosok: Top 150
 
-**Goal:** Restrict the private ATP Intelligence `Player Intelligence` records to elite men's singles players, not Challenger/ITF rosters.
+**Jelenleg hatályos döntés: 2026-11-21.** Az összes, az ATP férfi egyesranglista **1–150. helyén álló játékos** kap saját, tartós Player Intelligence alaprekordot. A ranglistahelyezés elegendő a bekerüléshez: **nem kötelező, hogy a játékos a 2026-os ATP-főtáblán már szerepelt legyen**.
 
-## Selection rule (version 1)
+A régebbi Top 100-as hatókör ezzel **megszűnt**; a történeti Top100 CSV változatlan archív pillanatképként marad meg.
 
-1. **ATP Top 100** in the singles ranking effective **2026-11-16**.
-2. Independently cross-check each ranking slot against the 2026 men's main-draw season summary. All 100 have at least one main-draw singles match (wins+losses > 0).
-3. Do not create active profiles for ranking positions **101+**, retired players, or Challenger-only/ITF-only players.
-4. The *analysis target events* are ATP 250/500/Masters 1000/ATP Finals and Grand Slams. A Grand Slam is not administered by the ATP Tour, but is deliberately included as top-level professional singles competition.
-5. Historical Challenger notes may inform a **current Top-100** player's longer-term history, but there is no separate live Challenger prediction or low-ranked player profile.
+## Ellenőrzött alapállományok
 
-This is a **product scope policy**, not a claim that rank 101 is intrinsically incapable of ATP-level tennis. Rankings change weekly; the eligibility set must be refreshed and tested before live deployment. A Top 100 athlete may play Challenger occasionally and remains eligible.
+- [ATP Top150 – 2026. november 16.](atp_top150_2026_11_16.csv): **150 játékos**, ranghely, név, ország, ranglistapont, rangsor dátuma, forrás és ellenőrzési státusz.
+- [2026-os szezonstatisztika](atp_top150_season_stats_2026.csv): **150 rekord**, ebből **146** játékosra ellenőrzött, játékosnév + ranglistapont szerint megfelelő TennisDB idénystatisztika. A 146 rekordban győzelem/vereség és – ha a forrásban létezik – Win%, Elo, Serve+, Return+, Pressure+, szett-győzelmi arány. A hiányzó mező üres, **nem 0**.
+- **Négy további ellenőrzést igénylő statisztikai sor:** 107 Otto Virtanen (570 pont), 116 Clément Chidekh (512 pont), 130 Max Alcalá Gurri (446 pont), 132 Nikolas Sánchez Izquierdo (438 pont). A ranghelyüket több rangsorforrás egyezteti, de a TennisDB eltérő ranghely-/pontállapota alapján nem kerülhet hozzájuk bizonytalan 2026-os statisztikai érték.
 
-## Data
+## A források és a pontosság
 
-[atp_top100_2026_11_16.csv](atp_top100_2026_11_16.csv) contains 100 rows, with rank, full name, country, points, dated ranking, season main-draw W/L, verification flag and both source URLs.
+- [Ranglista 1–100](https://www.tennis.esp.br/en/rankings?date=2026-11-16&tour=ATP)
+- [Ranglista 101–200](https://tennis.esp.br/en/rankings?date=2026-11-16&page=2&tour=ATP)
+- [Független rangsorellenőrzés](https://www.sportscore.es/tennis/rankings/atp/)
+- [TennisDB 2026 szezonstatisztika](https://tennis-db.com/seasons-and-rankings?year=2026)
 
-- Ranking: [Tennis.esp.br, ATP 2026-11-16](https://www.tennis.esp.br/en/rankings?date=2026-11-16&tour=ATP).
-- Independent season summary: [TennisDB, 2026 ATP rankings and match summary](https://tennis-db.com/seasons-and-rankings?year=2026).
-- Ranking top positions also corroborated by [TennisTemple](https://en.tennistemple.com/rankings/atp) and [Tennis Explorer](https://www.tennisexplorer.com/ranking/atp-men/2026/).
-- ATP official live rankings: [atptour.com/rankings/singles](https://www.atptour.com/rankings/singles). Dynamic/cached ATP output was stale in the tool session, so it was **not** the downloaded 16 November snapshot.
+A forrásokat **azonos érvényességi dátumhoz** kell kötni. A TennisDB helyezési sorrendje egyes játékosoknál eltér a másik két ranglistától (pl. Virtanen). **Nem rendeljük a statisztikát pusztán ugyanahhoz a sorszámhoz!** Ha név és ranglistapont nem támasztja alá az egyezést, üresen hagyjuk és ellenőrzésre jelöljük.
 
-Minor source spelling variant at rank 100: **Alexander / Aleksandr Shevchenko** (equal rank and points). Stored as Alexander; player ID alignment required when an official ATP player ID becomes available.
+**A statisztikai összesítések nem jelentenek automatikusan játékstílus- vagy sérülésdiagnózist.** A 150 játékos egyedi technikai/taktikai erősség- és gyengeségprofilját további, mérkőzés- és forrásidőhöz kötött adatokkal fogjuk felépíteni.
 
-**IMPORTANT:** Several web caches reported 9,350 points for Zverev while the chosen 16 November snapshot and TennisDB/TennisTemple report 9,320. The CSV records 9,320, and source edition matters. Do not mix update dates or ATP Race data with 52-week ranking data.
+## A célversenyek
 
-## Current code guard
+- **Elemzendő mérkőzések:** férfi egyes főtábla ATP 250, ATP 500, Masters 1000, ATP Finals és Grand Slam.
+- **150 részletes játékosprofil:** a legutolsó elfogadott, dátumozott ATP Top150-rangsor alapján.
+- **Eseti meccspartner 150-en kívül:** ideiglenes, minimális mérkőzésadat, hogy a releváns ATP/Grand Slam-főtáblás mérkőzés értelmezhető maradjon. Nem indítunk külön, egész évben követett profilt.
+- **Challenger/ITF:** nincs önálló élő eseményfigyelés; csak a jelenlegi Top150 játékos történeti múltjának bizonyító adatai használhatók, ha ténylegesen indokolt.
 
-- [atp_intelligence/roster.py](../../atp_intelligence/roster.py): parses and validates exactly 100 unique players with 2026 main-draw evidence.
-- [atp_intelligence/archive.py](../../atp_intelligence/archive.py): imports ONLY Top-100 player mentions and expert observations into the application SQLite archive. Out-of-scope names may remain in **research-source CSV** for bibliographic provenance; they are excluded from persistent active player/observation tables.
-- On import, old out-of-scope player/observation records in an existing database are purged. The 100 eligible roster records are recreated.
+## Implementáció – 2026. november 21.
 
-The source lists, expert opinions and age-old descriptions are **not** current form or mental-state measurements. No live roster updating or paid licensed matchfeed is integrated yet.
+- [`ATPTop150` validálás](../../atp_intelligence/roster.py) – 150 név, 1–150 helyezés, forrás és dátum ellenőrzése, eltérő szezonstatisztikai hiány kezelésével.
+- [`ExpertArchive` SQLite import](../../atp_intelligence/archive.py) – a 150 játékos és a rendelkezésre álló forrásolt szezonstatisztikák tárolása; a szakértői megfigyelések a követett játékosokra szűrve.
+- [Automatizált tesztek](../../tests/test_expert_archive.py) – Top150, előző 100-as DB-séma migrációja, import és adatminőség.
 
-## Upgrade path
+**Nem kész:** stabil provider-független ATP player ID összerendelés, heti ranglistafrissítés, a 4 vitás statisztika feloldása, minden játékoshoz részletes ütés- és taktikai profil, Streamlit élő feed szűrőbe való bekötése. Ezek külön fejlesztési feladatok.
 
-Refresh weekly with a legally accessible provider, map stable ATP player IDs, reconcile career/retirement/long-term absences, and only use new ranking editions after successful consistency checks. Keep historical snapshots as versioned input data, not as automatically current rankings.
-
-## Clarification: match eligibility vs deep player profile
-
-**This clarification supersedes the overly strict phrasing of selection rule #3 above.** ATP Top 100 is the **full continuously researched profile cohort**, *not* the only players eligible for match analysis.
-
-- **Match eligibility:** men's main draw singles at ATP 250, ATP 500, Masters 1000, ATP Finals, or Grand Slams, regardless of participant rankings (including qualifiers, wild cards, special exemptions, etc. once in the main draw).
-- **Tier A deep profiles:** current Top 100 and active top-level participants, with extensive ongoing coaching-history data; v1 code currently uses Top 100 as the conservative primary cohort.
-- **Tier B temporary matchup profiles:** outside Top 100, but appearing in a concrete in-scope main-draw match; enough verified information to analyze both players. Not automatically monitored long term.
-- **Tier C excluded:** Challenger/ITF-only match coverage, no systematic player profiles.
-- The Top100 roster guard currently filters **persistent expert archive profiles**, not event-level match entries. It must **never** be used by itself to hide a qualifying ATP/Grand Slam main draw match from the live application.
-
-**Not implemented yet:** a separate verified event-based match-eligibility checker, and a temporary Tier-B matchup player model. They must be added before enforcing the scope in the Streamlit UI.
+*Az itt szereplő rank- és statadatok 2026. november 16-i ranglistapillanatképre és 2026. november 21-én ellenőrzött forrásokra vonatkoznak. Nem jövőbeli garanciák.*
