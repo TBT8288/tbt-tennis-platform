@@ -1,0 +1,4 @@
+event_date,player_a,player_b,winner,score_winner_first,tournament,tour_level,source_url,verification,role,notes
+2026-07-28,Andres Andrade,Alexei Popyrin,Andres Andrade,"7-5 3-6 6-1",Vancouver,Challenger,https://www.atptour.com/es/scores/current-challenger/vancouver/7774/results,official_atp,historic_context_only,"Historical event involving ATP player; Challenger is not an app target"
+2026-07-28,Rafael Jodar,Arthur Fils,Rafael Jodar,"7-6(5) 6-3",Washington,ATP_500,https://www.atptour.com/en/news/fils-jodar-washington-2026-tuesday,official_atp,historic_reference,"Outcome corroborated; no unverified fitness inference"
+2026-07-28,Kamil Majchrzak,Tommy Paul,Kamil Majchrzak,"7-5 7-6(4)",Washington,ATP_500,https://tennis-db.com/matches/4572472/kamil-majchrzak-vs-tommy-paul,secondary_match_record,historic_reference,"No Elo or injury inference"
