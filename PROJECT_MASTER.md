@@ -133,3 +133,17 @@ A történeti szakértői archívum véges: Jakub Bobro 2023 augusztusában és 
 **Szerzői jog:** teljes hanganyagokat, cikkeket és transzkriptumokat nem teszünk a nyilvános GitHubba; csak forráslinkeket, metaadatokat és rövid, saját szavú összefoglalókat. A még fel nem dolgozott epizódoknál ne állítsunk semmilyen konkrét játékosról hallott megjegyzést.
 
 **Következő lépések:** további epizódok felkutatása → epizódonkénti vendéglisták → ellenőrizhető egyedi edzői/versenyszempontú megállapítások → rendszeres, külön forrásból mért 2026-os aktív státusz frissítés → a Player Intelligence felé szigorú, időzárt felhasználás.
+
+## 12. Kizárólag ATP Top100 játékosprofilok és jelenlegi szakértők (2026-11-21)
+
+**Új, elsőbbséget élvező termékhatókör:** a férfi ATP-egyes Top 100 2026-11-16-i, dátumozott rangsora, mindegyik játékosnál 2026-os főtáblás mérkőzésadattal ellenőrizve. Célverseny: ATP 250/500/Masters 1000/Finals és Grand Slam; nem elemzünk Challenger/ITF meccseket élő célként. A Challenger-múlt csak **ma is Top100-as** játékos történeti kontextusaként maradhat meg. Kivételes, ranglistán kívüli játékoshoz nincs önálló aktív profil a mostani verzióban.
+
+- [Teljes, 100 soros ATP-ranglistapillanatkép](research/rosters/atp_top100_2026_11_16.csv); [források és korlátok](research/rosters/README.md).
+- [Szigorú, validált Top100-szűrő](atp_intelligence/roster.py).
+- [Aktuális podcast- és szakértőkatalógus – 7 személy](research/expert_archives/current_analysts_2026_11_21.csv): Gill Gross, Hugh Clarke, Calvin Betton, Craig O’Shannessy, Andy Roddick, Matt Roberts, Alex Gruskin.
+- [5 új, dátumozott 2026-os szakértői forrás](research/expert_archives/current_sources.csv) és [8 rövid, saját szavú ATP-megfigyelés](research/expert_archives/current_atp_observations.csv).
+- [Szűrt SQLite-import](atp_intelligence/archive.py): 100 roster sor, 10 forrás, a régi 21 jelöltből 7 felvehető játékosemlítés, valamint összesen 13, jogosult játékoshoz kötött történeti megfigyelés. A többi jelölt kizárva a működő aktív játékosadatbázisból. A régi kutatási CSV-k továbbra is bibliográfiai nyomként léteznek; nem kerülnek aktív modellbe.
+- [Notion 07 – kutatási eredmények](https://app.notion.com/p/41ff603f0d2e8146a3c6f3bbdfeaf3e4).
+- [GitHub #9: heti keretfrissítés](https://github.com/TBT8288/tbt-tennis-platform/issues/9) és [#10: szakértői források bővítése](https://github.com/TBT8288/tbt-tennis-platform/issues/10).
+
+A ranglista és a szakértői megfigyelések **dátumozott pillanatképek**, nem folyamatosan frissülő élő adatok. A szakértői vélemények nem közvetlen pszichológiai mérések és nem bizonyítanak nyerő modellt. A hivatalos ATP webes oldal cache-e régebbi rangsorokat mutatott; a 2026-11-16-i forrás a Tennis.esp.br és a TennisDB egyeztetett ranking/season oldala. A jelenlegi Streamlit alkalmazás éles eseménybeolvasását még nem kötöttük rá a Top100-jogosultságvizsgálatra.
