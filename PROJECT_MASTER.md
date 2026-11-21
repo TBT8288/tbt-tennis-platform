@@ -79,3 +79,22 @@ Minden lezárt munkafázis után:
 - **Claude:** a felhasználó 2026. november végén tervezi előfizetését és külön Claude API-hozzáférés/API-kulcs beállítását. Ez még **nem történt meg**, a Claude-előfizetés nem jelent automatikusan API-kreditet. A titkos kulcsokat soha ne tegyük GitHubba vagy chatbe.
 - **Notion és Firecrawl:** a felhasználó szeretné ezeket a ChatGPT-be kapcsolni. 2026-11-21-i ellenőrzés szerint mindkettő **elérhető, de nincs telepítve/csatlakoztatva**. Az első kapcsolódás és a szükséges OAuth-engedély a felhasználó kifejezett UI-jóváhagyását igényli; az asszisztens nem tudja automatikusan megadni helyette.
 - **GitHub:** továbbra is az elsődleges forrás kódhoz, feladatokhoz és projektállapothoz. A Notion és Firecrawl csak szükség szerint kiegészítő.
+
+## 9. Megvalósítás és ellenőrzés — 2026-11-21
+
+**Elkészült és GitHubra mentve:**
+- `atp_intelligence/probability.py`: standard advantage game/hold/break esélye a feltételezett szervapont-esélyből (B0 matematikai alapeszköz, még nincs játékoserősség vagy borítás becsatolva).
+- `atp_intelligence/events.py`: időzónás UTC pontesemények, megfigyelések és predikciók, adatvalidáció, evidence cutoff ellenőrzése.
+- `atp_intelligence/storage.py`: SQLite esemény-/előrejelzés-mentés, idempotens event ID.
+- `tests/test_core.py`: 11 Python egységteszt.
+- `.github/workflows/tests.yml`: GitHub Actions – Python 3.12 CI.
+- `.gitignore`, `README.md`: dokumentáció és titkos kulcsok/nyers adatok kizárása.
+- **CI ténylegesen sikeres**: [GitHub Actions run #44929140544](https://github.com/TBT8288/tbt-tennis-platform/actions/runs/44929140544) (2026-11-21).
+
+**GitHub feladatok:** [#1 API audit](https://github.com/TBT8288/tbt-tennis-platform/issues/1), [#2 B0](https://github.com/TBT8288/tbt-tennis-platform/issues/2), [#3 B1/B2](https://github.com/TBT8288/tbt-tennis-platform/issues/3), [#4 időbélyegzett validáció](https://github.com/TBT8288/tbt-tennis-platform/issues/4), [#5 Coach Intelligence](https://github.com/TBT8288/tbt-tennis-platform/issues/5).
+
+**Notion projektközpont:** [ATP Intelligence – Kutatási és projektközpont](https://app.notion.com/p/41ff603f0d2e8121a7c6c2cc89ff4213) (négy részletes aloldal: edzői megfigyelés, momentum, adatforrások, roadmap).
+
+**Amit még nem állíthatunk késznek:** a jelenlegi Streamlit app nem használja még a matematikai modult, nincs valós élő pontrögzítés, momentum-/pszichológiai detektor, videóelemzés vagy validált előrejelzési fölény. Az új modul önálló alap, nem kész élő AI-teniszedző.
+
+**Következő prioritás:** #1 adatforrás-audit és a történeti eseményadat sémájának tényleges ellenőrzése; utána a validált B0-becslést bevezetni a meglévő felületbe.
