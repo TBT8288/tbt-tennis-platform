@@ -1,8 +1,10 @@
 # ATP Intelligence – 150 teljes statisztikai profil, 2026-11-21
 
-Mind a 150 adatlap rendelkezik ellenőrizhető statisztikai szerkezettel. Ez NEM 150 teljesen validált videós/edzői vagy mentális profil. 2026-os szezon: TennisDB 2026-11-21 pillanatkép. 2025: archivált mérkőzésszintű eredmények; Davis Cup is előfordul, más mint a TennisDB tour W/L. 2026 H2H archívum: hiányos, az utolsó versenydátum 2026-05-25. A Pythia Elo történeti ratings, nem kétidényes forma. 2024 vagy régebbi H2H közvetlen prediktív súlya nulla.
+Mind a 150 adatlap rendelkezik ellenőrizhető statisztikai szerkezettel. Ez NEM 150 teljesen validált videós/edzői vagy mentális profil. 2026-os szezon: TennisDB 2026-11-21 pillanatkép. 2025: archivált mérkőzésszintű eredmények; Davis Cup is előfordul, más mint a TennisDB tour W/L. 2026 H2H archívum: 2026-11-15-ig ellenőrzött Min Maxxxer / Tennis Odds Actor meccsforrás, a 2026-11-16–21 időszak még nincs benne. A Pythia Elo történeti ratings, nem kétidényes forma. 2024 vagy régebbi H2H közvetlen prediktív súlya nulla.
 
 A 2025-ös nyomáshelyzet-mutatók csak befejezett, szabályosan pontozható mérkőzésekből készültek. Tie-break és döntő szett kis minta esetén különösen bizonytalan; a 2026 Pressure+ másik definíció.
+
+Friss 2026 meccsadatok: Min Maxxxer / Tennis Odds Actor, https://huggingface.co/datasets/minmaxxxer/atp-wta-matches-with-odds , utolsó frissítés 2026-11-16, CC BY 4.0. A 2026 W/L archívum és a TennisDB adatköre eltérhet; ne olvasszuk őket össze.
 
 Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2025.csv ; https://github.com/Aneeshers/tennis-sackmann-archive/blob/main/atp/atp_matches_2026.csv ; https://pythiatennis.com/elo/atp/ . A Sackmann-archívum licencjelzése: CC BY-NC-SA 4.0, a származtatott aggregáció felhasználásánál erre tekintettel kell lenni.
 
@@ -18,6 +20,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 14 meccs szervastatisztikával; első szerva beütés 64.2%, első szervából nyert 71.6%, másodikból nyert 47.0%, ász/meccs 5.9, fogadásból nyert pont 34.7%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 0–1; Hard/Clay/Grass: Hard 0–0; Clay 0–1; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 1 statisztikás mérkőzés; első szerva beütés 65.3%, első szervából nyert 59.2%, másodikból nyert 53.8%, ász/meccs 8.0, fogadópont-nyerés 39.7%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–0 (0 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 0. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1959, salak 2251, fű 1528, fedett 1693.
 
 **Mérhető erősség:** 2025 első szervából 71.6% pontot nyert (14 meccses minta)
@@ -28,7 +36,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Stefanos Tsitsipas: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Fabian Marozsan: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Laslo Djere: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Sebastian Baez: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Stefanos Tsitsipas: 0–2 (2025 2 meccs, 2026 0 meccs); Fabian Marozsan: 0–1 (2025 1 meccs, 2026 0 meccs); Laslo Djere: 0–1 (2025 1 meccs, 2026 0 meccs); Sebastian Baez: 1–0 (2025 1 meccs, 2026 0 meccs); Facundo Diaz Acosta: 1–0 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–2 (4 szett); döntő szett 3–3 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 9; Top20 ellen 0–2, Top50 ellen 3–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -50,6 +58,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 40 meccs szervastatisztikával; első szerva beütés 60.5%, első szervából nyert 73.7%, másodikból nyert 53.4%, ász/meccs 9.0, fogadásból nyert pont 35.6%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 12–6; Hard/Clay/Grass: Hard 12–6; Clay 0–0; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 18 statisztikás mérkőzés; első szerva beütés 62.6%, első szervából nyert 80.1%, másodikból nyert 53.5%, ász/meccs 9.7, fogadópont-nyerés 38.3%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 5–4 (9 szett), döntő szett 2–5 (7 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 2. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2283, salak 2137, fű 1805, fedett 1931.
 
 **Mérhető erősség:** Serve+ +5.17 pp (2026); Return+ +3.06 pp (2026); 2025 első szervából 73.7% pontot nyert (40 meccses minta)
@@ -60,7 +74,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Casper Ruud: 1–2 (2025 2, 2026 jan.–máj. 1 mérkőzés); Miomir Kecmanovic: 3–0 (2025 3, 2026 jan.–máj. 0 mérkőzés); Alex Michelsen: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Michael Zheng: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Casper Ruud: 1–2 (2025 2 meccs, 2026 1 meccs); Miomir Kecmanovic: 3–0 (2025 3 meccs, 2026 0 meccs); Alex Michelsen: 1–1 (2025 0 meccs, 2026 2 meccs); Michael Zheng: 1–1 (2025 0 meccs, 2026 2 meccs); Jiri Lehecka: 1–1 (2025 1 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 8–9 (17 szett); döntő szett 9–7 (16 mérkőzés); elveszített első szett után megnyert mérkőzés 6; megnyert első szett után elveszített mérkőzés 14; Top20 ellen 1–7, Top50 ellen 7–13 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -82,6 +96,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 2 meccs szervastatisztikával; első szerva beütés 62.6%, első szervából nyert 80.3%, másodikból nyert 58.8%, ász/meccs 25.5, fogadásból nyert pont 24.9%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 11–15; Hard/Clay/Grass: Hard 8–10; Clay 1–2; Grass 2–3; utolsó 30 nap 0–0, utolsó 90 nap 4–4 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 26 statisztikás mérkőzés; első szerva beütés 62.8%, első szervából nyert 76.2%, másodikból nyert 51.7%, ász/meccs 12.0, fogadópont-nyerés 31.8%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 7–6 (13 szett), döntő szett 0–6 (6 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 12. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2048, salak 1922, fű 1636, fedett 1931.
 
 **Mérhető erősség:** Serve+ +3.05 pp (2026)
@@ -92,7 +112,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Valentin Vacherot: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Adrian Mannarino: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Hubert Hurkacz: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Camilo Ugo Carabelli: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Hubert Hurkacz: 1–1 (2025 0 meccs, 2026 2 meccs); Frances Tiafoe: 0–2 (2025 1 meccs, 2026 1 meccs); Valentin Vacherot: 0–1 (2025 0 meccs, 2026 1 meccs); Adrian Mannarino: 0–1 (2025 0 meccs, 2026 1 meccs); Camilo Ugo Carabelli: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–1, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -114,6 +134,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 5 meccs szervastatisztikával; első szerva beütés 62.0%, első szervából nyert 72.1%, másodikból nyert 48.0%, ász/meccs 16.0, fogadásból nyert pont 34.0%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 3–2; Hard/Clay/Grass: Hard 3–2; Clay 0–0; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 3–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 5 statisztikás mérkőzés; első szerva beütés 65.0%, első szervából nyert 79.3%, másodikból nyert 52.7%, ász/meccs 15.4, fogadópont-nyerés 34.1%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–2 (4 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 1. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2215, salak 2006, fű 1666, fedett 1642.
 
 **Mérhető erősség:** Return+ +2.11 pp (2026)
@@ -124,7 +150,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Andrey Rublev: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Zizou Bergs: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Sebastian Baez: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Taylor Fritz: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Andrey Rublev: 0–2 (2025 2 meccs, 2026 0 meccs); Stefanos Tsitsipas: 0–1 (2025 0 meccs, 2026 1 meccs); Aleksandar Kovacevic: 1–0 (2025 0 meccs, 2026 1 meccs); Valentin Vacherot: 1–0 (2025 0 meccs, 2026 1 meccs); Hubert Hurkacz: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 3–3 (6 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–3, Top50 ellen 2–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -146,6 +172,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 29 meccs szervastatisztikával; első szerva beütés 58.6%, első szervából nyert 74.2%, másodikból nyert 52.7%, ász/meccs 7.9, fogadásból nyert pont 35.5%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 7–14; Hard/Clay/Grass: Hard 1–7; Clay 4–6; Grass 1–1; utolsó 30 nap 0–0, utolsó 90 nap 2–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 21 statisztikás mérkőzés; első szerva beütés 58.8%, első szervából nyert 73.2%, másodikból nyert 46.3%, ász/meccs 8.6, fogadópont-nyerés 35.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–6 (8 szett), döntő szett 3–3 (6 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 11. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2029, salak 2202, fű 1499, fedett 1672.
 
 **Mérhető erősség:** 2025 első szervából 74.2% pontot nyert (29 meccses minta)
@@ -156,7 +188,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Karen Khachanov: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Andrey Rublev: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Alexander Zverev: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Felix Auger-Aliassime: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Karen Khachanov: 1–1 (2025 0 meccs, 2026 2 meccs); Andrey Rublev: 0–2 (2025 1 meccs, 2026 1 meccs); Alexander Zverev: 0–2 (2025 1 meccs, 2026 1 meccs); Felix Auger-Aliassime: 0–2 (2025 2 meccs, 2026 0 meccs); Tallon Griekspoor: 2–0 (2025 2 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 11–8 (19 szett); döntő szett 5–4 (9 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 11; Top20 ellen 1–4, Top50 ellen 5–8 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -178,6 +210,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 10 meccs szervastatisztikával; első szerva beütés 65.3%, első szervából nyert 66.9%, másodikból nyert 53.3%, ász/meccs 3.6, fogadásból nyert pont 32.0%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 9–11; Hard/Clay/Grass: Hard 7–7; Clay 1–2; Grass 0–2; utolsó 30 nap 0–0, utolsó 90 nap 3–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 19 statisztikás mérkőzés; első szerva beütés 60.4%, első szervából nyert 70.8%, másodikból nyert 55.6%, ász/meccs 5.9, fogadópont-nyerés 34.5%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 7–4 (11 szett), döntő szett 0–3 (3 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 10. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2131, salak 2116, fű 1382, fedett 2094.
 
 **Mérhető erősség:** 2025 első szervából 66.9% pontot nyert (10 meccses minta)
@@ -188,7 +226,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Flavio Cobolli: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Daniil Medvedev: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Andrey Rublev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Fabian Marozsan: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Flavio Cobolli: 0–2 (2025 0 meccs, 2026 2 meccs); Daniil Medvedev: 1–1 (2025 2 meccs, 2026 0 meccs); Fabian Marozsan: 1–0 (2025 0 meccs, 2026 1 meccs); Andrey Rublev: 0–1 (2025 0 meccs, 2026 1 meccs); Nuno Borges: 1–0 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–1 (3 szett); döntő szett 4–2 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 1–2, Top50 ellen 3–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -210,6 +248,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 9 meccs szervastatisztikával; első szerva beütés 58.4%, első szervából nyert 70.9%, másodikból nyert 48.9%, ász/meccs 7.4, fogadásból nyert pont 35.8%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 4–7; Hard/Clay/Grass: Hard 0–2; Clay 0–2; Grass 1–2; utolsó 30 nap 0–0, utolsó 90 nap 1–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 9 statisztikás mérkőzés; első szerva beütés 57.7%, első szervából nyert 71.6%, másodikból nyert 49.2%, ász/meccs 11.6, fogadópont-nyerés 33.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 4–6 (10 szett), döntő szett 1–4 (5 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 4. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1988, salak 1959, fű 1816, fedett 2018.
 
 **Mérhető erősség:** 2025 első szervából 70.9% pontot nyert (9 meccses minta)
@@ -220,7 +264,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Daniel Altmaier: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Tallon Griekspoor: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Daniel Merida: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Carlos Alcaraz: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Daniel Altmaier: 1–1 (2025 2 meccs, 2026 0 meccs); Coleman Wong: 1–0 (2025 0 meccs, 2026 1 meccs); Valentin Vacherot: 0–1 (2025 0 meccs, 2026 1 meccs); Tallon Griekspoor: 0–1 (2025 0 meccs, 2026 1 meccs); Daniel Merida: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–3 (7 szett); döntő szett 2–1 (3 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 6; Top20 ellen 0–1, Top50 ellen 1–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -242,6 +286,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 11 meccs szervastatisztikával; első szerva beütés 69.7%, első szervából nyert 63.0%, másodikból nyert 48.7%, ász/meccs 2.5, fogadásból nyert pont 33.4%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 2–2; Hard/Clay/Grass: Hard 0–0; Clay 1–2; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 1–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 3 statisztikás mérkőzés; első szerva beütés 75.6%, első szervából nyert 60.8%, másodikból nyert 47.1%, ász/meccs 1.7, fogadópont-nyerés 32.2%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–1 (1 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 2. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1737, salak 2200, fű 1378, fedett 1591.
 
 **Mérhető erősség:** 2025 első szervából 63.0% pontot nyert (11 meccses minta)
@@ -252,7 +302,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Francisco Cerundolo: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Damir Dzumhur: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Valentin Royer: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Damir Dzumhur: 1–0 (2025 0 meccs, 2026 1 meccs); Francisco Cerundolo: 0–1 (2025 0 meccs, 2026 1 meccs); Valentin Royer: 0–1 (2025 0 meccs, 2026 1 meccs); Luciano Darderi: 0–1 (2025 1 meccs, 2026 0 meccs); Aleksandar Vukic: 1–0 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–3 (5 szett); döntő szett 2–2 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–1, Top50 ellen 0–4 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -274,6 +324,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 56 meccs szervastatisztikával; első szerva beütés 62.1%, első szervából nyert 67.9%, másodikból nyert 52.5%, ász/meccs 3.5, fogadásból nyert pont 38.8%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 10–20; Hard/Clay/Grass: Hard 6–9; Clay 3–7; Grass 1–4; utolsó 30 nap 0–1, utolsó 90 nap 2–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 30 statisztikás mérkőzés; első szerva beütés 65.0%, első szervából nyert 65.4%, másodikból nyert 49.2%, ász/meccs 3.0, fogadópont-nyerés 38.5%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 3–3 (6 szett), döntő szett 3–6 (9 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 15. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2108, salak 2125, fű 1638, fedett 1894.
 
 **Mérhető erősség:** Return+ +2.17 pp (2026); 2025 első szervából 67.9% pontot nyert (56 meccses minta)
@@ -284,7 +340,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Lorenzo Musetti: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Alexander Zverev: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Learner Tien: 1–2 (2025 3, 2026 jan.–máj. 0 mérkőzés); Tomas Martin Etcheverry: 1–2 (2025 3, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Alejandro Davidovich Fokina: 0–3 (2025 1 meccs, 2026 2 meccs); Lorenzo Musetti: 0–3 (2025 2 meccs, 2026 1 meccs); Alexander Zverev: 0–3 (2025 2 meccs, 2026 1 meccs); Learner Tien: 1–2 (2025 3 meccs, 2026 0 meccs); Tomas Martin Etcheverry: 1–2 (2025 3 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 12–10 (22 szett); döntő szett 10–11 (21 mérkőzés); elveszített első szett után megnyert mérkőzés 8; megnyert első szett után elveszített mérkőzés 18; Top20 ellen 4–11, Top50 ellen 10–18 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -306,6 +362,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 54 meccs szervastatisztikával; első szerva beütés 66.3%, első szervából nyert 73.3%, másodikból nyert 51.2%, ász/meccs 6.4, fogadásból nyert pont 33.7%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 13–19; Hard/Clay/Grass: Hard 7–10; Clay 3–6; Grass 3–3; utolsó 30 nap 1–2, utolsó 90 nap 4–6 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 32 statisztikás mérkőzés; első szerva beütés 66.7%, első szervából nyert 72.7%, másodikból nyert 52.8%, ász/meccs 7.9, fogadópont-nyerés 32.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 12–10 (22 szett), döntő szett 5–4 (9 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 16. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2032, salak 2036, fű 1698, fedett 1882.
 
 **Mérhető erősség:** 2025 első szervából 73.3% pontot nyert (54 meccses minta)
@@ -316,7 +378,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Ben Shelton: 0–3 (2025 3, 2026 jan.–máj. 0 mérkőzés); Ugo Humbert: 0–3 (2025 3, 2026 jan.–máj. 0 mérkőzés); Pedro Martinez: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Andrey Rublev: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Ben Shelton: 0–4 (2025 3 meccs, 2026 1 meccs); Taylor Fritz: 0–3 (2025 2 meccs, 2026 1 meccs); Alexander Zverev: 0–3 (2025 2 meccs, 2026 1 meccs); Ugo Humbert: 0–3 (2025 3 meccs, 2026 0 meccs); James Duckworth: 1–1 (2025 0 meccs, 2026 2 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 15–17 (32 szett); döntő szett 9–13 (22 mérkőzés); elveszített első szett után megnyert mérkőzés 7; megnyert első szett után elveszített mérkőzés 20; Top20 ellen 1–15, Top50 ellen 6–23 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -338,6 +400,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 26 meccs szervastatisztikával; első szerva beütés 57.0%, első szervából nyert 66.2%, másodikból nyert 47.2%, ász/meccs 2.4, fogadásból nyert pont 36.8%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 6–11; Hard/Clay/Grass: Hard 2–5; Clay 4–5; Grass 0–1; utolsó 30 nap 0–0, utolsó 90 nap 2–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 17 statisztikás mérkőzés; első szerva beütés 55.3%, első szervából nyert 64.2%, másodikból nyert 51.2%, ász/meccs 2.4, fogadópont-nyerés 36.9%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–3 (5 szett), döntő szett 2–2 (4 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 7. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1992, salak 2108, fű 1574, fedett 1906.
 
 **Mérhető erősség:** 2025 első szervából 66.2% pontot nyert (26 meccses minta)
@@ -348,7 +416,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Francisco Cerundolo: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Cameron Norrie: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jannik Sinner: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Luca Van Assche: 0–2 (2025 0 meccs, 2026 2 meccs); Francisco Cerundolo: 0–2 (2025 1 meccs, 2026 1 meccs); Damir Dzumhur: 1–1 (2025 1 meccs, 2026 1 meccs); Andrey Rublev: 0–2 (2025 1 meccs, 2026 1 meccs); Daniel Altmaier: 0–2 (2025 1 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–2 (3 szett); döntő szett 2–5 (7 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 12; Top20 ellen 0–2, Top50 ellen 0–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -370,6 +438,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 1 meccs szervastatisztikával; első szerva beütés 67.0%, első szervából nyert 74.6%, másodikból nyert 35.5%, ász/meccs 7.0, fogadásból nyert pont 31.4%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 3–9; Hard/Clay/Grass: Hard 0–5; Clay 0–2; Grass 3–2; utolsó 30 nap 0–0, utolsó 90 nap 0–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 12 statisztikás mérkőzés; első szerva beütés 62.9%, első szervából nyert 70.5%, másodikból nyert 48.5%, ász/meccs 8.3, fogadópont-nyerés 33.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–6 (8 szett), döntő szett 2–3 (5 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 7. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1785, salak 2238, fű 1572, fedett 1718.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -380,7 +454,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Titouan Droguet: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jakub Mensik: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Stefanos Sakellaridis: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Lorenzo Sonego: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Titouan Droguet: 0–1 (2025 0 meccs, 2026 1 meccs); Jakub Mensik: 0–1 (2025 0 meccs, 2026 1 meccs); Stefanos Sakellaridis: 0–1 (2025 0 meccs, 2026 1 meccs); Alexei Popyrin: 1–0 (2025 0 meccs, 2026 1 meccs); Zizou Bergs: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–1 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -402,6 +476,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 8 meccs szervastatisztikával; első szerva beütés 63.7%, első szervából nyert 60.2%, másodikból nyert 49.0%, ász/meccs 0.4, fogadásból nyert pont 38.3%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 7–10; Hard/Clay/Grass: Hard 7–7; Clay 0–2; Grass 0–1; utolsó 30 nap 0–0, utolsó 90 nap 3–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 17 statisztikás mérkőzés; első szerva beütés 58.2%, első szervából nyert 64.7%, másodikból nyert 44.8%, ász/meccs 3.4, fogadópont-nyerés 41.8%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 4–3 (7 szett), döntő szett 4–2 (6 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 9. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2130, salak 2083, fű 1422, fedett 1841.
 
 **Mérhető erősség:** Return+ +3.47 pp (2026); 2025 első szervából 60.2% pontot nyert (8 meccses minta)
@@ -412,7 +492,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** James Duckworth: 2–0 (2025 0, 2026 jan.–máj. 2 mérkőzés); Daniil Medvedev: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Jaume Munar: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Flavio Cobolli: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Daniil Medvedev: 0–3 (2025 2 meccs, 2026 1 meccs); James Duckworth: 2–0 (2025 0 meccs, 2026 2 meccs); Luciano Darderi: 1–1 (2025 0 meccs, 2026 2 meccs); Jaume Munar: 0–1 (2025 0 meccs, 2026 1 meccs); Flavio Cobolli: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–3, Top50 ellen 0–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -434,6 +514,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 1 meccs szervastatisztikával; első szerva beütés 57.4%, első szervából nyert 58.1%, másodikból nyert 47.8%, ász/meccs 3.0, fogadásból nyert pont 25.0%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 4–5; Hard/Clay/Grass: Hard 1–3; Clay 0–0; Grass 1–1; utolsó 30 nap 0–0, utolsó 90 nap 0–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 7 statisztikás mérkőzés; első szerva beütés 62.1%, első szervából nyert 66.9%, másodikból nyert 48.9%, ász/meccs 4.6, fogadópont-nyerés 34.9%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–3 (5 szett), döntő szett 2–0 (2 meccs), hátrányból (első szettvesztés után) fordítás 2, első szett megnyerése után elveszített meccs 4. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1972, salak 2092, fű 1630, fedett 1557.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -444,7 +530,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Nishesh Basavareddy: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Alex Molcan: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Tallon Griekspoor: 0–1 (2025 0 meccs, 2026 1 meccs); Adolfo Daniel Vallejo: 1–0 (2025 0 meccs, 2026 1 meccs); Michael Zheng: 0–1 (2025 0 meccs, 2026 1 meccs); Martin Landaluce: 1–0 (2025 0 meccs, 2026 1 meccs); Lorenzo Musetti: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -466,6 +552,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 3 meccs szervastatisztikával; első szerva beütés 61.9%, első szervából nyert 67.3%, másodikból nyert 56.2%, ász/meccs 9.7, fogadásból nyert pont 32.8%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 1–3; Hard/Clay/Grass: Hard 0–0; Clay 0–3; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 3 statisztikás mérkőzés; első szerva beütés 67.8%, első szervából nyert 57.6%, másodikból nyert 45.5%, ász/meccs 3.0, fogadópont-nyerés 33.9%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–1 (1 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 3. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2101, salak 2095, fű 1415, fedett 1430.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -476,7 +568,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Marco Trungelliti: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Yunchaokete Bu: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alexander Bublik: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Jakub Mensik: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Yunchaokete Bu: 1–0 (2025 0 meccs, 2026 1 meccs); Marco Trungelliti: 0–1 (2025 0 meccs, 2026 1 meccs); Damir Dzumhur: 0–1 (2025 0 meccs, 2026 1 meccs); Pedro Martinez: 0–1 (2025 0 meccs, 2026 1 meccs); Alexander Bublik: 0–1 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–0 (2 szett); döntő szett 2–0 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 1–0, Top50 ellen 1–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -498,6 +590,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 1 meccs szervastatisztikával; első szerva beütés 54.5%, első szervából nyert 73.3%, másodikból nyert 44.0%, ász/meccs 0.0, fogadásból nyert pont 29.3%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 2–1; Hard/Clay/Grass: Hard 2–1; Clay 0–0; Grass 0–0; utolsó 30 nap 0–1, utolsó 90 nap 2–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 3 statisztikás mérkőzés; első szerva beütés 68.8%, első szervából nyert 68.9%, másodikból nyert 48.1%, ász/meccs 2.7, fogadópont-nyerés 42.8%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 1–0 (1 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 1. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2031, salak 1746, fű 1591, fedett 2020.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -508,7 +606,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Zizou Bergs: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Botic van de Zandschulp: 1–0 (2025 0 meccs, 2026 1 meccs); Jacob Fearnley: 1–0 (2025 0 meccs, 2026 1 meccs); Francisco Cerundolo: 0–1 (2025 0 meccs, 2026 1 meccs); Zizou Bergs: 0–1 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -530,6 +628,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 24 meccs szervastatisztikával; első szerva beütés 57.3%, első szervából nyert 69.4%, másodikból nyert 50.4%, ász/meccs 3.8, fogadásból nyert pont 33.5%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 3–6; Hard/Clay/Grass: Hard 1–3; Clay 2–3; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 9 statisztikás mérkőzés; első szerva beütés 54.3%, első szervából nyert 73.8%, másodikból nyert 53.3%, ász/meccs 7.8, fogadópont-nyerés 33.2%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 3–4 (7 szett), döntő szett 2–2 (4 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 5. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2110, salak 2093, fű 1452, fedett 2004.
 
 **Mérhető erősség:** 2025 első szervából 69.4% pontot nyert (24 meccses minta)
@@ -540,7 +644,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Learner Tien: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Alex Michelsen: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Karen Khachanov: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Christopher Oconnell: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Learner Tien: 0–3 (2025 2 meccs, 2026 1 meccs); Alex Michelsen: 1–1 (2025 1 meccs, 2026 1 meccs); Raphael Collignon: 1–1 (2025 1 meccs, 2026 1 meccs); Karen Khachanov: 0–2 (2025 1 meccs, 2026 1 meccs); Christopher Oconnell: 1–0 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 3–3 (6 szett); döntő szett 3–1 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 13; Top20 ellen 0–4, Top50 ellen 2–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -562,6 +666,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 33 meccs szervastatisztikával; első szerva beütés 59.9%, első szervából nyert 69.0%, másodikból nyert 49.1%, ász/meccs 6.3, fogadásból nyert pont 33.9%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 4–8; Hard/Clay/Grass: Hard 4–7; Clay 0–1; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 12 statisztikás mérkőzés; első szerva beütés 57.3%, első szervából nyert 71.7%, másodikból nyert 48.1%, ász/meccs 8.6, fogadópont-nyerés 32.3%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 4–3 (7 szett), döntő szett 1–2 (3 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 6. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2108, salak 1995, fű 1671, fedett 1892.
 
 **Mérhető erősség:** 2025 első szervából 69.0% pontot nyert (33 meccses minta)
@@ -572,7 +682,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Marton Fucsovics: 0–3 (2025 1, 2026 jan.–máj. 2 mérkőzés); Cameron Norrie: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Ugo Humbert: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Matteo Berrettini: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Marton Fucsovics: 0–3 (2025 1 meccs, 2026 2 meccs); Taylor Fritz: 0–2 (2025 1 meccs, 2026 1 meccs); Cameron Norrie: 1–1 (2025 1 meccs, 2026 1 meccs); Ugo Humbert: 0–2 (2025 1 meccs, 2026 1 meccs); Matteo Berrettini: 0–2 (2025 2 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–9 (14 szett); döntő szett 4–4 (8 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 18; Top20 ellen 0–5, Top50 ellen 1–11 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -594,6 +704,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 3 meccs szervastatisztikával; első szerva beütés 55.6%, első szervából nyert 77.7%, másodikból nyert 53.7%, ász/meccs 9.7, fogadásból nyert pont 30.5%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 1–1; Hard/Clay/Grass: Hard 0–0; Clay 0–1; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 1–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 2 statisztikás mérkőzés; első szerva beütés 57.0%, első szervából nyert 76.5%, másodikból nyert 65.6%, ász/meccs 3.5, fogadópont-nyerés 26.9%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 1–1 (2 szett), döntő szett 1–0 (1 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 1. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1862, salak 2192, fű 1420, fedett 1619.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -604,7 +720,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Vit Kopriva: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Francisco Comesana: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Jaime Faria: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Thiago Seyboth Wild: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Vit Kopriva: 0–1 (2025 0 meccs, 2026 1 meccs); Francisco Comesana: 0–1 (2025 1 meccs, 2026 0 meccs); Jaime Faria: 0–1 (2025 1 meccs, 2026 0 meccs); Thiago Seyboth Wild: 1–0 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 2–2 (4 szett); döntő szett 0–2 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -626,6 +742,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 41 meccs szervastatisztikával; első szerva beütés 68.4%, első szervából nyert 62.0%, másodikból nyert 46.0%, ász/meccs 0.9, fogadásból nyert pont 36.5%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 3–9; Hard/Clay/Grass: Hard 0–2; Clay 3–7; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 12 statisztikás mérkőzés; első szerva beütés 67.2%, első szervából nyert 65.8%, másodikból nyert 43.8%, ász/meccs 0.9, fogadópont-nyerés 33.4%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 1–4 (5 szett), döntő szett 0–3 (3 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 8. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2004, salak 2075, fű 1408, fedett 1802.
 
 **Mérhető erősség:** 2025 első szervából 62.0% pontot nyert (41 meccses minta)
@@ -636,7 +758,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Luciano Darderi: 1–2 (2025 2, 2026 jan.–máj. 1 mérkőzés); Damir Dzumhur: 1–2 (2025 2, 2026 jan.–máj. 1 mérkőzés); Lorenzo Sonego: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Francisco Comesana: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Luciano Darderi: 1–3 (2025 2 meccs, 2026 2 meccs); Damir Dzumhur: 1–2 (2025 2 meccs, 2026 1 meccs); Lorenzo Sonego: 1–1 (2025 1 meccs, 2026 1 meccs); Francisco Comesana: 0–2 (2025 1 meccs, 2026 1 meccs); Francisco Cerundolo: 0–2 (2025 2 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–2 (7 szett); döntő szett 6–6 (12 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 22; Top20 ellen 2–6, Top50 ellen 4–12 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -658,6 +780,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 1 meccs szervastatisztikával; első szerva beütés 46.6%, első szervából nyert 70.4%, másodikból nyert 45.2%, ász/meccs 4.0, fogadásból nyert pont 20.4%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 2–5; Hard/Clay/Grass: Hard 1–2; Clay 1–3; Grass 0–0; utolsó 30 nap 0–1, utolsó 90 nap 1–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 7 statisztikás mérkőzés; első szerva beütés 56.8%, első szervából nyert 73.8%, másodikból nyert 47.7%, ász/meccs 7.4, fogadópont-nyerés 32.3%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–3 (5 szett), döntő szett 0–1 (1 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 4. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2075, salak 2093, fű 1628, fedett 1863.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -668,7 +796,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Arthur Rinderknech: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Shintaro Mochizuki: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alex de Minaur: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Matteo Berrettini: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Arthur Rinderknech: 0–1 (2025 0 meccs, 2026 1 meccs); Tomas Martin Etcheverry: 0–1 (2025 0 meccs, 2026 1 meccs); Giovanni Mpetshi Perricard: 1–0 (2025 0 meccs, 2026 1 meccs); Jakub Mensik: 0–1 (2025 0 meccs, 2026 1 meccs); Nikoloz Basilashvili: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–2 (2 szett); döntő szett 2–0 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–1, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -690,6 +818,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 0 meccs szervastatisztikával; első szerva beütés n.a., első szervából nyert n.a., másodikból nyert n.a., ász/meccs n.a., fogadásból nyert pont n.a..
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 3–5; Hard/Clay/Grass: Hard 3–4; Clay 0–0; Grass 0–1; utolsó 30 nap 0–0, utolsó 90 nap 2–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 8 statisztikás mérkőzés; első szerva beütés 66.2%, első szervából nyert 65.7%, másodikból nyert 52.5%, ász/meccs 3.4, fogadópont-nyerés 35.3%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–3 (3 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 2, első szett megnyerése után elveszített meccs 5. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1972, salak 1701, fű 1728, fedett 1471.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -700,7 +834,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Ben Shelton: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Ben Shelton: 0–1 (2025 0 meccs, 2026 1 meccs); Grigor Dimitrov: 0–1 (2025 0 meccs, 2026 1 meccs); Corentin Moutet: 1–0 (2025 0 meccs, 2026 1 meccs); Lorenzo Musetti: 1–0 (2025 0 meccs, 2026 1 meccs); Luciano Darderi: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -722,6 +856,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 21 meccs szervastatisztikával; első szerva beütés 63.7%, első szervából nyert 72.6%, másodikból nyert 53.9%, ász/meccs 7.6, fogadásból nyert pont 34.5%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 5–21; Hard/Clay/Grass: Hard 3–14; Clay 1–5; Grass 1–2; utolsó 30 nap 0–0, utolsó 90 nap 1–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 26 statisztikás mérkőzés; első szerva beütés 61.6%, első szervából nyert 67.4%, másodikból nyert 49.0%, ász/meccs 6.1, fogadópont-nyerés 33.3%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 3–8 (11 szett), döntő szett 1–5 (6 meccs), hátrányból (első szettvesztés után) fordítás 2, első szett megnyerése után elveszített meccs 20. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2048, salak 2164, fű 1581, fedett 1738.
 
 **Mérhető erősség:** 2025 első szervából 72.6% pontot nyert (21 meccses minta)
@@ -732,7 +872,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Francisco Comesana: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Andrey Rublev: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Benjamin Bonzi: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Denis Shapovalov: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Francisco Comesana: 0–2 (2025 0 meccs, 2026 2 meccs); Stefanos Tsitsipas: 1–1 (2025 1 meccs, 2026 1 meccs); Andrey Rublev: 1–1 (2025 1 meccs, 2026 1 meccs); Alexander Zverev: 0–2 (2025 1 meccs, 2026 1 meccs); Benjamin Bonzi: 0–2 (2025 1 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 7–10 (17 szett); döntő szett 4–4 (8 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 10; Top20 ellen 1–4, Top50 ellen 3–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -754,6 +894,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 23 meccs szervastatisztikával; első szerva beütés 53.2%, első szervából nyert 76.6%, másodikból nyert 51.8%, ász/meccs 8.0, fogadásból nyert pont 32.3%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 3–7; Hard/Clay/Grass: Hard 0–0; Clay 2–6; Grass 1–1; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 10 statisztikás mérkőzés; első szerva beütés 55.1%, első szervából nyert 74.7%, másodikból nyert 52.5%, ász/meccs 9.1, fogadópont-nyerés 32.1%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–3 (5 szett), döntő szett 1–0 (1 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 7. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1872, salak 2169, fű 1695, fedett 2014.
 
 **Mérhető erősség:** 2025 első szervából 76.6% pontot nyert (23 meccses minta)
@@ -764,7 +910,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Karen Khachanov: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Jan-Lennard Struff: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Alex de Minaur: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Tomas Martin Etcheverry: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Hubert Hurkacz: 0–2 (2025 1 meccs, 2026 1 meccs); Hamad Medjedovic: 2–0 (2025 1 meccs, 2026 1 meccs); Karen Khachanov: 1–1 (2025 2 meccs, 2026 0 meccs); Jan-Lennard Struff: 1–1 (2025 2 meccs, 2026 0 meccs); Alex de Minaur: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 3–6 (9 szett); döntő szett 2–4 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 11; Top20 ellen 2–3, Top50 ellen 4–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -786,6 +932,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 2 meccs szervastatisztikával; első szerva beütés 65.8%, első szervából nyert 67.3%, másodikból nyert 52.9%, ász/meccs 4.0, fogadásból nyert pont 28.1%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 5–7; Hard/Clay/Grass: Hard 4–7; Clay 0–0; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 4–4 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 12 statisztikás mérkőzés; első szerva beütés 62.8%, első szervából nyert 72.6%, másodikból nyert 55.0%, ász/meccs 11.3, fogadópont-nyerés 31.2%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–5 (7 szett), döntő szett 2–3 (5 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 5. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2199, salak 2024, fű 1508, fedett 1700.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -796,7 +948,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Lorenzo Sonego: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Rafael Jodar: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Daniil Medvedev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Aleksandar Kovacevic: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Matteo Arnaldi: 0–2 (2025 1 meccs, 2026 1 meccs); Lorenzo Sonego: 0–1 (2025 0 meccs, 2026 1 meccs); Rafael Jodar: 0–1 (2025 0 meccs, 2026 1 meccs); Aleksandar Kovacevic: 1–0 (2025 0 meccs, 2026 1 meccs); Daniil Medvedev: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 0–1 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -818,6 +970,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 12 meccs szervastatisztikával; első szerva beütés 61.2%, első szervából nyert 75.0%, másodikból nyert 46.6%, ász/meccs 8.6, fogadásból nyert pont 35.2%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 5–12; Hard/Clay/Grass: Hard 1–4; Clay 4–7; Grass 0–1; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 17 statisztikás mérkőzés; első szerva beütés 66.1%, első szervából nyert 70.6%, másodikból nyert 46.3%, ász/meccs 9.7, fogadópont-nyerés 32.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 3–10 (13 szett), döntő szett 2–4 (6 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 10. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2009, salak 2207, fű 1467, fedett 1791.
 
 **Mérhető erősség:** 2025 első szervából 75.0% pontot nyert (12 meccses minta)
@@ -828,7 +986,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Taylor Fritz: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Sebastian Baez: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Kyrian Jacquet: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Cameron Norrie: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Taylor Fritz: 0–2 (2025 2 meccs, 2026 0 meccs); Sebastian Baez: 0–1 (2025 0 meccs, 2026 1 meccs); Kyrian Jacquet: 1–0 (2025 0 meccs, 2026 1 meccs); Cameron Norrie: 0–1 (2025 0 meccs, 2026 1 meccs); Mariano Navone: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–1 (5 szett); döntő szett 1–2 (3 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–5, Top50 ellen 0–5 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -850,6 +1008,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 5 meccs szervastatisztikával; első szerva beütés 65.7%, első szervából nyert 72.2%, másodikból nyert 50.4%, ász/meccs 7.8, fogadásból nyert pont 33.0%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 2–2; Hard/Clay/Grass: Hard 2–2; Clay 0–0; Grass 0–0; utolsó 30 nap 1–2, utolsó 90 nap 2–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 4 statisztikás mérkőzés; első szerva beütés 71.8%, első szervából nyert 74.3%, másodikból nyert 38.7%, ász/meccs 9.0, fogadópont-nyerés 32.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 1–0 (1 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 2. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2053, salak 2088, fű 1477, fedett 1950.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -860,7 +1024,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Miomir Kecmanovic: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Vit Kopriva: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Ben Shelton: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Jiri Lehecka: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Arthur Fery: 1–0 (2025 0 meccs, 2026 1 meccs); Daniel Altmaier: 0–1 (2025 0 meccs, 2026 1 meccs); Tomas Machac: 1–0 (2025 0 meccs, 2026 1 meccs); Ugo Humbert: 0–1 (2025 0 meccs, 2026 1 meccs); Miomir Kecmanovic: 0–1 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–2 (2 szett); döntő szett 0–4 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–1, Top50 ellen 0–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -882,6 +1046,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 2 meccs szervastatisztikával; első szerva beütés 60.4%, első szervából nyert 67.2%, másodikból nyert 65.9%, ász/meccs 4.5, fogadásból nyert pont 36.4%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 7–16; Hard/Clay/Grass: Hard 2–13; Clay 0–0; Grass 3–3; utolsó 30 nap 0–1, utolsó 90 nap 3–6 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 23 statisztikás mérkőzés; első szerva beütés 58.0%, első szervából nyert 74.4%, másodikból nyert 49.1%, ász/meccs 6.9, fogadópont-nyerés 30.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 5–6 (11 szett), döntő szett 4–4 (8 meccs), hátrányból (első szettvesztés után) fordítás 3, első szett megnyerése után elveszített meccs 12. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2016, salak 1888, fű 1705, fedett 1784.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -892,7 +1062,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Miomir Kecmanovic: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Marcos Giron: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Yibing Wu: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Adrian Mannarino: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Miomir Kecmanovic: 0–3 (2025 0 meccs, 2026 3 meccs); Marcos Giron: 0–1 (2025 0 meccs, 2026 1 meccs); Adrian Mannarino: 1–0 (2025 0 meccs, 2026 1 meccs); Yibing Wu: 0–1 (2025 0 meccs, 2026 1 meccs); Alexander Shevchenko: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 1–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -914,6 +1084,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 40 meccs szervastatisztikával; első szerva beütés 62.4%, első szervából nyert 73.9%, másodikból nyert 48.0%, ász/meccs 9.3, fogadásból nyert pont 34.6%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 11–19; Hard/Clay/Grass: Hard 5–10; Clay 6–6; Grass 0–3; utolsó 30 nap 0–0, utolsó 90 nap 1–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 30 statisztikás mérkőzés; első szerva beütés 62.8%, első szervából nyert 74.7%, másodikból nyert 53.8%, ász/meccs 10.0, fogadópont-nyerés 31.9%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 1–9 (10 szett), döntő szett 6–4 (10 meccs), hátrányból (első szettvesztés után) fordítás 4, első szett megnyerése után elveszített meccs 13. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2082, salak 2171, fű 1550, fedett 1707.
 
 **Mérhető erősség:** 2025 első szervából 73.9% pontot nyert (40 meccses minta)
@@ -924,7 +1100,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Casper Ruud: 1–2 (2025 1, 2026 jan.–máj. 2 mérkőzés); Jannik Sinner: 0–3 (2025 1, 2026 jan.–máj. 2 mérkőzés); Jakub Mensik: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Marin Cilic: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Casper Ruud: 1–2 (2025 1 meccs, 2026 2 meccs); Jannik Sinner: 0–3 (2025 1 meccs, 2026 2 meccs); Jakub Mensik: 1–1 (2025 0 meccs, 2026 2 meccs); Raphael Collignon: 1–1 (2025 0 meccs, 2026 2 meccs); Jiri Lehecka: 0–2 (2025 1 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 14–8 (22 szett); döntő szett 7–10 (17 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 13; Top20 ellen 5–8, Top50 ellen 6–12 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -946,6 +1122,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 0 meccs szervastatisztikával; első szerva beütés n.a., első szervából nyert n.a., másodikból nyert n.a., ász/meccs n.a., fogadásból nyert pont n.a..
 
+**2026-os mérkőzésrészletek (frissített 2026.11.15-i archívum):** egyetlen egyeztethető meccs sincs ebben a forrásban; ez NEM azt jelenti, hogy nem játszott.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1539, salak 2128, fű n.a., fedett n.a..
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -956,7 +1134,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** A hozzáférhető archívumban nincs Top150-es pár.. Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** A forrásokban nincs megfigyelt Top150-es egymás elleni meccs.. Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -978,6 +1156,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 9 meccs szervastatisztikával; első szerva beütés 51.5%, első szervából nyert 71.2%, másodikból nyert 47.1%, ász/meccs 5.1, fogadásból nyert pont 38.7%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 3–8; Hard/Clay/Grass: Hard 0–7; Clay 0–0; Grass 3–1; utolsó 30 nap 0–0, utolsó 90 nap 0–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 11 statisztikás mérkőzés; első szerva beütés 47.9%, első szervából nyert 69.3%, másodikból nyert 46.4%, ász/meccs 3.1, fogadópont-nyerés 38.5%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–2 (4 szett), döntő szett 0–1 (1 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 7. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2012, salak 1940, fű 1788, fedett 1480.
 
 **Mérhető erősség:** Return+ +3.58 pp (2026); 2025 első szervából 71.2% pontot nyert (9 meccses minta)
@@ -988,7 +1172,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Stefanos Tsitsipas: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Karen Khachanov: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Jurij Rodionov: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Giovanni Mpetshi Perricard: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Stefanos Tsitsipas: 0–2 (2025 0 meccs, 2026 2 meccs); Karen Khachanov: 0–2 (2025 1 meccs, 2026 1 meccs); Ethan Quinn: 1–0 (2025 0 meccs, 2026 1 meccs); Rafael Jodar: 1–0 (2025 0 meccs, 2026 1 meccs); Jannik Sinner: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 1–3 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–3, Top50 ellen 1–5 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1010,6 +1194,8 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 0 meccs szervastatisztikával; első szerva beütés n.a., első szervából nyert n.a., másodikból nyert n.a., ász/meccs n.a., fogadásból nyert pont n.a..
 
+**2026-os mérkőzésrészletek (frissített 2026.11.15-i archívum):** egyetlen egyeztethető meccs sincs ebben a forrásban; ez NEM azt jelenti, hogy nem játszott.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1747, salak 2098, fű 1426, fedett 1394.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1020,7 +1206,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** A hozzáférhető archívumban nincs Top150-es pár.. Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** A forrásokban nincs megfigyelt Top150-es egymás elleni meccs.. Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1042,6 +1228,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 1 meccs szervastatisztikával; első szerva beütés 49.2%, első szervából nyert 86.7%, másodikból nyert 58.1%, ász/meccs 10.0, fogadásból nyert pont 18.8%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 1–5; Hard/Clay/Grass: Hard 0–1; Clay 1–1; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 5 statisztikás mérkőzés; első szerva beütés 56.4%, első szervából nyert 68.0%, másodikból nyert 48.0%, ász/meccs 5.2, fogadópont-nyerés 34.7%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–4 (4 szett), döntő szett 0–1 (1 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 5. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2044, salak 2047, fű 1570, fedett 1698.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1052,7 +1244,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Fabian Marozsan: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jan Choinski: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Nuno Borges: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés); Joao Fonseca: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Alex Molcan: 0–1 (2025 0 meccs, 2026 1 meccs); Jan Choinski: 1–0 (2025 0 meccs, 2026 1 meccs); Fabian Marozsan: 0–1 (2025 0 meccs, 2026 1 meccs); Nuno Borges: 0–1 (2025 1 meccs, 2026 0 meccs); Joao Fonseca: 0–1 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 1–0 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–0, Top50 ellen 0–2 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1074,6 +1266,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 0 meccs szervastatisztikával; első szerva beütés n.a., első szervából nyert n.a., másodikból nyert n.a., ász/meccs n.a., fogadásból nyert pont n.a..
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 4–9; Hard/Clay/Grass: Hard 2–6; Clay 2–3; Grass 0–0; utolsó 30 nap 0–1, utolsó 90 nap 1–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 13 statisztikás mérkőzés; első szerva beütés 59.6%, első szervából nyert 67.6%, másodikból nyert 49.3%, ász/meccs 5.9, fogadópont-nyerés 34.0%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 4–1 (5 szett), döntő szett 2–1 (3 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 7. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1897, salak 1924, fű n.a., fedett 1943.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1084,7 +1282,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Aleksandar Kovacevic: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jiri Lehecka: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Zachary Svajda: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Ugo Humbert: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Nuno Borges: 0–2 (2025 0 meccs, 2026 2 meccs); Aleksandar Kovacevic: 0–1 (2025 0 meccs, 2026 1 meccs); Zachary Svajda: 1–0 (2025 0 meccs, 2026 1 meccs); Jiri Lehecka: 0–1 (2025 0 meccs, 2026 1 meccs); Ugo Humbert: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1106,6 +1304,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 29 meccs szervastatisztikával; első szerva beütés 59.2%, első szervából nyert 76.1%, másodikból nyert 52.5%, ász/meccs 7.5, fogadásból nyert pont 37.5%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 9–15; Hard/Clay/Grass: Hard 2–9; Clay 1–3; Grass 5–2; utolsó 30 nap 0–1, utolsó 90 nap 1–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 24 statisztikás mérkőzés; első szerva beütés 61.7%, első szervából nyert 74.9%, másodikból nyert 49.5%, ász/meccs 9.0, fogadópont-nyerés 33.9%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 4–6 (10 szett), döntő szett 4–7 (11 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 11. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2226, salak 2142, fű 1853, fedett 1969.
 
 **Mérhető erősség:** 2025 első szervából 76.1% pontot nyert (29 meccses minta)
@@ -1116,7 +1320,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Raphael Collignon: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Terence Atmane: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Carlos Alcaraz: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Jiri Lehecka: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Raphael Collignon: 0–2 (2025 0 meccs, 2026 2 meccs); Terence Atmane: 1–1 (2025 0 meccs, 2026 2 meccs); Carlos Alcaraz: 0–2 (2025 1 meccs, 2026 1 meccs); Nuno Borges: 1–1 (2025 1 meccs, 2026 1 meccs); Jiri Lehecka: 0–2 (2025 2 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 8–3 (11 szett); döntő szett 5–1 (6 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 5; Top20 ellen 0–3, Top50 ellen 6–4 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1138,6 +1342,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 41 meccs szervastatisztikával; első szerva beütés 61.2%, első szervából nyert 74.3%, másodikból nyert 46.6%, ász/meccs 8.3, fogadásból nyert pont 35.7%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 7–15; Hard/Clay/Grass: Hard 3–7; Clay 4–8; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 1–2 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 22 statisztikás mérkőzés; első szerva beütés 64.3%, első szervából nyert 72.4%, másodikból nyert 49.0%, ász/meccs 8.1, fogadópont-nyerés 34.1%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 6–6 (12 szett), döntő szett 3–6 (9 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 12. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1989, salak 2139, fű 1479, fedett 1660.
 
 **Mérhető erősség:** 2025 első szervából 74.3% pontot nyert (41 meccses minta)
@@ -1148,7 +1358,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Valentin Royer: 2–0 (2025 0, 2026 jan.–máj. 2 mérkőzés); Pedro Martinez: 2–0 (2025 1, 2026 jan.–máj. 1 mérkőzés); Tomas Martin Etcheverry: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 2–0 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Daniel Altmaier: 1–2 (2025 2 meccs, 2026 1 meccs); Valentin Royer: 2–0 (2025 0 meccs, 2026 2 meccs); Flavio Cobolli: 0–2 (2025 0 meccs, 2026 2 meccs); Pedro Martinez: 2–0 (2025 1 meccs, 2026 1 meccs); Tomas Martin Etcheverry: 0–2 (2025 1 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 11–15 (26 szett); döntő szett 6–7 (13 mérkőzés); elveszített első szett után megnyert mérkőzés 4; megnyert első szett után elveszített mérkőzés 21; Top20 ellen 2–5, Top50 ellen 6–11 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1170,6 +1380,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 26 meccs szervastatisztikával; első szerva beütés 61.4%, első szervából nyert 73.4%, másodikból nyert 52.7%, ász/meccs 5.2, fogadásból nyert pont 35.9%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 1–5; Hard/Clay/Grass: Hard 0–2; Clay 1–3; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 6 statisztikás mérkőzés; első szerva beütés 62.2%, első szervából nyert 66.8%, másodikból nyert 48.8%, ász/meccs 4.7, fogadópont-nyerés 30.8%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–3 (3 szett), döntő szett 1–1 (2 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 3. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2040, salak 2234, fű 1516, fedett 1867.
 
 **Mérhető erősség:** 2025 első szervából 73.4% pontot nyert (26 meccses minta)
@@ -1180,7 +1396,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Arthur Rinderknech: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Ignacio Buse: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Carlos Alcaraz: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Marcos Giron: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Arthur Rinderknech: 1–1 (2025 1 meccs, 2026 1 meccs); Ignacio Buse: 1–1 (2025 2 meccs, 2026 0 meccs); Carlos Alcaraz: 0–2 (2025 2 meccs, 2026 0 meccs); Marcos Giron: 0–1 (2025 0 meccs, 2026 1 meccs); Roman Andres Burruchaga: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–10 (15 szett); döntő szett 5–6 (11 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 12; Top20 ellen 0–4, Top50 ellen 5–6 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1202,6 +1418,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 42 meccs szervastatisztikával; első szerva beütés 58.6%, első szervából nyert 72.6%, másodikból nyert 49.8%, ász/meccs 9.3, fogadásból nyert pont 32.7%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 4–14; Hard/Clay/Grass: Hard 3–9; Clay 1–3; Grass 0–2; utolsó 30 nap 0–0, utolsó 90 nap 0–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 18 statisztikás mérkőzés; első szerva beütés 55.6%, első szervából nyert 67.9%, másodikból nyert 50.1%, ász/meccs 6.3, fogadópont-nyerés 31.4%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 5–5 (10 szett), döntő szett 1–6 (7 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 13. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2064, salak 1922, fű 1604, fedett 1819.
 
 **Mérhető erősség:** 2025 első szervából 72.6% pontot nyert (42 meccses minta)
@@ -1212,7 +1434,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Tommy Paul: 0–2 (2025 0, 2026 jan.–máj. 2 mérkőzés); Frances Tiafoe: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Raphael Collignon: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Damir Dzumhur: 2–0 (2025 2, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Jenson Brooksby: 0–3 (2025 1 meccs, 2026 2 meccs); Tommy Paul: 0–2 (2025 0 meccs, 2026 2 meccs); Frances Tiafoe: 0–2 (2025 1 meccs, 2026 1 meccs); Daniel Altmaier: 1–1 (2025 1 meccs, 2026 1 meccs); Raphael Collignon: 0–2 (2025 1 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 9–14 (23 szett); döntő szett 9–13 (22 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 25; Top20 ellen 0–9, Top50 ellen 5–14 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1234,6 +1456,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 6 meccs szervastatisztikával; első szerva beütés 69.0%, első szervából nyert 68.2%, másodikból nyert 47.2%, ász/meccs 2.7, fogadásból nyert pont 30.3%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 2–10; Hard/Clay/Grass: Hard 1–4; Clay 1–6; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 1–4 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 12 statisztikás mérkőzés; első szerva beütés 59.8%, első szervából nyert 68.1%, másodikból nyert 48.7%, ász/meccs 5.3, fogadópont-nyerés 31.4%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–4 (4 szett), döntő szett 1–4 (5 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 7. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2050, salak 2094, fű 1495, fedett 1809.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1244,7 +1472,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Elmer Moller: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alexander Blockx: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jesper de Jong: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Grigor Dimitrov: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Elmer Moller: 0–1 (2025 0 meccs, 2026 1 meccs); Alexander Blockx: 0–1 (2025 0 meccs, 2026 1 meccs); Jesper de Jong: 0–1 (2025 0 meccs, 2026 1 meccs); Quentin Halys: 0–1 (2025 0 meccs, 2026 1 meccs); Facundo Diaz Acosta: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–1 (5 szett); döntő szett 0–2 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 0–1, Top50 ellen 0–2 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1266,6 +1494,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 44 meccs szervastatisztikával; első szerva beütés 67.1%, első szervából nyert 78.2%, másodikból nyert 53.0%, ász/meccs 13.5, fogadásból nyert pont 26.1%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 8–19; Hard/Clay/Grass: Hard 5–13; Clay 1–3; Grass 2–3; utolsó 30 nap 0–1, utolsó 90 nap 0–3 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 27 statisztikás mérkőzés; első szerva beütés 70.5%, első szervából nyert 75.5%, másodikból nyert 47.5%, ász/meccs 16.4, fogadópont-nyerés 27.3%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 14–12 (26 szett), döntő szett 6–7 (13 meccs), hátrányból (első szettvesztés után) fordítás 2, első szett megnyerése után elveszített meccs 14. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2005, salak 2091, fű 1661, fedett 1834.
 
 **Mérhető erősség:** 2025 első szervából 78.2% pontot nyert (44 meccses minta)
@@ -1276,7 +1510,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Lorenzo Musetti: 1–3 (2025 3, 2026 jan.–máj. 1 mérkőzés); Felix Auger-Aliassime: 0–3 (2025 2, 2026 jan.–máj. 1 mérkőzés); Jakub Mensik: 1–1 (2025 1, 2026 jan.–máj. 1 mérkőzés); Tallon Griekspoor: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Lorenzo Musetti: 1–3 (2025 3 meccs, 2026 1 meccs); Felix Auger-Aliassime: 0–3 (2025 2 meccs, 2026 1 meccs); Jakub Mensik: 1–1 (2025 1 meccs, 2026 1 meccs); Tallon Griekspoor: 0–2 (2025 1 meccs, 2026 1 meccs); Alexander Bublik: 1–1 (2025 1 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 22–20 (42 szett); döntő szett 5–8 (13 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 21; Top20 ellen 3–7, Top50 ellen 7–17 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1298,6 +1532,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 1 meccs szervastatisztikával; első szerva beütés 63.5%, első szervából nyert 70.0%, másodikból nyert 43.5%, ász/meccs 2.0, fogadásból nyert pont 30.9%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 0–1; Hard/Clay/Grass: Hard 0–0; Clay 0–1; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 1 statisztikás mérkőzés; első szerva beütés 61.0%, első szervából nyert 66.7%, másodikból nyert 60.9%, ász/meccs 3.0, fogadópont-nyerés 23.4%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–0 (0 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 1. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1844, salak 2210, fű 1503, fedett 1834.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1308,7 +1548,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Elmer Moller: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Pablo Carreno Busta: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–1 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 1; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1330,6 +1570,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 2 meccs szervastatisztikával; első szerva beütés 66.7%, első szervából nyert 64.2%, másodikból nyert 58.3%, ász/meccs 3.5, fogadásból nyert pont 38.6%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 6–5; Hard/Clay/Grass: Hard 0–0; Clay 6–5; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 11 statisztikás mérkőzés; első szerva beütés 54.9%, első szervából nyert 68.4%, másodikból nyert 55.4%, ász/meccs 2.8, fogadópont-nyerés 35.7%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 3–3 (6 szett), döntő szett 3–2 (5 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 5. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1692, salak 2114, fű 1361, fedett 1530.
 
 **Mérhető erősség:** Return+ +2.76 pp (2026)
@@ -1340,7 +1586,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Tomas Martin Etcheverry: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Luciano Darderi: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Francisco Comesana: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Jannik Sinner: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Tomas Martin Etcheverry: 0–1 (2025 0 meccs, 2026 1 meccs); Francisco Comesana: 1–0 (2025 0 meccs, 2026 1 meccs); Luciano Darderi: 0–1 (2025 0 meccs, 2026 1 meccs); Arthur Fils: 1–0 (2025 0 meccs, 2026 1 meccs); Frances Tiafoe: 1–0 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–1 (1 szett); döntő szett 1–1 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1362,6 +1608,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 5 meccs szervastatisztikával; első szerva beütés 67.3%, első szervából nyert 62.6%, másodikból nyert 51.9%, ász/meccs 3.4, fogadásból nyert pont 37.5%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 2–3; Hard/Clay/Grass: Hard 0–0; Clay 2–2; Grass 0–1; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 5 statisztikás mérkőzés; első szerva beütés 71.6%, első szervából nyert 63.6%, másodikból nyert 50.3%, ász/meccs 1.0, fogadópont-nyerés 34.0%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–1 (3 szett), döntő szett 2–1 (3 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 2. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2013, salak 2223, fű 1493, fedett 1694.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1372,7 +1624,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Daniil Medvedev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Corentin Moutet: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Ethan Quinn: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Thiago Agustin Tirante: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Ethan Quinn: 1–0 (2025 0 meccs, 2026 1 meccs); Corentin Moutet: 1–0 (2025 0 meccs, 2026 1 meccs); Daniil Medvedev: 0–1 (2025 0 meccs, 2026 1 meccs); Thiago Agustin Tirante: 0–1 (2025 0 meccs, 2026 1 meccs); Zachary Svajda: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–0, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1394,6 +1646,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 6 meccs szervastatisztikával; első szerva beütés 61.6%, első szervából nyert 79.3%, másodikból nyert 52.8%, ász/meccs 14.0, fogadásból nyert pont 32.6%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 4–2; Hard/Clay/Grass: Hard 2–1; Clay 1–1; Grass 0–0; utolsó 30 nap 2–1, utolsó 90 nap 2–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 5 statisztikás mérkőzés; első szerva beütés 67.2%, első szervából nyert 75.9%, másodikból nyert 50.0%, ász/meccs 10.8, fogadópont-nyerés 30.0%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 6–2 (8 szett), döntő szett 2–1 (3 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 2. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2138, salak 2128, fű 1579, fedett 1932.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1404,7 +1662,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Ethan Quinn: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Brandon Nakashima: 1–0 (2025 1, 2026 jan.–máj. 0 mérkőzés); Taylor Fritz: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Stefanos Tsitsipas: 0–1 (2025 0 meccs, 2026 1 meccs); Arthur Rinderknech: 1–0 (2025 0 meccs, 2026 1 meccs); Ben Shelton: 1–0 (2025 0 meccs, 2026 1 meccs); Jiri Lehecka: 0–1 (2025 0 meccs, 2026 1 meccs); Ethan Quinn: 1–0 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 6–3 (9 szett); döntő szett 2–1 (3 mérkőzés); elveszített első szett után megnyert mérkőzés 1; megnyert első szett után elveszített mérkőzés 4; Top20 ellen 0–1, Top50 ellen 1–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1426,6 +1684,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 15 meccs szervastatisztikával; első szerva beütés 58.7%, első szervából nyert 75.9%, másodikból nyert 48.4%, ász/meccs 9.8, fogadásból nyert pont 32.6%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 1–5; Hard/Clay/Grass: Hard 1–5; Clay 0–0; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 1–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 6 statisztikás mérkőzés; első szerva beütés 59.6%, első szervából nyert 77.6%, másodikból nyert 45.4%, ász/meccs 10.8, fogadópont-nyerés 27.7%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 1–2 (3 szett), döntő szett 0–1 (1 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 4. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2021, salak 1884, fű 1654, fedett 1716.
 
 **Mérhető erősség:** 2025 első szervából 75.9% pontot nyert (15 meccses minta)
@@ -1436,7 +1700,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Daniel Altmaier: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Rinky Hijikata: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Corentin Moutet: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Miomir Kecmanovic: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Daniel Altmaier: 1–1 (2025 2 meccs, 2026 0 meccs); Rinky Hijikata: 0–1 (2025 0 meccs, 2026 1 meccs); Corentin Moutet: 0–1 (2025 0 meccs, 2026 1 meccs); Miomir Kecmanovic: 0–1 (2025 0 meccs, 2026 1 meccs); Dino Prizmic: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 5–3 (8 szett); döntő szett 2–2 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 8; Top20 ellen 0–2, Top50 ellen 2–7 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1458,6 +1722,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 28 meccs szervastatisztikával; első szerva beütés 60.5%, első szervából nyert 72.8%, másodikból nyert 48.9%, ász/meccs 3.8, fogadásból nyert pont 40.1%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 9–17; Hard/Clay/Grass: Hard 6–10; Clay 0–4; Grass 3–3; utolsó 30 nap 0–0, utolsó 90 nap 0–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 26 statisztikás mérkőzés; első szerva beütés 60.1%, első szervából nyert 70.3%, másodikból nyert 49.7%, ász/meccs 4.1, fogadópont-nyerés 33.6%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 6–6 (12 szett), döntő szett 1–2 (3 meccs), hátrányból (első szettvesztés után) fordítás 2, első szett megnyerése után elveszített meccs 14. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2123, salak 2097, fű 1756, fedett 1877.
 
 **Mérhető erősség:** 2025 első szervából 72.8% pontot nyert (28 meccses minta)
@@ -1468,7 +1738,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Christopher Oconnell: 3–0 (2025 1, 2026 jan.–máj. 2 mérkőzés); Alexander Shevchenko: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Jaume Munar: 1–1 (2025 2, 2026 jan.–máj. 0 mérkőzés); Daniil Medvedev: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Christopher Oconnell: 3–0 (2025 1 meccs, 2026 2 meccs); Felix Auger-Aliassime: 0–2 (2025 0 meccs, 2026 2 meccs); Alexander Shevchenko: 0–2 (2025 1 meccs, 2026 1 meccs); Brandon Nakashima: 0–2 (2025 1 meccs, 2026 1 meccs); Jaume Munar: 1–1 (2025 2 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 4–3 (7 szett); döntő szett 7–4 (11 mérkőzés); elveszített első szett után megnyert mérkőzés 3; megnyert első szett után elveszített mérkőzés 10; Top20 ellen 0–5, Top50 ellen 6–9 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1490,6 +1760,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 0 meccs szervastatisztikával; első szerva beütés n.a., első szervából nyert n.a., másodikból nyert n.a., ász/meccs n.a., fogadásból nyert pont n.a..
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 0–1; Hard/Clay/Grass: Hard 0–1; Clay 0–0; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 1 statisztikás mérkőzés; első szerva beütés 69.1%, első szervából nyert 68.7%, másodikból nyert 26.7%, ász/meccs 5.0, fogadópont-nyerés 41.7%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–0 (0 szett), döntő szett 0–1 (1 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 0. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2155, salak 1704, fű n.a., fedett 1708.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1500,7 +1776,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** A hozzáférhető archívumban nincs Top150-es pár.. Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Camilo Ugo Carabelli: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 0–0 (0 szett); döntő szett 0–0 (0 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 0; Top20 ellen 0–0, Top50 ellen 0–0 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1522,6 +1798,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 3 meccs szervastatisztikával; első szerva beütés 73.6%, első szervából nyert 55.1%, másodikból nyert 53.1%, ász/meccs 0.0, fogadásból nyert pont 41.8%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 6–9; Hard/Clay/Grass: Hard 0–0; Clay 4–7; Grass 0–1; utolsó 30 nap 0–0, utolsó 90 nap 0–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 13 statisztikás mérkőzés; első szerva beütés 68.0%, első szervából nyert 64.0%, másodikból nyert 49.1%, ász/meccs 3.3, fogadópont-nyerés 34.8%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 0–3 (3 szett), döntő szett 3–1 (4 meccs), hátrányból (első szettvesztés után) fordítás 1, első szett megnyerése után elveszített meccs 8. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1888, salak 2068, fű 1634, fedett 1708.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1532,7 +1814,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Sebastian Baez: 1–1 (2025 0, 2026 jan.–máj. 2 mérkőzés); Tomas Martin Etcheverry: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Yannick Hanfmann: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Dino Prizmic: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Sebastian Baez: 1–1 (2025 0 meccs, 2026 2 meccs); Hamad Medjedovic: 0–1 (2025 0 meccs, 2026 1 meccs); Tomas Martin Etcheverry: 0–1 (2025 0 meccs, 2026 1 meccs); Dino Prizmic: 1–0 (2025 0 meccs, 2026 1 meccs); Yannick Hanfmann: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 1–1 (2 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 3; Top20 ellen 0–1, Top50 ellen 1–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1554,6 +1836,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 6 meccs szervastatisztikával; első szerva beütés 58.2%, első szervából nyert 57.9%, másodikból nyert 45.3%, ász/meccs 2.3, fogadásból nyert pont 37.3%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 5–4; Hard/Clay/Grass: Hard 0–0; Clay 4–3; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 1–1 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 9 statisztikás mérkőzés; első szerva beütés 60.5%, első szervából nyert 65.2%, másodikból nyert 46.6%, ász/meccs 3.1, fogadópont-nyerés 39.7%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 3–0 (3 szett), döntő szett 1–1 (2 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 3. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 1807, salak 2142, fű 1472, fedett 1765.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1564,7 +1852,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Dino Prizmic: 0–2 (2025 1, 2026 jan.–máj. 1 mérkőzés); Tommy Paul: 0–2 (2025 2, 2026 jan.–máj. 0 mérkőzés); Francisco Cerundolo: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Roman Andres Burruchaga: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Tommy Paul: 0–2 (2025 2 meccs, 2026 0 meccs); Grigor Dimitrov: 0–1 (2025 0 meccs, 2026 1 meccs); Roman Andres Burruchaga: 1–0 (2025 0 meccs, 2026 1 meccs); Francisco Cerundolo: 0–1 (2025 0 meccs, 2026 1 meccs); Mariano Navone: 0–1 (2025 0 meccs, 2026 1 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–0 (1 szett); döntő szett 2–2 (4 mérkőzés); elveszített első szett után megnyert mérkőzés 2; megnyert első szett után elveszített mérkőzés 6; Top20 ellen 0–3, Top50 ellen 1–3 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
@@ -1586,6 +1874,12 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **2025-ös szervafogadás minta:** 5 meccs szervastatisztikával; első szerva beütés 66.7%, első szervából nyert 60.1%, másodikból nyert 43.9%, ász/meccs 6.2, fogadásból nyert pont 41.4%.
 
+**2026-os friss meccsarchívum (2026.11.15-ig, eltérő mérkőzés-körű adatforrás):** 2–1; Hard/Clay/Grass: Hard 2–1; Clay 0–0; Grass 0–0; utolsó 30 nap 0–0, utolsó 90 nap 0–0 (a 2026.11.21-i fordulónaphoz képest, csak 2026.11.15-ig zárt meccsekkel). A teljes szezon hivatalosabb W/L sorát továbbra is a TennisDB pillanatkép szolgáltatja.
+
+**2026-os technikai pontstatisztika:** 3 statisztikás mérkőzés; első szerva beütés 66.0%, első szervából nyert 77.0%, másodikból nyert 47.7%, ász/meccs 8.0, fogadópont-nyerés 32.4%.
+
+**2026-os eredmény-alapú nyomáshelyzetek:** tie-break 2–0 (2 szett), döntő szett 0–0 (0 meccs), hátrányból (első szettvesztés után) fordítás 0, első szett megnyerése után elveszített meccs 0. A szereplési minta és ellenfélerő miatt ezek önmagukban NEM mentális címkék.
+
 **2026.11.20-i BORÍTÁS-Elo (többéves, nem tiszta 2025–2026):** hard 2098, salak 1995, fű 1476, fedett 1790.
 
 **Mérhető erősség:** Még nincs adatokkal megerősített egyedi erősség.
@@ -1596,7 +1890,7 @@ Források: https://tennis-db.com/glossary ; https://github.com/Aneeshers/tennis-
 
 **Következő edzői elemzés:** Szerva+1, fogadás+1, tenyeres/fonák, 0–4 ütés, helyezkedés, ellenféltípus és nyomáshelyzetek mérkőzéses ellenőrzése.
 
-**RÉSZLEGES 2025–2026 H2H (2026-ból csak májusig):** Marcos Giron: 0–1 (2025 0, 2026 jan.–máj. 1 mérkőzés); Karen Khachanov: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Alejandro Tabilo: 1–0 (2025 0, 2026 jan.–máj. 1 mérkőzés); Casper Ruud: 0–1 (2025 1, 2026 jan.–máj. 0 mérkőzés). Régebbi meccsre közvetlen súly 0.
+**2025–2026 H2H (2026.11.15-ig, két teljesebb, ellenőrzött szezonforrásból, max. 5 ellenfél):** Alejandro Tabilo: 1–0 (2025 0 meccs, 2026 1 meccs); Karen Khachanov: 1–0 (2025 0 meccs, 2026 1 meccs); Marcos Giron: 0–1 (2025 0 meccs, 2026 1 meccs); Casper Ruud: 0–1 (2025 1 meccs, 2026 0 meccs); Alex Michelsen: 0–1 (2025 1 meccs, 2026 0 meccs). Régebbi H2H közvetlen súlya nulla.
 
 **2025-ben mérhető nyomáshelyzetek (befejezett mérkőzések):** tie-break 1–1 (2 szett); döntő szett 1–0 (1 mérkőzés); elveszített első szett után megnyert mérkőzés 0; megnyert első szett után elveszített mérkőzés 2; Top20 ellen 0–1, Top50 ellen 0–1 (ellenfél 2025-ös meccskori rangja). Ezek mintanagyságfüggő eredmények, nem pszichológiai diagnózis.
 
