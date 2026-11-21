@@ -161,3 +161,18 @@ A ranglista és a szakértői megfigyelések **dátumozott pillanatképek**, nem
 - A Tier B játékosok tényleges jogosultságát a **forrásolt torna, forduló, main-draw státusz és mérkőzésazonosító** bizonyítja. A kezdő app még nem valósítja meg ezt az eseményszintű ellenőrzést.
 
 Fejlesztési szabály: `match_is_in_scope(event)` külön döntés az `eligible_for_deep_profile(player)` szabálytól. A részletes profil optimalizálja a költséget; a mérkőzések teljeskörűsége nem függhet mereven a ranglista 100. helyétől.
+
+## 14. Végleges új játékoskeret: ATP Top 150 (2026-11-21)
+
+**Ez a felhasználó legújabb döntése, és minden korábbi Top100-fókuszú szabályt felülír a tartós profilokra nézve.** Minden olyan férfi egyesjátékos kap állandó Player Intelligence alaprekordot, aki a legutolsó elfogadott ATP-ranglistán **1–150. helyen áll**. A ranglista csak dátumozott snapshot; a frissítés még nem automatikus.
+
+- [**150 játékos ranglista- és rekordállománya**](research/rosters/atp_top150_2026_11_16.csv): pontos 2026-11-16-os helyezés, név, ország, ATP-pontszám, források, adatminőség.
+- [**2026-os szezonadatok**](research/rosters/atp_top150_season_stats_2026.csv): 150 sor, **146** egyező név+pontszám alapján ellenőrzött teljesítménystatisztikával (W/L, Elo, Serve+, Return+, Pressure+, stb., amennyiben rendelkezésre állnak). **Négy játékos** nem megerősített a másodlagos statisztikai forrásból: Otto Virtanen (107), Clément Chidekh (116), Max Alcalá Gurri (130), Nikolas Sánchez Izquierdo (132). Ezeknél a nem ellenőrzött statisztikai mezők üresek, NEM nulla értékek.
+- Rangsor két oldalon: [1–100](https://www.tennis.esp.br/en/rankings?date=2026-11-16&tour=ATP), [101–200](https://tennis.esp.br/en/rankings?date=2026-11-16&page=2&tour=ATP). Átlagokat külön szolgáltató adja: [TennisDB 2026](https://tennis-db.com/seasons-and-rankings?year=2026). A TennisDB bizonyos ranghelyei eltérnek; statisztikai egyeztetéshez **játékosnév és ranglistapont**, nem csupán ranghely szükséges. A tárolt 146 ellenőrzött statisztikai rekordot név+pont szerint is visszaellenőriztük.
+- `atp_intelligence/roster.py`: **ATPTop150** ellenőrző, megengedi a legitim nulla vagy hiányzó 2026-os főtáblás W/L-t.
+- `atp_intelligence/archive.py`: 150 játékos és a statisztikák SQLite-importja, dátumozott forrásokkal, szakértői megfigyelések szűrésével.
+- [Automatikus Python-tesztek](tests/test_expert_archive.py): Top150 keret, adathiány és DB-migráció ellenőrzése; a tesztbővítés javításra került [GitHub Actions](https://github.com/TBT8288/tbt-tennis-platform/actions/runs/44935243024) futásában.
+
+**Mérkőzés-hatókör:** továbbra is férfi ATP 250/500/Masters 1000/Finals és Grand Slam főtábla. Az esetleg Top150-en kívüli mérkőzésellenfél minimális, ideiglenes mérkőzés-kontextusként szerepelhet, de nem kap állandó teljes játékosprofilt. Challenger/ITF-meccsek nem célmeccsek.
+
+**Ami NINCS kész:** minden játékoshoz személyre szabott, bizonyított ütés-/borítás-/lábmunka-/pszichológiai dosszié; élő adatcsatorna; ténylegesen automatikus ranglistafrissítés; modellek validálása. Ezek a bővítés következő munkafázisai, a statisztikai alapadatoktól elkülönítve. Az üres ismeretlent nem pótoljuk AI-találgatással.
