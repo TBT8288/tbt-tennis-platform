@@ -40,7 +40,7 @@ rank,player,country,date_of_birth,age_as_of_2026_11_21,birthplace,height_cm,weig
 39,Jan-Lennard Struff,GER,1990-04-25,36,,193,91,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 40,Botic van de Zandschulp,NED,1995-10-04,31,"Wageningen, Netherlands",191,84,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 41,Nuno Borges,POR,1997-02-19,29,"Maia, Portugal",185,77,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
-42,Daniel Merida,ESP,2004-09-26,22,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/merida-aguilar/,
+42,Daniel Merida,ESP,2004-09-26,22,,188,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/merida-aguilar/ | https://ausopen.com/players/spain/daniel-merida,| ISRAEL SEVILLA-GUILLERMO MARTINEZ |
 43,Matteo Berrettini,ITA,1996-04-12,30,"Rome, Italy",196,94,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 44,Zizou Bergs,BEL,1999-06-03,27,"Lommel, Belgium",185,84,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf,
 45,Quentin Halys,FRA,1996-10-26,30,"Bondy, France",191,84,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
@@ -53,9 +53,9 @@ rank,player,country,date_of_birth,age_as_of_2026_11_21,birthplace,height_cm,weig
 52,Cameron Norrie,GBR,1995-08-23,31,,188,82,Bal,Kétkezes,2026,"ellenőrzött, forrásolt biográfia",https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf | https://www.tennisexplorer.com/player/norrie/,
 53,Sebastian Baez,ARG,2000-12-28,25,"Buenos Aires, Argentina",170,70,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf,
 54,Juan Manuel Cerundolo,ARG,2001-11-15,25,"Buenos Aires, Argentina",183,74,Bal,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
-55,Raphael Collignon,BEL,2002-01-13,24,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/collignon/,
-56,Adolfo Daniel Vallejo,PAR,2004-04-28,22,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/vallejo-d7859/,
-57,Jaime Faria,POR,2003-08-06,23,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/faria-4754c/,
+55,Raphael Collignon,BEL,2002-01-13,24,,191,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/collignon/ | https://ausopen.com/players/belgium/raphael-collignon,| Steve Darcis |
+56,Adolfo Daniel Vallejo,PAR,2004-04-28,22,,185,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/vallejo-d7859/ | https://ausopen.com/players/paraguay/adolfo-daniel-vallejo,| Andres Schneiter |
+57,Jaime Faria,POR,2003-08-06,23,,188,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/faria-4754c/ | https://ausopen.com/players/portugal/jaime-faria,
 58,Arthur Rinderknech,FRA,1995-07-23,31,"Gassin, France",196,87,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 59,Rinky Hijikata,AUS,2001-02-23,25,"Sydney, Australia",178,72,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf,
 60,Tomas Machac,CZE,2000-10-13,26,"Beroun, Czech Republic",183,73,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
@@ -73,12 +73,12 @@ rank,player,country,date_of_birth,age_as_of_2026_11_21,birthplace,height_cm,weig
 72,Daniel Altmaier,GER,1998-09-12,28,"Kempen, Germany",188,80,Jobb,Egykezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 73,Alex Molcan,SVK,1997-12-01,28,,178,73,Bal,,2026,"ellenőrzött, forrásolt biográfia",https://www.tennisexplorer.com/player/molcan/,
 74,Roman Safiullin,RUS,1997-08-07,29,"Podolsk, Russia",185,74,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf,
-75,Terence Atmane,FRA,2002-01-09,24,,,,Bal,,2026,részleges biográfia,https://www.tennisexplorer.com/player/atmane/,
+75,Terence Atmane,FRA,2002-01-09,24,,193,,Bal,,2026,részleges biográfia,https://www.tennisexplorer.com/player/atmane/ | https://ausopen.com/players/france/terence-atmane,| Guillaume Peyre |
 76,Pablo Carreno Busta,ESP,1991-07-12,35,"Gijon, Spain",188,78,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 77,James Duckworth,AUS,1992-01-21,34,"Sydney, Australia",183,82,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf,
 78,Zachary Svajda,USA,2002-11-29,23,"La Jolla, CA, USA",175,70,Jobb,Kétkezes,2026,ellenőrzött jelenlegi ATP-profil,https://www.tennisexplorer.com/player/svajda/ | https://www.atptour.com/en/players/zachary-svajda/s0k7/overview,Ray Sarmiento
 79,Hamad Medjedovic,SRB,2003-07-18,23,"Novi Pazar, Serbia",188,86,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
-80,Roman Andres Burruchaga,ARG,2002-01-23,24,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/burruchaga/,
+80,Roman Andres Burruchaga,ARG,2002-01-23,24,,183,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/burruchaga/ | https://ausopen.com/players/argentina/roman-andres-burruchaga,| Leonardo Mayer |
 81,Titouan Droguet,FRA,2001-06-15,25,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/droguet/,
 82,Kamil Majchrzak,POL,1996-01-13,30,"Piotrkow Trybunalski, Poland",183,79,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 83,Aleksandar Kovacevic,USA,1998-08-29,28,"New York, NY, USA",183,78,Jobb,Egykezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
@@ -90,8 +90,8 @@ rank,player,country,date_of_birth,age_as_of_2026_11_21,birthplace,height_cm,weig
 89,Dino Prizmic,CRO,2005-08-05,21,"Split, Croatia",188,79,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 90,Damir Dzumhur,BIH,1992-05-20,34,"Sarajevo, Bosnia-Herzegovina",175,68,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 91,Benjamin Bonzi,FRA,1996-06-09,30,"Nimes, France",183,81,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
-92,Toby Samuel,GBR,2002-09-06,24,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/samuel-371b3/,
-93,Yunchaokete Bu,CHN,2002-01-19,24,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/yunchaokete/,
+92,Toby Samuel,GBR,2002-09-06,24,,191,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/samuel-371b3/ | https://ausopen.com/players/united-kingdom/toby-samuel,| Josh Goffi |
+93,Yunchaokete Bu,CHN,2002-01-19,24,,185,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/yunchaokete/ | https://ausopen.com/players/china/yunchaokete-bu,| Robert Lindstedt |
 94,Jenson Brooksby,USA,2000-10-26,26,,188,82,Jobb,,2026,"ellenőrzött, forrásolt biográfia",https://www.tennisexplorer.com/player/brooksby/,
 95,Marcos Giron,USA,1993-07-24,33,"Thousand Oaks, CA, USA",180,77,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf,
 96,Zsombor Piros,HUN,1999-10-13,27,,180,68,Jobb,,2026,"ellenőrzött, forrásolt biográfia",https://www.tennisexplorer.com/player/piros/,
