@@ -4,7 +4,7 @@
 
 **Nem tekinthető 150 validált szakértői/mentális profilnak:** csak 13 játékoshoz van előzetes, külön forrásolt kvalitatív stílusjegyzet. A technikai, mentális és aktuális teljes H2H további mérkőzéses validációt igényel.
 
-- [Profilok 1–50](TOP150_EVIDENCE_PROFILES_001_050_2026_11_21.md)
+- [Profilok 1–50](TOP150_EVIDENCE_PROFILES_001_50_2026_11_21.md)
 - [Profilok 51–100](TOP150_EVIDENCE_PROFILES_051_100_2026_11_21.md)
 - [Profilok 101–150](TOP150_EVIDENCE_PROFILES_101_150_2026_11_21.md)
 - [150 fős strukturált CSV](TOP150_EVIDENCE_PROFILE_REGISTER_2026_11_21.csv)
