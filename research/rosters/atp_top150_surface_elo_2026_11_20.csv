@@ -40,7 +40,7 @@ atp_rank_2026_11_16,player,source_player_name,age_as_of_2026_11_20,elo_rank,over
 39,Jan-Lennard Struff,Jan-Lennard Struff,36,43,2370,2024,2147,1795,1965,614,55,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
 40,Botic van de Zandschulp,Botic Van De Zandschulp,31,50,2353,2252,2162,1571,1816,593,58,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
 41,Nuno Borges,Nuno Borges,29,41,2378,2164,2182,1681,1893,507,65,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
-42,Daniel Merida,,,,,,,,,,,2026-11-20,,not_matched
+42,Daniel Merida,Daniel Merida Aguilar,22,42,2371,2223,2220,1444,1449,376,72,2026-11-20,https://pythiatennis.com/elo/atp/,alias_name_verified
 43,Matteo Berrettini,Matteo Berrettini,30,33,2406,2156,2332,1899,1995,480,47,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
 44,Zizou Bergs,Zizou Bergs,27,70,2327,2155,2099,1758,1823,566,60,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
 45,Quentin Halys,Quentin Halys,30,54,2343,2168,2234,1632,1847,674,72,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
@@ -82,7 +82,7 @@ atp_rank_2026_11_16,player,source_player_name,age_as_of_2026_11_20,elo_rank,over
 81,Titouan Droguet,Titouan Droguet,25,61,2334,2208,2231,1613,1850,465,74,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
 82,Kamil Majchrzak,Kamil Majchrzak,30,75,2320,2123,2180,1818,1712,569,45,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
 83,Aleksandar Kovacevic,Aleksandar Kovacevic,28,174,2193,2053,1998,1402,1796,466,59,2026-11-20,https://pythiatennis.com/elo/atp/?page=2,source_name_match
-84,Coleman Wong,,,,,,,,,,,2026-11-20,,not_matched
+84,Coleman Wong,Chak Lam Coleman Wong,22,107,2284,2181,1791,1476,1734,361,84,2026-11-20,https://pythiatennis.com/elo/atp/?page=2,alias_name_verified
 85,Nikoloz Basilashvili,Nikoloz Basilashvili,34,86,2304,2113,2084,1620,1898,573,69,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
 86,Kyrian Jacquet,Kyrian Jacquet,25,110,2276,2173,2071,1715,1771,415,61,2026-11-20,https://pythiatennis.com/elo/atp/?page=2,source_name_match
 87,Jacob Fearnley,Jacob Fearnley,25,78,2318,2158,2051,1806,1896,209,67,2026-11-20,https://pythiatennis.com/elo/atp/,source_name_match
