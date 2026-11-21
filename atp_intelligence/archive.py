@@ -1,4 +1,4 @@
-"""Source-backed expert observations for CURRENT ATP Top-100 players only.
+"""Source-backed expert observations for CURRENT ATP Top-150 players only.
 
 Historical articles/podcasts are research leads. Never treat past opinions as
 today's player abilities, internal mental states or validated predictions.
@@ -12,7 +12,7 @@ import sqlite3
 from datetime import date
 from pathlib import Path
 
-from .roster import ATPTop100, DEFAULT_ROSTER_PATH
+from .roster import ATPTop150, DEFAULT_ROSTER_PATH
 
 VALID_STATUSES = frozenset({
     "competitive_2026_atp_or_challenger",
@@ -35,22 +35,31 @@ def _load_rows(path: Path) -> list[dict[str, str]]:
 
 
 class ExpertArchive:
-    """SQLite: validated Top100 roster plus historical, attributed observations."""
+    """SQLite: validated Top150 roster plus historical, attributed observations."""
 
     def __init__(self, db_path: str = ":memory:") -> None:
         if db_path != ":memory:":
             Path(db_path).parent.mkdir(parents=True, exist_ok=True)
         self.db = sqlite3.connect(db_path)
         self.db.execute("PRAGMA foreign_keys = ON")
+        # Migrate only the legacy roster table, keeping expert sources/notes.
+        previous = self.db.execute(
+            "SELECT sql FROM sqlite_master WHERE type='table' AND name='atp_roster'"
+        ).fetchone()
+        if previous and (
+            "BETWEEN 1 AND 100" in previous[0]
+            or "main_draw_wins INTEGER NOT NULL" in previous[0]
+        ):
+            self.db.execute("DROP TABLE atp_roster")
         self.db.executescript("""
             CREATE TABLE IF NOT EXISTS atp_roster (
-                rank INTEGER PRIMARY KEY CHECK (rank BETWEEN 1 AND 100),
+                rank INTEGER PRIMARY KEY CHECK (rank BETWEEN 1 AND 150),
                 player TEXT NOT NULL UNIQUE,
                 country TEXT NOT NULL,
                 ranking_points INTEGER NOT NULL,
                 ranking_date TEXT NOT NULL,
-                main_draw_wins INTEGER NOT NULL,
-                main_draw_losses INTEGER NOT NULL
+                main_draw_wins INTEGER,
+                main_draw_losses INTEGER
             );
             CREATE TABLE IF NOT EXISTS expert_sources (
                 source_id TEXT PRIMARY KEY,
@@ -96,13 +105,13 @@ class ExpertArchive:
         folder: str | Path,
         roster_path: str | Path = DEFAULT_ROSTER_PATH,
     ) -> dict[str, int]:
-        """Import only players allowed by a dated, checked Top-100 roster.
+        """Import only players allowed by a dated, checked Top-150 roster.
 
         Additional source references are permitted, but ONLY eligible players
         receive a persistent player mention or observation record.
         """
         folder = Path(folder)
-        roster = ATPTop100(roster_path)
+        roster = ATPTop150(roster_path)
         sources = _load_rows(folder / "sources.csv")
         players = _load_rows(folder / "player_mentions_2026_11_21.csv")
         observations = _load_rows(folder / "historical_observations.csv")
@@ -202,7 +211,7 @@ class ExpertArchive:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Import source-backed ATP Top-100 expert archive")
+    parser = argparse.ArgumentParser(description="Import source-backed ATP Top-150 expert archive")
     parser.add_argument("--folder", default="research/expert_archives")
     parser.add_argument("--roster", default=str(DEFAULT_ROSTER_PATH))
     parser.add_argument("--db", default="data/expert_archive.sqlite3")
@@ -211,7 +220,7 @@ def main() -> None:
     try:
         counts = store.import_directory(args.folder, args.roster)
         print("Imported: " + ", ".join(f"{k}={v}" for k, v in counts.items()))
-        print("Only current Top-100 ATP players are eligible for player records.")
+        print("Current ranked ATP Top-150 players are eligible for player records.")
     finally:
         store.close()
 
