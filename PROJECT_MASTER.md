@@ -213,3 +213,12 @@ A felhasználó kérése: **minden jelenlegi ATP Top150 játékos** kor, súly, 
 A most alkalmazott 270/180/45 napos teljesítmény/H2H/rövid-forma félidők **kezdő mérnöki hiperparaméterek**, NEM kutatás által validált optimumok. Más ablakokkal, a 24 hónapos rolling időablakkal és idősúly nélkül is össze kell vetni, kizárólag korábbi mérkőzéseket felhasználva, időrendi visszatesztben (log-loss, Brier-score, borítás/főtorna szegmens és kis mintás H2H).
 
 **Még nem kész:** az új kétidényes relevanciakód az élő Streamlit modellezési folyamatba, a nyers meccstörténetbe vagy a valószínűségszámításba **még nincs bekötve**; ezért az adatablak jelenleg dokumentált és tesztelt szabály, nem éles predikciós állítás.
+
+
+## 2026-11-21: Top150 kutatási adatbázis-bővítés (statisztikai első passz)
+
+- 150/150 kétidényes, **forrásolt számszerű dosszié** a [profilindexben](research/player_profiles/TOP150_EVIDENCE_PROFILES_INDEX_2026_11_21.md).
+- TennisDB 2026-11-21 pillanatkép, 2025 mérkőzésarchívum és 2026-11-15-ig frissített 2026 ATP match adat (Min Maxxxer / Tennis Odds Actor).
+- A 2025+2026 közötti friss H2H CSV: [2025–2026 H2H, 2026-11-15-ig](research/player_profiles/TOP150_H2H_2025_2026_THROUGH_2026_11_15.csv).
+- 2026-os meccsadat-lefedettség 148/150, 2026-os TennisDB rekord 146/150; **a teljes technikai/mentális többmeccses validáció 0/150**, előzetes taktikai jegyzet 13/150.
+- Nem tekinthető kész predikciós motornak: a CSV még nincs az alkalmazásba integrálva, a 2026-11-16 és utáni meccsek nem teljesek a friss archívumban, a források W/L definíciói különbözhetnek. Régebbi H2H >2 év 0 közvetlen súly.
