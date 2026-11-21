@@ -72,3 +72,10 @@ Minden lezárt munkafázis után:
 3. a következő teendők GitHub Issues-ban, amikor kialakult a feladatrendszer.
 
 **A GitHub a projekt tartós igazságforrása, nem a beszélgetés emlékezete.** A csatlakozó adatait minden alkalommal újra be kell olvasni; önmagában egy új chat nem örököl teljes, garantált projektállapotot.
+
+## 8. Eszköz- és hozzáférési döntések (2026-11-21)
+
+- **Cursor:** csak később mérlegeljük, most nem kötelező vagy megvásárolt fejlesztőeszköz.
+- **Claude:** a felhasználó 2026. november végén tervezi előfizetését és külön Claude API-hozzáférés/API-kulcs beállítását. Ez még **nem történt meg**, a Claude-előfizetés nem jelent automatikusan API-kreditet. A titkos kulcsokat soha ne tegyük GitHubba vagy chatbe.
+- **Notion és Firecrawl:** a felhasználó szeretné ezeket a ChatGPT-be kapcsolni. 2026-11-21-i ellenőrzés szerint mindkettő **elérhető, de nincs telepítve/csatlakoztatva**. Az első kapcsolódás és a szükséges OAuth-engedély a felhasználó kifejezett UI-jóváhagyását igényli; az asszisztens nem tudja automatikusan megadni helyette.
+- **GitHub:** továbbra is az elsődleges forrás kódhoz, feladatokhoz és projektállapothoz. A Notion és Firecrawl csak szükség szerint kiegészítő.
