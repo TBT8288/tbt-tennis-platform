@@ -9,6 +9,7 @@
 - **Figyelem:** a 2026.11.21-i TennisDB W–L és a 2026.11.15-i Min Maxxxer/Flashscore archív W–L nem azonos versenykörű; nem szabad összemosni. A borítás-Elo továbbra is többéves történeti modell.
   
 ## Fájlok
+- **[MIND A 150 JÁTÉKOS PROFILJA EGYBEN](ATP_TOP150_MINDEN_PROFIL_EGYBEN_2026_11_21.md)** – kereshető, teljes, egyesített dokumentum
 - [Profilok 1–50](TOP150_EVIDENCE_PROFILES_001_50_2026_11_21.md)
 - [Profilok 51–100](TOP150_EVIDENCE_PROFILES_051_100_2026_11_21.md)
 - [Profilok 101–150](TOP150_EVIDENCE_PROFILES_101_150_2026_11_21.md)
