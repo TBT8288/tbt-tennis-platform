@@ -147,3 +147,17 @@ A történeti szakértői archívum véges: Jakub Bobro 2023 augusztusában és 
 - [GitHub #9: heti keretfrissítés](https://github.com/TBT8288/tbt-tennis-platform/issues/9) és [#10: szakértői források bővítése](https://github.com/TBT8288/tbt-tennis-platform/issues/10).
 
 A ranglista és a szakértői megfigyelések **dátumozott pillanatképek**, nem folyamatosan frissülő élő adatok. A szakértői vélemények nem közvetlen pszichológiai mérések és nem bizonyítanak nyerő modellt. A hivatalos ATP webes oldal cache-e régebbi rangsorokat mutatott; a 2026-11-16-i forrás a Tennis.esp.br és a TennisDB egyeztetett ranking/season oldala. A jelenlegi Streamlit alkalmazás éles eseménybeolvasását még nem kötöttük rá a Top100-jogosultságvizsgálatra.
+
+## 13. Pontosítás: Top100 prioritás, nem merev mérkőzéskorlát (2026-11-21)
+
+**Ez pontosítja a 12. fejezet túl merev fogalmazását.** A Top 100 az **állandóan, teljes mélységben követett játékosprofilok** jelenlegi prioritási kerete, de **NEM** a megvizsgálható mérkőzések kizárólagos játékoslistája.
+
+- **Célmeccsek:** ATP 250, 500, Masters 1000, ATP Finals és Grand Slam férfi egyes **főtáblás mérkőzések**, a résztvevők rangsorától függetlenül. Challenger/ITF meccsek nem célmeccsek.
+- **Tier A:** aktuális ATP Top100, részletes és folyamatos Player Intelligence / Coach Intelligence profil.
+- **Tier B:** Top100-on kívüli, ATP- vagy Grand Slam-főtáblán ténylegesen szereplő játékos, akiről az adott meccshez **minimális, forrásolt ellenfélprofilt és mérkőzéselemzést** készítünk. Nem indul automatikus, teljes életpályás követés.
+- **Tier C:** kizárólag Challenger/ITF-ben szereplők, vagy olyan nevek, akiknél nincs aktuális releváns felsőszintű főtáblás mérkőzés: nincs külön aktív profil.
+- **Kiemelt kivétel:** ha két Top100-on kívüli játékos játszik egymással egy releváns ATP/Grand Slam-főtáblán, a *mérkőzés* beleesik a célhatókörbe; készülhet ideiglenes meccsprofil mindkét félhez, de tartós teljes profil nem automatikus.
+- A 2026-11-16-os Top100 CSV és az `ATPTop100.eligible()` **csak a teljes profilra** vonatkozik. **Nem szabad a meglévő szigorú Top100 profilkaput az élő ATP-meccslista kizárólagos beléptetőjeként alkalmazni.**
+- A Tier B játékosok tényleges jogosultságát a **forrásolt torna, forduló, main-draw státusz és mérkőzésazonosító** bizonyítja. A kezdő app még nem valósítja meg ezt az eseményszintű ellenőrzést.
+
+Fejlesztési szabály: `match_is_in_scope(event)` külön döntés az `eligible_for_deep_profile(player)` szabálytól. A részletes profil optimalizálja a költséget; a mérkőzések teljeskörűsége nem függhet mereven a ranglista 100. helyétől.
