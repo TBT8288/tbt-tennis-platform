@@ -3,14 +3,14 @@ rank,player,country,date_of_birth,age_as_of_2026_11_21,birthplace,height_cm,weig
 2,Jannik Sinner,ITA,2001-08-16,25,"San Candido, Italy",188,77,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 3,Carlos Alcaraz,ESP,2003-05-05,23,"El Palmar, Murcia, Spain",183,73,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 4,Ben Shelton,USA,2002-10-09,24,"Atlanta, GA, USA",193,88,Bal,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
-5,Daniil Medvedev,RUS,,,,,,Jobb,Kétkezes,2026,részleges biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
+5,Daniil Medvedev,RUS,1996-02-11,30,,198,83,Jobb,Kétkezes,2026,"ellenőrzött, forrásolt biográfia",https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf | https://www.tennisexplorer.com/player/medvedev-e0d2d/
 6,Flavio Cobolli,ITA,2002-05-06,24,"Florence, Italy",173,74,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 7,Arthur Fils,FRA,2004-06-12,22,"Bondoufle, France",185,82,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 8,Frances Tiafoe,USA,1998-01-20,28,"Hyattsville, MD, USA",188,86,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 9,Taylor Fritz,USA,1997-10-28,29,"Rancho Santa Fe, CA, USA",196,86,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 10,Rafael Jodar,ESP,2006-09-17,20,"Madrid, Spain",191,70,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 11,Alex de Minaur,AUS,1999-02-17,27,,183,68,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
-12,Novak Djokovic,SRB,,,,,,Jobb,Kétkezes,2025,részleges biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
+12,Novak Djokovic,SRB,1987-05-22,39,,187,80,Jobb,Kétkezes,2025,"ellenőrzött, forrásolt biográfia",https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf | https://www.tennisexplorer.com/player/djokovic/
 13,Tommy Paul,USA,1997-05-17,29,"Voorhees, NJ, USA",185,81,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 14,Jiri Lehecka,CZE,2001-11-08,25,"Mlada Boleslav, Czech Republic",185,81,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
 15,Jakub Mensik,CZE,2005-09-01,21,"Prostejov, Czech Republic",193,83,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
@@ -30,8 +30,8 @@ rank,player,country,date_of_birth,age_as_of_2026_11_21,birthplace,height_cm,weig
 29,Tomas Martin Etcheverry,ARG,1999-07-18,27,"La Plata, Argentina",196,81,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 30,Hubert Hurkacz,POL,1997-02-11,29,"Wroclaw, Poland",196,81,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 31,Alejandro Tabilo,CHI,1997-06-02,29,"Toronto, Canada",188,74,Bal,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
-32,Arthur Fery,GBR,,,,,,,,,nem ellenőrzött,
-33,Ignacio Buse,PER,,,,,,,,,nem ellenőrzött,
+32,Arthur Fery,GBR,2002-07-12,24,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/fery/
+33,Ignacio Buse,PER,2004-03-25,22,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/buse/
 34,Luca Van Assche,FRA,2004-05-11,22,"Woluwe St Lambert, Belgium",178,71,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
 35,Alex Michelsen,USA,2004-08-25,22,"Laguna Hills, CA, USA",193,79,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 36,Stefanos Tsitsipas,GRE,1998-08-12,28,"Athens, Greece",193,89,Jobb,Egykezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
@@ -40,21 +40,21 @@ rank,player,country,date_of_birth,age_as_of_2026_11_21,birthplace,height_cm,weig
 39,Jan-Lennard Struff,GER,1990-04-25,36,,193,91,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 40,Botic van de Zandschulp,NED,1995-10-04,31,"Wageningen, Netherlands",191,84,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 41,Nuno Borges,POR,1997-02-19,29,"Maia, Portugal",185,77,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
-42,Daniel Merida,ESP,,,,,,,,,nem ellenőrzött,
+42,Daniel Merida,ESP,2004-09-26,22,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/merida-aguilar/
 43,Matteo Berrettini,ITA,1996-04-12,30,"Rome, Italy",196,94,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 44,Zizou Bergs,BEL,1999-06-03,27,"Lommel, Belgium",185,84,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
 45,Quentin Halys,FRA,1996-10-26,30,"Bondy, France",191,84,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 46,Joao Fonseca,BRA,2006-08-21,20,"Rio de Janeiro, Brazil",185,73,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
-47,Thiago Agustin Tirante,ARG,,,,,,,,,nem ellenőrzött,
-48,Arthur Gea,FRA,,,,,,,,,nem ellenőrzött,
+47,Thiago Agustin Tirante,ARG,2001-04-10,25,,185,78,Jobb,,2026,"ellenőrzött, forrásolt biográfia",https://www.tennisexplorer.com/player/tirante/
+48,Arthur Gea,FRA,2005-01-02,21,,180,72,Jobb,,2026,"ellenőrzött, forrásolt biográfia",https://www.tennisexplorer.com/player/gea/
 49,Mariano Navone,ARG,2001-02-27,25,"9 de Julio, Argentina",178,72,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 50,Tallon Griekspoor,NED,1996-07-02,30,,188,84,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 51,Denis Shapovalov,CAN,1999-04-15,27,,185,74,Bal,Egykezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
-52,Cameron Norrie,GBR,,,,,,Bal,Kétkezes,2026,részleges biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
+52,Cameron Norrie,GBR,1995-08-23,31,,188,82,Bal,Kétkezes,2026,"ellenőrzött, forrásolt biográfia",https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf | https://www.tennisexplorer.com/player/norrie/
 53,Sebastian Baez,ARG,2000-12-28,25,"Buenos Aires, Argentina",170,70,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
 54,Juan Manuel Cerundolo,ARG,2001-11-15,25,"Buenos Aires, Argentina",183,74,Bal,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
-55,Raphael Collignon,BEL,,,,,,,,,nem ellenőrzött,
-56,Adolfo Daniel Vallejo,PAR,,,,,,,,,nem ellenőrzött,
+55,Raphael Collignon,BEL,2002-01-13,24,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/collignon/
+56,Adolfo Daniel Vallejo,PAR,2004-04-28,22,,,,Jobb,,2026,részleges biográfia,https://www.tennisexplorer.com/player/vallejo-d7859/
 57,Jaime Faria,POR,,,,,,,,,nem ellenőrzött,
 58,Arthur Rinderknech,FRA,1995-07-23,31,"Gassin, France",196,87,Jobb,Kétkezes,2026,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2026/2026-atp-media-guide-player-bios-birthdays-updated.pdf
 59,Rinky Hijikata,AUS,2001-02-23,25,"Sydney, Australia",178,72,Jobb,Kétkezes,2025,ellenőrzött biográfia,https://www.atptour.com/-/media/files/media-guide/2025/2025-atp-media-guide-player-bios-birthdays-final.pdf
