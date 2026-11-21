@@ -63,7 +63,9 @@ class ExpertArchiveTests(unittest.TestCase):
         try:
             counts = archive.import_directory(ROOT)
             self.assertEqual(counts, {
-                "roster": 150, "sources": 10, "player_mentions": 12,
+                "roster": 150, "season_stats": 150,
+                "season_stats_verified": 146,
+                "sources": 10, "player_mentions": 12,
                 "observations": 18, "excluded_mentions": 9,
                 "excluded_observations": 1
             })
