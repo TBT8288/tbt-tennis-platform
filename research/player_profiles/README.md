@@ -21,7 +21,8 @@
 | Edző neve a vizsgált forrás időpontjában | 12/150 | A mai edzői kapcsolat külön ellenőrizendő |
 | Rövid, dátumozott szakértői megfigyelés | 12 játékos / 18 rekord | Mérkőzésspecifikus, nem aktuális általánosítás |
 | Validált mentális nyomásprofil | **0/150** | Nincs etikusan és szakmailag megalapozott kész minősítés |
-| Összesített támadó/defenzív játékstílusprofil | **0/150** | Forrásolt, több mérkőzéses kódolás még szükséges |
+| Előzetes, forrásolt stílus- és matchupjegyzet | **7/150** | Korábbi, dátumozott ATP és Hugh Clarke forrás; nem végleges többmeccses diagnózis |
+| Teljes, többmeccsesen validált játékstílusprofil | **0/150** | Forrásolt kódolás és mérkőzések közötti ellenőrzés még szükséges |
 
 ## Amit a felhasználó jogosan kér, de még NINCS bizonyítva
 
