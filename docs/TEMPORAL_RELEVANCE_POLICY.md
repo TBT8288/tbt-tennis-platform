@@ -30,7 +30,7 @@ Ha 2026 novemberében egy játékos 2022–2024-ben 3–0-ra vezetett, de 2025�
 ## Források (elméleti háttér, nem a konkrét félidő-számok bizonyítása)
 
 - [Time-varying player skills and surface-specific dynamic prediction (2019)](https://doi.org/10.1111/rssa.12464)
-- [Weighted Elo rating for tennis match predictions (2022)](https://doi.org/10.1016/j.ejor.2021.04.024) — a friss forma és legutóbbi meccs hatása
+- [Weighted Elo rating for tennis match predictions (2022)](https://doi.org/10.1016/j.ejor.2021.04.011) — a friss forma és legutóbbi meccs hatása
 - [Boosting markovian tennis prediction (2026)](https://doi.org/10.1177/22150218251412670) — a H2H külön modell-inputja és az adatmennyiség vs. relevancia vitája
 - [Tennis forecasting calibration and in-play modelling](https://www.sciencedirect.com/science/article/pii/S0169207017301395)
 
