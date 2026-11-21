@@ -52,14 +52,18 @@ python -m atp_intelligence.archive --folder research/expert_archives --db data/e
 
 A mentett állomány a `.gitignore` szerint nem kerül automatikusan a GitHubba. A program a forráslinkeket, eredeti megfigyelési dátumot, ellenőrzési státuszt és a 2026-11-21-i aktivitási pillanatképet megtartja. **Nem frissít automatikusan**, és nem állít elő kész prematch vagy élő predikciót.
 
-## ATP Top100 only — scope decision
+## ATP Top 150 – jelenlegi játékosadatbázis
 
-Since 2026-11-21, active Player Intelligence records are **restricted to the dated male ATP Top 100 with a 2026 main-draw match**. Grand Slams are included in target match events, but Challenger and ITF matches are not live prediction targets.
+A férfi ATP-egyesranglista **első 150 játékosáról** készítünk tartós Player Intelligence profilt a [2026. november 16-i ranglista](research/rosters/atp_top150_2026_11_16.csv) alapján. A Top 100-as lista korábbi, archivált állapot, többé nem szabja meg az adatimport határát.
 
-- [100-player dated roster](research/rosters/atp_top100_2026_11_16.csv)
-- [Current ATP analysts and source notes](research/expert_archives/README.md)
-- [Top100 guard code](atp_intelligence/roster.py)
+- [150 játékos – rangsor, név, ország, ATP-pont, források](research/rosters/atp_top150_2026_11_16.csv)
+- [150 szezonstatisztikai rekord, ebből 146 ellenőrzött, 4 forráseltérés miatt jelölt hiány](research/rosters/atp_top150_season_stats_2026.csv)
+- [ATPTop150 validáló program](atp_intelligence/roster.py)
+- [SQLite szakértői és szezonadat-importáló](atp_intelligence/archive.py)
+- [Ranglista-adatminőség és kiválasztási szabályok](research/rosters/README.md)
 
-The historic 21-player research list is **not** the active player list. The default `python -m atp_intelligence.archive` importer now filters old and new source notes against the 100-player roster. No manual code copy is needed to inspect these datasets.
+A program az összes Top 150-es játékost megtartja akkor is, ha egy adott szezonban nincs ATP-főtáblás eredménye. Hiányzó adatot nem azonosítunk 0-val. Eltérő ranglista- és statisztikai források esetén a név/pontszám szerinti, forrásolt egyeztetés az előírás.
 
-The ranking snapshot is not auto-updating yet, and the existing Streamlit app's live API feed is **not yet** restricted by this new scope gate. The separate database import is restricted and tested.
+**Mérkőzés-hatókör:** ATP 250, ATP 500, Masters 1000, ATP Finals, valamint Grand Slam férfi egyes főtábla. Az alkalmi, Top150-en kívüli ellenfél ideiglenes meccskontextusát kezelhetjük, de nem készítünk róla tartós, külön játékosdossziét. Challenger/ITF nem élő célverseny.
+
+**Még fejlesztendő:** heti ranglistafrissítés, stabil ATP player ID, az összes Top150 játékos edzői erősség-/gyengeségprofilja és az élő Streamlit-integráció. A jelenlegi adatbázis első lépésként rangsor- és szezonstatisztikai pillanatkép.
