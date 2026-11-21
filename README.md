@@ -36,3 +36,18 @@ A game-valószínűségi függvény a szerver feltételezett független pontnyer
 ## Biztonság
 
 A repository legutóbbi ellenőrzéskor **nyilvános** volt. Saját privát fejlesztéshez javasolt Private-ra állítani, a jelszavakat/titkos kulcsokat és licencköteles nyers adatokat pedig soha nem feltölteni.
+
+## Forrásolt szakértői archívum (első adatgyűjtés)
+
+Az első Damian Kust/Jakub Bobro archívum-feldolgozás 5 kiadványt, 21 dátumozott játékosstátuszt és 11 saját szavú történeti megfigyelést tárol:
+
+- [Adatállományok, források, státuszdefiníciók](research/expert_archives/README.md)
+- [Notion-kutatási oldal](https://app.notion.com/p/41ff603f0d2e81ffb621da1e4ac4675f)
+
+Az első lokális SQLite játékosarchívum egysoros előállítása:
+
+```bash
+python -m atp_intelligence.archive --folder research/expert_archives --db data/expert_archive.sqlite3
+```
+
+A mentett állomány a `.gitignore` szerint nem kerül automatikusan a GitHubba. A program a forráslinkeket, eredeti megfigyelési dátumot, ellenőrzési státuszt és a 2026-11-21-i aktivitási pillanatképet megtartja. **Nem frissít automatikusan**, és nem állít elő kész prematch vagy élő predikciót.
