@@ -98,3 +98,17 @@ Minden lezárt munkafázis után:
 **Amit még nem állíthatunk késznek:** a jelenlegi Streamlit app nem használja még a matematikai modult, nincs valós élő pontrögzítés, momentum-/pszichológiai detektor, videóelemzés vagy validált előrejelzési fölény. Az új modul önálló alap, nem kész élő AI-teniszedző.
 
 **Következő prioritás:** #1 adatforrás-audit és a történeti eseményadat sémájának tényleges ellenőrzése; utána a validált B0-becslést bevezetni a meglévő felületbe.
+
+## 10. Korábbi projektek auditja – 2026-11-21
+
+A felhasználó öt korábbi ATP/Challenger PDF-et és a nagy `TBTProjekt.zip` archívumot megosztotta. Két PDF-pár pontos duplikátum; a harmadik 16 oldalas módszertan csak egy modulfolyamat-sorral tér el. A ZIP régi Next.js/FastAPI és Python modulokat, függőségeket és történeti dokumentációt tartalmaz; önmagában nem teljes játékosadatbázis.
+
+- [Kritikus válogatási, migrációs és forráselemzési jelentés](research/legacy_2026_07/ADOPTION_MATRIX.md).
+- [Három ellenőrzött, történeti meccs-referencia](research/legacy_2026_07/verified_match_examples.csv) – ezek nem élő ATP-modellek, és nem igazolják a PDF minden további következtetését.
+- [Notion – történeti dokumentumok és szakértői források auditja](https://app.notion.com/p/41ff603f0d2e818fae5ac8e2c6b09354).
+- [GitHub #6: szakértői és játékosadat átvétel](https://github.com/TBT8288/tbt-tennis-platform/issues/6).
+- [GitHub #7: korábbi API-kulcsok biztonsági ellenőrzése](https://github.com/TBT8288/tbt-tennis-platform/issues/7).
+
+Átültethető: eredményminőség, baseline, forrásminősítés, NO SOURCE/NO PREDICTION, egymástól elkülönített prematch/in-play, játékos-idővonal. Nem átültethető változatlanul: állásalapú „momentum”, kézzel választott 0.35/21 nap/LOGIT_SCALE/INPLAY_GAIN paraméterek, fizetős SaaS és széles Challenger-scope.
+
+**Biztonság:** az eredeti ZIP-ben régi, nyílt szövegként tárolt API-kulcsok szerepelnek. A kulcsok nem kerültek bele az új dokumentációba/kódba; a régi aktív hozzáféréseket szükség esetén vissza kell vonni, majd csak secrets tárolón át kezelni. A repository még Public; nem publikáljuk az eredeti ZIP/PDF fájlokat. A régi projektben szereplő, 2026 júliusi játékosmegfigyelés nem tekinthető automatikusan aktuális tényezőnek.
