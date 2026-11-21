@@ -51,3 +51,15 @@ python -m atp_intelligence.archive --folder research/expert_archives --db data/e
 ```
 
 A mentett állomány a `.gitignore` szerint nem kerül automatikusan a GitHubba. A program a forráslinkeket, eredeti megfigyelési dátumot, ellenőrzési státuszt és a 2026-11-21-i aktivitási pillanatképet megtartja. **Nem frissít automatikusan**, és nem állít elő kész prematch vagy élő predikciót.
+
+## ATP Top100 only — scope decision
+
+Since 2026-11-21, active Player Intelligence records are **restricted to the dated male ATP Top 100 with a 2026 main-draw match**. Grand Slams are included in target match events, but Challenger and ITF matches are not live prediction targets.
+
+- [100-player dated roster](research/rosters/atp_top100_2026_11_16.csv)
+- [Current ATP analysts and source notes](research/expert_archives/README.md)
+- [Top100 guard code](atp_intelligence/roster.py)
+
+The historic 21-player research list is **not** the active player list. The default `python -m atp_intelligence.archive` importer now filters old and new source notes against the 100-player roster. No manual code copy is needed to inspect these datasets.
+
+The ranking snapshot is not auto-updating yet, and the existing Streamlit app's live API feed is **not yet** restricted by this new scope gate. The separate database import is restricted and tested.
