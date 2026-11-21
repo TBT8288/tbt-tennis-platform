@@ -40,3 +40,14 @@ Future ingestion should:
 5. Never treat a retrospective article as proof of live early-shift detection.
 
 [Project master](../../PROJECT_MASTER.md).
+
+## November 2026 active scope update
+
+**Important:** The 21 earlier names, five older sources and 11 earlier candidate notes above are **bibliographic research**. They are not the current operating player database.
+
+- [Current male ATP Top 100 snapshot](../rosters/atp_top100_2026_11_16.csv): 100 players independently checked for 2026 main-draw participation.
+- [Seven current expert analysts/podcasters](current_analysts_2026_11_21.csv) and [five dated 2026 publications](current_sources.csv).
+- [Eight new 2026 technical/tactical observations](current_atp_observations.csv), kept as attributed historic facts/interpretations.
+- `atp_intelligence.archive` imports **100 roster profiles, 7 eligible former source mentions and 13 eligible historical notes** (including the eight new 2026 notes). It **excludes** 14 older-player mentions and 6 out-of-scope notes. Ineligible names remain only in review/forensic CSV, not the active database.
+- All future content ingestion must check the Top100 roster before creating player records. Ranking snapshots must be refreshed and reviewed weekly.
+- [GitHub scope policy](../rosters/README.md) and [Notion live research summary](https://app.notion.com/p/41ff603f0d2e8146a3c6f3bbdfeaf3e4).
