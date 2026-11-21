@@ -90,7 +90,7 @@ class ExpertArchive:
             for row in sources:
                 _iso_date(row["published_date"])
                 self.db.execute(
-                    """INSERT OR REPLACE INTO expert_sources VALUES (?,?,?,?,?,?,?,?)""",
+                    """INSERT OR IGNORE INTO expert_sources VALUES (?,?,?,?,?,?,?,?)""",
                     tuple(row[k] for k in (
                         "source_id", "published_date", "author", "type", "title", "url",
                         "content_access", "rights_note"
@@ -101,7 +101,7 @@ class ExpertArchive:
                 if row["status"] not in VALID_STATUSES:
                     raise ValueError(f"unknown status for {row['player']}: {row['status']}")
                 self.db.execute(
-                    """INSERT OR REPLACE INTO expert_player_mentions VALUES (?,?,?,?,?,?,?)""",
+                    """INSERT OR IGNORE INTO expert_player_mentions VALUES (?,?,?,?,?,?,?)""",
                     tuple(row[k] for k in (
                         "player", "source_id", "status", "status_evidence",
                         "status_source_url", "note", "status_as_of"
@@ -110,7 +110,7 @@ class ExpertArchive:
             for row in observations:
                 _iso_date(row["observation_date"])
                 self.db.execute(
-                    """INSERT OR REPLACE INTO expert_observations VALUES (?,?,?,?,?,?,?,?,?,?)""",
+                    """INSERT OR IGNORE INTO expert_observations VALUES (?,?,?,?,?,?,?,?,?,?)""",
                     tuple(row[k] for k in (
                         "observation_id", "source_id", "player", "observation_date",
                         "category", "paraphrase_hu", "attribution", "verification",
