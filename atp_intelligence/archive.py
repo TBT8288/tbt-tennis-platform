@@ -61,6 +61,21 @@ class ExpertArchive:
                 main_draw_wins INTEGER,
                 main_draw_losses INTEGER
             );
+            CREATE TABLE IF NOT EXISTS player_season_stats (
+                rank INTEGER PRIMARY KEY REFERENCES atp_roster(rank),
+                season_year INTEGER NOT NULL,
+                retrieved_on TEXT NOT NULL,
+                season_wins INTEGER,
+                season_losses INTEGER,
+                win_pct REAL,
+                elo REAL,
+                serve_plus REAL,
+                return_plus REAL,
+                pressure_plus REAL,
+                set_win_pct REAL,
+                verification TEXT NOT NULL,
+                source_url TEXT NOT NULL
+            );
             CREATE TABLE IF NOT EXISTS expert_sources (
                 source_id TEXT PRIMARY KEY,
                 published_date TEXT NOT NULL,
@@ -112,6 +127,10 @@ class ExpertArchive:
         """
         folder = Path(folder)
         roster = ATPTop150(roster_path)
+        stats_path = Path(roster_path).parent / "atp_top150_season_stats_2026.csv"
+        season_stats = _load_rows(stats_path)
+        if len(season_stats) != len(roster.players):
+            raise ValueError("Season-stat records must cover every roster entry")
         sources = _load_rows(folder / "sources.csv")
         players = _load_rows(folder / "player_mentions_2026_11_21.csv")
         observations = _load_rows(folder / "historical_observations.csv")
@@ -132,6 +151,7 @@ class ExpertArchive:
         with self.db:
             # Rebuild scope on every import. This also removes legacy records
             # for now-ineligible players from an existing persistent DB.
+            self.db.execute("DELETE FROM player_season_stats")
             self.db.execute("DELETE FROM expert_observations")
             self.db.execute("DELETE FROM expert_player_mentions")
             self.db.execute("DELETE FROM atp_roster")
@@ -141,6 +161,53 @@ class ExpertArchive:
                     (
                         player.rank, player.name, player.country, player.ranking_points,
                         player.ranking_date, player.main_draw_wins, player.main_draw_losses
+                    )
+                )
+            # Keep unavailable per-player statistics NULL, never infer them
+            # from another player's rank after a provider ranking update.
+            for row in season_stats:
+                rank = int(row["rank"])
+                person = roster.players[rank - 1]
+                if not (1 <= rank <= 150) or person.name != row["player"]:
+                    raise ValueError(f"Season data player mismatch for rank {rank}")
+                _iso_date(row["retrieved_on"])
+                verified = row["verification"] == "source_name_and_points_matched"
+                if row["verification"] not in {
+                    "source_name_and_points_matched", "not_verified"
+                }:
+                    raise ValueError(f"Unknown statistics provenance at rank {rank}")
+                numeric = [
+                    row["season_wins"], row["season_losses"], row["win_pct"],
+                    row["elo"], row["serve_plus"], row["return_plus"],
+                    row["pressure_plus"], row["set_win_pct"]
+                ]
+                if not verified and any(value for value in numeric):
+                    raise ValueError(f"Unverified season metrics must be blank: {rank}")
+                if verified and (
+                    not row["season_wins"] or not row["season_losses"]
+                    or int(row["season_wins"]) < 0
+                    or int(row["season_losses"]) < 0
+                ):
+                    raise ValueError(f"Invalid verified season win/loss: {rank}")
+
+                def numeric_or_none(value: str, percent: bool = False):
+                    if not value:
+                        return None
+                    return float(value.rstrip("%")) if percent else float(value)
+
+                self.db.execute(
+                    """INSERT INTO player_season_stats VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                    (
+                        rank, int(row["season_year"]), row["retrieved_on"],
+                        int(row["season_wins"]) if verified else None,
+                        int(row["season_losses"]) if verified else None,
+                        numeric_or_none(row["win_pct"], True),
+                        numeric_or_none(row["elo"]),
+                        numeric_or_none(row["serve_plus"]),
+                        numeric_or_none(row["return_plus"]),
+                        numeric_or_none(row["pressure_plus"]),
+                        numeric_or_none(row["set_win_pct"], True),
+                        row["verification"], row["source_url"]
                     )
                 )
             for row in sources:
@@ -175,6 +242,8 @@ class ExpertArchive:
                 )
         return {
             "roster": len(roster.players),
+            "season_stats": len(season_stats),
+            "season_stats_verified": sum(x["verification"] == "source_name_and_points_matched" for x in season_stats),
             "sources": len(sources),
             "player_mentions": len(accepted_players),
             "observations": len(accepted_obs),
@@ -187,6 +256,25 @@ class ExpertArchive:
             """SELECT rank,player,ranking_points,ranking_date
                FROM atp_roster ORDER BY rank"""
         ).fetchall()
+
+    def get_player_season_stats(self, player: str) -> dict | None:
+        """Source-backed current season figures or explicit NULL for missing data."""
+        row = self.db.execute(
+            """SELECT r.rank,r.player,s.season_year,s.retrieved_on,
+                      s.season_wins,s.season_losses,s.win_pct,s.elo,
+                      s.serve_plus,s.return_plus,s.pressure_plus,
+                      s.set_win_pct,s.verification,s.source_url
+               FROM atp_roster r JOIN player_season_stats s ON r.rank=s.rank
+               WHERE r.player=?""", (player,)
+        ).fetchone()
+        if row is None:
+            return None
+        keys = (
+            "rank","player","season_year","retrieved_on","wins","losses",
+            "win_pct","elo","serve_plus","return_plus","pressure_plus",
+            "set_win_pct","verification","source_url"
+        )
+        return dict(zip(keys,row))
 
     def get_status(self, player: str) -> list[tuple[str, str, str, str]]:
         """Snapshot labels, not present-day career determinations."""
