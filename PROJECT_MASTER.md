@@ -193,3 +193,7 @@ A felhasználó kérése: **minden jelenlegi ATP Top150 játékos** kor, súly, 
 **Lényeges adatminőségi tanulság:** az ATP 2026 media guide Flavio Cobolli magasságát **173 cm**-nek közölte, a jelenlegi ATP overview **183 cm**-nek; a regiszter az aktuális ATP adatát használja, és jelzi a konfliktust. A második forrásból fellelt kg és kézadatok forrás szerinti publikus játékosadatok, de súly dinamikusan változhat.
 
 **Nem kész/tilos úgy állítani, hogy kész:** 16 játékos testsúlya nem volt ellenőrizhető; 4 játékos 2026-os szezonstatisztikája forrásütközéses; csak 12 játékoshoz van attribuált szakértői megfigyelés; **0/150 többmeccsesen validált mentális „összeomlik/erős” jellemzés**, **0/150 teljes, ellenőrzött támadó/defenzív és szakértői erősség-gyengeség-profil**. Ezeket a következő építési fázisban, egyéni mérkőzéshistóriával és edzői megfigyelésekkel kell bizonyítani. A TennisDB `Pressure+` stat nem pszichológiai diagnózis, és a hiányzó adat NEM egyenlő nullával.
+
+### Első 7 forrásolt taktikai dosszié-előzetes
+
+[ATP + Hugh Clarke forrásolt megfigyelések](research/player_profiles/atp_top150_tactical_sources_seed_2026_11_21.csv) alapján **7 játékos** (Zverev, Sinner, Alcaraz, Shelton, Medvedev, Fritz, Ruud) kapott *előzetes, dátumozott játékstílus- és matchup-megjegyzést*. Ezek **nem** sok mérkőzésen igazolt állandó gyengeségek vagy pszichológiai diagnózisok. A többi **143** játékos összesített stíluscímkéje továbbra sincs forrásoltan kész. A jelenlegi regiszter forrás-URL-t és bizonyíték-kategóriát is külön tárol.
