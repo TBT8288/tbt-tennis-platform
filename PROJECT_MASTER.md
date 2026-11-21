@@ -112,3 +112,24 @@ A felhasználó öt korábbi ATP/Challenger PDF-et és a nagy `TBTProjekt.zip` a
 Átültethető: eredményminőség, baseline, forrásminősítés, NO SOURCE/NO PREDICTION, egymástól elkülönített prematch/in-play, játékos-idővonal. Nem átültethető változatlanul: állásalapú „momentum”, kézzel választott 0.35/21 nap/LOGIT_SCALE/INPLAY_GAIN paraméterek, fizetős SaaS és széles Challenger-scope.
 
 **Biztonság:** az eredeti ZIP-ben régi, nyílt szövegként tárolt API-kulcsok szerepelnek. A kulcsok nem kerültek bele az új dokumentációba/kódba; a régi aktív hozzáféréseket szükség esetén vissza kell vonni, majd csak secrets tárolón át kezelni. A repository még Public; nem publikáljuk az eredeti ZIP/PDF fájlokat. A régi projektben szereplő, 2026 júliusi játékosmegfigyelés nem tekinthető automatikusan aktuális tényezőnek.
+
+## 11. Damian Kust / Jakub Bobro archívum – első adatgyűjtés (2026-11-21)
+
+A felhasználó kérésére tényleges külső archívumforrásokból összeállt az első **forráshivatkozott történeti játékosdosszié-seed** (nem a teljes podcastarchívum és nem validált élő teniszmodell).
+
+- [5 archív forrás (podcast + cikk)](research/expert_archives/sources.csv): 2022–2024 közötti Kust/Bobro-adások és 2024-es Kust-elemzések.
+- [21 játékos dátumozott, státuszforrással igazolt pillanatképe](research/expert_archives/player_mentions_2026_11_21.csv): 16-nál 2026-os versenyeredmény megerősítve, 3 hivatalosan visszavonult (Novak, Berankis, Goffin), 1 ATP-szünet (Cressy), 1 korlátozott/nem eldönthető profi aktivitás (De Loore).
+- [11 saját szavas, forráshoz és 2022–2024-es dátumhoz kötött szakmai megfigyelés](research/expert_archives/historical_observations.csv): jelölt ellenőrzési bizonytalansággal. Egy podcastleírásban szereplő vendég nem egyenlő a meghallgatott, átírt szakmai interjúval.
+- [Módszertani adatleírás](research/expert_archives/README.md).
+- `atp_intelligence/archive.py`: szabványos Python/SQLite import, a forrás és dátum jelölését megőrizve. `tests/test_expert_archive.py`: automatizált teszt.
+- [Notion 06 – szakértői archívum](https://app.notion.com/p/41ff603f0d2e81ffb621da1e4ac4675f).
+
+**Reprodukció:** `python -m atp_intelligence.archive --folder research/expert_archives --db data/expert_archive.sqlite3` (helyi SQLite adatbázis, gitignore-on).
+
+**Ne olvadjon be az élő pillanatnyi formába!** A 2024-es játékosmegfigyelés történeti kontextus, nem 2026-os aktív forma, sérülés vagy mentális diagnózis. Az archív források hosszú távú stratégiai előnyhöz vezethetnek, de önmagukban nem bizonyítanak előrejelzési előnyt.
+
+A történeti szakértői archívum véges: Jakub Bobro 2023 augusztusában és Damian Kust 2026 januárjában hunyt el (ezt megbízható publikációk megerősítik). A tudástár csak az eredeti, dátumozott anyagokra támaszkodjon.
+
+**Szerzői jog:** teljes hanganyagokat, cikkeket és transzkriptumokat nem teszünk a nyilvános GitHubba; csak forráslinkeket, metaadatokat és rövid, saját szavú összefoglalókat. A még fel nem dolgozott epizódoknál ne állítsunk semmilyen konkrét játékosról hallott megjegyzést.
+
+**Következő lépések:** további epizódok felkutatása → epizódonkénti vendéglisták → ellenőrizhető egyedi edzői/versenyszempontú megállapítások → rendszeres, külön forrásból mért 2026-os aktív státusz frissítés → a Player Intelligence felé szigorú, időzárt felhasználás.
