@@ -67,12 +67,21 @@ class ATPTop150ProfileRegisterTests(unittest.TestCase):
             self.assertFalse(p["year_2026_losses"])
             self.assertFalse(p["year_2026_elo"])
 
-    def test_no_made_up_mental_or_tactical_labels(self):
+    def test_tactical_classifications_are_sourced_and_mental_labels_not_fabricated(self):
         data = rows(REG)
+        sourced = 0
         for p in data:
             self.assertIn("nem minősített", p["mental_pressure_profile"])
-            self.assertIn("nincs még forrásolt", p["playing_style"])
+            if p["playing_style_source"]:
+                sourced += 1
+                self.assertTrue(p["playing_style_source"].startswith("https://"))
+                self.assertTrue(p["strength_source"].startswith("https://"))
+                self.assertTrue(p["weakness_source"].startswith("https://"))
+                self.assertTrue(p["playing_style"].startswith("Előzetes történeti: "))
+            else:
+                self.assertIn("nincs még forrásolt", p["playing_style"])
             self.assertEqual(p["profile_status"], "alapadatok és statisztika; edzői dosszié fejlesztés alatt")
+        self.assertEqual(sourced, 7)
 
     def test_readable_list_matches_main_register(self):
         main = rows(REG)
