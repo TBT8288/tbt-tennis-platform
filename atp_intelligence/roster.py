@@ -1,6 +1,6 @@
 """Scope gate for the private ATP Intelligence player database.
 
-Top-100 rank AND verified ATP/major main-draw participation are required.
+Top-150 ATP singles rank is the profile criterion; season main-draw statistics may be unavailable.
 Ranks, points and wins/losses are a dated snapshot, not live player status.
 """
 from __future__ import annotations
@@ -12,7 +12,7 @@ from datetime import date
 from pathlib import Path
 
 DEFAULT_ROSTER_PATH = (
-    Path(__file__).resolve().parents[1] / "research" / "rosters" / "atp_top100_2026_11_16.csv"
+    Path(__file__).resolve().parents[1] / "research" / "rosters" / "atp_top150_2026_11_16.csv"
 )
 
 
@@ -28,30 +28,42 @@ class RankedPlayer:
     country: str
     ranking_points: int
     ranking_date: str
-    main_draw_wins: int
-    main_draw_losses: int
+    main_draw_wins: int | None
+    main_draw_losses: int | None
 
 
-class ATPTop100:
-    """Verified dated list of ATP Top-100 male singles players."""
+class ATPTop150:
+    """Dated list of 150 ranked ATP male singles players with verified source metadata."""
 
     def __init__(self, path: str | Path = DEFAULT_ROSTER_PATH):
         self.path = Path(path)
         with self.path.open("r", encoding="utf-8-sig", newline="") as f:
             records = list(csv.DictReader(f))
-        if len(records) != 100:
-            raise ValueError(f"Expected exactly 100 ranked players, got {len(records)}")
+        if len(records) != 150:
+            raise ValueError(f"Expected exactly 150 ranked players, got {len(records)}")
         self.players: list[RankedPlayer] = []
         self._lookup: dict[str, RankedPlayer] = {}
         snapshot_dates = set()
         ranks: set[int] = set()
         for row in records:
             rank = int(row["rank"])
-            wins, losses = int(row["season_main_draw_wins"]), int(row["season_main_draw_losses"])
-            if not 1 <= rank <= 100 or rank in ranks:
-                raise ValueError("Top-100 ranks must be unique between 1 and 100")
-            if row["season_main_draw_verified"].lower() != "true" or wins + losses <= 0:
-                raise ValueError(f"Missing main-draw evidence for rank {rank}")
+            raw_wins, raw_losses = row["season_main_draw_wins"], row["season_main_draw_losses"]
+            if bool(raw_wins) != bool(raw_losses):
+                raise ValueError(f"Incomplete season statistics for rank {rank}")
+            wins = int(raw_wins) if raw_wins else None
+            losses = int(raw_losses) if raw_losses else None
+            if not 1 <= rank <= 150 or rank in ranks:
+                raise ValueError("Top-150 ranks must be unique between 1 and 150")
+            if row["ranking_crosschecked"] not in {"verified", "single_rank_source"}:
+                raise ValueError(f"Untraceable ranking provenance at rank {rank}")
+            if row["season_stats_verified"] == "verified":
+                if wins is None or losses is None or wins < 0 or losses < 0:
+                    raise ValueError(f"Incorrect verified season statistics at rank {rank}")
+            elif row["season_stats_verified"] == "not_yet_verified":
+                if wins is not None or losses is not None:
+                    raise ValueError(f"Unverified season statistics must be blank at rank {rank}")
+            else:
+                raise ValueError(f"Invalid season statistics status at rank {rank}")
             date.fromisoformat(row["ranking_date"])
             if int(row["ranking_points"]) < 0:
                 raise ValueError("Ranking points cannot be negative")
@@ -71,8 +83,8 @@ class ATPTop100:
             self.players.append(p)
             ranks.add(rank)
             snapshot_dates.add(p.ranking_date)
-        if ranks != set(range(1, 101)) or len(snapshot_dates) != 1:
-            raise ValueError("Ranking must be an uninterrupted top 100 from a single snapshot")
+        if ranks != set(range(1, 151)) or len(snapshot_dates) != 1:
+            raise ValueError("Ranking must be an uninterrupted top 150 from a single snapshot")
         self.players.sort(key=lambda p: p.rank)
         self.as_of = next(iter(snapshot_dates))
 
