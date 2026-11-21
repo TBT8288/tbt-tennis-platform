@@ -1,151 +1,151 @@
-rank,name,country,age,weight_kg,height_cm,hand,backhand,w_2026,l_2026,serve_plus_2026,return_plus_2026,pressure_plus_2026,wins_2025,losses_2025,hard_w_2025,hard_l_2025,clay_w_2025,clay_l_2025,grass_w_2025,grass_l_2025,serve_sample_2025,first_in_2025,first_won_2025,second_won_2025,return_won_2025,hard_elo_historical,clay_elo_historical,grass_elo_historical,indoor_elo_historical,sourced_style_note,sourced_style_url,mental_profile
-1,Alexander Zverev,GER,29,89,198,Jobb,Kétkezes,64,16,+7.13,+2.27,105.4,57,25,33,15,18,7,6,3,80,72.1%,73.8%,53.5%,37.5%,2418,2499,1949,2146,Előzetes történeti: erős szervára és hosszú alapvonalpontokra támaszkodó játék,https://hughclarke.substack.com/p/zverev-vs-shelton-us-open-final-recap,not_validated
-2,Jannik Sinner,ITA,25,77,188,Jobb,Kétkezes,44,3,+8.32,+6.40,99.2,58,6,39,3,11,2,8,1,64,62.0%,79.4%,59.1%,42.7%,2638,2584,2149,2394,Előzetes történeti: agresszív fogadás és alapvonalbeli időelvétel,https://hughclarke.substack.com/p/thoughts-from-madrid,not_validated
-3,Carlos Alcaraz,ESP,23,73,183,Jobb,Kétkezes,46,6,+4.09,+7.32,103.0,71,9,38,7,22,1,11,1,80,64.3%,74.0%,56.8%,42.1%,2544,2614,2168,2295,Előzetes történeti: all-court agresszív változatos alapvonal és hálójáték,https://www.atptour.com/en/news/alcaraz-2024-insights,not_validated
-4,Ben Shelton,USA,24,88,193,Bal,Kétkezes,47,19,+5.72,-0.83,105.5,40,24,27,15,7,5,6,4,64,64.2%,75.3%,54.6%,33.3%,2401,2232,1876,2056,"Előzetes történeti: agresszív, szervára építő balkezes támadójáték",https://www.atptour.com/en/news/shelton-indian-wells-2025-feature,not_validated
-5,Daniil Medvedev,RUS,30,83,198,Jobb,Kétkezes,55,21,+2.04,+4.88,93.2,41,23,30,16,6,4,5,3,64,61.3%,75.9%,49.3%,39.9%,2394,2286,1838,2058,"Előzetes történeti: mélyről fogadó, lapos labdákkal kontrázó alapvonaljáték",https://www.atptour.com/en/news/medvedev-infosys-beyond-the-numbers-august-2023,not_validated
-6,Flavio Cobolli,ITA,24,74,183,Jobb,Kétkezes,36,25,-1.53,+0.49,114.5,34,27,14,19,14,5,6,3,58,55.9%,68.8%,53.4%,37.6%,2183,2311,1807,1814,,,not_validated
-7,Arthur Fils,FRA,22,82,185,Jobb,Kétkezes,41,18,+2.75,+1.42,107.3,22,11,12,7,10,4,0,0,32,62.5%,71.7%,53.3%,38.7%,2373,2426,1738,1944,Erőteljes támadó alapütések és kiemelt szervahatékonyság a 2026-os ATP-elemzésben.,https://www.atptour.com/en/news/fils-infosys-atp-beyond-the-numbers-august-2026,not_validated
-8,Frances Tiafoe,USA,28,86,188,Jobb,Kétkezes,45,23,+1.08,+1.03,104.1,26,23,14,14,11,7,1,2,47,56.1%,74.3%,51.7%,36.6%,2334,2221,1847,1844,,,not_validated
-9,Taylor Fritz,USA,29,86,196,Jobb,Kétkezes,46,18,+6.42,+0.91,101.2,53,23,37,17,3,4,13,2,74,64.0%,79.4%,54.5%,35.3%,2293,2167,1982,2101,Előzetes történeti: szerva + első támadótenyeres alapvonaljáték,https://www.atptour.com/en/news/russell-fritz-wimbledon-2025-coaches-corner,not_validated
-10,Rafael Jodar,ESP,20,70,191,Jobb,Kétkezes,43,22,-0.10,+4.75,103.6,2,1,2,1,0,0,0,0,3,68.7%,64.1%,50.0%,39.6%,2332,2388,1582,1895,,,not_validated
-11,Alex de Minaur,AUS,27,68,183,Jobb,Kétkezes,43,21,+0.54,+4.41,105.6,56,24,43,17,10,5,3,2,77,55.5%,73.4%,57.2%,41.1%,2323,2282,1884,2132,"Gyors pályalefedésből kezdeményező játékba átmenet és előrébb vett pályapozíció, 2026-os ATP-beszámoló alapján.",https://www.atptour.com/en/news/scorecards-de-minaur-hard-court-wins-leader,not_validated
-12,Novak Djokovic,SRB,39,80,187,Jobb,Kétkezes,22,10,+3.22,+1.92,92.5,39,11,25,7,9,3,5,1,50,66.6%,76.7%,55.7%,39.4%,2433,2458,2137,2228,,,not_validated
-13,Tommy Paul,USA,29,81,185,Jobb,Kétkezes,47,22,+2.95,+3.82,98.9,29,13,16,7,12,4,1,2,42,60.4%,72.4%,53.0%,39.9%,2292,2346,1849,2039,,,not_validated
-14,Jiri Lehecka,CZE,25,81,185,Jobb,Kétkezes,36,22,+3.53,+1.04,101.1,41,23,29,15,5,5,7,3,60,61.9%,75.9%,53.3%,35.4%,2327,2257,1841,1925,,,not_validated
-15,Jakub Mensik,CZE,21,83,193,Jobb,Kétkezes,35,18,+2.17,+1.70,106.1,33,20,23,13,6,4,4,3,50,59.4%,78.1%,49.5%,36.1%,2296,2298,1647,1845,,,not_validated
-16,Alejandro Davidovich Fokina,ESP,27,78,183,Jobb,Kétkezes,33,16,+1.94,+1.30,104.2,44,26,30,18,9,6,5,2,70,66.2%,68.4%,52.4%,39.2%,2324,2209,1825,1872,,,not_validated
-17,Felix Auger-Aliassime,CAN,26,88,193,Jobb,Kétkezes,34,17,+4.10,+0.48,103.3,50,24,41,15,3,5,6,4,74,67.0%,76.5%,52.1%,36.5%,2277,2213,1810,2177,Szervára épülő támadójáték; 2026-os fedett pályás szervaelemzés.,https://www.tennisabstract.com/blog/2026/02/11/what-does-felix-auger-aliassime-do-so-right-on-indoor-hard-courts/,not_validated
-18,Casper Ruud,NOR,27,80,183,Jobb,Kétkezes,32,20,+2.96,+2.91,98.8,39,16,25,11,14,5,0,0,53,66.1%,73.2%,53.1%,37.5%,2210,2437,1541,2044,"Előzetes történeti: nehéz topspines tenyeresből építkező alapvonaljáték, fejlődő sokoldalúság",https://www.atptour.com/en/news/ruud-miami-2024-feature,not_validated
-19,Brandon Nakashima,USA,25,83,188,Jobb,Kétkezes,35,23,+3.49,+0.22,98.6,32,29,21,19,5,7,6,3,61,66.0%,74.1%,52.3%,34.9%,2276,2115,1770,1861,,,not_validated
-20,Francisco Cerundolo,ARG,28,79,185,Jobb,Kétkezes,35,22,-0.45,+4.04,100.8,38,25,17,12,21,11,0,2,61,61.4%,68.4%,51.8%,40.6%,2225,2324,1698,1939,,,not_validated
-21,Luciano Darderi,ITA,24,81,183,Jobb,Kétkezes,37,27,-1.42,+0.79,103.0,29,27,6,15,21,8,2,4,56,60.3%,71.5%,52.0%,36.3%,2124,2364,1525,1502,,,not_validated
-22,Learner Tien,USA,20,72,180,Bal,Kétkezes,32,20,-0.51,+2.77,111.9,36,24,31,15,1,6,4,3,60,61.3%,69.2%,51.9%,37.5%,2283,2179,1577,1964,,,not_validated
-23,Andrey Rublev,RUS,29,74,188,Jobb,Kétkezes,32,23,+1.75,+1.85,99.1,34,25,22,17,8,6,4,2,59,60.1%,76.8%,51.7%,36.6%,2214,2355,1753,1896,Előzetes tenyeres-domináns alapvonalstílus; a forrás nem 2026-os többmeccses bizonyíték.,https://www.livetennis.com/players/andrey-rublev,not_validated
-24,Karen Khachanov,RUS,30,87,198,Jobb,Kétkezes,27,24,+3.44,+0.11,91.3,32,24,15,15,9,6,8,3,56,63.0%,73.9%,52.2%,37.5%,2202,2246,1777,1960,,,not_validated
-25,Alexander Bublik,KAZ,29,82,196,Jobb,Kétkezes,31,20,+2.84,-1.02,106.4,37,22,16,16,16,5,5,1,58,61.8%,78.7%,47.9%,34.2%,2196,2259,1876,2000,,,not_validated
-26,Valentin Vacherot,MON,28,83,193,Jobb,Kétkezes,26,20,+2.46,-1.02,107.9,15,4,12,2,3,2,0,0,15,64.4%,72.9%,52.7%,36.5%,2211,2187,1448,1967,,,not_validated
-27,Lorenzo Musetti,ITA,24,78,185,Jobb,Egykezes,30,15,+0.93,+2.49,100.4,45,22,26,17,19,4,0,1,67,65.6%,71.6%,55.4%,38.7%,2221,2436,1839,2022,"Változatos ritmusú, egykezes fonákos játék és nyesések; 2025–2026-os interjúk alapján.",https://www.usopen.org/en_US/news/articles/2025-08-30/lorenzo_musettis_journey_to_hardcourt_success_turns_corner_at_2025_us_open.html,not_validated
-28,Alexander Blockx,BEL,21,82,193,Jobb,Kétkezes,19,14,+2.04,+0.33,102.7,6,7,6,6,0,0,0,1,12,67.0%,74.3%,52.1%,36.8%,2165,2301,1580,2017,,,not_validated
-29,Tomas Martin Etcheverry,ARG,27,81,196,Jobb,Kétkezes,29,29,+1.89,-0.77,102.3,26,30,16,14,8,12,2,4,52,62.9%,72.0%,49.9%,36.1%,2097,2220,1431,1874,,,not_validated
-30,Hubert Hurkacz,POL,29,81,196,Jobb,Kétkezes,24,21,+4.35,-0.67,95.6,15,11,7,7,7,4,1,0,26,64.7%,77.5%,52.9%,33.4%,2299,2278,1903,1918,,,not_validated
-31,Alejandro Tabilo,CHI,29,74,188,Bal,Kétkezes,29,27,+1.94,+0.39,96.3,12,17,9,11,3,6,0,0,29,64.6%,69.8%,49.9%,33.2%,2168,2227,1621,1753,,,not_validated
-32,Arthur Fery,GBR,24,76,175,Jobb,Kétkezes,17,13,-0.15,+1.36,105.1,2,2,1,1,0,0,1,1,3,56.1%,59.9%,57.7%,38.1%,2131,1952,1787,1904,,,not_validated
-33,Ignacio Buse,PER,22,78,183,Jobb,Kétkezes,25,21,-2.37,+1.49,112.5,6,4,0,1,6,3,0,0,7,56.2%,72.2%,48.6%,35.1%,2096,2240,1560,1677,,,not_validated
-34,Luca Van Assche,FRA,22,71,178,Jobb,Kétkezes,16,13,-3.33,+1.35,106.5,1,1,1,1,0,0,0,0,2,61.6%,75.4%,47.4%,33.3%,2098,2220,1469,1992,,,not_validated
-35,Alex Michelsen,USA,22,79,193,Jobb,Kétkezes,33,24,+1.43,+2.54,101.1,25,27,18,18,2,5,5,4,51,65.7%,69.7%,48.9%,36.7%,2283,2075,1696,1892,,,not_validated
-36,Stefanos Tsitsipas,GRE,28,89,193,Jobb,Egykezes,30,23,+3.24,-0.49,93.2,22,18,14,11,7,5,1,2,38,59.2%,76.4%,53.2%,35.8%,2261,2367,1680,2029,,,not_validated
-37,Matteo Arnaldi,ITA,25,71,185,Jobb,Kétkezes,11,19,-3.73,+0.20,100.5,20,24,13,16,7,6,0,2,44,56.4%,71.9%,51.5%,34.9%,2071,2291,1531,1635,,,not_validated
-38,Ugo Humbert,FRA,28,72,188,Bal,Kétkezes,29,27,+2.33,+0.44,92.7,25,20,19,11,2,5,4,4,44,61.5%,74.1%,54.0%,34.9%,2142,2088,1771,2066,,,not_validated
-39,Jan-Lennard Struff,GER,36,91,193,Jobb,Kétkezes,24,21,+1.00,-0.91,101.0,15,23,9,13,3,7,3,3,35,58.4%,74.7%,48.7%,35.1%,2024,2147,1795,1965,,,not_validated
-40,Botic van de Zandschulp,NED,31,84,191,Jobb,Kétkezes,28,25,-1.56,+2.57,100.9,16,21,10,14,5,6,1,1,36,60.9%,73.3%,47.8%,37.1%,2252,2162,1571,1816,,,not_validated
-41,Nuno Borges,POR,29,77,185,Jobb,Kétkezes,31,26,+1.76,+1.14,90.0,30,31,18,17,8,10,4,4,57,66.7%,71.4%,50.5%,36.0%,2164,2182,1681,1893,,,not_validated
-42,Daniel Merida,ESP,22,80,188,Jobb,,21,13,-1.29,+2.69,102.2,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2223,2220,1444,1449,,,not_validated
-43,Matteo Berrettini,ITA,30,94,196,Jobb,Kétkezes,22,19,+3.16,-0.89,100.7,22,17,18,13,4,3,0,1,36,68.1%,75.9%,53.6%,33.3%,2156,2332,1899,1995,,,not_validated
-44,Zizou Bergs,BEL,27,84,185,Jobb,Kétkezes,21,23,-0.14,+1.27,96.8,31,27,25,19,2,4,4,4,52,57.4%,72.2%,50.3%,36.6%,2155,2099,1758,1823,,,not_validated
-45,Quentin Halys,FRA,30,84,191,Jobb,Kétkezes,26,23,+2.72,-1.02,105.0,12,24,7,16,3,4,2,4,36,58.9%,76.8%,49.6%,30.9%,2168,2234,1632,1847,,,not_validated
-46,Joao Fonseca,BRA,20,73,185,Jobb,Kétkezes,20,14,+1.16,+2.45,105.4,26,16,15,9,8,4,3,3,39,66.7%,72.5%,51.8%,36.6%,2324,2299,1634,2015,"Nagy sebességű és kockázatú agresszív alapütések, 2026-os ATP-cikk alapján.",https://www.atptour.com/en/news/fonseca-australian-open-2026-feature,not_validated
-47,Thiago Agustin Tirante,ARG,25,78,185,Jobb,,30,20,+2.02,-0.34,106.2,2,4,1,2,1,2,0,0,6,59.7%,71.5%,49.8%,37.3%,2117,2238,1485,1685,,,not_validated
-48,Arthur Gea,FRA,21,72,180,Jobb,,16,8,-0.50,+1.58,104.4,0,1,0,1,0,0,0,0,1,60.6%,72.1%,50.0%,22.6%,2357,2028,1578,1762,,,not_validated
-49,Mariano Navone,ARG,25,72,178,Jobb,Kétkezes,24,26,-2.85,+4.21,102.3,18,23,5,11,12,11,1,1,39,64.4%,65.3%,52.0%,40.7%,2084,2263,1335,1557,,,not_validated
-50,Tallon Griekspoor,NED,30,84,188,Jobb,Kétkezes,18,20,+2.29,-2.65,99.5,30,23,15,15,11,7,4,1,53,65.2%,74.6%,50.7%,32.4%,2095,2168,1711,2002,,,not_validated
-51,Denis Shapovalov,CAN,27,74,185,Bal,Egykezes,22,22,-1.08,+1.88,107.7,26,22,23,14,2,5,1,3,48,58.5%,72.2%,49.3%,38.2%,2226,2090,1613,2040,,,not_validated
-52,Cameron Norrie,GBR,31,82,188,Bal,Kétkezes,23,25,-0.59,+1.22,96.5,34,26,21,18,9,5,4,3,58,66.1%,70.0%,52.1%,36.1%,2152,2253,1711,1922,,,not_validated
-53,Sebastian Baez,ARG,25,70,170,Jobb,Kétkezes,22,26,-4.30,+1.40,105.7,17,24,3,12,14,11,0,1,41,71.7%,62.4%,47.3%,40.2%,2137,2230,1438,1559,,,not_validated
-54,Juan Manuel Cerundolo,ARG,25,74,183,Bal,Kétkezes,21,26,-1.64,-0.28,98.7,8,9,0,2,8,7,0,0,17,60.9%,68.3%,50.4%,37.7%,2053,2284,1451,1710,,,not_validated
-55,Raphael Collignon,BEL,24,86,191,Jobb,,14,16,+0.02,-1.50,107.0,9,11,8,6,1,4,0,1,16,65.0%,72.7%,41.8%,34.8%,2046,2272,1594,2048,,,not_validated
-56,Adolfo Daniel Vallejo,PAR,22,76,185,Jobb,,15,17,-2.21,+2.01,94.5,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2070,2222,1425,1520,,,not_validated
-57,Jaime Faria,POR,23,78,188,Jobb,,15,14,-0.85,-0.63,100.4,5,10,1,2,4,7,0,1,13,59.3%,74.4%,45.0%,34.4%,2140,2232,1710,1548,,,not_validated
-58,Arthur Rinderknech,FRA,31,87,196,Jobb,Kétkezes,18,22,+3.04,-0.80,92.8,27,29,15,18,6,7,6,4,54,63.1%,75.5%,49.7%,31.8%,2134,2157,1696,1829,,,not_validated
-59,Rinky Hijikata,AUS,25,72,178,Jobb,Kétkezes,18,22,-1.97,-0.04,105.0,8,18,7,11,0,4,1,3,26,61.3%,66.1%,49.7%,34.0%,2116,1918,1683,1838,,,not_validated
-60,Tomas Machac,CZE,26,73,183,Jobb,Kétkezes,18,19,-1.25,+0.51,104.6,23,19,18,12,2,5,3,2,41,61.2%,72.6%,53.0%,36.0%,2195,2214,1639,1933,,,not_validated
-61,Adrian Mannarino,FRA,38,78,180,Bal,Kétkezes,21,29,-2.32,-1.29,107.6,13,15,9,12,1,1,3,2,28,58.6%,72.0%,52.6%,36.3%,2072,1745,1735,1844,,,not_validated
-62,Mattia Bellucci,ITA,25,76,175,Bal,Kétkezes,13,21,-1.10,-1.38,100.2,12,17,7,10,2,4,3,3,29,59.1%,71.0%,50.4%,35.4%,2179,2054,1715,1824,,,not_validated
-63,Fabian Marozsan,HUN,27,74,185,Jobb,Kétkezes,22,24,-0.15,-0.26,98.5,26,26,17,17,7,6,2,3,49,64.2%,71.3%,53.1%,35.5%,2112,2168,1642,1848,,,not_validated
-64,Miomir Kecmanovic,SRB,27,74,183,Jobb,Kétkezes,16,26,-0.10,-0.19,98.2,24,28,20,19,2,6,2,3,49,61.7%,72.4%,50.0%,36.6%,2026,2181,1627,1784,,,not_validated
-65,Camilo Ugo Carabelli,ARG,27,82,185,Jobb,Kétkezes,15,22,-3.44,-1.38,102.8,19,25,5,11,14,11,0,3,44,61.1%,66.7%,47.7%,36.5%,1954,2274,1379,1604,,,not_validated
-66,Facundo Diaz Acosta,ARG,25,74,183,Bal,Kétkezes,3,7,-1.19,-0.26,97.9,3,5,3,2,0,3,0,0,8,62.4%,69.8%,46.8%,36.1%,1884,2285,1343,1490,,,not_validated
-67,Yannick Hanfmann,GER,35,86,193,Jobb,Kétkezes,23,23,+1.86,-1.40,106.6,12,13,8,6,4,5,0,2,23,67.2%,70.1%,52.6%,35.4%,2106,2234,1626,1849,,,not_validated
-68,Ethan Quinn,USA,22,81,191,Jobb,Kétkezes,12,15,+0.30,+0.11,95.2,12,18,6,12,4,4,2,2,30,61.7%,69.7%,50.6%,34.9%,2189,2068,1718,1854,,,not_validated
-69,Vit Kopriva,CZE,29,69,178,Jobb,,19,21,-2.96,+0.74,99.4,9,12,2,5,7,6,0,1,21,60.8%,66.9%,48.1%,37.1%,1980,2171,1565,1695,,,not_validated
-70,Jaume Munar,ESP,29,76,183,Jobb,Kétkezes,16,18,+0.03,+2.20,103.1,31,27,22,16,6,8,3,3,54,63.7%,72.1%,50.8%,38.8%,2192,2150,1586,1788,,,not_validated
-71,Martin Landaluce,ESP,20,79,193,Jobb,Kétkezes,12,17,-0.89,+0.60,101.3,1,8,1,6,0,2,0,0,8,63.1%,72.4%,43.8%,31.4%,2119,2117,1614,1705,,,not_validated
-72,Daniel Altmaier,GER,28,80,188,Jobb,Egykezes,19,28,-1.92,-1.21,109.1,22,28,15,18,6,7,1,3,50,60.4%,72.4%,47.3%,33.9%,1991,2184,1603,1875,,,not_validated
-73,Alex Molcan,SVK,28,73,178,Bal,,14,10,+0.38,+1.87,100.3,1,0,1,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2093,2228,1630,1827,,,not_validated
-74,Roman Safiullin,RUS,29,74,185,Jobb,Kétkezes,8,9,+2.07,+0.88,95.5,7,17,6,11,0,3,1,3,24,63.1%,71.3%,52.0%,35.0%,2149,2262,1772,1900,,,not_validated
-75,Terence Atmane,FRA,24,80,193,Bal,,17,23,+1.96,-3.02,102.2,7,10,6,7,1,3,0,0,17,58.6%,74.0%,44.7%,35.8%,2210,2055,1477,1677,,,not_validated
-76,Pablo Carreno Busta,ESP,35,78,188,Jobb,Kétkezes,12,17,-1.16,+0.44,96.6,9,15,6,9,3,6,0,0,19,64.1%,70.6%,53.4%,35.0%,2188,2228,1518,1701,,,not_validated
-77,James Duckworth,AUS,34,82,183,Jobb,Kétkezes,14,20,-0.31,-3.08,100.0,8,12,7,7,0,2,1,3,20,58.2%,72.3%,53.3%,33.7%,2056,2034,1574,1772,,,not_validated
-78,Zachary Svajda,USA,23,70,175,Jobb,Kétkezes,11,15,-0.92,-2.39,98.1,2,3,2,3,0,0,0,0,5,61.3%,69.1%,48.2%,35.5%,2134,1884,1776,1578,,,not_validated
-79,Hamad Medjedovic,SRB,23,86,188,Jobb,Kétkezes,11,15,+0.03,-1.34,99.5,17,16,12,10,3,4,2,2,30,64.1%,73.2%,50.8%,35.1%,2025,2300,1600,1839,,,not_validated
-80,Roman Andres Burruchaga,ARG,24,80,183,Jobb,,12,14,-2.66,+3.42,94.2,3,4,0,0,3,4,0,0,7,65.4%,64.2%,51.0%,41.3%,1830,2224,1496,,,,not_validated
-81,Titouan Droguet,FRA,25,,,Jobb,,10,11,-1.55,-1.24,105.9,2,1,0,0,2,1,0,0,3,62.1%,66.2%,53.0%,41.5%,2208,2231,1613,1850,,,not_validated
-82,Kamil Majchrzak,POL,30,79,183,Jobb,Kétkezes,16,18,+0.16,+0.13,102.6,15,13,8,7,4,5,3,1,27,62.3%,72.1%,51.4%,37.0%,2123,2180,1818,1712,,,not_validated
-83,Aleksandar Kovacevic,USA,28,78,183,Jobb,Egykezes,15,26,+2.06,-5.82,102.9,13,23,11,16,2,5,0,2,36,58.3%,74.8%,49.0%,32.9%,2053,1998,1402,1796,,,not_validated
-84,Coleman Wong,HKG,22,,,Jobb,,9,10,+0.62,-1.74,104.6,9,6,9,5,0,1,0,0,11,63.7%,74.1%,53.3%,32.6%,2181,1791,1476,1734,,,not_validated
-85,Nikoloz Basilashvili,GEO,34,79,185,Jobb,,12,12,+0.65,-0.06,100.6,7,10,5,6,1,3,1,1,17,54.2%,76.1%,49.1%,35.8%,2113,2084,1620,1898,,,not_validated
-86,Kyrian Jacquet,FRA,25,65,175,Jobb,,8,11,-1.16,-1.60,104.1,2,2,2,1,0,1,0,0,4,56.5%,75.8%,47.3%,37.8%,2173,2071,1715,1771,,,not_validated
-87,Jacob Fearnley,GBR,25,79,183,Jobb,Kétkezes,5,10,-3.75,+0.62,98.3,16,21,6,12,7,5,3,4,35,61.2%,70.0%,47.1%,36.5%,2158,2051,1806,1896,,,not_validated
-88,Marco Trungelliti,ARG,36,78,178,Jobb,,9,13,-2.37,+1.24,98.0,0,1,0,0,0,1,0,0,1,68.4%,71.8%,44.4%,20.8%,1999,2192,1376,1483,,,not_validated
-89,Dino Prizmic,CRO,21,79,188,Jobb,Kétkezes,11,13,0.00,+1.21,95.9,5,6,3,4,2,2,0,0,9,60.4%,71.0%,49.2%,36.8%,2122,2321,1511,1865,,,not_validated
-90,Damir Dzumhur,BIH,34,68,175,Jobb,Kétkezes,12,19,-5.74,+0.84,107.9,21,27,6,12,15,12,0,3,44,66.9%,62.5%,53.8%,38.4%,2037,2146,1567,1755,,,not_validated
-91,Benjamin Bonzi,FRA,30,81,183,Jobb,Kétkezes,11,11,+1.04,+1.55,105.2,15,20,12,14,2,2,1,4,35,63.9%,70.4%,52.8%,34.8%,2101,2016,1735,1988,,,not_validated
-92,Toby Samuel,GBR,24,80,191,Jobb,,4,7,-0.30,-0.04,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2242,2060,1659,1881,,,not_validated
-93,Yunchaokete Bu,CHN,24,82,185,Jobb,,5,5,+1.77,-2.19,101.5,13,27,13,18,0,7,0,2,39,56.9%,73.1%,49.1%,34.3%,2124,1924,1718,1785,,,not_validated
-94,Jenson Brooksby,USA,26,82,188,Jobb,,15,23,-2.38,+0.76,96.1,21,15,10,11,6,1,5,3,36,62.3%,68.4%,51.4%,38.7%,2179,1995,1729,1785,,,not_validated
-95,Marcos Giron,USA,33,77,180,Jobb,Kétkezes,11,21,-0.41,-0.60,88.4,23,27,16,18,4,6,3,3,49,59.8%,70.8%,51.7%,35.9%,2045,1978,1695,1869,,,not_validated
-96,Zsombor Piros,HUN,27,68,180,Jobb,,0,1,-3.44,-1.69,,1,1,1,1,0,0,0,0,1,55.7%,55.1%,30.8%,40.0%,1931,2208,1544,1928,,,not_validated
-97,Adam Walton,AUS,27,86,188,Jobb,Kétkezes,9,18,-1.66,-1.28,93.6,13,20,11,16,2,2,0,2,33,61.6%,72.1%,51.1%,34.4%,2078,1814,1651,1621,,,not_validated
-98,Michael Zheng,USA,22,,,Jobb,,8,11,-2.54,+1.16,96.1,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2135,1899,1682,1826,,,not_validated
-99,Marin Cilic,CRO,38,88,198,Jobb,Kétkezes,14,18,+0.05,+0.09,94.9,8,13,5,8,0,4,3,1,19,57.9%,75.6%,50.2%,31.2%,2082,2086,1824,1900,,,not_validated
-100,Alexander Shevchenko,KAZ,25,79,188,Jobb,Kétkezes,13,16,-2.63,-1.12,104.5,13,19,7,10,6,8,0,1,30,62.2%,68.2%,45.3%,34.8%,2038,2127,1339,1839,,,not_validated
-101,Thiago Seyboth Wild,BRA,26,79,185,Jobb,Kétkezes,0,1,-2.88,-1.65,,6,10,1,5,5,5,0,0,14,64.2%,71.6%,47.0%,34.7%,1959,2251,1528,1693,,,not_validated
-102,Sebastian Korda,USA,26,81,196,Jobb,Kétkezes,12,6,+5.17,+3.06,98.5,22,18,17,13,5,5,0,0,40,60.5%,73.7%,53.4%,35.6%,2283,2137,1805,1931,,,not_validated
-103,Martin Damm,USA,23,,,Bal,,11,15,+3.05,-1.48,94.1,1,1,1,1,0,0,0,0,2,62.6%,80.3%,58.8%,24.9%,2048,1922,1636,1931,,,not_validated
-104,Lloyd Harris,RSA,29,80,193,Jobb,,3,2,+0.45,+2.11,,2,3,1,1,0,1,1,1,5,62.0%,72.1%,48.0%,34.0%,2215,2006,1666,1642,,,not_validated
-105,Jesper de Jong,NED,26,69,180,Jobb,Kétkezes,6,14,-2.56,-0.33,97.8,17,14,6,5,10,6,1,3,29,58.6%,74.2%,52.7%,35.5%,2029,2202,1499,1672,,,not_validated
-106,Yibing Wu,CHN,27,80,183,Jobb,,8,11,+0.05,-0.15,96.8,5,5,5,5,0,0,0,0,10,65.3%,66.9%,53.3%,32.0%,2131,2116,1382,2094,,,not_validated
-107,Otto Virtanen,FIN,25,81,193,Jobb,Kétkezes,,,,,,4,7,1,3,2,4,1,0,9,58.4%,70.9%,48.9%,35.8%,1988,1959,1816,2018,,,not_validated
-108,Hugo Dellien,BOL,33,74,180,Jobb,Kétkezes,1,2,+0.09,-3.94,,2,9,0,3,2,5,0,1,11,69.7%,63.0%,48.7%,33.4%,1737,2200,1378,1591,,,not_validated
-109,Corentin Moutet,FRA,27,70,180,Bal,Kétkezes,10,19,-1.43,+2.17,,33,26,19,15,7,7,7,4,56,62.1%,67.9%,52.5%,38.8%,2108,2125,1638,1894,,,not_validated
-110,Lorenzo Sonego,ITA,31,76,191,Jobb,Kétkezes,13,19,+0.21,-1.76,102.3,25,29,19,20,1,5,5,4,54,66.3%,73.3%,51.2%,33.7%,2032,2036,1698,1882,,,not_validated
-111,Hugo Gaston,FRA,26,67,173,Bal,Kétkezes,6,11,-2.91,+0.63,101.7,8,18,5,8,3,9,0,1,26,57.0%,66.2%,47.2%,36.8%,1992,2108,1574,1906,,,not_validated
-112,Jan Choinski,GBR,30,80,196,Jobb,,3,9,-1.06,-1.39,98.1,0,1,0,1,0,0,0,0,1,67.0%,74.6%,35.5%,31.4%,1785,2238,1572,1718,,,not_validated
-113,Dalibor Svrcina,CZE,24,67,178,Jobb,Kétkezes,7,9,-3.50,+3.47,105.0,4,4,4,3,0,1,0,0,8,63.7%,60.2%,49.0%,38.3%,2130,2083,1422,1841,,,not_validated
-114,Nicolas Mejia,COL,26,77,185,Jobb,,2,4,-1.03,-2.08,,1,4,0,3,1,1,0,0,1,57.4%,58.1%,47.8%,25.0%,1972,2092,1630,1557,,,not_validated
-115,Henrique Rocha,POR,22,,,Jobb,,0,3,-2.63,-4.12,,3,1,0,0,3,1,0,0,3,61.9%,67.3%,56.2%,32.8%,2101,2095,1415,1430,,,not_validated
-116,Clement Chidekh,FRA,25,,,Jobb,,,,,,,0,1,0,1,0,0,0,0,1,54.5%,73.3%,44.0%,29.3%,2031,1746,1591,2020,,,not_validated
-117,Nishesh Basavareddy,USA,21,69,180,Jobb,Kétkezes,3,6,-0.93,-1.15,,9,15,9,11,0,1,0,3,24,57.3%,69.4%,50.4%,33.5%,2110,2093,1452,2004,,,not_validated
-118,Christopher Oconnell,AUS,32,78,183,Jobb,Egykezes,5,8,-2.21,-2.86,,13,20,10,12,3,5,0,3,33,59.9%,69.0%,49.1%,33.9%,2108,1995,1671,1892,,,not_validated
-119,Gustavo Heide,BRA,24,,,Jobb,,0,1,+0.46,-3.97,,1,2,0,0,1,2,0,0,3,55.6%,77.7%,53.7%,30.5%,1862,2192,1420,1619,,,not_validated
-120,Pedro Martinez,ESP,29,76,185,Jobb,Kétkezes,3,9,-3.91,-3.52,93.9,16,27,7,13,7,11,2,3,41,68.4%,62.0%,46.0%,36.5%,2004,2075,1408,1802,,,not_validated
-121,Jurij Rodionov,AUT,27,86,191,Bal,,2,5,-2.25,0.00,,3,2,2,2,1,0,0,0,1,46.6%,70.4%,45.2%,20.4%,2075,2093,1628,1863,,,not_validated
-122,Dane Sweeny,AUS,25,63,170,Jobb,,3,5,-2.04,-0.37,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1972,1701,1728,1471,,,not_validated
-123,Valentin Royer,FRA,25,83,188,Jobb,,5,21,-2.54,-0.87,95.3,10,11,9,9,0,1,1,1,21,63.7%,72.6%,53.9%,34.5%,2048,2164,1581,1738,,,not_validated
-124,Sebastian Ofner,AUT,30,81,191,Jobb,Kétkezes,3,7,+0.56,-1.05,,9,14,0,6,7,6,2,2,23,53.2%,76.6%,51.8%,32.3%,1872,2169,1695,2014,,,not_validated
-125,Rei Sakamoto,JPN,20,,,Jobb,,4,7,+1.33,-3.02,99.4,0,3,0,3,0,0,0,0,2,65.8%,67.3%,52.9%,28.1%,2199,2024,1508,1700,,,not_validated
-126,Emilio Nava,USA,24,74,183,Jobb,,5,12,-1.44,-2.46,94.6,6,6,5,5,1,1,0,0,12,61.2%,75.0%,46.6%,35.2%,2009,2207,1467,1791,,,not_validated
-127,Borna Gojo,CRO,28,89,196,Jobb,Kétkezes,2,2,-0.36,-1.45,,0,5,0,1,0,4,0,0,5,65.7%,72.2%,50.4%,33.0%,2053,2088,1477,1950,,,not_validated
-128,Sho Shimabukuro,JPN,29,75,183,Jobb,,5,16,-1.76,-3.14,100.3,1,1,1,1,0,0,0,0,2,60.4%,67.2%,65.9%,36.4%,2016,1888,1705,1784,,,not_validated
-129,Alexei Popyrin,AUS,27,78,196,Jobb,Kétkezes,11,19,+1.43,-1.03,97.8,17,23,7,15,9,5,1,3,40,62.4%,73.9%,48.0%,34.6%,2082,2171,1550,1707,,,not_validated
-130,Max Alcala Gurri,ESP,24,,,Jobb,,,,,,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1539,2128,,,,,not_validated
-131,Shintaro Mochizuki,JPN,23,69,175,Jobb,Kétkezes,3,6,-3.03,+3.58,,4,6,3,5,0,0,1,1,9,51.5%,71.2%,47.1%,38.7%,2012,1940,1788,1480,,,not_validated
-132,Nikolas Sanchez Izquierdo,ESP,27,77,185,Jobb,,,,,,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1747,2098,1426,1394,,,not_validated
-133,Stefanos Sakellaridis,GRE,22,,,Jobb,,1,2,-1.72,-0.62,,2,2,0,2,2,0,0,0,1,49.2%,86.7%,58.1%,18.8%,2044,2047,1570,1698,,,not_validated
-134,Moise Kouame,FRA,17,,,Jobb,,4,9,-3.63,-0.87,103.5,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1897,1924,,1943,,,not_validated
-135,Grigor Dimitrov,BUL,35,80,191,Jobb,Egykezes,8,14,-0.22,-1.09,94.7,18,11,10,6,5,4,3,1,29,59.2%,76.1%,52.5%,37.5%,2226,2142,1853,1969,,,not_validated
-136,Francisco Comesana,ARG,26,71,178,Jobb,Kétkezes,7,15,-1.69,-1.01,97.5,19,23,7,11,12,10,0,2,41,61.2%,74.3%,46.6%,35.7%,1989,2139,1479,1660,,,not_validated
-137,Laslo Djere,SRB,31,82,188,Jobb,Kétkezes,1,5,-3.30,-1.31,,13,13,0,3,12,6,1,4,26,61.4%,73.4%,52.7%,35.9%,2040,2234,1516,1867,,,not_validated
-138,Aleksandar Vukic,AUS,30,84,188,Jobb,Kétkezes,4,13,-3.49,-3.12,94.2,15,29,13,21,1,4,1,4,42,58.6%,72.6%,49.8%,32.7%,2064,1922,1604,1819,,,not_validated
-139,Federico Cina,ITA,19,,,Jobb,,2,10,-2.95,-2.66,94.0,2,4,1,2,1,2,0,0,6,69.0%,68.2%,47.2%,30.3%,2050,2094,1495,1809,,,not_validated
-140,Giovanni Mpetshi Perricard,FRA,23,102,201,Jobb,Egykezes,7,19,+1.46,-5.91,97.1,19,26,16,17,2,6,1,3,44,67.1%,78.2%,53.0%,26.1%,2005,2091,1661,1834,,,not_validated
-141,Matej Dodig,CRO,21,,,Jobb,,0,1,-0.33,-2.82,,0,2,0,1,0,1,0,0,1,63.5%,70.0%,43.5%,30.9%,1844,2210,1503,1834,,,not_validated
-142,Andrea Pellegrino,ITA,29,81,185,Jobb,,6,5,+0.15,+2.76,102.8,1,1,0,0,1,1,0,0,2,66.7%,64.2%,58.3%,38.6%,1692,2114,1361,1530,,,not_validated
-143,Pablo Llamas Ruiz,ESP,24,,,Jobb,,1,3,-1.68,-0.74,,2,3,0,1,2,2,0,0,5,67.3%,62.6%,51.9%,37.5%,2013,2223,1493,1694,,,not_validated
-144,Jerome Kym,SUI,23,87,198,Jobb,,3,2,-0.02,+1.52,105.8,4,4,2,3,2,1,0,0,6,61.6%,79.3%,52.8%,32.6%,2138,2128,1579,1932,,,not_validated
-145,Tristan Schoolkate,AUS,25,83,183,Jobb,Kétkezes,1,5,-0.54,-4.20,,6,9,6,8,0,1,0,0,15,58.7%,75.9%,48.4%,32.6%,2021,1884,1654,1716,,,not_validated
-146,Marton Fucsovics,HUN,34,82,188,Jobb,Kétkezes,9,16,-2.09,-0.36,96.0,19,13,9,7,6,4,4,2,28,60.5%,72.8%,48.9%,40.1%,2123,2097,1756,1877,,,not_validated
-147,Ilia Simakin,RUS,23,,,Jobb,,0,1,-1.69,-3.18,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2155,1704,,1708,,,not_validated
-148,Vilius Gaubas,LTU,21,,,Jobb,,4,8,-3.29,-0.82,98.8,3,3,1,2,2,1,0,0,3,73.6%,55.1%,53.1%,41.8%,1888,2068,1634,1708,,,not_validated
-149,Elmer Moller,DEN,23,73,183,Jobb,,4,3,-2.37,+0.92,,2,8,1,2,1,5,0,1,6,58.2%,57.9%,45.3%,37.3%,1807,2142,1472,1765,,,not_validated
-150,Michael Mmoh,USA,28,90,188,Jobb,Kétkezes,2,1,-0.70,+0.95,,2,3,2,2,0,1,0,0,5,66.7%,60.1%,43.9%,41.4%,2098,1995,1476,1790,,,not_validated
+rank,name,country,age,weight_kg,height_cm,hand,backhand,w_2026,l_2026,serve_plus_2026,return_plus_2026,pressure_plus_2026,wins_2025,losses_2025,hard_w_2025,hard_l_2025,clay_w_2025,clay_l_2025,grass_w_2025,grass_l_2025,serve_sample_2025,first_in_2025,first_won_2025,second_won_2025,return_won_2025,hard_elo_historical,clay_elo_historical,grass_elo_historical,indoor_elo_historical,sourced_style_note,sourced_style_url,mental_profile,tiebreak_w_2025,tiebreak_l_2025,deciding_set_w_2025,deciding_set_l_2025,first_set_lost_then_match_won_2025,first_set_won_then_match_lost_2025,vs_top20_w_2025,vs_top20_l_2025,vs_top50_w_2025,vs_top50_l_2025,completed_score_matches_2025
+1,Alexander Zverev,GER,29,89,198,Jobb,Kétkezes,64,16,+7.13,+2.27,105.4,57,25,33,15,18,7,6,3,80,72.1%,73.8%,53.5%,37.5%,2418,2499,1949,2146,Előzetes történeti: erős szervára és hosszú alapvonalpontokra támaszkodó játék,https://hughclarke.substack.com/p/zverev-vs-shelton-us-open-final-recap,not_validated,28,17,11,11,10,16,10,15,30,21,78
+2,Jannik Sinner,ITA,25,77,188,Jobb,Kétkezes,44,3,+8.32,+6.40,99.2,58,6,39,3,11,2,8,1,64,62.0%,79.4%,59.1%,42.7%,2638,2584,2149,2394,Előzetes történeti: agresszív fogadás és alapvonalbeli időelvétel,https://hughclarke.substack.com/p/thoughts-from-madrid,not_validated,15,3,4,2,5,2,25,3,38,4,61
+3,Carlos Alcaraz,ESP,23,73,183,Jobb,Kétkezes,46,6,+4.09,+7.32,103.0,71,9,38,7,22,1,11,1,80,64.3%,74.0%,56.8%,42.1%,2544,2614,2168,2295,Előzetes történeti: all-court agresszív változatos alapvonal és hálójáték,https://www.atptour.com/en/news/alcaraz-2024-insights,not_validated,15,10,16,4,7,5,24,6,39,8,77
+4,Ben Shelton,USA,24,88,193,Bal,Kétkezes,47,19,+5.72,-0.83,105.5,40,24,27,15,7,5,6,4,64,64.2%,75.3%,54.6%,33.3%,2401,2232,1876,2056,"Előzetes történeti: agresszív, szervára építő balkezes támadójáték",https://www.atptour.com/en/news/shelton-indian-wells-2025-feature,not_validated,25,20,8,4,7,21,7,11,20,16,61
+5,Daniil Medvedev,RUS,30,83,198,Jobb,Kétkezes,55,21,+2.04,+4.88,93.2,41,23,30,16,6,4,5,3,64,61.3%,75.9%,49.3%,39.9%,2394,2286,1838,2058,"Előzetes történeti: mélyről fogadó, lapos labdákkal kontrázó alapvonaljáték",https://www.atptour.com/en/news/medvedev-infosys-beyond-the-numbers-august-2023,not_validated,14,16,14,11,6,14,6,5,23,9,61
+6,Flavio Cobolli,ITA,24,74,183,Jobb,Kétkezes,36,25,-1.53,+0.49,114.5,34,27,14,19,14,5,6,3,58,55.9%,68.8%,53.4%,37.6%,2183,2311,1807,1814,,,not_validated,21,12,12,6,6,20,4,9,12,16,58
+7,Arthur Fils,FRA,22,82,185,Jobb,Kétkezes,41,18,+2.75,+1.42,107.3,22,11,12,7,10,4,0,0,32,62.5%,71.7%,53.3%,38.7%,2373,2426,1738,1944,Erőteljes támadó alapütések és kiemelt szervahatékonyság a 2026-os ATP-elemzésben.,https://www.atptour.com/en/news/fils-infosys-atp-beyond-the-numbers-august-2026,not_validated,8,7,8,5,6,7,5,4,10,6,30
+8,Frances Tiafoe,USA,28,86,188,Jobb,Kétkezes,45,23,+1.08,+1.03,104.1,26,23,14,14,11,7,1,2,47,56.1%,74.3%,51.7%,36.6%,2334,2221,1847,1844,,,not_validated,15,7,6,10,1,15,1,6,9,10,47
+9,Taylor Fritz,USA,29,86,196,Jobb,Kétkezes,46,18,+6.42,+0.91,101.2,53,23,37,17,3,4,13,2,74,64.0%,79.4%,54.5%,35.3%,2293,2167,1982,2101,Előzetes történeti: szerva + első támadótenyeres alapvonaljáték,https://www.atptour.com/en/news/russell-fritz-wimbledon-2025-coaches-corner,not_validated,26,22,13,8,7,17,8,10,28,17,73
+10,Rafael Jodar,ESP,20,70,191,Jobb,Kétkezes,43,22,-0.10,+4.75,103.6,2,1,2,1,0,0,0,0,3,68.7%,64.1%,50.0%,39.6%,2332,2388,1582,1895,,,not_validated,0,0,1,0,1,1,0,0,1,0,3
+11,Alex de Minaur,AUS,27,68,183,Jobb,Kétkezes,43,21,+0.54,+4.41,105.6,56,24,43,17,10,5,3,2,77,55.5%,73.4%,57.2%,41.1%,2323,2282,1884,2132,"Gyors pályalefedésből kezdeményező játékba átmenet és előrébb vett pályapozíció, 2026-os ATP-beszámoló alapján.",https://www.atptour.com/en/news/scorecards-de-minaur-hard-court-wins-leader,not_validated,14,8,7,9,5,19,7,16,22,20,78
+12,Novak Djokovic,SRB,39,80,187,Jobb,Kétkezes,22,10,+3.22,+1.92,92.5,39,11,25,7,9,3,5,1,50,66.6%,76.7%,55.7%,39.4%,2433,2458,2137,2228,,,not_validated,11,12,5,1,9,10,7,3,20,6,49
+13,Tommy Paul,USA,29,81,185,Jobb,Kétkezes,47,22,+2.95,+3.82,98.9,29,13,16,7,12,4,1,2,42,60.4%,72.4%,53.0%,39.9%,2292,2346,1849,2039,,,not_validated,11,12,11,6,6,10,2,5,7,8,42
+14,Jiri Lehecka,CZE,25,81,185,Jobb,Kétkezes,36,22,+3.53,+1.04,101.1,41,23,29,15,5,5,7,3,60,61.9%,75.9%,53.3%,35.4%,2327,2257,1841,1925,,,not_validated,14,12,8,10,5,17,7,12,17,16,59
+15,Jakub Mensik,CZE,21,83,193,Jobb,Kétkezes,35,18,+2.17,+1.70,106.1,33,20,23,13,6,4,4,3,50,59.4%,78.1%,49.5%,36.1%,2296,2298,1647,1845,,,not_validated,19,13,7,11,0,10,6,4,14,12,50
+16,Alejandro Davidovich Fokina,ESP,27,78,183,Jobb,Kétkezes,33,16,+1.94,+1.30,104.2,44,26,30,18,9,6,5,2,70,66.2%,68.4%,52.4%,39.2%,2324,2209,1825,1872,,,not_validated,15,17,12,7,8,19,9,10,22,17,65
+17,Felix Auger-Aliassime,CAN,26,88,193,Jobb,Kétkezes,34,17,+4.10,+0.48,103.3,50,24,41,15,3,5,6,4,74,67.0%,76.5%,52.1%,36.5%,2277,2213,1810,2177,Szervára épülő támadójáték; 2026-os fedett pályás szervaelemzés.,https://www.tennisabstract.com/blog/2026/02/11/what-does-felix-auger-aliassime-do-so-right-on-indoor-hard-courts/,not_validated,30,14,20,7,12,16,10,10,21,13,70
+18,Casper Ruud,NOR,27,80,183,Jobb,Kétkezes,32,20,+2.96,+2.91,98.8,39,16,25,11,14,5,0,0,53,66.1%,73.2%,53.1%,37.5%,2210,2437,1541,2044,"Előzetes történeti: nehéz topspines tenyeresből építkező alapvonaljáték, fejlődő sokoldalúság",https://www.atptour.com/en/news/ruud-miami-2024-feature,not_validated,11,3,9,6,3,11,4,4,14,10,51
+19,Brandon Nakashima,USA,25,83,188,Jobb,Kétkezes,35,23,+3.49,+0.22,98.6,32,29,21,19,5,7,6,3,61,66.0%,74.1%,52.3%,34.9%,2276,2115,1770,1861,,,not_validated,19,24,10,9,5,25,0,12,7,19,59
+20,Francisco Cerundolo,ARG,28,79,185,Jobb,Kétkezes,35,22,-0.45,+4.04,100.8,38,25,17,12,21,11,0,2,61,61.4%,68.4%,51.8%,40.6%,2225,2324,1698,1939,,,not_validated,15,11,10,9,6,15,6,11,13,15,61
+21,Luciano Darderi,ITA,24,81,183,Jobb,Kétkezes,37,27,-1.42,+0.79,103.0,29,27,6,15,21,8,2,4,56,60.3%,71.5%,52.0%,36.3%,2124,2364,1525,1502,,,not_validated,13,9,9,6,3,20,1,5,6,14,52
+22,Learner Tien,USA,20,72,180,Bal,Kétkezes,32,20,-0.51,+2.77,111.9,36,24,31,15,1,6,4,3,60,61.3%,69.2%,51.9%,37.5%,2283,2179,1577,1964,,,not_validated,16,9,8,7,8,21,4,7,12,16,57
+23,Andrey Rublev,RUS,29,74,188,Jobb,Kétkezes,32,23,+1.75,+1.85,99.1,34,25,22,17,8,6,4,2,59,60.1%,76.8%,51.7%,36.6%,2214,2355,1753,1896,Előzetes tenyeres-domináns alapvonalstílus; a forrás nem 2026-os többmeccses bizonyíték.,https://www.livetennis.com/players/andrey-rublev,not_validated,17,11,8,10,5,20,3,6,12,13,57
+24,Karen Khachanov,RUS,30,87,198,Jobb,Kétkezes,27,24,+3.44,+0.11,91.3,32,24,15,15,9,6,8,3,56,63.0%,73.9%,52.2%,37.5%,2202,2246,1777,1960,,,not_validated,15,14,11,15,5,14,2,12,8,16,54
+25,Alexander Bublik,KAZ,29,82,196,Jobb,Kétkezes,31,20,+2.84,-1.02,106.4,37,22,16,16,16,5,5,1,58,61.8%,78.7%,47.9%,34.2%,2196,2259,1876,2000,,,not_validated,13,10,8,8,6,18,8,8,17,14,58
+26,Valentin Vacherot,MON,28,83,193,Jobb,Kétkezes,26,20,+2.46,-1.02,107.9,15,4,12,2,3,2,0,0,15,64.4%,72.9%,52.7%,36.5%,2211,2187,1448,1967,,,not_validated,3,3,8,2,7,2,4,3,9,3,18
+27,Lorenzo Musetti,ITA,24,78,185,Jobb,Egykezes,30,15,+0.93,+2.49,100.4,45,22,26,17,19,4,0,1,67,65.6%,71.6%,55.4%,38.7%,2221,2436,1839,2022,"Változatos ritmusú, egykezes fonákos játék és nyesések; 2025–2026-os interjúk alapján.",https://www.usopen.org/en_US/news/articles/2025-08-30/lorenzo_musettis_journey_to_hardcourt_success_turns_corner_at_2025_us_open.html,not_validated,13,11,12,9,9,12,10,11,20,16,64
+28,Alexander Blockx,BEL,21,82,193,Jobb,Kétkezes,19,14,+2.04,+0.33,102.7,6,7,6,6,0,0,0,1,12,67.0%,74.3%,52.1%,36.8%,2165,2301,1580,2017,,,not_validated,1,6,2,3,2,5,0,0,0,2,13
+29,Tomas Martin Etcheverry,ARG,27,81,196,Jobb,Kétkezes,29,29,+1.89,-0.77,102.3,26,30,16,14,8,12,2,4,52,62.9%,72.0%,49.9%,36.1%,2097,2220,1431,1874,,,not_validated,13,16,10,9,5,23,1,7,6,18,55
+30,Hubert Hurkacz,POL,29,81,196,Jobb,Kétkezes,24,21,+4.35,-0.67,95.6,15,11,7,7,7,4,1,0,26,64.7%,77.5%,52.9%,33.4%,2299,2278,1903,1918,,,not_validated,7,5,3,5,1,10,2,6,8,7,25
+31,Alejandro Tabilo,CHI,29,74,188,Bal,Kétkezes,29,27,+1.94,+0.39,96.3,12,17,9,11,3,6,0,0,29,64.6%,69.8%,49.9%,33.2%,2168,2227,1621,1753,,,not_validated,4,11,6,8,4,11,2,7,5,9,29
+32,Arthur Fery,GBR,24,76,175,Jobb,Kétkezes,17,13,-0.15,+1.36,105.1,2,2,1,1,0,0,1,1,3,56.1%,59.9%,57.7%,38.1%,2131,1952,1787,1904,,,not_validated,0,0,0,0,0,2,0,0,1,1,4
+33,Ignacio Buse,PER,22,78,183,Jobb,Kétkezes,25,21,-2.37,+1.49,112.5,6,4,0,1,6,3,0,0,7,56.2%,72.2%,48.6%,35.1%,2096,2240,1560,1677,,,not_validated,1,0,4,1,2,4,0,1,0,1,10
+34,Luca Van Assche,FRA,22,71,178,Jobb,Kétkezes,16,13,-3.33,+1.35,106.5,1,1,1,1,0,0,0,0,2,61.6%,75.4%,47.4%,33.3%,2098,2220,1469,1992,,,not_validated,1,0,1,1,1,0,0,0,0,0,2
+35,Alex Michelsen,USA,22,79,193,Jobb,Kétkezes,33,24,+1.43,+2.54,101.1,25,27,18,18,2,5,5,4,51,65.7%,69.7%,48.9%,36.7%,2283,2075,1696,1892,,,not_validated,13,11,9,6,6,20,4,5,8,12,49
+36,Stefanos Tsitsipas,GRE,28,89,193,Jobb,Egykezes,30,23,+3.24,-0.49,93.2,22,18,14,11,7,5,1,2,38,59.2%,76.4%,53.2%,35.8%,2261,2367,1680,2029,,,not_validated,10,8,8,7,5,13,0,4,12,8,38
+37,Matteo Arnaldi,ITA,25,71,185,Jobb,Kétkezes,11,19,-3.73,+0.20,100.5,20,24,13,16,7,6,0,2,44,56.4%,71.9%,51.5%,34.9%,2071,2291,1531,1635,,,not_validated,12,7,8,10,4,18,3,9,7,13,44
+38,Ugo Humbert,FRA,28,72,188,Bal,Kétkezes,29,27,+2.33,+0.44,92.7,25,20,19,11,2,5,4,4,44,61.5%,74.1%,54.0%,34.9%,2142,2088,1771,2066,,,not_validated,11,8,2,8,2,12,1,5,7,11,40
+39,Jan-Lennard Struff,GER,36,91,193,Jobb,Kétkezes,24,21,+1.00,-0.91,101.0,15,23,9,13,3,7,3,3,35,58.4%,74.7%,48.7%,35.1%,2024,2147,1795,1965,,,not_validated,7,14,5,4,4,22,3,5,5,13,37
+40,Botic van de Zandschulp,NED,31,84,191,Jobb,Kétkezes,28,25,-1.56,+2.57,100.9,16,21,10,14,5,6,1,1,36,60.9%,73.3%,47.8%,37.1%,2252,2162,1571,1816,,,not_validated,6,12,6,7,2,18,2,5,6,11,35
+41,Nuno Borges,POR,29,77,185,Jobb,Kétkezes,31,26,+1.76,+1.14,90.0,30,31,18,17,8,10,4,4,57,66.7%,71.4%,50.5%,36.0%,2164,2182,1681,1893,,,not_validated,19,18,16,12,15,25,3,12,8,16,60
+42,Daniel Merida,ESP,22,80,188,Jobb,,21,13,-1.29,+2.69,102.2,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2223,2220,1444,1449,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+43,Matteo Berrettini,ITA,30,94,196,Jobb,Kétkezes,22,19,+3.16,-0.89,100.7,22,17,18,13,4,3,0,1,36,68.1%,75.9%,53.6%,33.3%,2156,2332,1899,1995,,,not_validated,13,12,5,7,4,11,3,8,8,12,37
+44,Zizou Bergs,BEL,27,84,185,Jobb,Kétkezes,21,23,-0.14,+1.27,96.8,31,27,25,19,2,4,4,4,52,57.4%,72.2%,50.3%,36.6%,2155,2099,1758,1823,,,not_validated,17,15,10,5,5,23,1,7,9,14,56
+45,Quentin Halys,FRA,30,84,191,Jobb,Kétkezes,26,23,+2.72,-1.02,105.0,12,24,7,16,3,4,2,4,36,58.9%,76.8%,49.6%,30.9%,2168,2234,1632,1847,,,not_validated,10,9,5,9,6,16,1,8,3,13,34
+46,Joao Fonseca,BRA,20,73,185,Jobb,Kétkezes,20,14,+1.16,+2.45,105.4,26,16,15,9,8,4,3,3,39,66.7%,72.5%,51.8%,36.6%,2324,2299,1634,2015,"Nagy sebességű és kockázatú agresszív alapütések, 2026-os ATP-cikk alapján.",https://www.atptour.com/en/news/fonseca-australian-open-2026-feature,not_validated,13,12,9,5,6,13,3,7,14,9,40
+47,Thiago Agustin Tirante,ARG,25,78,185,Jobb,,30,20,+2.02,-0.34,106.2,2,4,1,2,1,2,0,0,6,59.7%,71.5%,49.8%,37.3%,2117,2238,1485,1685,,,not_validated,1,2,1,1,0,3,0,0,1,2,6
+48,Arthur Gea,FRA,21,72,180,Jobb,,16,8,-0.50,+1.58,104.4,0,1,0,1,0,0,0,0,1,60.6%,72.1%,50.0%,22.6%,2357,2028,1578,1762,,,not_validated,0,0,0,0,0,1,0,0,0,0,1
+49,Mariano Navone,ARG,25,72,178,Jobb,Kétkezes,24,26,-2.85,+4.21,102.3,18,23,5,11,12,11,1,1,39,64.4%,65.3%,52.0%,40.7%,2084,2263,1335,1557,,,not_validated,5,5,4,12,3,13,2,7,5,12,41
+50,Tallon Griekspoor,NED,30,84,188,Jobb,Kétkezes,18,20,+2.29,-2.65,99.5,30,23,15,15,11,7,4,1,53,65.2%,74.6%,50.7%,32.4%,2095,2168,1711,2002,,,not_validated,23,14,13,10,9,15,4,8,13,11,51
+51,Denis Shapovalov,CAN,27,74,185,Bal,Egykezes,22,22,-1.08,+1.88,107.7,26,22,23,14,2,5,1,3,48,58.5%,72.2%,49.3%,38.2%,2226,2090,1613,2040,,,not_validated,11,15,8,5,4,16,4,7,8,13,46
+52,Cameron Norrie,GBR,31,82,188,Bal,Kétkezes,23,25,-0.59,+1.22,96.5,34,26,21,18,9,5,4,3,58,66.1%,70.0%,52.1%,36.1%,2152,2253,1711,1922,,,not_validated,23,17,15,10,10,21,5,8,12,15,58
+53,Sebastian Baez,ARG,25,70,170,Jobb,Kétkezes,22,26,-4.30,+1.40,105.7,17,24,3,12,14,11,0,1,41,71.7%,62.4%,47.3%,40.2%,2137,2230,1438,1559,,,not_validated,5,1,8,11,3,15,0,3,1,8,40
+54,Juan Manuel Cerundolo,ARG,25,74,183,Bal,Kétkezes,21,26,-1.64,-0.28,98.7,8,9,0,2,8,7,0,0,17,60.9%,68.3%,50.4%,37.7%,2053,2284,1451,1710,,,not_validated,3,1,5,6,2,6,2,1,3,5,17
+55,Raphael Collignon,BEL,24,86,191,Jobb,,14,16,+0.02,-1.50,107.0,9,11,8,6,1,4,0,1,16,65.0%,72.7%,41.8%,34.8%,2046,2272,1594,2048,,,not_validated,3,5,5,3,2,9,3,1,5,3,19
+56,Adolfo Daniel Vallejo,PAR,22,76,185,Jobb,,15,17,-2.21,+2.01,94.5,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2070,2222,1425,1520,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+57,Jaime Faria,POR,23,78,188,Jobb,,15,14,-0.85,-0.63,100.4,5,10,1,2,4,7,0,1,13,59.3%,74.4%,45.0%,34.4%,2140,2232,1710,1548,,,not_validated,3,3,2,3,1,9,0,1,0,3,15
+58,Arthur Rinderknech,FRA,31,87,196,Jobb,Kétkezes,18,22,+3.04,-0.80,92.8,27,29,15,18,6,7,6,4,54,63.1%,75.5%,49.7%,31.8%,2134,2157,1696,1829,,,not_validated,15,19,13,6,6,25,8,8,13,14,54
+59,Rinky Hijikata,AUS,25,72,178,Jobb,Kétkezes,18,22,-1.97,-0.04,105.0,8,18,7,11,0,4,1,3,26,61.3%,66.1%,49.7%,34.0%,2116,1918,1683,1838,,,not_validated,3,3,3,4,0,14,0,4,2,8,26
+60,Tomas Machac,CZE,26,73,183,Jobb,Kétkezes,18,19,-1.25,+0.51,104.6,23,19,18,12,2,5,3,2,41,61.2%,72.6%,53.0%,36.0%,2195,2214,1639,1933,,,not_validated,11,9,7,6,2,12,1,5,7,8,37
+61,Adrian Mannarino,FRA,38,78,180,Bal,Kétkezes,21,29,-2.32,-1.29,107.6,13,15,9,12,1,1,3,2,28,58.6%,72.0%,52.6%,36.3%,2072,1745,1735,1844,,,not_validated,5,10,1,3,1,13,2,6,5,10,27
+62,Mattia Bellucci,ITA,25,76,175,Bal,Kétkezes,13,21,-1.10,-1.38,100.2,12,17,7,10,2,4,3,3,29,59.1%,71.0%,50.4%,35.4%,2179,2054,1715,1824,,,not_validated,3,8,1,3,1,13,2,3,4,8,27
+63,Fabian Marozsan,HUN,27,74,185,Jobb,Kétkezes,22,24,-0.15,-0.26,98.5,26,26,17,17,7,6,2,3,49,64.2%,71.3%,53.1%,35.5%,2112,2168,1642,1848,,,not_validated,11,18,9,7,2,20,3,7,12,19,51
+64,Miomir Kecmanovic,SRB,27,74,183,Jobb,Kétkezes,16,26,-0.10,-0.19,98.2,24,28,20,19,2,6,2,3,49,61.7%,72.4%,50.0%,36.6%,2026,2181,1627,1784,,,not_validated,12,15,10,16,7,15,1,6,11,15,52
+65,Camilo Ugo Carabelli,ARG,27,82,185,Jobb,Kétkezes,15,22,-3.44,-1.38,102.8,19,25,5,11,14,11,0,3,44,61.1%,66.7%,47.7%,36.5%,1954,2274,1379,1604,,,not_validated,6,11,9,4,6,19,0,5,4,11,39
+66,Facundo Diaz Acosta,ARG,25,74,183,Bal,Kétkezes,3,7,-1.19,-0.26,97.9,3,5,3,2,0,3,0,0,8,62.4%,69.8%,46.8%,36.1%,1884,2285,1343,1490,,,not_validated,1,2,1,2,1,2,0,0,2,0,7
+67,Yannick Hanfmann,GER,35,86,193,Jobb,Kétkezes,23,23,+1.86,-1.40,106.6,12,13,8,6,4,5,0,2,23,67.2%,70.1%,52.6%,35.4%,2106,2234,1626,1849,,,not_validated,2,7,6,4,4,11,0,6,4,10,25
+68,Ethan Quinn,USA,22,81,191,Jobb,Kétkezes,12,15,+0.30,+0.11,95.2,12,18,6,12,4,4,2,2,30,61.7%,69.7%,50.6%,34.9%,2189,2068,1718,1854,,,not_validated,6,7,3,2,2,17,0,5,3,12,29
+69,Vit Kopriva,CZE,29,69,178,Jobb,,19,21,-2.96,+0.74,99.4,9,12,2,5,7,6,0,1,21,60.8%,66.9%,48.1%,37.1%,1980,2171,1565,1695,,,not_validated,0,4,6,2,4,11,0,2,3,4,20
+70,Jaume Munar,ESP,29,76,183,Jobb,Kétkezes,16,18,+0.03,+2.20,103.1,31,27,22,16,6,8,3,3,54,63.7%,72.1%,50.8%,38.8%,2192,2150,1586,1788,,,not_validated,6,12,10,14,6,23,7,9,15,17,56
+71,Martin Landaluce,ESP,20,79,193,Jobb,Kétkezes,12,17,-0.89,+0.60,101.3,1,8,1,6,0,2,0,0,8,63.1%,72.4%,43.8%,31.4%,2119,2117,1614,1705,,,not_validated,1,2,1,1,1,5,0,1,0,2,8
+72,Daniel Altmaier,GER,28,80,188,Jobb,Egykezes,19,28,-1.92,-1.21,109.1,22,28,15,18,6,7,1,3,50,60.4%,72.4%,47.3%,33.9%,1991,2184,1603,1875,,,not_validated,9,13,8,7,3,24,4,8,8,14,48
+73,Alex Molcan,SVK,28,73,178,Bal,,14,10,+0.38,+1.87,100.3,1,0,1,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2093,2228,1630,1827,,,not_validated,1,0,0,0,0,0,0,0,0,0,1
+74,Roman Safiullin,RUS,29,74,185,Jobb,Kétkezes,8,9,+2.07,+0.88,95.5,7,17,6,11,0,3,1,3,24,63.1%,71.3%,52.0%,35.0%,2149,2262,1772,1900,,,not_validated,3,14,4,6,2,15,0,5,3,8,24
+75,Terence Atmane,FRA,24,80,193,Bal,,17,23,+1.96,-3.02,102.2,7,10,6,7,1,3,0,0,17,58.6%,74.0%,44.7%,35.8%,2210,2055,1477,1677,,,not_validated,1,1,2,3,1,9,2,2,3,2,16
+76,Pablo Carreno Busta,ESP,35,78,188,Jobb,Kétkezes,12,17,-1.16,+0.44,96.6,9,15,6,9,3,6,0,0,19,64.1%,70.6%,53.4%,35.0%,2188,2228,1518,1701,,,not_validated,5,3,1,5,1,14,0,7,0,12,24
+77,James Duckworth,AUS,34,82,183,Jobb,Kétkezes,14,20,-0.31,-3.08,100.0,8,12,7,7,0,2,1,3,20,58.2%,72.3%,53.3%,33.7%,2056,2034,1574,1772,,,not_validated,5,3,2,6,0,8,0,3,3,5,20
+78,Zachary Svajda,USA,23,70,175,Jobb,Kétkezes,11,15,-0.92,-2.39,98.1,2,3,2,3,0,0,0,0,5,61.3%,69.1%,48.2%,35.5%,2134,1884,1776,1578,,,not_validated,2,0,1,1,1,2,0,1,1,2,5
+79,Hamad Medjedovic,SRB,23,86,188,Jobb,Kétkezes,11,15,+0.03,-1.34,99.5,17,16,12,10,3,4,2,2,30,64.1%,73.2%,50.8%,35.1%,2025,2300,1600,1839,,,not_validated,11,6,4,5,1,11,3,5,7,8,30
+80,Roman Andres Burruchaga,ARG,24,80,183,Jobb,,12,14,-2.66,+3.42,94.2,3,4,0,0,3,4,0,0,7,65.4%,64.2%,51.0%,41.3%,1830,2224,1496,,,,not_validated,0,1,1,3,1,4,0,0,1,2,7
+81,Titouan Droguet,FRA,25,,,Jobb,,10,11,-1.55,-1.24,105.9,2,1,0,0,2,1,0,0,3,62.1%,66.2%,53.0%,41.5%,2208,2231,1613,1850,,,not_validated,0,0,0,1,0,0,0,0,0,0,3
+82,Kamil Majchrzak,POL,30,79,183,Jobb,Kétkezes,16,18,+0.16,+0.13,102.6,15,13,8,7,4,5,3,1,27,62.3%,72.1%,51.4%,37.0%,2123,2180,1818,1712,,,not_validated,8,7,3,5,2,9,1,3,5,4,27
+83,Aleksandar Kovacevic,USA,28,78,183,Jobb,Egykezes,15,26,+2.06,-5.82,102.9,13,23,11,16,2,5,0,2,36,58.3%,74.8%,49.0%,32.9%,2053,1998,1402,1796,,,not_validated,5,8,4,11,1,18,2,2,4,9,35
+84,Coleman Wong,HKG,22,,,Jobb,,9,10,+0.62,-1.74,104.6,9,6,9,5,0,1,0,0,11,63.7%,74.1%,53.3%,32.6%,2181,1791,1476,1734,,,not_validated,6,3,1,2,0,5,1,1,2,3,15
+85,Nikoloz Basilashvili,GEO,34,79,185,Jobb,,12,12,+0.65,-0.06,100.6,7,10,5,6,1,3,1,1,17,54.2%,76.1%,49.1%,35.8%,2113,2084,1620,1898,,,not_validated,5,6,0,3,0,6,1,1,1,4,14
+86,Kyrian Jacquet,FRA,25,65,175,Jobb,,8,11,-1.16,-1.60,104.1,2,2,2,1,0,1,0,0,4,56.5%,75.8%,47.3%,37.8%,2173,2071,1715,1771,,,not_validated,1,1,1,2,1,0,0,0,0,2,4
+87,Jacob Fearnley,GBR,25,79,183,Jobb,Kétkezes,5,10,-3.75,+0.62,98.3,16,21,6,12,7,5,3,4,35,61.2%,70.0%,47.1%,36.5%,2158,2051,1806,1896,,,not_validated,6,9,4,3,2,20,1,7,4,12,36
+88,Marco Trungelliti,ARG,36,78,178,Jobb,,9,13,-2.37,+1.24,98.0,0,1,0,0,0,1,0,0,1,68.4%,71.8%,44.4%,20.8%,1999,2192,1376,1483,,,not_validated,0,0,0,0,0,1,0,0,0,0,1
+89,Dino Prizmic,CRO,21,79,188,Jobb,Kétkezes,11,13,0.00,+1.21,95.9,5,6,3,4,2,2,0,0,9,60.4%,71.0%,49.2%,36.8%,2122,2321,1511,1865,,,not_validated,0,0,1,3,1,5,0,2,0,4,11
+90,Damir Dzumhur,BIH,34,68,175,Jobb,Kétkezes,12,19,-5.74,+0.84,107.9,21,27,6,12,15,12,0,3,44,66.9%,62.5%,53.8%,38.4%,2037,2146,1567,1755,,,not_validated,8,8,10,9,6,23,0,6,3,15,46
+91,Benjamin Bonzi,FRA,30,81,183,Jobb,Kétkezes,11,11,+1.04,+1.55,105.2,15,20,12,14,2,2,1,4,35,63.9%,70.4%,52.8%,34.8%,2101,2016,1735,1988,,,not_validated,8,8,7,7,5,13,3,0,7,8,33
+92,Toby Samuel,GBR,24,80,191,Jobb,,4,7,-0.30,-0.04,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2242,2060,1659,1881,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+93,Yunchaokete Bu,CHN,24,82,185,Jobb,,5,5,+1.77,-2.19,101.5,13,27,13,18,0,7,0,2,39,56.9%,73.1%,49.1%,34.3%,2124,1924,1718,1785,,,not_validated,5,18,2,8,1,19,0,8,1,16,40
+94,Jenson Brooksby,USA,26,82,188,Jobb,,15,23,-2.38,+0.76,96.1,21,15,10,11,6,1,5,3,36,62.3%,68.4%,51.4%,38.7%,2179,1995,1729,1785,,,not_validated,10,4,7,6,4,12,5,8,12,12,36
+95,Marcos Giron,USA,33,77,180,Jobb,Kétkezes,11,21,-0.41,-0.60,88.4,23,27,16,18,4,6,3,3,49,59.8%,70.8%,51.7%,35.9%,2045,1978,1695,1869,,,not_validated,14,10,7,14,3,18,2,6,7,18,50
+96,Zsombor Piros,HUN,27,68,180,Jobb,,0,1,-3.44,-1.69,,1,1,1,1,0,0,0,0,1,55.7%,55.1%,30.8%,40.0%,1931,2208,1544,1928,,,not_validated,1,0,0,0,0,1,0,0,0,0,2
+97,Adam Walton,AUS,27,86,188,Jobb,Kétkezes,9,18,-1.66,-1.28,93.6,13,20,11,16,2,2,0,2,33,61.6%,72.1%,51.1%,34.4%,2078,1814,1651,1621,,,not_validated,9,16,7,4,4,18,1,7,2,10,33
+98,Michael Zheng,USA,22,,,Jobb,,8,11,-2.54,+1.16,96.1,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2135,1899,1682,1826,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+99,Marin Cilic,CRO,38,88,198,Jobb,Kétkezes,14,18,+0.05,+0.09,94.9,8,13,5,8,0,4,3,1,19,57.9%,75.6%,50.2%,31.2%,2082,2086,1824,1900,,,not_validated,3,5,2,2,1,12,2,5,3,10,21
+100,Alexander Shevchenko,KAZ,25,79,188,Jobb,Kétkezes,13,16,-2.63,-1.12,104.5,13,19,7,10,6,8,0,1,30,62.2%,68.2%,45.3%,34.8%,2038,2127,1339,1839,,,not_validated,7,8,4,1,3,19,1,5,3,9,31
+101,Thiago Seyboth Wild,BRA,26,79,185,Jobb,Kétkezes,0,1,-2.88,-1.65,,6,10,1,5,5,5,0,0,14,64.2%,71.6%,47.0%,34.7%,1959,2251,1528,1693,,,not_validated,2,2,3,3,2,9,0,2,3,3,16
+102,Sebastian Korda,USA,26,81,196,Jobb,Kétkezes,12,6,+5.17,+3.06,98.5,22,18,17,13,5,5,0,0,40,60.5%,73.7%,53.4%,35.6%,2283,2137,1805,1931,,,not_validated,8,9,9,7,6,14,1,7,7,13,39
+103,Martin Damm,USA,23,,,Bal,,11,15,+3.05,-1.48,94.1,1,1,1,1,0,0,0,0,2,62.6%,80.3%,58.8%,24.9%,2048,1922,1636,1931,,,not_validated,1,0,0,0,0,1,0,1,0,1,2
+104,Lloyd Harris,RSA,29,80,193,Jobb,,3,2,+0.45,+2.11,,2,3,1,1,0,1,1,1,5,62.0%,72.1%,48.0%,34.0%,2215,2006,1666,1642,,,not_validated,3,3,0,0,0,1,0,3,2,3,5
+105,Jesper de Jong,NED,26,69,180,Jobb,Kétkezes,6,14,-2.56,-0.33,97.8,17,14,6,5,10,6,1,3,29,58.6%,74.2%,52.7%,35.5%,2029,2202,1499,1672,,,not_validated,11,8,5,4,4,11,1,4,5,8,30
+106,Yibing Wu,CHN,27,80,183,Jobb,,8,11,+0.05,-0.15,96.8,5,5,5,5,0,0,0,0,10,65.3%,66.9%,53.3%,32.0%,2131,2116,1382,2094,,,not_validated,2,1,4,2,3,3,1,2,3,3,9
+107,Otto Virtanen,FIN,25,81,193,Jobb,Kétkezes,,,,,,4,7,1,3,2,4,1,0,9,58.4%,70.9%,48.9%,35.8%,1988,1959,1816,2018,,,not_validated,4,3,2,1,1,6,0,1,1,3,11
+108,Hugo Dellien,BOL,33,74,180,Jobb,Kétkezes,1,2,+0.09,-3.94,,2,9,0,3,2,5,0,1,11,69.7%,63.0%,48.7%,33.4%,1737,2200,1378,1591,,,not_validated,2,3,2,2,1,4,0,1,0,4,9
+109,Corentin Moutet,FRA,27,70,180,Bal,Kétkezes,10,19,-1.43,+2.17,,33,26,19,15,7,7,7,4,56,62.1%,67.9%,52.5%,38.8%,2108,2125,1638,1894,,,not_validated,12,10,10,11,8,18,4,11,10,18,56
+110,Lorenzo Sonego,ITA,31,76,191,Jobb,Kétkezes,13,19,+0.21,-1.76,102.3,25,29,19,20,1,5,5,4,54,66.3%,73.3%,51.2%,33.7%,2032,2036,1698,1882,,,not_validated,15,17,9,13,7,20,1,15,6,23,54
+111,Hugo Gaston,FRA,26,67,173,Bal,Kétkezes,6,11,-2.91,+0.63,101.7,8,18,5,8,3,9,0,1,26,57.0%,66.2%,47.2%,36.8%,1992,2108,1574,1906,,,not_validated,1,2,2,5,2,12,0,2,0,7,22
+112,Jan Choinski,GBR,30,80,196,Jobb,,3,9,-1.06,-1.39,98.1,0,1,0,1,0,0,0,0,1,67.0%,74.6%,35.5%,31.4%,1785,2238,1572,1718,,,not_validated,0,0,0,1,0,0,0,0,0,1,1
+113,Dalibor Svrcina,CZE,24,67,178,Jobb,Kétkezes,7,9,-3.50,+3.47,105.0,4,4,4,3,0,1,0,0,8,63.7%,60.2%,49.0%,38.3%,2130,2083,1422,1841,,,not_validated,0,1,0,0,0,4,0,3,0,3,7
+114,Nicolas Mejia,COL,26,77,185,Jobb,,2,4,-1.03,-2.08,,1,4,0,3,1,1,0,0,1,57.4%,58.1%,47.8%,25.0%,1972,2092,1630,1557,,,not_validated,0,1,0,0,0,4,0,0,0,0,5
+115,Henrique Rocha,POR,22,,,Jobb,,0,3,-2.63,-4.12,,3,1,0,0,3,1,0,0,3,61.9%,67.3%,56.2%,32.8%,2101,2095,1415,1430,,,not_validated,2,0,2,0,1,1,1,0,1,0,4
+116,Clement Chidekh,FRA,25,,,Jobb,,,,,,,0,1,0,1,0,0,0,0,1,54.5%,73.3%,44.0%,29.3%,2031,1746,1591,2020,,,not_validated,0,0,0,0,0,1,0,0,0,0,1
+117,Nishesh Basavareddy,USA,21,69,180,Jobb,Kétkezes,3,6,-0.93,-1.15,,9,15,9,11,0,1,0,3,24,57.3%,69.4%,50.4%,33.5%,2110,2093,1452,2004,,,not_validated,3,3,3,1,2,13,0,4,2,7,24
+118,Christopher Oconnell,AUS,32,78,183,Jobb,Egykezes,5,8,-2.21,-2.86,,13,20,10,12,3,5,0,3,33,59.9%,69.0%,49.1%,33.9%,2108,1995,1671,1892,,,not_validated,5,9,4,4,1,18,0,5,1,11,31
+119,Gustavo Heide,BRA,24,,,Jobb,,0,1,+0.46,-3.97,,1,2,0,0,1,2,0,0,3,55.6%,77.7%,53.7%,30.5%,1862,2192,1420,1619,,,not_validated,2,2,0,2,0,1,0,0,0,0,3
+120,Pedro Martinez,ESP,29,76,185,Jobb,Kétkezes,3,9,-3.91,-3.52,93.9,16,27,7,13,7,11,2,3,41,68.4%,62.0%,46.0%,36.5%,2004,2075,1408,1802,,,not_validated,5,2,6,6,4,22,2,6,4,12,41
+121,Jurij Rodionov,AUT,27,86,191,Bal,,2,5,-2.25,0.00,,3,2,2,2,1,0,0,0,1,46.6%,70.4%,45.2%,20.4%,2075,2093,1628,1863,,,not_validated,0,2,2,0,1,2,0,1,0,1,5
+122,Dane Sweeny,AUS,25,63,170,Jobb,,3,5,-2.04,-0.37,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1972,1701,1728,1471,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+123,Valentin Royer,FRA,25,83,188,Jobb,,5,21,-2.54,-0.87,95.3,10,11,9,9,0,1,1,1,21,63.7%,72.6%,53.9%,34.5%,2048,2164,1581,1738,,,not_validated,7,10,4,4,3,10,1,4,3,7,20
+124,Sebastian Ofner,AUT,30,81,191,Jobb,Kétkezes,3,7,+0.56,-1.05,,9,14,0,6,7,6,2,2,23,53.2%,76.6%,51.8%,32.3%,1872,2169,1695,2014,,,not_validated,3,6,2,4,2,11,2,3,4,7,21
+125,Rei Sakamoto,JPN,20,,,Jobb,,4,7,+1.33,-3.02,99.4,0,3,0,3,0,0,0,0,2,65.8%,67.3%,52.9%,28.1%,2199,2024,1508,1700,,,not_validated,1,1,0,1,0,3,0,0,0,1,3
+126,Emilio Nava,USA,24,74,183,Jobb,,5,12,-1.44,-2.46,94.6,6,6,5,5,1,1,0,0,12,61.2%,75.0%,46.6%,35.2%,2009,2207,1467,1791,,,not_validated,4,1,1,2,1,4,0,5,0,5,12
+127,Borna Gojo,CRO,28,89,196,Jobb,Kétkezes,2,2,-0.36,-1.45,,0,5,0,1,0,4,0,0,5,65.7%,72.2%,50.4%,33.0%,2053,2088,1477,1950,,,not_validated,0,2,0,4,0,2,0,1,0,3,5
+128,Sho Shimabukuro,JPN,29,75,183,Jobb,,5,16,-1.76,-3.14,100.3,1,1,1,1,0,0,0,0,2,60.4%,67.2%,65.9%,36.4%,2016,1888,1705,1784,,,not_validated,1,0,0,0,0,1,0,0,1,0,2
+129,Alexei Popyrin,AUS,27,78,196,Jobb,Kétkezes,11,19,+1.43,-1.03,97.8,17,23,7,15,9,5,1,3,40,62.4%,73.9%,48.0%,34.6%,2082,2171,1550,1707,,,not_validated,14,8,7,10,4,13,5,8,6,12,39
+130,Max Alcala Gurri,ESP,24,,,Jobb,,,,,,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1539,2128,,,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+131,Shintaro Mochizuki,JPN,23,69,175,Jobb,Kétkezes,3,6,-3.03,+3.58,,4,6,3,5,0,0,1,1,9,51.5%,71.2%,47.1%,38.7%,2012,1940,1788,1480,,,not_validated,1,1,1,3,1,4,0,3,1,5,10
+132,Nikolas Sanchez Izquierdo,ESP,27,77,185,Jobb,,,,,,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1747,2098,1426,1394,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+133,Stefanos Sakellaridis,GRE,22,,,Jobb,,1,2,-1.72,-0.62,,2,2,0,2,2,0,0,0,1,49.2%,86.7%,58.1%,18.8%,2044,2047,1570,1698,,,not_validated,0,1,1,0,0,2,0,0,0,2,4
+134,Moise Kouame,FRA,17,,,Jobb,,4,9,-3.63,-0.87,103.5,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,1897,1924,,1943,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+135,Grigor Dimitrov,BUL,35,80,191,Jobb,Egykezes,8,14,-0.22,-1.09,94.7,18,11,10,6,5,4,3,1,29,59.2%,76.1%,52.5%,37.5%,2226,2142,1853,1969,,,not_validated,8,3,5,1,3,5,0,3,6,4,23
+136,Francisco Comesana,ARG,26,71,178,Jobb,Kétkezes,7,15,-1.69,-1.01,97.5,19,23,7,11,12,10,0,2,41,61.2%,74.3%,46.6%,35.7%,1989,2139,1479,1660,,,not_validated,11,15,6,7,4,21,2,5,6,11,41
+137,Laslo Djere,SRB,31,82,188,Jobb,Kétkezes,1,5,-3.30,-1.31,,13,13,0,3,12,6,1,4,26,61.4%,73.4%,52.7%,35.9%,2040,2234,1516,1867,,,not_validated,5,10,5,6,2,12,0,4,5,6,26
+138,Aleksandar Vukic,AUS,30,84,188,Jobb,Kétkezes,4,13,-3.49,-3.12,94.2,15,29,13,21,1,4,1,4,42,58.6%,72.6%,49.8%,32.7%,2064,1922,1604,1819,,,not_validated,9,14,9,13,2,25,0,9,5,14,44
+139,Federico Cina,ITA,19,,,Jobb,,2,10,-2.95,-2.66,94.0,2,4,1,2,1,2,0,0,6,69.0%,68.2%,47.2%,30.3%,2050,2094,1495,1809,,,not_validated,4,1,0,2,0,3,0,1,0,2,6
+140,Giovanni Mpetshi Perricard,FRA,23,102,201,Jobb,Egykezes,7,19,+1.46,-5.91,97.1,19,26,16,17,2,6,1,3,44,67.1%,78.2%,53.0%,26.1%,2005,2091,1661,1834,,,not_validated,22,20,5,8,3,21,3,7,7,17,43
+141,Matej Dodig,CRO,21,,,Jobb,,0,1,-0.33,-2.82,,0,2,0,1,0,1,0,0,1,63.5%,70.0%,43.5%,30.9%,1844,2210,1503,1834,,,not_validated,0,0,0,1,0,1,0,0,0,0,2
+142,Andrea Pellegrino,ITA,29,81,185,Jobb,,6,5,+0.15,+2.76,102.8,1,1,0,0,1,1,0,0,2,66.7%,64.2%,58.3%,38.6%,1692,2114,1361,1530,,,not_validated,0,1,1,1,1,0,0,0,0,1,2
+143,Pablo Llamas Ruiz,ESP,24,,,Jobb,,1,3,-1.68,-0.74,,2,3,0,1,2,2,0,0,5,67.3%,62.6%,51.9%,37.5%,2013,2223,1493,1694,,,not_validated,1,1,0,0,0,2,0,0,0,1,4
+144,Jerome Kym,SUI,23,87,198,Jobb,,3,2,-0.02,+1.52,105.8,4,4,2,3,2,1,0,0,6,61.6%,79.3%,52.8%,32.6%,2138,2128,1579,1932,,,not_validated,6,3,2,1,1,4,0,1,1,1,8
+145,Tristan Schoolkate,AUS,25,83,183,Jobb,Kétkezes,1,5,-0.54,-4.20,,6,9,6,8,0,1,0,0,15,58.7%,75.9%,48.4%,32.6%,2021,1884,1654,1716,,,not_validated,5,3,2,2,2,8,0,2,2,7,15
+146,Marton Fucsovics,HUN,34,82,188,Jobb,Kétkezes,9,16,-2.09,-0.36,96.0,19,13,9,7,6,4,4,2,28,60.5%,72.8%,48.9%,40.1%,2123,2097,1756,1877,,,not_validated,4,3,7,4,3,10,0,5,6,9,32
+147,Ilia Simakin,RUS,23,,,Jobb,,0,1,-1.69,-3.18,,0,0,0,0,0,0,0,0,0,n.a.,n.a.,n.a.,n.a.,2155,1704,,1708,,,not_validated,0,0,0,0,0,0,0,0,0,0,0
+148,Vilius Gaubas,LTU,21,,,Jobb,,4,8,-3.29,-0.82,98.8,3,3,1,2,2,1,0,0,3,73.6%,55.1%,53.1%,41.8%,1888,2068,1634,1708,,,not_validated,1,0,1,1,0,3,0,1,1,1,6
+149,Elmer Moller,DEN,23,73,183,Jobb,,4,3,-2.37,+0.92,,2,8,1,2,1,5,0,1,6,58.2%,57.9%,45.3%,37.3%,1807,2142,1472,1765,,,not_validated,1,0,2,2,2,6,0,3,1,3,10
+150,Michael Mmoh,USA,28,90,188,Jobb,Kétkezes,2,1,-0.70,+0.95,,2,3,2,2,0,1,0,0,5,66.7%,60.1%,43.9%,41.4%,2098,1995,1476,1790,,,not_validated,1,1,1,0,0,2,0,1,0,1,4
