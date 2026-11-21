@@ -1,8 +1,8 @@
-"""Minimal sourced-expert-archive importer. No analysis or player status inference.
+"""Source-backed expert observations for CURRENT ATP Top-100 players only.
 
-The canonical reviewed seed files live in research/expert_archives/. Database
-tables preserve all provenance and date/status labels, and must not be treated
-as an automatically refreshed injury, psychological or current-form feed.
+Historical articles/podcasts are research leads. Never treat past opinions as
+today's player abilities, internal mental states or validated predictions.
+Only reviewed CSV metadata and brief attributed paraphrases are imported.
 """
 from __future__ import annotations
 
@@ -11,6 +11,8 @@ import csv
 import sqlite3
 from datetime import date
 from pathlib import Path
+
+from .roster import ATPTop100, DEFAULT_ROSTER_PATH
 
 VALID_STATUSES = frozenset({
     "competitive_2026_atp_or_challenger",
@@ -21,7 +23,6 @@ VALID_STATUSES = frozenset({
 
 
 def _iso_date(value: str) -> str:
-    # Fail closed rather than accept malformed or untraceable historical dates.
     return date.fromisoformat(value).isoformat()
 
 
@@ -34,7 +35,7 @@ def _load_rows(path: Path) -> list[dict[str, str]]:
 
 
 class ExpertArchive:
-    """Local SQLite archive for source-linked historical tennis observations."""
+    """SQLite: validated Top100 roster plus historical, attributed observations."""
 
     def __init__(self, db_path: str = ":memory:") -> None:
         if db_path != ":memory:":
@@ -42,6 +43,15 @@ class ExpertArchive:
         self.db = sqlite3.connect(db_path)
         self.db.execute("PRAGMA foreign_keys = ON")
         self.db.executescript("""
+            CREATE TABLE IF NOT EXISTS atp_roster (
+                rank INTEGER PRIMARY KEY CHECK (rank BETWEEN 1 AND 100),
+                player TEXT NOT NULL UNIQUE,
+                country TEXT NOT NULL,
+                ranking_points INTEGER NOT NULL,
+                ranking_date TEXT NOT NULL,
+                main_draw_wins INTEGER NOT NULL,
+                main_draw_losses INTEGER NOT NULL
+            );
             CREATE TABLE IF NOT EXISTS expert_sources (
                 source_id TEXT PRIMARY KEY,
                 published_date TEXT NOT NULL,
@@ -81,12 +91,49 @@ class ExpertArchive:
         """)
         self.db.commit()
 
-    def import_directory(self, folder: str | Path) -> dict[str, int]:
+    def import_directory(
+        self,
+        folder: str | Path,
+        roster_path: str | Path = DEFAULT_ROSTER_PATH,
+    ) -> dict[str, int]:
+        """Import only players allowed by a dated, checked Top-100 roster.
+
+        Additional source references are permitted, but ONLY eligible players
+        receive a persistent player mention or observation record.
+        """
         folder = Path(folder)
+        roster = ATPTop100(roster_path)
         sources = _load_rows(folder / "sources.csv")
         players = _load_rows(folder / "player_mentions_2026_11_21.csv")
         observations = _load_rows(folder / "historical_observations.csv")
+        extra_sources = folder / "current_sources.csv"
+        extra_observations = folder / "current_atp_observations.csv"
+        if extra_sources.exists() and extra_observations.exists():
+            sources += _load_rows(extra_sources)
+            observations += _load_rows(extra_observations)
+        elif extra_sources.exists() != extra_observations.exists():
+            raise ValueError("Current sources and observations must be imported together")
+
+        accepted_players = [p for p in players if roster.eligible(p["player"])]
+        accepted_obs = [o for o in observations if roster.eligible(o["player"])]
+        accepted_names = {p["player"] for p in accepted_players} | {
+            o["player"] for o in accepted_obs
+        }
+
         with self.db:
+            # Rebuild scope on every import. This also removes legacy records
+            # for now-ineligible players from an existing persistent DB.
+            self.db.execute("DELETE FROM expert_observations")
+            self.db.execute("DELETE FROM expert_player_mentions")
+            self.db.execute("DELETE FROM atp_roster")
+            for player in roster.players:
+                self.db.execute(
+                    """INSERT INTO atp_roster VALUES (?,?,?,?,?,?,?)""",
+                    (
+                        player.rank, player.name, player.country, player.ranking_points,
+                        player.ranking_date, player.main_draw_wins, player.main_draw_losses
+                    )
+                )
             for row in sources:
                 _iso_date(row["published_date"])
                 self.db.execute(
@@ -96,41 +143,54 @@ class ExpertArchive:
                         "content_access", "rights_note"
                     ))
                 )
-            for row in players:
+            for row in accepted_players:
                 _iso_date(row["status_as_of"])
                 if row["status"] not in VALID_STATUSES:
                     raise ValueError(f"unknown status for {row['player']}: {row['status']}")
                 self.db.execute(
-                    """INSERT OR IGNORE INTO expert_player_mentions VALUES (?,?,?,?,?,?,?)""",
+                    """INSERT INTO expert_player_mentions VALUES (?,?,?,?,?,?,?)""",
                     tuple(row[k] for k in (
                         "player", "source_id", "status", "status_evidence",
                         "status_source_url", "note", "status_as_of"
                     ))
                 )
-            for row in observations:
+            for row in accepted_obs:
                 _iso_date(row["observation_date"])
                 self.db.execute(
-                    """INSERT OR IGNORE INTO expert_observations VALUES (?,?,?,?,?,?,?,?,?,?)""",
+                    """INSERT INTO expert_observations VALUES (?,?,?,?,?,?,?,?,?,?)""",
                     tuple(row[k] for k in (
                         "observation_id", "source_id", "player", "observation_date",
                         "category", "paraphrase_hu", "attribution", "verification",
                         "usable_as_hypothesis", "recency"
                     ))
                 )
-        return {"sources": len(sources), "players": len(players), "observations": len(observations)}
+        return {
+            "roster": len(roster.players),
+            "sources": len(sources),
+            "player_mentions": len(accepted_players),
+            "observations": len(accepted_obs),
+            "excluded_mentions": len(players) - len(accepted_players),
+            "excluded_observations": len(observations) - len(accepted_obs),
+        }
+
+    def get_roster(self) -> list[tuple[int, str, int, str]]:
+        return self.db.execute(
+            """SELECT rank,player,ranking_points,ranking_date
+               FROM atp_roster ORDER BY rank"""
+        ).fetchall()
 
     def get_status(self, player: str) -> list[tuple[str, str, str, str]]:
         """Snapshot labels, not present-day career determinations."""
         return self.db.execute(
-            """SELECT status, status_evidence, status_source_url, status_as_of
+            """SELECT status,status_evidence,status_source_url,status_as_of
                FROM expert_player_mentions WHERE player=? ORDER BY status_as_of DESC""",
             (player,)
         ).fetchall()
 
     def get_observations(self, player: str) -> list[tuple[str, str, str, str]]:
-        """Return attributed notes with date, verification and original source URL."""
+        """Attributed historical notes, their uncertainty and original link."""
         return self.db.execute(
-            """SELECT o.observation_date, o.paraphrase_hu, o.verification, s.url
+            """SELECT o.observation_date,o.paraphrase_hu,o.verification,s.url
                FROM expert_observations o
                JOIN expert_sources s ON s.source_id=o.source_id
                WHERE o.player=? ORDER BY o.observation_date DESC""",
@@ -142,21 +202,16 @@ class ExpertArchive:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Import historic cited tennis expert archives")
-    parser.add_argument(
-        "--folder", default="research/expert_archives",
-        help="Folder containing the reviewed expert CSV files",
-    )
-    parser.add_argument(
-        "--db", default="data/expert_archive.sqlite3",
-        help="Output local SQLite DB (gitignored, never commit credentials)",
-    )
+    parser = argparse.ArgumentParser(description="Import source-backed ATP Top-100 expert archive")
+    parser.add_argument("--folder", default="research/expert_archives")
+    parser.add_argument("--roster", default=str(DEFAULT_ROSTER_PATH))
+    parser.add_argument("--db", default="data/expert_archive.sqlite3")
     args = parser.parse_args()
     store = ExpertArchive(args.db)
     try:
-        counts = store.import_directory(args.folder)
-        print(f"Imported {counts['sources']} sources, {counts['players']} player mentions, "
-              f"{counts['observations']} historical observations into {args.db}")
+        counts = store.import_directory(args.folder, args.roster)
+        print("Imported: " + ", ".join(f"{k}={v}" for k, v in counts.items()))
+        print("Only current Top-100 ATP players are eligible for player records.")
     finally:
         store.close()
 
