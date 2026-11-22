@@ -1,6 +1,7 @@
 # ATP Intelligence — PROJECT_MASTER
 
 > A projekt központi, verziókezelt állapotdokumentuma. Az új beszélgetések kezdésekor először ezt a fájlt és a GitHub aktuális kódját kell elolvasni.
+> **ÚJ BESZÉLGETÉS INDÍTÓKÓDJA: `ATP-MASTER-150`** – [átadási útmutató és másolható kezdőüzenet](docs/ATP_MASTER_150_UJ_BESZELGETES_INDITO.md). A kód nem tárolja önmagában a régi beszélgetést; a GitHub-fájlokat kell hozzá elolvasni.
 >
 > **Frissítve:** 2026-11-21  
 > **Repo:** https://github.com/TBT8288/tbt-tennis-platform  
