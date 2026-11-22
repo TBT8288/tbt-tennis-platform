@@ -19,6 +19,8 @@
 - Szimulált tét esetén: nyereség `stake × (o−1)`, veszteség `−stake`, push/cancel = `0` a megfelelő fogadási szabály szerint; csak ténylegesen elérhető, nem késleltetett oddsokkal végzett hipotetikus napló értékelhető.
 - Piaci vizsgálat: margin, odds/státusz frissesség, provider delay, felfüggesztés, lehetséges settlement-eltérés, a modell kalibrációja és bizonytalanság. Ezek hiányakor `NO VALUE CLAIM`.
 
+[50 üres virtuális EV-naplósor](../research/templates/virtual_ev_naplo_50_ures_sor.csv) – csak sablon, nem tényleges fogadás.
+
 ## Tesztprotokoll
 1. Minden jelzés időben megelőzi a cél-eseményt és a kiválasztott oddsot hozzáférhetőnek rögzítjük.
 2. A megérzésből becsült `p_blind`, a statisztikai `p_model` és a kombinált `p_combined` külön naplózott (hiányzó érték hiányzik, nem 0).
