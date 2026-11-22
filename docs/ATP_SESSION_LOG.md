@@ -56,3 +56,14 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 - Felhasználó megerősítette: **„Cursor összekötve”**. A GitHub-integráció tényleges Cursor-oldali működését **még nem ellenőriztük**, ezért külön nincs `VERIFIED` státusz.
 - Elkészült a [ATP-READ-001 kizárólag olvasási ellenőrzőfeladat](tasks/ATP-READ-001_CURSOR_CONNECTION_CHECK.md). **Csak repo/branch/commit és dokumentált jelenlegi modullista**, nincs kódmódosítás, commit, PR, scraping vagy terminálfuttatás.
 - A Cursor első jelentését ide, a fő ChatGPT ATP-projektbe kell visszahozni. A GitHub `main` ágon történő írást/merge-et a felhasználói engedély és megfelelő branch-védelem nélkül továbbra sem engedélyezzük. A tényleges main-ág technikai branchvédelmét **nem állítottuk még be**.
+
+
+## 2026-11-22 – ATP-READ-001 Cursor első olvasási jelentés értékelése
+
+**Státusz: PASS (olvasási feladat), nincs implementációs ATP GO.**
+
+- A felhasználó bemásolta a Cursor `ATP-READ-001` olvasási jelentését. A Cursor saját állítása szerint `origin = https://github.com/TBT8288/tbt-tennis-platform.git`, `main` branch, lokális `e470bb517b978e805d7ff71cdc7f47f34a27cce3` commit; nem futtatott kódot, nem módosított fájlt, és nem nyitott Pull Requestet.
+- **Közvetlen GitHub-ellenőrzés ChatGPT-ből:** a jelzett `e470bb5` commit valóban létezik, és a korábbi `ATP-READ-001` átadási naplóbejegyzéshez tartozik. A repository neve, `main` alapértelmezett ága, valamint `atp_intelligence/probability.py`, `events.py`, `storage.py`, `legacy_research.py`, `tests/test_claude_adoption.py` és `app.py` létezése megerősítve.
+- A Cursor cél- és hiányosság-összefoglalója megfelel a GitHub fő projektállapotának: privát ATP férfi egyes; 2025–2026 relevanciaablak; Top150 tartós profil; a korai coach-momentumdetektor, appintegráció és validált előrejelzési előny nincs késznek nyilvánítva.
+- **Korlát:** a helyi munkakönyvtár változatlansága és a tényleges Cursor-oldali hozzáférés használata csak a felhasználó által átadott Cursor-jelentésből ismert; ezt a GitHub API nem tudja önmagában igazolni. A commit egyezése és a fájlok megléte viszont ellenőrzött.
+- **Következő ellenőrzési pont:** mielőtt a Cursor/Claude első érdemi kódolófeladatot kap, a GitHub `main` ágának branch-védelme/PR-korlátja beállítandó és ellenőrizendő. `ATP GO: <task_id>` szakmai feladatkiadás és a projektgazda külön jóváhagyása nélkül nincs Cursor/Claude kódmódosítás, adat-scraping vagy merge.
