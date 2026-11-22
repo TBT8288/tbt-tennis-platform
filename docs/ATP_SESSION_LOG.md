@@ -67,3 +67,11 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 - A Cursor cél- és hiányosság-összefoglalója megfelel a GitHub fő projektállapotának: privát ATP férfi egyes; 2025–2026 relevanciaablak; Top150 tartós profil; a korai coach-momentumdetektor, appintegráció és validált előrejelzési előny nincs késznek nyilvánítva.
 - **Korlát:** a helyi munkakönyvtár változatlansága és a tényleges Cursor-oldali hozzáférés használata csak a felhasználó által átadott Cursor-jelentésből ismert; ezt a GitHub API nem tudja önmagában igazolni. A commit egyezése és a fájlok megléte viszont ellenőrzött.
 - **Következő ellenőrzési pont:** mielőtt a Cursor/Claude első érdemi kódolófeladatot kap, a GitHub `main` ágának branch-védelme/PR-korlátja beállítandó és ellenőrizendő. `ATP GO: <task_id>` szakmai feladatkiadás és a projektgazda külön jóváhagyása nélkül nincs Cursor/Claude kódmódosítás, adat-scraping vagy merge.
+
+
+## 2026-11-22 – ATP TDI kutatási folytatás (94 → 105)
+- **Research PR #13** kizárólagos változtatások, `main` nem módosult. `research/player_profiles/ATP_TDI_TOP150_NORMALIZED_105_2026_11_22.csv`: **105 egyedi játékos**, **535 TDI-számérték**, **65 hétmutatós**, **40 kétmutatós**, **45 hiányzó**. A 11 új hétmutatós játékos külön forrásfájlban; a hiánylista `ATP_TDI_REMAINING_45_RESEARCH_QUEUE_2026_11_22.csv`.
+- A 2025-ben publikált gördülő 52 hetes források **9 játékosnál esetleg 2024-es mérkőzést tartalmaznak**, ezért az új egységes CSV-ben `EXCLUDE_DIRECT_PREDICTOR_POSSIBLE_2024_MATCHES` időbeli tiltójelzést kaptak. Ez a felhasználó által választott 2025–2026 prediktív ablakot védi.
+- A négy hiányzó TDI Top50 (Arthur Fery, Luca Van Assche, Daniel Merida, Arthur Gea) 2026-os ATP-torna eseménykontektsusa és Martin Damm Jr / édesapja névazonosítás 9 datált megfigyelésként mentve `ATP_TOP150_2026_FOUR_TOP50_CONTEXT_PLUS_DAMM_IDENTITY_2026_11_22.csv`; nem szabad ebből mentális diagnózist csinálni.
+- Teljes forrásjegyzék, bemutatás és minőségi korlát: `research/player_profiles/ATP_TDI_105_PLAYER_AND_TOP50_CONTEXT_RESEARCH_2026_11_22.md`.
+- Következő: 45/150 még hiányzó, forrásolt TDI érték, a meglévő 40 részleges játékos további öt mutatója; 2025/26 egyedi meccsszintű helyzetvalidáció; **nem módosult a forrás `main` és a fejlesztési PR #14**.
