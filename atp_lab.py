@@ -7,6 +7,7 @@ This is not an empirically validated live-prediction or mental-state detector.
 from __future__ import annotations
 
 import os
+import sqlite3
 from datetime import date
 
 import streamlit as st
@@ -14,6 +15,7 @@ import streamlit as st
 from atp_intelligence.api_tennis import TennisAPIClient, TennisAPIError
 from atp_intelligence.player_data import Top150Profiles, TwoSeasonH2H
 from atp_intelligence.probability import game_win_probability
+from atp_intelligence.live_snapshots import LiveSnapshotStore
 
 st.set_page_config(page_title="ATP Intelligence – Privát Lab", page_icon="🎾", layout="wide")
 st.title("🎾 ATP Intelligence – Privát teniszlabor")
@@ -99,7 +101,7 @@ with st.container():
     st.caption("Csak standard előnyös gémekre. Tie-break/no-ad nem támogatott.")
 
 st.subheader("4. API-Tennis – opcionális, kézi élő adatlekérés")
-st.caption("Csak kattintásra kér adatot. Az API-kulcs a szerveren marad; a nyers kulcsot nem írjuk a képernyőre.")
+st.caption("Csak kattintásra kér adatot; a fogadási időbélyeggel ellátott pillanatképet helyi, Gitből kizárt SQLite-ba menti. Az API-kulcs a szerveren marad.")
 if st.button("ATP férfi egyes élő mérkőzések lekérése", type="primary"):
     if not os.environ.get("API_TENNIS_KEY"):
         st.warning("Nincs szerveroldali API_TENNIS_KEY. Az offline játékosprofilok és a B0 továbbra is használhatók.")
@@ -113,6 +115,12 @@ if st.button("ATP férfi egyes élő mérkőzések lekérése", type="primary"):
                 st.warning("A csomag válaszában nem található ATP férfi egyes eseménytípus.")
             else:
                 matches = client.livescore(event_type_key=str(found["event_type_key"]))
+                try:
+                    with LiveSnapshotStore() as snapshot_store:
+                        new_versions = sum(snapshot_store.ingest(m) for m in matches)
+                    st.success(f"ATP-adatpillanatképek helyileg mentve: {len(matches)} rekord, {new_versions} új állapotverzió.")
+                except (OSError, sqlite3.Error):
+                    st.warning("A helyi pillanatkép-mentés sikertelen; ellenőrizd a data/private könyvtár írhatóságát.")
                 st.write(f"ATP Singles API-rekord: {len(matches)}")
                 st.caption("Ez még nem jelent ellenőrzött ATP250/500/Masters/GS főtábla-besorolást. "
                            "A selejtezők és egyéb kategóriák későbbi ellenőrzést igényelnek.")
