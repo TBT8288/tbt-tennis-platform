@@ -95,3 +95,13 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 - A 72 naptári nap QA: **48** ATP day + charting azonos; **19** 2025 archívum-dátum hiánya (külön 19 fős dátumozott source QA); **5** archívum és charting eltérő nap (korabeli ATP/tornaszervezői/Tennis.com/L'Équipe bizonyítás alapján rekonciliált). Így a 96 egyedi charting sorban a 72 célkör meccseinek match-ID-je és napja is egyenként hivatkozva van: `research/player_profiles/ATP_MCP_96_UNIQUE_MATCHES_CANONICAL_DATES_OFFICIAL_IDS_FINAL_QA_2026_11_22.csv`. Nincs bizonyított pontonkénti eseményidő.
 - A 150 fős **V3 forrásátadás** osztályai: 105 TDI (735 mért szám), 26 MCP főtáblás, 1 főtáblás egyedi, 11 vegyes versenykörű season, 5 csak más scope, 2 csak selejtező. Tehát 150/150 kutatási forrás, de **nem 150/150 tiszta/validált főtáblás coaching-profil**.
 - A külön erre szolgáló [V4 átadás](../research/player_profiles/ATP_DATA_RESEARCH_V4_CANONICAL_HANDOFF_2026_11_22.md) az ELSŐ kutatási olvasmány új chatben. PR #13 tovább draft/open, nem merge; main és PR #14 kód változatlan. MCP CC BY-NC-SA 4.0. A TDI 9 régi rolling 52 hét potenciális 2024-es szennyezésre tiltva.
+
+
+## 2026-11-22 – 73/73 MCP charting ATP meccsazonosító ellenőrzés
+
+- A korábbi 73 lehetséges ATP/GS főtáblás Tennis Abstract MCP match charting hivatkozást **73/73 meccspár szintjén** hivatalos ATP 2025/26 archív eredménylistából match-stats és H2H URL-hez párosítottuk (30 + 22 + 21 kutatási rekord).
+- **73 rekord, de 72 egyedi mérkőzés**: Daniel Mérida–Marco Trungelliti 2026 Madrid Masters két játékosindex-hivatkozása ugyanarra a `/archive/2026/1536/ms098` match ID-re mutat.
+- Új kanonikus dokumentum: `research/player_profiles/ATP_MCP_ALL_73_OFFICIAL_MATCH_ID_CROSSWALK_CANONICAL_2026_11_22.csv`; audit: `research/player_profiles/ATP_MCP_2026_11_22_73_OF_73_OFFICIAL_MATCH_IDS_RESEARCH.md`.
+- **Év / kategória:** 21 db 2025, 52 db 2026; 20 GS, 25 M1000, 7 ATP500, 21 ATP250 charting-index rekord.
+- **QA maradék:** a konkrét charting dátumának és fordulójának a hivatalos *meccsnap/draw* megfeleltetése még külön folyamat; a torna évének/kategóriájának, résztvevőinek és match ID-jának egyenlősége igazolt. Nem használható kontrollálatlanul modellbe, MCP licenc nem kereskedelmi, mintavétel önkéntes.
+- A kutatási PR #13 külön ágán írva, `main` és PR #14 nem módosítva. **Új ATP szál** e CSV-kből folytassa, ne a 150 fős általános kutatást ismételje.
