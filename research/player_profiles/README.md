@@ -57,3 +57,10 @@ A működő appra a jelenlegi CSV **még nincs élőben bekötve**. A modell mom
 `python -m unittest discover -s tests -v` lefuttatja a `test_player_profile_register.py` validációit is: 150 helyes játékos, kor, kéz, forrás, Elo, nincs kitalált mentális címke és hiányzó adat nem nulla.
 
 [Notion Top150 teljes lista](https://app.notion.com/p/41ff603f0d2e81f08d2bd1d2966d9ed3).
+
+## 2026. november 22. – 150/150 kibővített scoutingdosszié
+
+[**Teljes friss scouting-index**](ATP_COACH_SCOUTING_INDEX_2026_11_22.md) | [150 egyesített profil](ATP_TOP150_SCOUTING_EGYBEN_2026_11_22.md) | [150 fős strukturált scouting-regiszter](ATP_COACH_SCOUTING_REGISTER_2026_11_22.csv) | [Tételes validációs hiánylista](ATP_TOP150_VALIDATION_STATUS_2026_11_22.csv)
+
+Mind a 150 játékoshoz van külön statisztikai elemzés és dátumhoz/forráshoz köthető rekord; 137 új, 2025–26-os forrásrészlet + 13 régebbi stílusforrás. A forrás hivatkozása NEM garantálja egy többmeccses, szakmailag validált stílus-/mentális profil meglétét (ilyen 0/150). Egyszeri eredményt és egy játékos önbevallott kedvenc ütését nem lehet önmagában megállapított technikai erősségnek tekinteni. A teljes, napi szintű H2H és edzői videós vizsgálat továbbra is hiányzik.
+
