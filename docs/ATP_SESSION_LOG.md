@@ -67,3 +67,18 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 - A Cursor cél- és hiányosság-összefoglalója megfelel a GitHub fő projektállapotának: privát ATP férfi egyes; 2025–2026 relevanciaablak; Top150 tartós profil; a korai coach-momentumdetektor, appintegráció és validált előrejelzési előny nincs késznek nyilvánítva.
 - **Korlát:** a helyi munkakönyvtár változatlansága és a tényleges Cursor-oldali hozzáférés használata csak a felhasználó által átadott Cursor-jelentésből ismert; ezt a GitHub API nem tudja önmagában igazolni. A commit egyezése és a fájlok megléte viszont ellenőrzött.
 - **Következő ellenőrzési pont:** mielőtt a Cursor/Claude első érdemi kódolófeladatot kap, a GitHub `main` ágának branch-védelme/PR-korlátja beállítandó és ellenőrizendő. `ATP GO: <task_id>` szakmai feladatkiadás és a projektgazda külön jóváhagyása nélkül nincs Cursor/Claude kódmódosítás, adat-scraping vagy merge.
+
+
+## 2026-11-22 – Tényleges kódolás és kutatási stop (PR #14)
+- Felhasználói irány: **minden beszerezhető fontos adat legyen átadva, ne legyen napi nulláról induló kutatási ciklus; kezdjük a kódolást**. A 150 master, 2 809 H2H pár és a PR #13 forrásjelöltek alapján `research/player_profiles/ATP_DATA_RESEARCH_FREEZE_2026_11_22.md` elmentve (PR #13 kutatási ág).
+- `feature/atp-data-api-core-2026-11-22` új feature branch a PR #13 commitjából (tartalmazza az ellenőrizendő adat-overlayeket). Draft [PR #14](https://github.com/TBT8288/tbt-tennis-platform/pull/14), **merge nélkül**.
+- Új: API-Tennis POST adapter / offline mockolás, API-kulcs URL-ből kizárása és sanitized hiba, 150-as player overlay olvasó, H2H formátum-normalizálás + historikus leakage tiltás, magyar offline-first `atp_lab.py` UI, SQLite `live_snapshots.py` saját megfigyelési idővel, automatikus tesztek.
+- Az első commitcsoport GitHub Actions tesztje **PASS** volt; utóbbi snapshot-commitok CI eredménye külön vizsgálandó. A tényleges élő provider-kulcs/fiók és live latency nem lett tesztelve, nem szabad PASS-nak jelenteni. A pontszintű történeti eseményidő továbbra nem elérhető a dokumentált mintából; ezt nem hamisítjuk meg.
+- Az eredeti `app.py`/Sportscore main verzió változatlan. Indítás: `python3 -m streamlit run atp_lab.py`. Forrás/korlát: [ATP_LAB_V1_KODOLASI_ATADAS_2026_11_22.md](ATP_LAB_V1_KODOLASI_ATADAS_2026_11_22.md).
+- A következő munka kódoló/tesztelő jellegű: #14 CI, API valós meccsséma és match/player/tournament ID crosswalk, valódi no-lookahead modellvalidáció; nem szükséges általános Top150 kutatási újraindítás.
+
+
+## 2026-11-22 – API snapshot, historikus B0 és Mac-indító (folytatás)
+- PR #14 további fájlok: `atp_intelligence/live_snapshots.py`, `tests/test_live_snapshots.py`; `atp_intelligence/service_baseline.py`, `tests/test_service_baseline.py`; `START_ATP_LAB.command`. A Streamlit UI megjeleníti a két játékos történeti szervastatisztikai B0-ját és kézi élő lekéréskor helyi pillanatképeket ment.
+- A CI-t új commitokon ellenőriztük: eddigi friss Python tesztek PASS; a végső PR-head állapot automatikus CI-jét újra kell olvasni. A vizuális/kattintásos Streamlit és az éles API fiók nem tesztelt.
+- Ez a beszélgetés **nem teljesült 100%-os összes funkcióként**; a hiányokat konkrét API és validációs tesztblokkolóként tartjuk nyilván, nem tereljük vissza a projektet korlátlan kutatásba.

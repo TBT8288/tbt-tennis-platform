@@ -1,0 +1,5 @@
+rank_at_2026_11_16,player,old_2026_season_fields,research_source,finding,status
+107,Otto Virtanen,missing,https://tennis-db.com/players/224/otto-virtanen,TennisDB 2026 ATP Tour main-draw W1-L5 and qualifying W7-L6 surfaced; verify matching event scope and dated snapshot before filling,reconciliation_required
+116,Clement Chidekh,missing,https://tennis-db.com/players/352/clement-chidekh,Different 2026 main-tour vs qualifying and season-summary coverage; do not infer zero W-L from missing row,reconciliation_required
+130,Max Alcala Gurri,missing,https://tennis-db.com/players/485/max-alcala-gurri,ATP Tour vs Challenger coverage needs reconciliation,reconciliation_required
+132,Nikolas Sanchez Izquierdo,missing,https://tennis-db.com/players/405/nikolas-sanchez-izquierdo,2026 qualifying W0-L1 surfaced; Challenger results exist separately; no reliable equivalent 2026 main-tour season stats established,reconciliation_required
