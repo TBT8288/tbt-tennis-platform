@@ -1,0 +1,13 @@
+player_name,claude_style_candidate,original_claude_label,hybrid_flag,source_summary_date,source_summary_url,underlying_evidence_url,validation_status,current_atp_profile_master_overwrite,context_note
+Jannik Sinner,Attacking Baseliner,agresszív alapvonal,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Carlos Alcaraz,All-Court,all-court,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Holger Rune,All-Court,all-court,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Alexander Zverev,Big Server,Big Server (hibrid),yes,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,hibrid
+Daniil Medvedev,Big Server,Big Server (hibrid),yes,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,hibrid
+Alex de Minaur,All-Court,All-court (előzőleg counterpuncher),no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,"Claude állítása szerint két forrás cáfolta a korábbi besorolást, de az eredeti források itt nem láthatók"
+Taylor Fritz,Attacking Baseliner,agresszív alapvonal,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Ben Shelton,Big Server,Big Server,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Frances Tiafoe,Attacking Baseliner,agresszív alapvonal,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Felix Auger-Aliassime,Attacking Baseliner,agresszív alapvonal,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Flavio Cobolli,Solid Baseliner,Solid Baseliner,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,
+Novak Djokovic,,None,no,2026-10-01,https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5,,historical_claude_candidate_unvalidated,no,a Claude összefoglalója kifejezetten nem rendelt hozzá univerzális stíluscímkét
