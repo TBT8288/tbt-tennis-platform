@@ -25,3 +25,7 @@
 
 ## 2026-11-22 – projektutasítás a chatmemória-csúszás megelőzésére
 - [Egyszeri ChatGPT-projektutasítás](ATP_PROJECT_INSTRUCTIONS.md) elkészült; a felhasználó az ATP Project utasításaihoz helyezheti, hogy új szálban az **ATP** hívószóra a csatlakozók ténylegesen olvassák be a GitHubot, a privát Library-beszélgetést és a Space-t. A projektutasítást az asszisztens nem tudta automatikusan módosítani a ChatGPT projekt UI-jában; ez egyszeri felhasználói beállítás.
+
+## 2026-11-22 – Teljes szöveg automatikus megőrzése: kötelező új feladat
+
+A felhasználó kérésére új, elsődleges adatbiztonsági követelmény: **minden új ATP-beszélgetés teljes szövegének automatizált, időbélyeges, forrásazonosított eltárolása**, nem csupán kivonat vagy kézi emlékeztető. Megvalósítási terv és egyértelmű ChatGPT webUI-korlát: [ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md](ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md). Kész alap-archívum van a 2026.11.22-ig áthozott szövegekhez; automatikus minden üzenetes archiválás **még nincs bekötve**. A javasolt megoldás a teljes üzenetet rögzítő saját privát chatfrontend + DB + backup; az Open WebUI ellenőrzött alternatíva, de a tényleges átállás nem történt meg.
