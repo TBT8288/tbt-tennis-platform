@@ -59,3 +59,8 @@ flowchart TD
 - A teljes beszélgetés **NE** kerüljön a jelenleg nyilvános GitHub repóba. Sem token, sem privát teljes chat.
 - Lokális tárolás esetén titkosított eszköz és offline/remote titkosított backup; felhasználói hitelesítés; lehetőleg ne tegyük nyilvánosan internetre a chat UI-t.
 - A használat megfelelőségét a kiválasztott backend és AI provider adatkezelési feltételeihez kell mérni.
+
+
+## 2026-11-22 – Platformfüggetlen memória követelmény – elsőbbség
+
+A felhasználó egyértelműen pontosította: **külön ATP-beszélgetőfelület önmagában NEM jó**. Csak akkor elfogadható, ha ugyanaz a tartós projektmemória a *natív ChatGPT-ből, Claude.ai-ból és Cursorból* is használható. **Ez felülírja a korábbi automatikus ajánlást, hogy azonnal Open WebUI-ra váltsunk.** Először a három kliens integrálhatóságát és a közös verziózott forrástárat bizonyítjuk. Részletes terv: [ATP_CROSS_AI_SHARED_MEMORY_MCP_ARCHITECTURE.md](ATP_CROSS_AI_SHARED_MEMORY_MCP_ARCHITECTURE.md). MCP a visszakeresés és engedélyezett írás szabványa, de a natív ChatGPT/Claude/Cursor összes üzenetének automatikus beolvasását/archiválását **nem** biztosítja magától.
