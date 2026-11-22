@@ -25,6 +25,8 @@
 ## Minden tényező rekordjának kötelező mezői
 `match_id`, `player_id`, `feature_id` (1..10), `value`, `units`, `evidence_type`, `source_url`, `source_timestamp_utc`, `ingested_at_utc`, `event_cutoff_utc`, `confidence`, `completeness`, `hypothesis_or_fact`, `opponent_context`, `data_window`. Ha a forrás a meccs kezdete után jött létre, **nem használható a meccs előtti előrejelzésben**.
 
+[20 üres pre-match felvételi sor](../research/templates/prematch_10_tenyezo_A_B_ures_sor.csv) – A és B játékos 10–10 tényezője, kizárólag hiányzó/üres mezőkkel.
+
 ## Jelentésformátum
 **A játékos:** tíz tényezőnként TÉNY – ELŐNY/HÁTRÁNY/HATÁS NEM IGAZOLT – forrás – hiány. **B játékos:** ugyanez; majd **matchup értékelés**, külön `NO PREDICTION` kimenet, ha a hiány miatt felelőtlen volna számszerű következtetést levonni.
 
