@@ -314,3 +314,11 @@ A több-AI-s közös forráshoz első konkrét Notion-csatlakozási tesztoldal: 
 - **Ellenőrzési határ:** az első körös CI sikeres volt; a folyamatos CI a PR új commitjai után újraellenőrzendő. Éles API smoke test/fiókvalószínűség/adatkésés nem történt. V1 matematikai B0 nem validált élő előrejelzés. Új modulok és használat: [ATP_LAB_V1_KODOLASI_ATADAS_2026_11_22.md](docs/ATP_LAB_V1_KODOLASI_ATADAS_2026_11_22.md).
 - A `main` **nem módosult**; PR #12 (külön B0), PR #13 (adatkutatás), PR #14 (kód + PR13 adatok) felhasználói jóváhagyásra várnak. A PR #13 és #14 kutatási átfedését merge előtt kezelni kell.
 - A következő szálban az **ATP** hívószóra azonnal #14 CI/PR és éles API contract ellenőrzés, NE az előzetes adatkeresés újraindítása.
+
+
+## 2026-11-22 – PR #14 további megvalósult V1
+- Hozzáadott `atp_intelligence/service_baseline.py`: 2025–2026 dátumzárolt első szerva%, első szervapontok és második szervapontok alapján külön történeti, **ellenfélhez nem korrigált** B0 szervapont-esély; unit tesztek.
+- `live_snapshots.py`: ugyanazon állapot duplikációjának SQLite-idempotens kezelése, helyi fogadási idő és forrásséma megőrzése; ebből **nem állítunk elő hamis pontidőbélyegű PointEvent-et**.
+- `atp_lab.py` ezeket megjeleníti; `START_ATP_LAB.command` egyszerű Mac/Terminal indítás.
+- GitHub Actions az új modult és teszteket több commithoz ellenőrizte, eddigi futások PASS; végső aktuális head CI-t mindig külön kérdezd le.
+- **A fő kódban továbbra nincs** API-key-vel igazolt live adatgyűjtés, teljes 150 fős mozgásos/mentális mérés, valódi predikciós edge és teljes mobil-PWA.
