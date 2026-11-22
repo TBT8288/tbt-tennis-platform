@@ -1,9 +1,9 @@
 # ATP Intelligence — PROJECT_MASTER
 
 > A projekt központi, verziókezelt állapotdokumentuma. Az új beszélgetések kezdésekor először ezt a fájlt és a GitHub aktuális kódját kell elolvasni.
-> **ÚJ BESZÉLGETÉS INDÍTÓKÓDJA: `ATP-MASTER-150`** – [átadási útmutató és másolható kezdőüzenet](docs/ATP_MASTER_150_UJ_BESZELGETES_INDITO.md). A kód nem tárolja önmagában a régi beszélgetést; a GitHub-fájlokat kell hozzá elolvasni.
+> **ÚJ BESZÉLGETÉS INDÍTÓKÓDJA: `ATP`** – [állandó új-beszélgetés protokoll](docs/ATP_START.md) és [tartós munkanapló](docs/ATP_SESSION_LOG.md). A teljes korábbi ATP(1).txt szöveges beszélgetés a tulajdonos privát **ATP – Privát projektarchívum** ChatGPT Space-ében érhető el. A hívószó az adatok **tényleges beolvasását** jelenti, nem automatikus teljes chatmemóriát.
 >
-> **Frissítve:** 2026-11-21  
+> **Frissítve:** 2026-11-22  
 > **Repo:** https://github.com/TBT8288/tbt-tennis-platform  
 > **Státusz:** meglévő Streamlit/RapidAPI/Gemini prototípus; coach-intelligence és predikciós rendszer tervezés alatt. A kódból még nem igazolt a valódi, előrejelző momentumfelismerés.
 
@@ -270,3 +270,10 @@ A régi ATP Live Prediction Lab korábbi tervében **három egymástól külön 
 9. [Tennis API felhasználási engedély = FELHASZNÁLÓ ÁLTAL KORÁBBAN ELLENŐRZÖTT ÉS ÚJRA MEGERŐSÍTETT, LEZÁRT](docs/ATP_TENNIS_API_ENGEDÉLY_ES_INTEGRACIO.md). A saját alkalmazásban való felhasználás és saját AI-elemzéssel kiegészítés engedélyének terjedelmét **nem kérdőjelezzük meg újra**. Az API provider **tényleges technikai csatlakoztatása** a Sportscore RapidAPI prototípustól független fejlesztési feladat. A saját privát alkalmazás az aktuális végső scope, nem SaaS.
 
 **Régi beszélgetésből tételesen még nem helyreállított elem:** a korábban említett **12 edzői tudásterület 48 konkrét jelének felsorolása**; a feltöltött ATP(1).txt-ben nincs meg. Ne találjunk ki 48 jelet és ne állítsuk, hogy ellenőriztük.
+
+
+## 2026-11-22 – ATP hívószó és tényleges privát eredeti szövegarchívum
+
+A felhasználó végleges projekt-hívószava **csak `ATP`**. A korábbi `ATP-MASTER-150` felülírt kód és nem használandó. **Kötelező indítási protokoll:** [docs/ATP_START.md](docs/ATP_START.md), [tartós munkanapló](docs/ATP_SESSION_LOG.md), [AGENTS.md](AGENTS.md). Az eredeti felhasználó által feltöltött `ATP(1).txt` **1006 soros szöveges archívuma** most már külön, owner-only hozzáféréssel megőrzött **ChatGPT Space: `ATP – Privát projektarchívum`** / `ATP – Eredeti beszélgetés teljes szövegarchívuma (ATP(1).txt)` oldalon is megtalálható; a jelenleg nyilvános GitHub repo **nem tartalmazza a privát beszélgetés teljes szövegét**. A feltöltött fájl eredeti SHA-256: `ffceb2da5985304084e7d4d26ad9982d260106ae31198eede17d503404d24f01`. A Space szöveges átírásának formázása eltérhet a bájtra azonos nyers TXT-től; hiányzó eredeti képi mellékleteket sem pótol automatikusan.
+
+**Folytonossági elv:** minden jelentős új döntés/implementáció után a releváns GitHub dokumentumokat, a `PROJECT_MASTER.md`-et és a `docs/ATP_SESSION_LOG.md`-et frissítjük; a tényleges GitHub commit és a validáció külön rögzítendő. A privát Space használatához az új beszélgetésben csatlakozó és jogosultság szükséges; a `ATP` szó önmagában nem képes platformszintű teljes, automatikus chatátvitelre. Ez a megoldás a ténylegesen rögzített forrásszövegből és döntésekből teszi lehetővé a folytatást, a hosszú szálak megismétlése nélkül.
