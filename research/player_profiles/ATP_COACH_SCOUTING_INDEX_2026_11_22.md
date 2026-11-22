@@ -47,3 +47,9 @@ Hiányzik a 150 játékos részletes 2025–2026-os ütésenkénti és rallyhoss
 - [Teljes kutatási értelmezés, források és adatminőségi határok](ATP_2026_11_22_KOVETKEZO_FORRASOLT_KUTATAS.md).
 
 **Védelmi szabály:** 2025–26 visszatekintő tracking mutatóit csak forrásdátummal és modellvalidációval használjuk; a 2026 júniusi 52 hetes adatot nem nevezzük 2026 novemberi aktuális formának. A 12 mérkőzést deduplikáció és provider player-ID egyeztetés nélkül tilos az összesített H2H-ba vakon beleszámolni. A korábbi 0/150 teljesen validált, többmeccses belső pszichológiai és részletes ütésenkénti profilstátusz változatlan.
+
+
+### 2026-11-22 – Második hivatalos TDI-kutatási hullám: további 14 játékos
+
+- [További 14 Top150 játékos (28 új mért tracking-adat)](ATP_TDI_INSIGHTS_NEW_14_2026_11_22.csv): ATP Doha 2026-02-18, Miami 2026-03-24, Indian Wells 2026-03-07, Róma 2026-05-06/09 és Halle 2026-06-17 dátumozott hivatalos ATP-médiaanyagok.
+- A korábbi 26 játékossal **összesen 40 különböző Top150-játékos, 80 kiválasztott és forráshivatkozott ATP/TDI-mezőérték** szerepel az új két kutatási fájlban. Ezek az adott dátum előtti **gördülő 52 hetes mérési ablakok**, nem 2026. novemberi élő forma, nem minden mező és nem validált mentális/biomechanikai profil. A forrásméréseket a modellben csak a tényleges adatmegfigyelési dátumhoz igazítva szabad használni.
