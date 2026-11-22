@@ -61,3 +61,29 @@ Mérkőzésfájl `match_date` mezője a napot jelöli, nem az adott pont vagy me
 **Igen, mint dátumozott és külön jelölt kutatási bemenet.** A 26 TDI-játékos nem egyenlő 26 teljesen, saját módszerrel függetlenül validált technikai/mentális profillal; a hiányzó 124 játékosra nincs hamis becslés. Az ATP/GS főtábla profilja és az egyes top150 találkozók automatikus frissítése **külön adatfeldolgozás**, nem végtelen podcast-keresés.
 
 **Változatlan projektirány:** saját privát alkalmazás, ATP+Grand Slam férfi egyes főtábla, aktuális+előző szezon (2026/25), külön A/B játékos, és csak validált/meghatározott bizonytalanságú jelzések.
+
+
+## Második ATP/TDI kutatási hullám – +14 fő, összesen 40 Top150-játékos
+
+Új forrásolt CSV: [ATP_TDI_INSIGHTS_NEW_14_2026_11_22.csv](ATP_TDI_INSIGHTS_NEW_14_2026_11_22.csv). A 26 fős első hullámmal a két fájl **40 külön játékost és 80 egyedi kiválasztott mérőszámértéket** tartalmaz. Az eredeti 26-os állítás az **első hullámra** igaz, nem az egész 2026-11-22-i kutatási csomagra.
+
+| Játékos | Dátum | Példa hivatalos TDI-mérések |
+|---|---|---|
+| Carlos Alcaraz | február 18. | tenyeres minőség 8,6; fogadás minőség 7,6 |
+| Jannik Sinner | március 24. | fogadás minőség 8,2; tenyeres minőség 8,8 |
+| Novak Djokovic | március 7. | szervaminőség 8,4; tenyeres minőség 8,6 |
+| Ben Shelton | június 17. | szervaminőség 8,9; védekezésből fordítás 29% |
+| Learner Tien | június 17. | védekezésből fordítás 36%; támadási konverzió 70% |
+| Felix Auger-Aliassime | június 17. | szervaminőség 8,5; fogadás minőség 7,0 |
+
+A fájl további játékosai: Valentin Royer, Alex Michelsen, Francisco Cerundolo, Lorenzo Sonego, Terence Atmane, Miomir Kecmanovic, Jenson Brooksby, Sebastian Baez.
+
+**Hivatalos források** (mind 2026-os megjelenésű 52 hetes rolling-ablakot tartalmazó ATP media PDF):
+- Doha február 18.: https://www.atptour.com/-/media/21b1f48ba90043f9a7c29311005f8d0e.pdf
+- Miami március 24.: https://www.atptour.com/-/media/e71f31162d764061a1c94d4c570d00cc.pdf
+- Indian Wells március 7.: https://www.atptour.com/-/media/2088c2c2c93541b5935d241d12c1a3db.pdf
+- Róma május 9.: https://www.atptour.com/-/media/4a3b45bac9184ce5aeb58204c929f5f8.pdf
+- Róma május 6.: https://www.atptour.com/-/media/54fb34f1d1df4283a2d225d26ae5fdbf.pdf
+- Halle június 17.: https://www.atptour.com/-/media/07ece44d82f1404cbdf3fc2f7df5673d.pdf
+
+A mért időablakok a publikáció napján értek véget, ezért **tilos** a későbbi novemberi játékosállapotot vagy a november 16–21-i Finals mérkőzéseit a februári/júniusi mérésbe beleképzelni. A különböző hónapokból vett rolling-52-week számokat a játékosok között első körben csak időbélyegzett **kutatási támpontként** kezeljük; az objektív, azonos napon és mintán végzett összehasonlítást még külön kell kialakítani.
