@@ -36,3 +36,8 @@ A felhasználó kérésére új, elsődleges adatbiztonsági követelmény: **mi
 - A külön UI-fejlesztés felfüggesztve addig, amíg a közös memória nem működik a natív ChatGPT/Claude/Cursor kliensekben.
 - [Platformfüggetlen memória/MCP terv](ATP_CROSS_AI_SHARED_MEMORY_MCP_ARCHITECTURE.md); ChatGPT aktuális Notion/GitHub plugin hozzáférése már működik, Claude/Cursor remote MCP hivatalos támogatása ismert, de a három kliens közös ATP-memória tényleges próba **még nincs meg**.
 - **Szigorú korlát:** natív ChatGPT Plus custom MCP támogatást nem tekintünk bizonyítottnak; a Notion/GitHub app csatorna elsődleges. MCP nem interceptál automatikusan teljes beszélgetéseket. Minden platform teljes beszélgetésrögzítése külön megoldandó.
+
+
+## 2026-11-22 – Első közös AI memória-kapu Notionban: LÉTREHOZVA ÉS CHATGPT-BŐL VISSZAOLVASVA
+
+Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · ATP – közös AI memória-kapu (ChatGPT / Claude / Cursor)](https://app.notion.com/p/420f603f0d2e81a28c89de2837019cde)** oldalt. Az új oldal `ATP-CROSSAI-001` verzió 1 tesztrekordot, az ATP indítókódot, a 2025–2026 időablakot, a lezárt Tennis API felhasználási engedélyt és a GitHub PROJECT_MASTER/ATP_START/SESSION_LOG forráshivatkozásokat tartalmazza. **ChatGPT Notion visszaolvasási ellenőrzés: PASS**, a rekord, évszabály és API-státusz megtalálható. **Claude: NOT TESTED, Cursor: NOT TESTED.** Ezeket a felhasználónak a megfelelő Notion kapcsolatok csatlakoztatása után ugyanazzal az oldal- és rekordteszttel kell kipróbálnia. A Notion oldalt nem tekintjük egyelőre automatikus, minden natív AI-üzenetet mentő archiválónak; arra külön capture-re van szükség.
