@@ -18,7 +18,7 @@
 | **12 edzői tudásterület és 48 megfigyelhető jel** | **Részben: a korábbi beszélgetésből a 12/48 követelmény visszakereshető; teljes tételes 48 jelre nincs ezen auditban lefuttatott elem-szintű egyezés** | Korábbi kontextus; PROJECT_MASTER említi a katalógust; Notion „01” fő kategóriákat sorol |
 | Pont/game/set/match előrejelzés, no-lookahead, log-loss/Brier, fals riasztások, éles odds csak külön ellenőrzéssel | Igen, döntésként megőrzött; éles működés nem bizonyított | PROJECT_MASTER 2, 4, 9; Notion „02” és „04” |
 | 2025–2026-os H2H, borítás, forma, sérülés-, terhelés-, utazás- és pontvédési kontextus | Igen, célként megőrzött; minden mező élő adatlekérése nem bizonyított | PROJECT_MASTER 2, 4, 16; research/player_profiles/ |
-| Tennis API mint kiválasztott külső forrás; meglévő Sportscore RapidAPI kliens | **Tisztázandó provider/kapcsolódás:** a futó prototípusban Sportscore RapidAPI szerepel, nem bizonyított, hogy a külön említett Tennis API már be is van kötve | tennis_api_client.py; Notion „03 · Adatforrások és minőség” |
+| Tennis API engedély és meglévő Sportscore RapidAPI kliens | **Az engedély terjedelme a felhasználó által korábban ellenőrzött és 2026-11-22-én megerősített, lezárt döntés.** Külön, még tesztelendő feladat a megfelelő Tennis API kliens tényleges bekötése | [Engedély és integráció külön](ATP_TENNIS_API_ENGEDÉLY_ES_INTEGRACIO.md); tennis_api_client.py |
 | Mobilon használható privát app, később opcionális Discord | Igen, termékdöntés megőrzött; mobilélmény nem bizonyított | PROJECT_MASTER 1–3 |
 | 150 profil, statisztikák, taktikai/matchup források | Igen, 150 forrással hivatkozott statisztikai scoutingdosszié | ATP_TOP150_SCOUTING_EGYBEN_2026_11_22.md; regiszter |
 | 150 teljesen *validált* mentális és ütés/mozgás technikai profil | **Nem kész: 0/150**, nem átadási adatvesztésnek állítjuk, hanem eredetileg sem véglegesített munkának | ATP_TOP150_VALIDATION_STATUS_2026_11_22.csv |
@@ -35,7 +35,7 @@
 ## Nyitott auditpontok
 1. A **teljes régi ChatGPT-beszélgetés exportjával** üzenetről üzenetre összevetés. Enélkül NEM lehet 100%-os teljességet igazolni.
 2. A 12 tudásterület mind a 48 konkrét jelének tételes forrás/változat összevetése; hiányzó jelnevek visszaállítása.
-3. A külön említett „Tennis API” pontos szolgáltatói neve, szerződése, lefedettsége és integrációs státusza; Sportscore RapidAPI-szal nem összekeverendő.
+3. A Tennis API **engedélyezési terjedelmét nem nyitjuk újra** (felhasználó által ellenőrzött); a kiválasztott API kliens **technikai végpontjai, lefedettsége és a Sportscore RapidAPI-tól eltérő integrációja** még auditálandó.
 4. Régi chatből korábban rögzített, de csak Notionban, fájlban vagy nem exportált beszélgetésszakaszban lévő döntések felkutatása.
 5. GitHub issue-k és futó alkalmazás-kód ellenőrzése, mert minden készenléti állítást valós tesztnek kell alátámasztani.
 
@@ -53,4 +53,9 @@
 
 ## 2026-11-22 – Feltöltött ATP(1).txt alapján felülvizsgálva
 
-A felhasználó feltöltötte az `ATP(1).txt` fájlt (1006 soros szövegkivonat). A részletes elemzés: [ORIGINAL_ATP_THREAD_GAP_AUDIT_2026_11_22.md](ORIGINAL_ATP_THREAD_GAP_AUDIT_2026_11_22.md). **Újonnan azonosított hiányok:** három képesség/intuíció, a Blind Prediction minimum 50 javasolt tesztje, 30 napos tanulási program, eredmény előtt lezárt Prediction Sheet, virtuális EV/odds-retegek, kötelező 10 pontos pre-match, 6 lehetséges fordulat-ok, meccs-előszűrés/video nélküli működés, korábban javasolt PWA stack, Tennis API-szolgáltatóval folytatott levelezésre vonatkozó, még nem jogilag igazolt emlékeztető. A 12/48 konkrét jelneve **ebben a fájlban nincs felsorolva**. A teljes, szó szerinti chattranszkript és eredeti csatolmányok továbbra sem ellenőrzöttek.
+A felhasználó feltöltötte az `ATP(1).txt` fájlt (1006 soros szövegkivonat). A részletes elemzés: [ORIGINAL_ATP_THREAD_GAP_AUDIT_2026_11_22.md](ORIGINAL_ATP_THREAD_GAP_AUDIT_2026_11_22.md). **Újonnan azonosított hiányok:** három képesség/intuíció, a Blind Prediction minimum 50 javasolt tesztje, 30 napos tanulási program, eredmény előtt lezárt Prediction Sheet, virtuális EV/odds-retegek, kötelező 10 pontos pre-match, 6 lehetséges fordulat-ok, meccs-előszűrés/video nélküli működés, korábban javasolt PWA stack, Tennis API felhasználási engedély, amelynek korábban ellenőrzött terjedelmét a felhasználó újra megerősítette; az integrációja külön fejlesztési feladat. A 12/48 konkrét jelneve **ebben a fájlban nincs felsorolva**. A teljes, szó szerinti chattranszkript és eredeti csatolmányok továbbra sem ellenőrzöttek.
+
+
+## 2026-11-22 – 9 eredeti hiány konkrét pótlása
+
+A felhasználó mind a kilenc tétel azonnali GitHub-pótlását kérte; a kidolgozott dokumentumokat és adatgyűjtő sablonokat lásd: [ATP 9 hiányzó terület pótlása](ATP_9_HIANYZOTT_TERULET_POTLASA_2026_11_22.md). A Tennis API engedély terjedelme **lezárt és a felhasználó által megerősített**, a technikai integráció ettől külön. A dokumentált specifikáció megléte nem jelenti automatikusan a funkciók éles implementációját.
