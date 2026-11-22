@@ -22,3 +22,6 @@
 3. A 150 játékos részletes többmeccses technikai/mentális mintáinak és a korai, ponttörténetes modellnek a validálása.
 4. A funkciók valódi appintegrációja, időbélyegzett előrejelzés/kalibráció, mobilos használhatóság és értesítések.
 5. Újabb hosszú beszélgetés végén a lényeges döntések naplózása kötelező; teljes szó szerinti további chatarchívumhoz új export szükséges, ha a platform nem ad közvetlen olvasási hozzáférést.
+
+## 2026-11-22 – projektutasítás a chatmemória-csúszás megelőzésére
+- [Egyszeri ChatGPT-projektutasítás](ATP_PROJECT_INSTRUCTIONS.md) elkészült; a felhasználó az ATP Project utasításaihoz helyezheti, hogy új szálban az **ATP** hívószóra a csatlakozók ténylegesen olvassák be a GitHubot, a privát Library-beszélgetést és a Space-t. A projektutasítást az asszisztens nem tudta automatikusan módosítani a ChatGPT projekt UI-jában; ez egyszeri felhasználói beállítás.
