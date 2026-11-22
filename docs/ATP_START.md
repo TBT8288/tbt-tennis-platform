@@ -37,3 +37,7 @@ A `TBT8288/tbt-tennis-platform` repó a korábbi ellenőrzés szerint nyilvános
 
 ## Fontos őszinte korlát
 Az `ATP` kód **nem programozott rendszerparancs**, és egy új beszélgetésben a GitHub + ChatGPT Space csatlakozók hozzáférhetősége szükséges. Az AI-nak a fenti olvasási folyamatot **ténylegesen el kell végeznie**. Így minimalizálható az újramagyarázás és az adatvesztés, de semmilyen hívószó sem töltheti vissza garantáltan, automatikusan a platform összes régi chatüzenetét.
+
+## Üzenetenkénti, veszteségmentes archiválás – új, még nem implementált követelmény
+
+Lásd: [teljes beszélgetésarchívum architektúrája](ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md). A jelenlegi `ATP` hívószó és projektmemória nem azonos a szó szerinti új chatek automatikus mentésével; ezt csak olyan rendszer tudja igazolhatóan megoldani, amely minden üzenetet rögzít. A meglevő GitHub/Library/Space projekt mentése nem helyettesíti a közvetlen rögzítőt.
