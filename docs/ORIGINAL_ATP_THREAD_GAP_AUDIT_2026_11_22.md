@@ -75,13 +75,13 @@ Az eredeti sorrend:
 - Az aktuális GitHub **Streamlit prototípus**: az eredeti stack-javaslat nem bizonyít technológiaváltás melletti végleges felhasználói döntést. Nem szabad a működő kódot a javaslat miatt törölni.
 **Minősítés:** megőrzendő architektúra-opció és mobilos használhatósági kritérium.
 
-### H09 – Tennis API korábbi levelezés és az „Yes.” válasz [KIMARADT FONTOS KONTEXTUS / NEM ELLENŐRZÖTT SZERZŐDÉS]
-**Forrás:** 889–935. sor.
-- A korábbi beszélgetésben az asszisztens azt írta: a felhasználó korábban Tennis API-szolgáltatóval egyeztetett, saját AI-elemzéses, akár fizetős SaaS felhasználásról kérdezett, és **„Yes.”** választ látott.
-- **Ez kizárólag a másolt korábbi asszisztensi értelmezés.** Az eredeti teljes szolgáltatói e-mail, szolgáltatónév/domain, aktuális TOS, kvóta, licenc és API-token **nem szerepel a TXT-ben ellenőrizhető nyers formában**.
-- A korábbi cél SaaS lehetőség volt; a jelenlegi végleges scope privát, egyszemélyes app. A régi SaaS-opció nem írja felül ezt.
-- Fontos eltérés: a GitHub prototípus `tennis_api_client.py` **Sportscore RapidAPI** végpontot használ; nem bizonyított, hogy az említett másik Tennis API engedélyezett végpontjai bekötésre kerültek.
-**Minősítés:** az állítás mint *korábbi megbeszélés* megőrzendő, de jogi/technikai felhasználási engedély nem tekinthető bizonyítottnak a TXT alapján.
+### H09 – Tennis API korábbi felhasználási engedély [FELHASZNÁLÓ ÁLTAL ELLENŐRZÖTT ÉS ÚJRA MEGERŐSÍTETT]
+**Forrás:** `ATP(1).txt` 889–935. sora és a felhasználó 2026-11-22-i kifejezett helyesbítése.
+- A szolgáltatóval korábban egyeztetett felhasználási terjedelmet a felhasználó **már ellenőrizte**, és ezt a jelen beszélgetésben ismét megerősítette. **Nem nyitjuk újra engedélyezési kérdésként.**
+- A korábbi egyeztetés a Tennis API adatainak saját alkalmazásban, saját AI-elemzéssel történő megjelenítésére, és akkoriban akár havi díjas SaaS lehetőségre is kiterjedt. A korábbi „Yes.” válasz az egyeztetés történeti része; a felhasználó jelenleg **privát, nem fizetős** alkalmazást kér.
+- A jogi felhasználási terjedelem **projektben elfogadott és lezárt**. A másik, önálló kérdés: a jelenlegi `tennis_api_client.py` Sportscore RapidAPI klienst használ, és még nincs teszttel igazoltan bekötve a kiválasztott Tennis API provider.
+- A privát e-mail és API-kulcs tartalmát nem töltjük a nyilvános repóba; erre nincs is szükség a felhasználó által már megerősített engedély elfogadásához.
+**Minősítés:** [végleges döntés és integráció külön](ATP_TENNIS_API_ENGEDÉLY_ES_INTEGRACIO.md).
 
 ### H10 – Időablak, H2H-súlyozás és történeti Elo [MÁR MEGVAN]
 **Forrás:** 938–1004. sor.
@@ -107,9 +107,9 @@ Az eredeti sorrend:
 
 ## Javasolt integráció
 1. A PROJECT_MASTER tartós követelményeihez hozzáadni az intuíciós naplózás, 30 napos tréning-terv, tízpontos Pre-Match, automatizált szűrés, és virtuális piacértékelés visszakereshetőségét.
-2. A PWA stack-javaslatot és az API-szolgáltatói „Yes.” állítást **nem visszaigazolt történeti kontextusként** megőrizni, de ne írják felül az aktuális kódot és privát scope-ot.
+2. A PWA stack-javaslat továbbra is nem végleges technológiai opció; a Tennis API felhasználási engedélyét viszont a felhasználó **ellenőrzött, lezárt döntésként** megerősítette. Az integráció külön fejlesztési feladat.
 3. A 12/48 jel tételes felsorolásához **egy másik korábbi forrás** vagy eredeti export szükséges; jelen fájl önmagában nem elég.
-4. A teljes korábbi e-mail / csatolmány, amelyből a „Yes.” származik, külön ellenőrzés tárgya. Nem kell API-kulcsot bekérni vagy megosztani.
+4. A privát szolgáltatói levelezést nem kell újra feltölteni vagy ellenőriztetni az engedély elfogadásához. Az API-ellátottságot és tényleges kódbekötést külön teszteljük; API-kulcsot soha nem osztunk meg.
 
 ## Források
 - A felhasználó által feltöltött `ATP(1).txt` (2026.11.22-i átadási forrás, nem publikált a GitHubra).
