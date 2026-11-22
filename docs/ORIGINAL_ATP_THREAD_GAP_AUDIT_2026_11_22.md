@@ -117,3 +117,7 @@ Az eredeti sorrend:
 - [Előző migrációs audit](CONVERSATION_MIGRATION_AUDIT_2026_11_22.md)
 - [Időbeli relevancia](TEMPORAL_RELEVANCE_POLICY.md)
 - [Notion projektközpont](https://app.notion.com/p/41ff603f0d2e8121a7c6c2cc89ff4213)
+
+
+## 2026-11-22 – mind a 9 felhasználó által kiemelt hiány pótolva
+Az eredetileg H01–H09 pontokban hiányzó specifikációkat a GitHubba mentettük; részletes átadási és státuszindex: **[9 hiányzó témakör pótlási jegyzéke](ATP_9_HIANYZOTT_TERULET_POTLASA_2026_11_22.md)**. Az engedély terjedelme a felhasználó által újra megerősítetten **ellenőrzött és lezárt**, nem nyitott jogi kérdés. Az app funkcióinak teljes implementációja külön fejlesztés, a jelenlegi dokumentumok újraépített követelmények és üres sablonok. A tételes 48 edzői jel továbbra nem áll rendelkezésre ebből a forrásból.
