@@ -222,3 +222,8 @@ A most alkalmazott 270/180/45 napos teljesítmény/H2H/rövid-forma félidők **
 - A 2025+2026 közötti friss H2H CSV: [2025–2026 H2H, 2026-11-15-ig](research/player_profiles/TOP150_H2H_2025_2026_THROUGH_2026_11_15.csv).
 - 2026-os meccsadat-lefedettség 148/150, 2026-os TennisDB rekord 146/150; **a teljes technikai/mentális többmeccses validáció 0/150**, előzetes taktikai jegyzet 13/150.
 - Nem tekinthető kész predikciós motornak: a CSV még nincs az alkalmazásba integrálva, a 2026-11-16 és utáni meccsek nem teljesek a friss archívumban, a források W/L definíciói különbözhetnek. Régebbi H2H >2 év 0 közvetlen súly.
+
+
+## 2026-11-22 – a 150 játékos forráslinkkel ellátott scouting adatbázisa
+
+Elkészült és ellenőrizve: [scouting-index](research/player_profiles/ATP_COACH_SCOUTING_INDEX_2026_11_22.md), [150 kibővített scoutingdosszié egyben](research/player_profiles/ATP_TOP150_SCOUTING_EGYBEN_2026_11_22.md), [150 soros scouting-regiszter](research/player_profiles/ATP_COACH_SCOUTING_REGISTER_2026_11_22.csv). Mind a 150-hez van számszerű alap és egy forráslink; 137 új 2025–2026-os forrásrészlet, 13 eredeti, esetenként régebbi hivatkozás. A kvalitatív megfigyelések többnyire egyszeri mérkőzésre, újságcikkre vagy eredményre korlátozódnak. **Teljes, többmeccses validált technikai és mentális profil: 0/150; az alkalmazásba bekötés nincs kész.** A fejlesztés és további adatvalidáció továbbra is szükséges, különösen 0–4 ütéses rally, szerva+1, fogadás+1, helyezkedés, 2026.11.15 utáni teljes H2H, többmeccses taktikai kutatás. Régi H2H közvetlen súly nulla; Elo történeti baseline. A legfrissebb profiladatok nem jelentik azt, hogy az app ma élő, pontos predikciót végez.
