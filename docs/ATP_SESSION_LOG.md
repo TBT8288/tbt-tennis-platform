@@ -50,3 +50,9 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 - Claude által újonnan feltöltött [Notion 10 – HWK AI/TBT történeti projekt](https://app.notion.com/p/420f603f0d2e819e90e7d0e988039fe5) feldolgozva: [23 pontos tartalmi audit](ATP_CLAUDE_HWK_2026_10_01_IMPORT_AUDIT.md), [feature-ötletek](ATP_CLAUDE_MODEL_FEATURE_ADOPTION.md), [kimeneti és backtest-követelmények](ATP_CLAUDE_PREDICTION_AND_VALIDATION_REQUIREMENTS.md), 12 historikus stílusjelölt, 18 forrásellenőrzendő állítás; külön alap `atp_intelligence/legacy_research.py` és `tests/test_claude_adoption.py` Githubra mentve. A történeti 77 teszt és hiányzó `tbt/` kód nem tekinthető átültetett, validált alkalmazásnak.
 - [Notion 11 – import eredménye](https://app.notion.com/p/420f603f0d2e81978957e9cd225a8569) külön közös AI-olvasási kapuként létrejött. Az eredeti Claude forrásoldal megmaradt, a GitHub fő forrás.
 - **Nyitott:** felhasználói Cursor-GitHub integráció engedélyezése csak kiválasztott repohoz; `main` branch védelme; első olvasási próba; a Claude-adaptáció új GitHub CI futásának ellenőrzése.
+
+
+## 2026-11-22 – Cursor GitHub-csatlakozás: FELHASZNÁLÓ JELENTETTE, OLVASÁSI PRÓBA KÖVETKEZIK
+- Felhasználó megerősítette: **„Cursor összekötve”**. A GitHub-integráció tényleges Cursor-oldali működését **még nem ellenőriztük**, ezért külön nincs `VERIFIED` státusz.
+- Elkészült a [ATP-READ-001 kizárólag olvasási ellenőrzőfeladat](tasks/ATP-READ-001_CURSOR_CONNECTION_CHECK.md). **Csak repo/branch/commit és dokumentált jelenlegi modullista**, nincs kódmódosítás, commit, PR, scraping vagy terminálfuttatás.
+- A Cursor első jelentését ide, a fő ChatGPT ATP-projektbe kell visszahozni. A GitHub `main` ágon történő írást/merge-et a felhasználói engedély és megfelelő branch-védelem nélkül továbbra sem engedélyezzük. A tényleges main-ág technikai branchvédelmét **nem állítottuk még be**.
