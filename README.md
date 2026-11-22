@@ -1,5 +1,19 @@
 # ATP Intelligence — Private Tennis Lab
 
+## Magyar ATP Lab – V1 előzetes (PR #14, még nem a `main` része)
+
+A [PR #14-ben](https://github.com/TBT8288/tbt-tennis-platform/pull/14) elérhető az új, külön indítható **offline-first magyar labor**. Nem írja felül a korábbi `app.py` alkalmazást.
+
+- **Mac:** a forrásmappában `bash START_ATP_LAB.command` (vagy egyszer `chmod +x START_ATP_LAB.command`, utána Finder duplakattintás).
+- **Alternatíva:** `python3 -m pip install -r requirements.txt`; `python3 -m streamlit run atp_lab.py`.
+- **API-kulcs nélkül:** 150 játékos, forrásjelölt hiányok, H2H és historikus szervastatisztikai B0.
+- **API-Tennis kulccsal:** szerveroldali `API_TENNIS_KEY`, manuális ATP férfi egyes élő adatlekérés, helyi SQLite snapshotmentés a `data/private` könyvtárba.
+- **Korlát:** nem kész éles/teljesen validált momentum/mentális motor, a szolgáltatói pont-időbélyeg és késés nincs tényleges API-fiókkal validálva. A PR csak külön felhasználói jóváhagyással kerülhet a `main` ágba.
+
+Részletek: [ATP V1 kódolási és használati útmutató](docs/ATP_LAB_V1_KODOLASI_ATADAS_2026_11_22.md).
+
+
+
 Privát, edzői szemléletű ATP-teniszelemző projekt. A jelenlegi repo egy Streamlit + Sportscore/RapidAPI + Gemini prototípust és egy **külön tesztelhető, korai fejlesztési állapotú** Python alapmodult tartalmaz.
 
 ## Hol tartunk?
