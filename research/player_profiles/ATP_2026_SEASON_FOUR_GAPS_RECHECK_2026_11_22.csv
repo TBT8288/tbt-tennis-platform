@@ -1,0 +1,5 @@
+player,rank_in_2026_11_16_master,observed_atp_main_draw_w_2026,observed_atp_main_draw_l_2026,observed_qualifying_w_2026,observed_qualifying_l_2026,source_url,interpretation,data_quality_caution,verified_on,master_merge_policy
+Otto Virtanen,107,1,6,10,9,https://tennis-db.com/players/224/otto-virtanen,observed_main_draw_and_qualifying_2026,provider_includes_walkovers_and_ranking_snapshot_differs,2026-11-22,research_only_needs_scope_and_ID_validation
+Clement Chidekh,116,2,1,4,4,https://tennis-db.com/players/352/clement-chidekh,observed_main_draw_and_qualifying_2026,main_draw_3_matches_European_Open,2026-11-22,research_only_needs_scope_and_ID_validation
+Max Alcala Gurri,130,,,0,2,https://tennis-db.com/players/485/max-alcala-gurri,no_main_draw_results_reported,leave_main_draw_missing_not_performance_zero,2026-11-22,research_only_needs_scope_and_ID_validation
+Nikolas Sanchez Izquierdo,132,,,1,3,https://tennis-db.com/players/405/nikolas-sanchez-izquierdo,no_2026_main_draw_results_reported,2026_rank_provider_140_vs_roster_132_and_only_qualifiers,2026-11-22,research_only_needs_scope_and_ID_validation
