@@ -100,3 +100,13 @@ A korábbi 94 játékoson felül **11 különböző** Top150-játékos 77 forrá
 - [96 egyedi MCP-meccs nap/scope/official ID kanonikus, licencekkel](ATP_MCP_96_UNIQUE_MATCHES_CANONICAL_DATES_OFFICIAL_IDS_FINAL_QA_2026_11_22.csv). Az előző 97 MCP rekord **97 játékos-asszociáció**, nem 97 külön meccs; az előző 73 főtábla-rekord **72 külön meccs**.
 - Az összes 72 ATP/GS matchhez dátumforrás: **48 ATP eredményarchívumban**, **19 történeti dátum nélküli archívumhoz külön hír/meccsforrásból**, **5 eltérő forrásdátumhoz külön manuális újraegyeztetést** rögzítő [19-es](ATP_MCP_19_ATP_2025_ARCHIVE_DATE_GAPS_INDEPENDENTLY_CROSSCHECKED_2026_11_22.csv) és [5-ös](ATP_MCP_FIVE_ATP_VS_CHARTING_DATE_DISCREPANCIES_RESOLVED_2026_11_22.csv) QA fájl.
 - V1 ATP/GS modellelőrejelzésbe csak versenykör-, event-date-, match-ID-, licence- és no-lookahead ellenőrzés után importálható. Az időpontok mérkőzés**napok**, nem pontonkénti eseménytimestamp-ek; mentális állapotokra következtetni tilos. **Az app ág PR #14 nincs automatikusan frissítve a kutatás változásaival.**
+
+
+## 2026-11-22 – Hatodik kutatási hullám: 73/73 ATP match ID
+
+- A 45 TDI-hiányos játékosból származó 97 MCP charting mérkőzésforrás közül a 73 ATP/GS főtábla-jelölt **mindegyikéhez hivatalos ATP H2H + match-stats URL-t és évhez/tornához illeszkedő azonosítót kerestünk és találtunk**.
+- **73 játékosindex-rekord = 72 egyedi ATP match ID** (a Marco Trungelliti–Daniel Mérida Madrid 2026 meccs mindkét játékos listájában szerepel). 21 rekord 2025, 52 rekord 2026; tornatípus: 20 GS, 25 M1000, 7 ATP500, 21 ATP250.
+- [**Egyesített 73 rekordos, 72 egyedi ID-s hivatalos crosswalk**](ATP_MCP_ALL_73_OFFICIAL_MATCH_ID_CROSSWALK_CANONICAL_2026_11_22.csv), és [**részletes kutatási/QA-átadás**](ATP_MCP_2026_11_22_73_OF_73_OFFICIAL_MATCH_IDS_RESEARCH.md).
+- Forrásrészletek: [első 30](ATP_MCP_2026_OFFICIAL_MATCH_ID_CROSSWALK_2026_11_22.csv), [második 22](ATP_MCP_2026_SECONDARY_ATP_MATCH_ID_CROSSWALK_2026_11_22.csv), [2025-ös 21](ATP_MCP_2025_OFFICIAL_MATCH_ID_CROSSWALK_2026_11_22.csv). A meccs egyedi *hivatalos napi dátuma és fordulója még nincs mindegyiknél külön igazolva*, ezért **nem állítunk** teljes 73/73 match metadata validációt.
+- Adatminőségi figyelmeztetés: az umagi 2026-os Daniel Mérida–Damir Džumhur döntő első szettje egyes ATP hírekben eltér az ATP meccsadatbázisban közölt **6–2, 5–7, 6–2** eredménytől; a match ID eredménylap legyen a fő referencia.
+- A **`main` és a PR #14 változatlan**; csak a kutatási PR #13 bővült. Az MCP CC BY-NC-SA nem kereskedelmi korlátja továbbra érvényes.
