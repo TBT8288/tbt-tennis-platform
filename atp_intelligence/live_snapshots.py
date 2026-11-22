@@ -92,3 +92,9 @@ class LiveSnapshotStore:
 
     def close(self):
         self.db.close()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_):
+        self.close()
