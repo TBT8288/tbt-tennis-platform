@@ -13,6 +13,7 @@
 - A Tennis API korábban egyeztetett felhasználási engedélyét a felhasználó **ellenőrzött és lezárt** döntésként ismét megerősítette; az API tényleges integrációs státusza ettől külön.
 - Korábbi új chat hívószó `ATP-MASTER-150` -> **végleg `ATP`** a felhasználó utasítására.
 - **Privát teljes szövegarchívum:** új, kizárólag tulajdonosi hozzáférésű ChatGPT Space `ATP – Privát projektarchívum`; az oldal `ATP – Eredeti beszélgetés teljes szövegarchívuma (ATP(1).txt)` az áthozott 1006 sor szöveges változatával, nem nyilvános GitHubon. Eredeti fájl SHA-256 `ffceb2da5985304084e7d4d26ad9982d260106ae31198eede17d503404d24f01`.
+- **Bájthű személyes Library-mentés:** a felhasználó korábban feltöltött eredeti `ATP(1).txt` fájlját 2026-11-22-én a saját ChatGPT Library-jába is feltöltöttük, `/ATP/Conversation_Archive/ATP(1)_eredeti_2026-11-22.txt` néven. Ez az eredeti TXT 36 620 bájtos forrás megőrzését szolgálja, szemben a Space-ben megjelenített, szerkesztett blokkszerkezetű szöveggel. A tartós Library-mentés sikeres visszaigazolást adott; a következő beszélgetésben fájlkereséssel elérhető, ha a hozzáférés rendelkezésre áll.
 - **Jelenlegi handoff protokoll:** `docs/ATP_START.md`; új beszélgetésben a `ATP` hívószóra beolvasandó a PROJECT_MASTER, session log, a kilenc pótolt téma, a scouting index és szükség szerint a privát archívum. A további lényeges új döntéseket és munkát **GitHubra írjuk, nem kizárólag chatben hagyjuk**.
 
 ## Nyitott feladatok
