@@ -16,6 +16,7 @@ from atp_intelligence.api_tennis import TennisAPIClient, TennisAPIError
 from atp_intelligence.player_data import Top150Profiles, TwoSeasonH2H
 from atp_intelligence.probability import game_win_probability
 from atp_intelligence.live_snapshots import LiveSnapshotStore
+from atp_intelligence.service_baseline import ServiceBaselineArchive
 
 st.set_page_config(page_title="ATP Intelligence – Privát Lab", page_icon="🎾", layout="wide")
 st.title("🎾 ATP Intelligence – Privát teniszlabor")
@@ -23,10 +24,10 @@ st.caption("2026.11.16-i Top150 pillanatkép · 2025–2026 statisztika · H2H 2
 
 @st.cache_resource
 def load_research():
-    return Top150Profiles(), TwoSeasonH2H()
+    return Top150Profiles(), TwoSeasonH2H(), ServiceBaselineArchive()
 
 try:
-    profiles, h2h = load_research()
+    profiles, h2h, serve_archive = load_research()
 except (OSError, ValueError, KeyError) as exc:
     st.error(f"Nem sikerült betölteni a kutatási adatokat: {type(exc).__name__}")
     st.stop()
@@ -89,9 +90,24 @@ else:
                 "Az időpont előtti, külön dátumozott mérkőzésekből kell újraszámolni.")
 
 st.subheader("3. B0 – matematikai szervagém-kalkulátor")
-st.caption("Kísérleti, állandó pontnyerési esélyt feltételező matematikai példa; nem valódi élő predikció.")
+st.caption("Kísérleti állandó pontnyerési esély. A következő becslés historikus szerva-adatokból származik, ellenfél/borítás korrekció nélkül; nem validált élő predikció.")
+prior_a = prior_b = None
+try:
+    prior_a = serve_archive.get(a_name, as_of=date.today())
+    prior_b = serve_archive.get(b_name, as_of=date.today())
+except ValueError:
+    st.info("Az archív szervaösszesítés erre a történeti napra nem használható, mert jövőbeli eredményeket tartalmazhat.")
+if prior_a or prior_b:
+    ca, cb = st.columns(2)
+    for col, prior, player_name in ((ca, prior_a, a_name), (cb, prior_b, b_name)):
+        with col:
+            if prior:
+                st.metric(player_name + " – történeti B0 tartási arány", f"{game_win_probability(prior.service_point_chance):.1%}")
+                st.caption(f"{prior.source_year}-os szerva-statisztikai minta: {prior.sample_matches} mérkőzés; az ellenfél erejével nincs korrigálva.")
+            else:
+                st.write(player_name + ": nincs megfelelő, időhelyes szerva-minta.")
 with st.container():
-    p = st.slider("Szerváló feltételezett pontnyerési esélye", min_value=0.0, max_value=1.0, value=0.60, step=0.01)
+    p = st.slider("Szerváló feltételezett pontnyerési esélye", min_value=0.0, max_value=1.0, value=round(prior_a.service_point_chance, 2) if prior_a else 0.60, step=0.01)
     point_a = st.number_input("Szerváló megnyert pontjai ebben a gémben (0,1,2,3,4…)", min_value=0, max_value=100, value=0)
     point_b = st.number_input("Fogadó megnyert pontjai ebben a gémben (0,1,2,3,4…)", min_value=0, max_value=100, value=0)
     chance = game_win_probability(p, int(point_a), int(point_b))
