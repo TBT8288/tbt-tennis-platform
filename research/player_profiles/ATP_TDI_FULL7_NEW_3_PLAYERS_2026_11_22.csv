@@ -1,0 +1,4 @@
+rank_as_of_2026_11_16,player,snapshot_date,measurement_window,in_attack_pct,conversion_pct,steal_pct,serve_quality_0_10,return_quality_0_10,forehand_quality_0_10,backhand_quality_0_10,source_pdf,source_page_1_indexed,source_type,review_status,predictive_2026_11_22_status
+7,Arthur Fils,2026-03-22,rolling_52_weeks,26,69,34,7.8,6.8,8.1,7.6,https://www.atptour.com/-/media/159af1bf98f940aaa4ebdde66f03758b.pdf,3,ATP_TDI_official_media_notes,SOURCE_TABLE_VISUALLY_CROSSCHECKED,NOT_DIRECTLY_VALIDATED
+60,Tomas Machac,2026-05-07,rolling_52_weeks,27,66,28,7.8,7,7.1,7.4,https://www.atptour.com/-/media/a648d8167a664ebea783b73b09b24982.pdf,4,ATP_TDI_official_media_notes,SOURCE_TABLE_VISUALLY_CROSSCHECKED,NOT_DIRECTLY_VALIDATED
+70,Jaume Munar,2026-04-13,rolling_52_weeks,20,70,38,7.7,6.7,7.6,7.6,https://www.atptour.com/-/media/d11db0c4e4164cbc9fb92edbb4295afc.pdf,7,ATP_TDI_official_media_notes,SOURCE_TABLE_VISUALLY_CROSSCHECKED,NOT_DIRECTLY_VALIDATED
