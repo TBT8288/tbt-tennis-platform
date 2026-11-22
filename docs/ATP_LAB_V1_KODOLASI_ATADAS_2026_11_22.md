@@ -9,6 +9,8 @@ python3 -m pip install -r requirements.txt
 python3 -m streamlit run atp_lab.py
 ```
 
+Mac-felhasználóknak készült indítófájl: `START_ATP_LAB.command` – a GitHub-forrásként letöltött fájlon egyszer `chmod +x START_ATP_LAB.command`, utána Finderből is indítható; Python 3.10+ szükséges. Első alkalommal virtuális környezetet és a szükséges Streamlit csomagokat telepíti.
+
 Az alap játékosprofil-, H2H- és B0-kalkulátor **offline**, API-kulcs nélkül is használható. Az új UI külön `atp_lab.py` fájl: a régi `app.py` / Sportscore RapidAPI / Gemini felület változatlan. A jelenlegi Python 3.12-es GitHub Actions csak forrásfordítás- és unit-teszteket végez, nem UI-kattintásos vizsgálatot.
 
 ### Opcionális, tényleges API-Tennis
@@ -31,9 +33,11 @@ A fenti szövegben szereplő `SAJAT_KULCSOD_HELYBEN` csak helykitöltő. A dokum
 | `atp_intelligence/api_tennis.py` | request validation, kulcs URL-ből kizárva, sanitized hibakezelés, rate limit retry, mockolható transport; events, tournaments, fixtures, livescore, players, H2H, live odds |
 | `atp_intelligence/player_data.py` | 150 név, 51 mezős master regiszter, PR #13 16 fizikai és 46 fonák *jelölt* forrás, provenance, 2025/26 H2H dátumparse, no-lookahead gate |
 | `atp_lab.py` | offline-first magyar UI két játékossal, 2025/26 H2H, B0 gémkalkulátor, opcionális API élő lekérés |
-| `tests/test_api_tennis_and_player_data.py` | offline integrációs/hibakezelési tesztek és valós meglévő CSV lefedettségi tesztek |
+| `atp_intelligence/service_baseline.py` | 2025/26 forrásolt szerva-statisztikákból független pontnyerési alapérték; ellenfélhez nem korrigált B0 |
+| `atp_intelligence/live_snapshots.py` | helyi idempotens SQLite mérkőzés-pillanatképek saját fogadási időbélyeggel, a pontidő kitalálása nélkül |
+| `tests/test_api_tennis_and_player_data.py`, `tests/test_live_snapshots.py`, `tests/test_service_baseline.py` | offline integrációs/hibakezelési tesztek és forrásidő-szabályok |
 
-A fő korábbi V1 `game_win_probability` csak felvett, állandó szervapont-valószínűségből számol. Az eredmény **nem valós predikció vagy odds-előny**.
+A historikus B0 alapvalószínűség `p = first_in * first_won + (1-first_in) * second_won`. A megjelenített tartási esély nem az ellenfélhez / borításhoz igazított predikció; az események forráskörét és csomagját külön kell validálni. A fő korábbi V1 `game_win_probability` csak felvett, állandó szervapont-valószínűségből számol. Az eredmény **nem valós predikció vagy odds-előny**.
 
 ## 3. Forrásra és használhatóságra vonatkozó rögzített állítások
 
@@ -51,7 +55,7 @@ A fő korábbi V1 `game_win_probability` csak felvett, állandó szervapont-val�
 - Valós Tennis API speed/latency/rate limit / quota/point-event timestamp és valós API teszt: **nincs** az aktuális futtatásban.
 - Pályageometria, röpték, testbeszéd, pszichológiai okok: score-only feedből **nem állapítható meg**.
 - Korrekt, előzetesen időbélyegzett statisztikai momentumvalidáció, Brier/log-loss, false alert: **külön valódi mérkőzési eseménysor kell**.
-- A régi fő appba integrálás, automatikus live poll, mobilos natív PWA és Discord alert: **nincs bevezetve**; a V1 külön indítható UI.
+- A régi fő appba integrálás, automatikus live poll, mobilos natív PWA és Discord alert: **nincs bevezetve**; a V1 külön indítható UI. A kézi élő lekérés mentése `data/private/atp_live_snapshots.sqlite3` fájlba megy (gitignore); ettől a lekérdezés nem lesz teljes pontidősor.
 
 ## 5. Következő, már KÓDOLÁSI munkarend
 
