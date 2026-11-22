@@ -75,3 +75,14 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 - A négy hiányzó TDI Top50 (Arthur Fery, Luca Van Assche, Daniel Merida, Arthur Gea) 2026-os ATP-torna eseménykontektsusa és Martin Damm Jr / édesapja névazonosítás 9 datált megfigyelésként mentve `ATP_TOP150_2026_FOUR_TOP50_CONTEXT_PLUS_DAMM_IDENTITY_2026_11_22.csv`; nem szabad ebből mentális diagnózist csinálni.
 - Teljes forrásjegyzék, bemutatás és minőségi korlát: `research/player_profiles/ATP_TDI_105_PLAYER_AND_TOP50_CONTEXT_RESEARCH_2026_11_22.md`.
 - Következő: 45/150 még hiányzó, forrásolt TDI érték, a meglévő 40 részleges játékos további öt mutatója; 2025/26 egyedi meccsszintű helyzetvalidáció; **nem módosult a forrás `main` és a fejlesztési PR #14**.
+
+
+## 2026-11-22 – 105 teljes TDI + 31 friss MCP játékos = 150 forrásszintű audit
+
+- A kutatási PR #13-on 27 + 13 korábban részleges játékos ATP/TDI hétmutatós sora is hivatalos 2026-os PDF-ek alapján teljessé vált. **Kanonikus TDI-végállapot jelenleg:** `research/player_profiles/ATP_TDI_TOP150_NORMALIZED_105_FULL7_735_VALUES_2026_11_22.csv` = 105/150 játékos × 7/7 érték = 735 mért érték, 45 TDI-hiányos.
+- A TDI-hiányos 45 játékosra a Tennis Abstract Match Charting Project friss 2025–26 mérkőzésindexét kerestük: **31/45 friss match charting**, 97 datált match forráslink (38 db 2025, 59 db 2026), 73 scope-ellenőrzésre váró ATP/GS főtábla-jelölt, 20 más eseménykör, 4 selejtező; **14 játékoshoz ilyen match charting sincs**.
+- Új kulcsfájl: `research/player_profiles/ATP_TOP150_2026_TECHNICAL_EVIDENCE_COVERAGE_MASTER_RESEARCH.csv`: 150/150 egyedi játékos technikai forrásátadása (105 TDI, 31 MCP-only, 14 csak korábbi általános statisztika), egyetlen sorban rang, source snapshot, scope/QA-gate.
+- Név szerinti hiánylista + 150 játékos auditleírása: `research/player_profiles/ATP_2026_11_22_150_PLAYER_TECHNICAL_SOURCE_AUDIT.md`. A négy Top50 Fery, Van Assche, Mérida, Géa match-szintű technikai kontextusa és 11 külön chartolt 2026-os meccs URL-je külön CSV-ben.
+- **CC BY-NC-SA 4.0** MCP; a nem kereskedelmi attribúciós és share-alike feltételek mellett csak linkek + rövid mért kivonatok kerültek a nyilvános kutatási PR-ba, nem másoltuk a nyers pontszintű CSV-ket. Privát használat jelenleg; későbbi SaaS-ra NEM automatikusan engedélyezett. 
+- Az MCP önkéntes, nem reprezentatív minta; nem egyenlő ATP/TDI optikai 0–10 quality-val. A 2025-ös rolling 52 hét részben 2024-et érhet: 9 TDI rekord prediktív közvetlen súly tiltva. Pszichológiai/mentális 0/150 továbbra nem validált, sem a live edge.
+- **Csak a PR #13 research ága változott.** A `main` és a külön kódos PR #14 továbbra nem lett módosítva/merge-elve. Új ATP chatben a fenti kanonikus 150/105/31/14 adatokat olvasd, ne kezdd újra a teljes játékoskutatást.
