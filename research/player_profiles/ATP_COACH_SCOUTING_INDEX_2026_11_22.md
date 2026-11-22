@@ -53,3 +53,11 @@ Hiányzik a 150 játékos részletes 2025–2026-os ütésenkénti és rallyhoss
 
 - [További 14 Top150 játékos (28 új mért tracking-adat)](ATP_TDI_INSIGHTS_NEW_14_2026_11_22.csv): ATP Doha 2026-02-18, Miami 2026-03-24, Indian Wells 2026-03-07, Róma 2026-05-06/09 és Halle 2026-06-17 dátumozott hivatalos ATP-médiaanyagok.
 - A korábbi 26 játékossal **összesen 40 különböző Top150-játékos, 80 kiválasztott és forráshivatkozott ATP/TDI-mezőérték** szerepel az új két kutatási fájlban. Ezek az adott dátum előtti **gördülő 52 hetes mérési ablakok**, nem 2026. novemberi élő forma, nem minden mező és nem validált mentális/biomechanikai profil. A forrásméréseket a modellben csak a tényleges adatmegfigyelési dátumhoz igazítva szabad használni.
+
+
+### 2026-11-22 – Harmadik hivatalos TDI-kutatási hullám / egységesített 70 játékos
+
+- **[70 egyedi Top150 játékos TDI-adatainak kanonikus, egyesített kutatási táblája](ATP_TDI_TOP150_NORMALIZED_70_2026_11_22.csv)**, az öt egyedi forrás-CSV-ből automatizáltan összerakva: **290 tényleges számszerű TDI-érték**, 30 játékosnál 7/7, további 40 játékosnál 2/7 mutató, **80 játékosnál egyelőre nincs forrásolt TDI sor**. A nem létező mezők ÜRESEK, nem 0 értékek.
+- [24 új játékos / 7-7 mutató](ATP_TDI_FULL7_NEW_24_PLAYERS_2026_11_22.csv), [további 3 játékos: Fils, Munar, Machac](ATP_TDI_FULL7_NEW_3_PLAYERS_2026_11_22.csv), [további 3 játékos: Korda, Navone, Ofner](ATP_TDI_FULL7_NEW_3_MORE_PLAYERS_2026_11_22.csv), 2026. február–június hivatalos ATP-media/TDI dokumentumokból.
+- A harmonizált tábla megőrzi az eredeti PDF URL-t, a forrásban szereplő oldalszámot ahol ellenőrzött, a mérés napját, annak rolling-52-week / tournament-to-date jellegét, a mezőnkénti kitöltöttséget és a review státuszt. Tsitsipas dohai `tournament_to_date` értékeit NEM szabad a 69 másik rolling-52-week adatával azonos időablaknak tekinteni.
+- **Ez kutatási overlay a PR #13-ban, NEM már automatikusan a `main`-be került forrás/regiszter-módosítás.** A teljes, többmeccses edzői technika/mentális profilstátusz továbbra nem validált, 0/150. Az ATP/TDI 0–10 minőségi és %-os taktikai mutatói objektív tracking-bemenetek, nem mentális diagnózisok, és az eltérő dátumok miatt nem egy homogén versenyen belüli benchmark.
