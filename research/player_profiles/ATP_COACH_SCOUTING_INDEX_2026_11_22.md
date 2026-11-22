@@ -72,3 +72,21 @@ A korábbi 94 játékoson felül **11 különböző** Top150-játékos 77 forrá
 - [2026-os, forrásolt, játékhelyzeti megfigyelések a négy TDI nélküli Top50-játékoshoz és Martin Damm Jr identitásellenőrzése](ATP_TOP150_2026_FOUR_TOP50_CONTEXT_PLUS_DAMM_IDENTITY_2026_11_22.csv): 9 konkrét eseménymegfigyelés, nem 7 mutatós profil vagy pszichológiai diagnózis.
 
 **Fontos időszűrés:** 9 új, 2025-ben közzétett gördülő 52 hetes mutató 2024-es mérkőzéseket is tartalmazhat, ezért `EXCLUDE_DIRECT_PREDICTOR_POSSIBLE_2024_MATCHES` jelölést kapott az új 105 soros fájlban. Jaime Faria 2025-ös Rio `tournament_to_date` mutatói tisztán 2025-ös tornakörre korlátozottak. A meglévő 2026-os rolling-52-week rekordok 2025–26-os ablakban vannak, de publikációjuk időpontjánál későbbi teljesítményt nem bizonyítanak. A `predictive_validated` mind a 105 sorban `NO`, amíg előzetesen időzárt backteszt nem készült.
+
+
+## 2026-11-22 – Ötödik kutatási hullám: TDI 105 teljes + MCP 31 + 14
+
+**A fenti, korábban leírt 40 kétmutatós TDI-profil már NEM aktuális állapot:** 27, majd 13 részleges játékos 5-5 hiányzó indikátora is hivatalos ATP 2026 PDF-ből forrásoltan kiegészült; összesen +200 mért TDI-mező.
+
+**Jelenlegi hivatalos TDI kutatási forrás:** [**105/150 játékos, mindegyiknél 7/7 TDI-mutató, 735 forrásolt számszerű érték**](ATP_TDI_TOP150_NORMALIZED_105_FULL7_735_VALUES_2026_11_22.csv). Két forrásolt pótlási csomag: [27 játékos](ATP_TDI_27_EXISTING_2TO7_2026_11_22.csv) + [13 játékos](ATP_TDI_13_EXISTING_2TO7_2026_11_22.csv). **45/150** játékosnál továbbra nincs hivatalos TDI seven-metric sor.
+
+**Új, független technikai kutatási forrás – Tennis Abstract Match Charting Project:**
+- [**150 játékos teljes kutatási evidence coverage átadása**](ATP_TOP150_2026_TECHNICAL_EVIDENCE_COVERAGE_MASTER_RESEARCH.csv): **105 ATP/TDI teljes**, **31 TDI nélküli, de 2025–2026-os chartolt match-szintű forrással**, **14 csak általános statisztikai/eredményadattal** (nem nulla vagy ismeretlen teljesítmény).
+- [**45 TDI-hiányos játékos charting elérhetősége**](ATP_MCP_45_TDI_MISSING_PLAYER_CHARTING_COVERAGE_2026_11_22.csv): 31/45 friss, 2025–26-os match charting link; 26/45-nél ATP/GS főtábla-jelölt meccs; 14-nél nincs ilyen 2025/26-os charting.
+- [**97 dátumozott mérkőzésszintű MCP-link, versenykör szerint előszűrve**](ATP_MCP_2025_26_MATCH_LEVEL_SOURCE_LINKS_FOR_TDI_MISSING_2026_11_22.csv): 73 főtábla-jelölt (még match/round QA kell), 20 Challenger/ITF/NCAA/Davis Cup/stb. más kör, 4 selejtező.
+- [**Négy korábban TDI nélküli Top50 technikai MCP-mérései**](ATP_MCP_2026_FOUR_MISSING_TDI_TOP50_TECHNICAL_CONTEXT.csv): Arthur Fery, Luca Van Assche, Daniel Mérida, Arthur Géa. [11 konkrét, 2026-ban chartolt meccs](ATP_MCP_2026_FOUR_TOP50_11_CHARTED_MATCH_LINKS.csv). Nem helyettesíti a hivatalos 7 TDI-mutatót.
+- [**Teljes 150-es forrásminőségi audit, scope, licenc és 14 játékos név szerinti feljegyzése**](ATP_2026_11_22_150_PLAYER_TECHNICAL_SOURCE_AUDIT.md).
+
+**Kötelező licenc:** Match Charting Project [CC BY-NC-SA 4.0](https://github.com/JeffSackmann/tennis_MatchChartingProject): attribúció + kizárólag nem kereskedelmi felhasználás + share alike; az adatok általában *önkéntesen kiválasztott, nem reprezentatív* mérkőzésekből származnak. A projektben csak rövid, forrásolt jegyzetek és eredeti charting linkek kerültek a PR-ba, **nem importáltunk nyers charting adatállományt**. A 105 TDI közül 9 régi 2025 rolling-52-week sor 2024-es mérkőzéseket is tartalmazhat; a direkt predikció tiltóflagja megmaradt.
+
+**Fontos:** 136/150 esetében van forrásolt, 2025–26-os technikai követéshez *kutatási bemenet*, NEM 136 teljes többmeccsesen validált coach- vagy mentális profil; az utóbbi továbbra 0/150. Az appot és `main`-t ez a kutatás nem módosította.
