@@ -155,9 +155,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 12–11 (n=23); tie-break 2026-ban 52%-os győzelmi arány, de nem személyiségteszt; döntő szett: 6–6 (n=12); döntő szett 2026-ban 50%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 107.0; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Roland Garroson Sheltont három szettben legyőzte; a hír nem részletez tartós stílust. [Forrásált esemény 2026-05-28, nem többmeccses diagnózis.] https://www.atptour.com/en/news/collignon-shelton-roland-garros-2026-thursday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Konkrét találkozó fogadási és rallymintái ellenőrizendők. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -186,9 +186,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 5–8 (n=13); tie-break 2026-ban 38%-os győzelmi arány, de nem személyiségteszt; döntő szett: 3–7 (n=10); döntő szett 2026-ban 30%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 94.5; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Valencia Challenger salakdöntőjében Kecmanovictól három szettben kapott ki; csak eredménybizonyíték. [Forrásált esemény 2026-05-17, nem többmeccses diagnózis.] https://www.atptour.com/en/news/kecmanovic-valencia-challenger-2026-title
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Salakos kétidényes ütésprofil hiányzik. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -217,9 +217,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 9–7 (n=16); tie-break 2026-ban 56%-os győzelmi arány, de nem személyiségteszt; döntő szett: 5–6 (n=11); döntő szett 2026-ban 45%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 100.4; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Cincinnati 2026 Shelton elleni győzelme 6–4 6–4, erős kezdéssel. [Forrásált esemény 2026-08-16, nem többmeccses diagnózis.] https://www.atptour.com/en/news/shelton-faria-cincinnati-2026-sunday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Balkezes szervára adott fogadások külön elemzendők. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -310,9 +310,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 10–6 (n=16); tie-break 2026-ban 63%-os győzelmi arány, de nem személyiségteszt; döntő szett: 7–8 (n=15); döntő szett 2026-ban 47%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 104.6; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Önbevallás alapján agresszív támadó és védekező játékot is képes használni. [Forrásált esemény 2025-03-02, nem többmeccses diagnózis.] https://www.atptour.com/en/news/machac-first-time-winner-spotlight-march-2025
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** 2026-os támadás-védekezés átmenetet objektíven ellenőrizni kell. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -341,9 +341,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 10–8 (n=18); tie-break 2026-ban 56%-os győzelmi arány, de nem személyiségteszt; döntő szett: 11–5 (n=16); döntő szett 2026-ban 69%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 107.6; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** 2026 füvön Gabriel Diallót három szettben legyőzte; stílus nem következik a meccsből. [Forrásált esemény 2026-06-09, nem többmeccses diagnózis.] https://www.atptour.com/en/news/mannarino-diallo-s-hertogenbosch-2026-tuesday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Lapos ütés, balkezes szerva és fűborítás hatás mérendő. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -372,9 +372,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 7–10 (n=17); tie-break 2026-ban 41%-os győzelmi arány, de nem személyiségteszt; döntő szett: 6–7 (n=13); döntő szett 2026-ban 46%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 100.2; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** 2026 stuttgarti füves tornán a döntő szettben csupán hat pontot vesztett adogatóként. [Forrásált esemény 2026-06-10, nem többmeccses diagnózis.] https://www.atptour.com/en/news/stuttgart-2026
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Füves szerva+1 nyerési mutatók vizsgálandók. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -403,9 +403,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 15–9 (n=24); tie-break 2026-ban 63%-os győzelmi arány, de nem személyiségteszt; döntő szett: 7–11 (n=18); döntő szett 2026-ban 39%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 98.5; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** 2026 ATP-életrajz: kedvenc ütése az ejtés és kedvenc borítása a salak – önbevallás. [Forrásált esemény 2026-08-28, nem többmeccses diagnózis.] https://www.atptour.com/en/players/marozsan-fabian/m0ci/bio
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Ejtésminta 2025–2026-ban külön igazolandó. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -434,9 +434,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 10–9 (n=19); tie-break 2026-ban 53%-os győzelmi arány, de nem személyiségteszt; döntő szett: 9–16 (n=25); döntő szett 2026-ban 36%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 98.2; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Tien ellen Delray Beachen stabil alapvonalnyomást alakított ki, de elveszítette a mérkőzést. [Forrásált esemény 2026-02-19, nem többmeccses diagnózis.] https://www.atptour.com/en/news/tien-kecmanovic-delray-beach-2026-thursday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Alapvonalhibák és meccslezárások több meccsen. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -465,9 +465,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 9–9 (n=18); tie-break 2026-ban 50%-os győzelmi arány, de nem személyiségteszt; döntő szett: 8–6 (n=14); döntő szett 2026-ban 57%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 102.8; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** ATP-bio: kedvenc ütés tenyeres, kedvenc borítás salak; önbevallás. [Forrásált esemény 2026-05-22, nem többmeccses diagnózis.] https://www.atptour.com/en/players/camilo-ugo-carabelli/U182/bio
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Salakos tényleges adatok és tenyeres nyerők ellenőrizendők. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -527,9 +527,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 20–13 (n=33); tie-break 2026-ban 61%-os győzelmi arány, de nem személyiségteszt; döntő szett: 7–4 (n=11); döntő szett 2026-ban 64%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 106.6; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Santiagóban Cerundolo ellen az első szervás pontok 79%-át megnyerte (27/34). [Forrásált esemény 2026-02-28, nem többmeccses diagnózis.] https://www.atptour.com/en/news/santiago-2026-saturday-report
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Szerva mérkőzésközi stabilitása ellenőrizendő. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -558,9 +558,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 5–12 (n=17); tie-break 2026-ban 29%-os győzelmi arány, de nem személyiségteszt; döntő szett: 3–3 (n=6); 2026 Pressure+ 95.2; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Phoenix Challenger elődöntőjében első szervából 43/53 pont nyert. [Forrásált esemény 2026-03-14, nem többmeccses diagnózis.] https://www.atptour.com/en/news/cap-cana-phoenix-challenger-2026-sf
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Inside-out tenyeres és szerva+1 aktuális ellenőrzése. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -682,9 +682,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 12–13 (n=25); tie-break 2026-ban 48%-os győzelmi arány, de nem személyiségteszt; döntő szett: 10–4 (n=14); döntő szett 2026-ban 71%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 109.1; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** ATP 2025-ös cikk szerint az egykezes fonák változatossága és ereje meghatározó fegyvere. [Forrásált esemény 2025-10-03, nem többmeccses diagnózis.] https://www.atptour.com/en/news/altmaier-feature-shanghai-2025
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Fonák működése több 2026-os mérkőzésen újratesztelendő. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -713,9 +713,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 2–3 (n=5); döntő szett: 4–5 (n=9); 2026 Pressure+ 100.3; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** 2026 Bukarestben Diallót 6–2 6–2-re legyőzte hosszan tartó alapvonalpontokkal. [Forrásált esemény 2026-04-01, nem többmeccses diagnózis.] https://www.atptour.com/en/news/molcan-bucharest-2026-wednesday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Védekezés és hosszú pontok hatékonysága. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -744,9 +744,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 4–6 (n=10); tie-break 2026-ban 40%-os győzelmi arány, de nem személyiségteszt; döntő szett: 3–5 (n=8); 2026 Pressure+ 95.5; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** 2026 Wimbledonban João Fonsecát 6–3 6–3 6–3-ra győzte le, kimagasló egyedi teljesítménnyel. [Forrásált esemény 2026-07-03, nem többmeccses diagnózis.] https://www.atptour.com/en/news/safiullin-fonseca-wimbledon-2026-friday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Füves szerva és fogadás videós mérésre vár. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -775,9 +775,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 13–12 (n=25); tie-break 2026-ban 52%-os győzelmi arány, de nem személyiségteszt; döntő szett: 7–10 (n=17); döntő szett 2026-ban 41%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 102.2; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Zverev ellen 2026 Cincinnatiben balkezes tenyeressel és stabil adogatással zavarta az ellenfél ritmusát. [Forrásált esemény 2026-08-10, nem többmeccses diagnózis.] https://www.atptour.com/en/news/zverev-atmane-cincinnati-2026-monday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Balkezes szögek és fontos pontok ellenőrzése. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -806,9 +806,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 5–4 (n=9); döntő szett: 4–8 (n=12); döntő szett 2026-ban 33%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 96.6; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** ATP életrajz szerint kedvenc ütése a fonák, kedvenc borítása a salak; önbevallás. [Forrásált esemény 2026-08-28, nem többmeccses diagnózis.] https://www.atptour.com/en/players/Pablo_Carre%C3%B1o_Busta/CD85/bio
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Kétidényes fonák és salak teljesítmény mérendő. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -868,9 +868,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 6–9 (n=15); tie-break 2026-ban 40%-os győzelmi arány, de nem személyiségteszt; döntő szett: 3–3 (n=6); 2026 Pressure+ 98.1; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** 2026 Roland Garroson Cerundolót öt szettben legyőzte. [Forrásált esemény 2026-05-30, nem többmeccses diagnózis.] https://www.atptour.com/en/news/svajda-cerundolo-roland-garros-2026-saturday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Kritikus szettekhez kötött eredmények teljes meccsmintában. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -899,9 +899,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 10–7 (n=17); tie-break 2026-ban 59%-os győzelmi arány, de nem személyiségteszt; döntő szett: 3–6 (n=9); 2026 Pressure+ 99.5; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** ATP 2025-ös ütésenkénti nyerők elemzése magas agresszív alapvonal-teljesítményt írt le. [Forrásált esemény 2026-01-12, nem többmeccses diagnózis.] https://www.atptour.com/en/news/scorecards-medjedovic-winners-per-stroke-ratio
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** 2026-os nyerő-hiba arány és rövid labdamenetek. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -930,9 +930,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 1–5 (n=6); döntő szett: 4–7 (n=11); döntő szett 2026-ban 36%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 94.2; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Cobolli legyőzése után ATP szerint első 13 tourgyőzelme mind salakon történt. [Forrásált esemény 2026-07-22, nem többmeccses diagnózis.] https://www.atptour.com/en/news/burruchaga-cobolli-umag-2026-wednesday-report
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Friss salakos előny ellenfélerővel igazítva. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -961,9 +961,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 8–3 (n=11); tie-break 2026-ban 73%-os győzelmi arány, de nem személyiségteszt; döntő szett: 6–6 (n=12); döntő szett 2026-ban 50%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 105.9; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Umagban Blockx ellen 3–6 6–2 6–0-ra fordított. [Forrásált esemény 2026-07-14, nem többmeccses diagnózis.] https://www.atptour.com/en/news/blockx-droguet-umag-2026-tuesday-report
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Meccsközbeni taktikai váltást nem részletezi a forrás. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -992,9 +992,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 15–12 (n=27); tie-break 2026-ban 56%-os győzelmi arány, de nem személyiségteszt; döntő szett: 8–8 (n=16); döntő szett 2026-ban 50%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 102.6; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Füvön s-Hertogenboschban 2026 ATP-címet nyert, három Top10-es ellenfelet legyőzve. [Forrásált esemény 2026-06-14, nem többmeccses diagnózis.] https://www.atptour.com/en/news/majchrzak-first-time-winner-shertogenbosch-2026
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** 2025–2026 füves szervafogadás és ellenfélerő kontroll. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -1023,9 +1023,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 17–15 (n=32); tie-break 2026-ban 53%-os győzelmi arány, de nem személyiségteszt; döntő szett: 6–12 (n=18); döntő szett 2026-ban 33%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 102.9; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** ATP-bio alapján kedvenc ütés tenyeres és borítás fedett kemény; játékosi preferencia. [Forrásált esemény 2026-08-28, nem többmeccses diagnózis.] https://www.atptour.com/en/players/enwiki/k0az/bio
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Aktuális eredményeket a preferenciával külön összevetni. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -1054,9 +1054,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 6–2 (n=8); döntő szett: 4–4 (n=8); 2026 Pressure+ 104.6; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Jiujiangban 2026 ATP Challenger címet szerzett; technikai fegyvert a forrás nem részletez. [Forrásált esemény 2026-05-18, nem többmeccses diagnózis.] https://www.atptour.com/en/news/wong-challenger-2026-feature
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Támadó és védekező pontprofil további ellenőrzése. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -1147,9 +1147,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 2–7 (n=9); döntő szett: 2–3 (n=5); 2026 Pressure+ 98.3; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Newport Challenger 2026 döntőjében hat bajnoki labdát hárított. [Forrásált esemény 2026-07-19, nem többmeccses diagnózis.] https://www.atptour.com/en/news/fearnley-newport-challenger-2026-title
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Nyomás alatt szerzett pontok sokmeccses korrigált vizsgálata. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -1178,9 +1178,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 6–8 (n=14); tie-break 2026-ban 43%-os győzelmi arány, de nem személyiségteszt; döntő szett: 2–4 (n=6); 2026 Pressure+ 98.0; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** 2026 Marrákesben kvalifikációból ATP-döntőig jutott, releváns salakos teljesítmény. [Forrásált esemény 2026-04-04, nem többmeccses diagnózis.] https://www.atptour.com/en/news/trungelliti-darderi-marrakech-2026-sfs
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Szerva és védekező fizikai teljesítmény videós ellenőrzése. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -1209,9 +1209,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 3–7 (n=10); tie-break 2026-ban 30%-os győzelmi arány, de nem személyiségteszt; döntő szett: 5–7 (n=12); döntő szett 2026-ban 42%-os győzelmi arány, de nem személyiségteszt; 2026 Pressure+ 95.9; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Umagban 2026-ban Kopriva ellen nagy tempójú alapvonalütésekkel szerzett előnyt. [Forrásált esemény 2026-07-13, nem többmeccses diagnózis.] https://www.atptour.com/en/news/prizmic-kopriva-umag-2026-monday
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** Tenyeres irányváltás és salakos hibaarány. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
@@ -1240,9 +1240,9 @@ Támadójáték, védőjáték, fonák/tenyeres, mentális kontroll és nyomást
 
 **Nyomáshelyzetek eredményei:** tie-break: 9–4 (n=13); tie-break 2026-ban 69%-os győzelmi arány, de nem személyiségteszt; döntő szett: 6–3 (n=9); 2026 Pressure+ 107.9; önmagában nem diagnosztikus.
 
-**Aktuális taktikai forrás:** Nincs friss, személyre szabott, forrásolt stílusmegfigyelés. Nincs jelenleg forrásolt, konkrét játékstílusjegyzet.
+**Aktuális taktikai forrás:** Merida ellen az umagi döntőben 2026-ban elveszített első szett után döntő szettre mentett. [Forrásált esemény 2026-07-18, nem többmeccses diagnózis.] https://www.atptour.com/en/news/merida-dzumhur-umag-2026-final
 
-**Ellenfél- és matchupellenőrzés:** Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
+**Ellenfél- és matchupellenőrzés:** A második szett hatékonysága nem bizonyít állandó mentális tulajdonságot. Szerva+1, fogadás+1, tenyeres, fonák és mozgás videós/pontról pontra vizsgálata több ellenfél és borítás ellen. Az ellenfél erősségét, mérkőzésszámot és a frissességet minden következtetésnél kontrolláljuk.
 
 **Korlátok és státusz:** Referencia: 113 játékos, legalább 15 statisztikás meccs a 2026.11.15-ig érő archívumban; az ATP-főtábla/egyéb adatforráskör és ellenfélerő eltérése óvatosságot igényel. Nincs több mérkőzésre validált technikai/mozgás/pszichológiai diagnózis. A 2025–2026-os H2H külön, 2026.11.15-ig tartó adatfájlban; 2024 és korábbi közvetlen prediktív súly 0.
 
