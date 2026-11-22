@@ -90,3 +90,13 @@ A korábbi 94 játékoson felül **11 különböző** Top150-játékos 77 forrá
 **Kötelező licenc:** Match Charting Project [CC BY-NC-SA 4.0](https://github.com/JeffSackmann/tennis_MatchChartingProject): attribúció + kizárólag nem kereskedelmi felhasználás + share alike; az adatok általában *önkéntesen kiválasztott, nem reprezentatív* mérkőzésekből származnak. A projektben csak rövid, forrásolt jegyzetek és eredeti charting linkek kerültek a PR-ba, **nem importáltunk nyers charting adatállományt**. A 105 TDI közül 9 régi 2025 rolling-52-week sor 2024-es mérkőzéseket is tartalmazhat; a direkt predikció tiltóflagja megmaradt.
 
 **Fontos:** 136/150 esetében van forrásolt, 2025–26-os technikai követéshez *kutatási bemenet*, NEM 136 teljes többmeccsesen validált coach- vagy mentális profil; az utóbbi továbbra 0/150. Az appot és `main`-t ez a kutatás nem módosította.
+
+
+## ATP V4 – 2026-11-22 végső deduplikált match-ID / Top150 kutatási átadás
+
+**A fentiek korábbi kutatási mérföldkövek, a legújabb hiteles kutatási forráslefedettség:**
+- [V4 kanonikus teljes kutatási átadás](ATP_DATA_RESEARCH_V4_CANONICAL_HANDOFF_2026_11_22.md) és [V3 150-es bizonyítékosztály-mátrix](ATP_TOP150_2026_TECHNICAL_EVIDENCE_COVERAGE_V3_OFFICIAL_MATCH_IDS_2026_11_22.csv).
+- 105 játékos × 7 ATP/TDI = **735** mérés; 26 további játékoshoz **72 egyedi** főtáblás ATP match-ID-vel igazolt, 2025/26 chartolt meccs; 1 további Ilia Simakin tour main-draw n=1; más 18 játékos mixed/other/qualifying statisztika. **150 kutatási forrásazonosítás / 132 ATP/GS releváns technikai forrás / 0 garantált teljes mentális/technikai diagnózis.**
+- [96 egyedi MCP-meccs nap/scope/official ID kanonikus, licencekkel](ATP_MCP_96_UNIQUE_MATCHES_CANONICAL_DATES_OFFICIAL_IDS_FINAL_QA_2026_11_22.csv). Az előző 97 MCP rekord **97 játékos-asszociáció**, nem 97 külön meccs; az előző 73 főtábla-rekord **72 külön meccs**.
+- Az összes 72 ATP/GS matchhez dátumforrás: **48 ATP eredményarchívumban**, **19 történeti dátum nélküli archívumhoz külön hír/meccsforrásból**, **5 eltérő forrásdátumhoz külön manuális újraegyeztetést** rögzítő [19-es](ATP_MCP_19_ATP_2025_ARCHIVE_DATE_GAPS_INDEPENDENTLY_CROSSCHECKED_2026_11_22.csv) és [5-ös](ATP_MCP_FIVE_ATP_VS_CHARTING_DATE_DISCREPANCIES_RESOLVED_2026_11_22.csv) QA fájl.
+- V1 ATP/GS modellelőrejelzésbe csak versenykör-, event-date-, match-ID-, licence- és no-lookahead ellenőrzés után importálható. Az időpontok mérkőzés**napok**, nem pontonkénti eseménytimestamp-ek; mentális állapotokra következtetni tilos. **Az app ág PR #14 nincs automatikusan frissítve a kutatás változásaival.**
