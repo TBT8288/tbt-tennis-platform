@@ -61,3 +61,14 @@ Hiányzik a 150 játékos részletes 2025–2026-os ütésenkénti és rallyhoss
 - [24 új játékos / 7-7 mutató](ATP_TDI_FULL7_NEW_24_PLAYERS_2026_11_22.csv), [további 3 játékos: Fils, Munar, Machac](ATP_TDI_FULL7_NEW_3_PLAYERS_2026_11_22.csv), [további 3 játékos: Korda, Navone, Ofner](ATP_TDI_FULL7_NEW_3_MORE_PLAYERS_2026_11_22.csv), 2026. február–június hivatalos ATP-media/TDI dokumentumokból.
 - A harmonizált tábla megőrzi az eredeti PDF URL-t, a forrásban szereplő oldalszámot ahol ellenőrzött, a mérés napját, annak rolling-52-week / tournament-to-date jellegét, a mezőnkénti kitöltöttséget és a review státuszt. Tsitsipas dohai `tournament_to_date` értékeit NEM szabad a 69 másik rolling-52-week adatával azonos időablaknak tekinteni.
 - **Ez kutatási overlay a PR #13-ban, NEM már automatikusan a `main`-be került forrás/regiszter-módosítás.** A teljes, többmeccses edzői technika/mentális profilstátusz továbbra nem validált, 0/150. Az ATP/TDI 0–10 minőségi és %-os taktikai mutatói objektív tracking-bemenetek, nem mentális diagnózisok, és az eltérő dátumok miatt nem egy homogén versenyen belüli benchmark.
+
+
+## 2026-11-22 – Negyedik TDI-hullám: 105 játékos / 535 adat / külön időablak-szűrés
+
+A korábbi 94 játékoson felül **11 különböző** Top150-játékos 77 forrásolt TDI-számértéke:
+- [11 játékos új hétmutatós forrásai](ATP_TDI_FULL7_NEW_11_PLAYERS_2026_11_22.csv) – Alex Molcan, Roman Safiullin, Aleksandar Vukic, Nishesh Basavareddy, Hugo Gaston, Jaime Faria, Camilo Ugo Carabelli, James Duckworth, Pedro Martinez, Laslo Djere, Thiago Seyboth Wild.
+- **[Egységes 105 fős TDI-kutatási CSV, temporal_source_scope mezővel](ATP_TDI_TOP150_NORMALIZED_105_2026_11_22.csv)**: **105/150 külön játékos**, **65 teljes 7/7**, **40 részleges 2/7**, összesen **535 ténylegesen közölt számérték**; az adatok továbbra kutatási rekordok, és nem validált előrejelzési funkciók.
+- [Fennmaradó 45 fő célzott forráslistája](ATP_TDI_REMAINING_45_RESEARCH_QUEUE_2026_11_22.csv); a Top50-ből TDI nélkül maradt Arthur Fery, Luca Van Assche, Daniel Merida, Arthur Gea.
+- [2026-os, forrásolt, játékhelyzeti megfigyelések a négy TDI nélküli Top50-játékoshoz és Martin Damm Jr identitásellenőrzése](ATP_TOP150_2026_FOUR_TOP50_CONTEXT_PLUS_DAMM_IDENTITY_2026_11_22.csv): 9 konkrét eseménymegfigyelés, nem 7 mutatós profil vagy pszichológiai diagnózis.
+
+**Fontos időszűrés:** 9 új, 2025-ben közzétett gördülő 52 hetes mutató 2024-es mérkőzéseket is tartalmazhat, ezért `EXCLUDE_DIRECT_PREDICTOR_POSSIBLE_2024_MATCHES` jelölést kapott az új 105 soros fájlban. Jaime Faria 2025-ös Rio `tournament_to_date` mutatói tisztán 2025-ös tornakörre korlátozottak. A meglévő 2026-os rolling-52-week rekordok 2025–26-os ablakban vannak, de publikációjuk időpontjánál későbbi teljesítményt nem bizonyítanak. A `predictive_validated` mind a 105 sorban `NO`, amíg előzetesen időzárt backteszt nem készült.
