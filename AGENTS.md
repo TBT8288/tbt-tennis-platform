@@ -1,3 +1,12 @@
+## KÖTELEZŐ AI-ALVÁLLALKOZÓI MUNKAREND – CLAUDE / CURSOR (2026-11-22)
+
+**A fő ATP projekt kizárólag a jelen ChatGPT-ben és ebben a GitHub repóban működik.** A Claude és Cursor segítő, korlátozott feladatvégrehajtó. **Kötelező: [ATP_AI_COLLABORATION_GOVERNANCE.md](docs/ATP_AI_COLLABORATION_GOVERNANCE.md).**
+
+- **Alapértelmezés: READ-ONLY.** Ne módosíts kódot, ne végezz scrapinget, ne futtass autonóm ügynököt, ha nincs aktuális, ChatGPT által írásban meghatározott `ATP GO: <task_id>` és a felhasználó saját hozzájárulása.
+- Feladat esetén csak saját, elkülönített branch, Pull Request; **soha ne push/merge közvetlenül a `main` ágra**. Ne kapcsolj be auto-merge/auto-approve folyamatot.
+- Forrás: `PROJECT_MASTER.md`, `ATP_START.md`, `ATP_SESSION_LOG.md`. Régi Claude HWK `tbt/` kódot és történeti 77 tesztet ne tekints jelenlegi `main` kódnak.
+- A ChatGPT `GO` szakmai eljárási jelzés, **nem technikailag kikényszerített GitHub-védelmi szabály**; végső engedélyt a felhasználó ad, a GitHub branch ruleset/PR védelem a gyakorlati zár.
+
 # ATP Intelligence – folyamatos projektkontextus az AI-kódolóknak
 **A felhasználói hívószó egyszerűen: `ATP`.** Amikor a beszélgetésben `ATP` szerepel projektfolytatási értelemben, olvasd el a GitHub verziókezelt projektállapotát.
 
