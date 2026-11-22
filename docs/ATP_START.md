@@ -28,6 +28,10 @@
 - A `docs/ATP_SESSION_LOG.md`-ben a végzett munka tényét, forrását és ellenőrzött commit SHA-t;
 - Ne állítsd, hogy a beszélgetés **teljes szövege** automatikusan elmentődik, mert erre nincs az eszközök által garantált folyamatos chat-export hozzáférés. A teljes, új chat-szöveg szó szerinti archívumát külön forrás-exportként lehet majd menteni; a lényeges döntések és tényleges munkák viszont már **folyamatos GitHub-mentéssel** megmaradnak.
 
+## Egyszer beállítandó ChatGPT-projektutasítás
+
+A tartós, minden új ATP-projektbeszélgetésben automatikusan alkalmazott indulási szabály: [ATP_PROJECT_INSTRUCTIONS.md](ATP_PROJECT_INSTRUCTIONS.md). A felhasználónak ezt csak **egyszer** kell a ChatGPT ATP projektjének utasításai közé másolnia; új chatben onnantól az **ATP** elegendő hívószó lehet, amennyiben az integrációk továbbra is hozzáférhetők. A projektmemória segíti a releváns korábbi chatek kontextusát, de nem garantálja az összes üzenet szóról szóra visszaadását.
+
 ## Privát archívum és publikációs védelem
 A `TBT8288/tbt-tennis-platform` repó a korábbi ellenőrzés szerint nyilvános. **Ne tölts bele teljes személyes beszélgetéseket, privát e-maileket, belépési adatokat, kulcsokat vagy bizalmas nyers csatolmányokat.** Az eredeti szöveges forrás a privát, jelenleg kizárólag tulajdonosi hozzáférésű `ATP – Privát projektarchívum` Space-ben van. Az eredeti fájl 1006 sor, 36 620 UTF-8 bájt és SHA256 `ffceb2da5985304084e7d4d26ad9982d260106ae31198eede17d503404d24f01`; a Space szöveges átírása nem garantált bájtra azonos archívum, de ellenőrizhető teljes szövegforrás. A nyilvános GitHubba csak technikai/tartalmi összefoglalók, döntések, forráshivatkozások kerüljenek.
 
