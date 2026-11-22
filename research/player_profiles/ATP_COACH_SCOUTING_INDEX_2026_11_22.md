@@ -19,8 +19,12 @@
 - [69 mezős, részletes mérkőzésstatisztikai CSV](TOP150_EVIDENCE_PROFILE_REGISTER_2026_11_21.csv)
 - [2025–2026 H2H-adatbázis, 2026.11.15-ig](TOP150_H2H_2025_2026_THROUGH_2026_11_15.csv)
 - [36 első újonnan gyűjtött ATP-megfigyelés](ATP_2026_SOURCE_BACKED_COACHING_OBSERVATIONS_36.csv)
-- [Kiegészítő forrás 15 + 15 játékoshoz](ATP_COACH_OBSERVATIONS_WAVE2_A_2026_11_22.csv)
-- [Kiegészítő forrás 20 + 15 + 20 + 16 játékoshoz](ATP_COACH_OBSERVATIONS_WAVE3_A_2026_11_22.csv)
+- [Wave2/A – 15 játékos](ATP_COACH_OBSERVATIONS_WAVE2_A_2026_11_22.csv)
+- [Wave2/B – 15 játékos](ATP_COACH_OBSERVATIONS_WAVE2_B_2026_11_22.csv)
+- [Wave3/A – 20 játékos](ATP_COACH_OBSERVATIONS_WAVE3_A_2026_11_22.csv)
+- [Wave3/B – 15 játékos](ATP_COACH_OBSERVATIONS_WAVE3_B_2026_11_22.csv)
+- [Wave4/A – 20 játékos](ATP_COACH_OBSERVATIONS_WAVE4_A_2026_11_22.csv)
+- [Wave4/B – 16 játékos](ATP_COACH_OBSERVATIONS_WAVE4_B_2026_11_22.csv)
 
 ## Adatforrások és korlát
 - TennisDB szezon: https://tennis-db.com/seasons-and-rankings?year=2026
