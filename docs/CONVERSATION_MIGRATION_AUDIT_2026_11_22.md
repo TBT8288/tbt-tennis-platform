@@ -49,3 +49,8 @@
 - [Notion Momentum](https://app.notion.com/p/41ff603f0d2e81c0bb09dbef3246b1ea)
 - [Notion Adatforrások](https://app.notion.com/p/41ff603f0d2e8173af57d727e98be79b)
 - [Notion Roadmap](https://app.notion.com/p/41ff603f0d2e8177947fca58ede75300)
+
+
+## 2026-11-22 – Feltöltött ATP(1).txt alapján felülvizsgálva
+
+A felhasználó feltöltötte az `ATP(1).txt` fájlt (1006 soros szövegkivonat). A részletes elemzés: [ORIGINAL_ATP_THREAD_GAP_AUDIT_2026_11_22.md](ORIGINAL_ATP_THREAD_GAP_AUDIT_2026_11_22.md). **Újonnan azonosított hiányok:** három képesség/intuíció, a Blind Prediction minimum 50 javasolt tesztje, 30 napos tanulási program, eredmény előtt lezárt Prediction Sheet, virtuális EV/odds-retegek, kötelező 10 pontos pre-match, 6 lehetséges fordulat-ok, meccs-előszűrés/video nélküli működés, korábban javasolt PWA stack, Tennis API-szolgáltatóval folytatott levelezésre vonatkozó, még nem jogilag igazolt emlékeztető. A 12/48 konkrét jelneve **ebben a fájlban nincs felsorolva**. A teljes, szó szerinti chattranszkript és eredeti csatolmányok továbbra sem ellenőrzöttek.
