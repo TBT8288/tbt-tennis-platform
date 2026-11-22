@@ -44,7 +44,7 @@
 | 30 | Áttekintés | Kalibráció, fals riasztás, minta, ROI csak virtuális | Következő tesztterv |
 
 ## Minimum 50 előre rögzített Blind Prediction próba
-A **30 nap NEM helyettesíti az 50 kísérletet**. A 30 nap tanulási struktúra, az 50 esemény a korábbi kísérleti terv minimális induló mintája – statisztikai bizonyítéknak még ez is kevés. Lásd: [50 üres naplósor](../research/templates/blind_prediction_50_ures_sor.csv), [részletes protokoll](ATP_BLIND_PREDICTION_50_PROTOCCheck.md).
+A **30 nap NEM helyettesíti az 50 kísérletet**. A 30 nap tanulási struktúra, az 50 esemény a korábbi kísérleti terv minimális induló mintája – statisztikai bizonyítéknak még ez is kevés. Lásd: [50 üres naplósor](../research/templates/blind_prediction_50_ures_sor.csv), [részletes protokoll](ATP_BLIND_PREDICTION_50_PROTOCOL.md).
 
 ## Mérőszámok
 Pontosság; Brier score és log loss (előrejelzési célonként); kalibrációs görbe; valódi változás előtti jelzési előny; fals riasztások; opcionális szimulált ROI. **Tilos** ugyanazt az eseményt a később megismert eredménnyel visszatölteni vagy eredetinek mutatni.
