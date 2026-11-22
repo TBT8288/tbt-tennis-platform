@@ -29,3 +29,10 @@
 ## 2026-11-22 – Teljes szöveg automatikus megőrzése: kötelező új feladat
 
 A felhasználó kérésére új, elsődleges adatbiztonsági követelmény: **minden új ATP-beszélgetés teljes szövegének automatizált, időbélyeges, forrásazonosított eltárolása**, nem csupán kivonat vagy kézi emlékeztető. Megvalósítási terv és egyértelmű ChatGPT webUI-korlát: [ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md](ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md). Kész alap-archívum van a 2026.11.22-ig áthozott szövegekhez; automatikus minden üzenetes archiválás **még nincs bekötve**. A javasolt megoldás a teljes üzenetet rögzítő saját privát chatfrontend + DB + backup; az Open WebUI ellenőrzött alternatíva, de a tényleges átállás nem történt meg.
+
+
+## 2026-11-22 – Natív több AI-ból használható ATP Memory Hub kötelező feltétel
+- Felhasználó: **„egy saját ATP-felület csak akkor jo ha integralni lehet ide vagy claude ai ban cursorba stb”** – az eredeti döntést szó szerint is rögzítve.
+- A külön UI-fejlesztés felfüggesztve addig, amíg a közös memória nem működik a natív ChatGPT/Claude/Cursor kliensekben.
+- [Platformfüggetlen memória/MCP terv](ATP_CROSS_AI_SHARED_MEMORY_MCP_ARCHITECTURE.md); ChatGPT aktuális Notion/GitHub plugin hozzáférése már működik, Claude/Cursor remote MCP hivatalos támogatása ismert, de a három kliens közös ATP-memória tényleges próba **még nincs meg**.
+- **Szigorú korlát:** natív ChatGPT Plus custom MCP támogatást nem tekintünk bizonyítottnak; a Notion/GitHub app csatorna elsődleges. MCP nem interceptál automatikusan teljes beszélgetéseket. Minden platform teljes beszélgetésrögzítése külön megoldandó.
