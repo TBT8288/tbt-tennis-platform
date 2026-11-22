@@ -280,3 +280,8 @@ A felhasználó végleges projekt-hívószava **csak `ATP`**. A korábbi `ATP-MA
 
 
 **Kiegészítő egyszeri beállítás (2026-11-22):** [ATP – projektutasítás a ChatGPT projekthez](docs/ATP_PROJECT_INSTRUCTIONS.md). Ez biztosítja, hogy a projektben indított következő beszélgetés az `ATP` jelzésre GitHub és privát archívum forrásokból töltse be a korábbi döntéseket. A korábban feltöltött TXT **bájthű másolata már a személyes ChatGPT Library-ben** is elérhető: `/ATP/Conversation_Archive/ATP(1)_eredeti_2026-11-22.txt` (36 620 bájt). A projektutasítást a felhasználónak egyszer kell megadnia a ChatGPT Projekt beállításaiban; a GitHub/Space projektfájlok létrehozása önmagában nem módosítja a ChatGPT belső projektutasításait.
+
+
+## 2026-11-22 – Szigorú, automatikus teljes beszélgetésarchiválás új követelmény
+
+A felhasználó **nem csak a fontosnak minősített projekt-döntéseket, hanem minden jövőbeli user/assistant üzenet teljes szövegét** szeretné automatikusan, szó szerint tartósan megőrizni, hogy új beszélgetésben semmi ne tűnjön el. A korábbi manuális GitHub-napló **önmagában NEM teljesíti ezt**. Hivatkozott részletes architektúra: [ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md](docs/ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md). Elsődleges technikai jelölt: privát Open WebUI/saját felület + SQLite/Postgres + kereshető teljes üzenetarchívum + titkosított backup; egyszeri ChatGPT JSON export importálható. **Ezt MÉG NEM TELEPÍTETTÜK, és a felhasználó nem hagyta jóvá az alap ChatGPT webes felületről a váltást.** A jelenlegi ChatGPT + GitHub + Space + Library rendszer a fontos döntéseket és az eredeti 1006 soros szálat megőrizte, de nem garantálja minden *új* natív ChatGPT üzenet automatikus, szó szerinti külső mentését. Az `ATP` hívószó megmarad.
