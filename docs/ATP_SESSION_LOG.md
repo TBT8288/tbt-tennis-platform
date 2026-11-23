@@ -105,3 +105,8 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 - **Év / kategória:** 21 db 2025, 52 db 2026; 20 GS, 25 M1000, 7 ATP500, 21 ATP250 charting-index rekord.
 - **QA maradék:** a konkrét charting dátumának és fordulójának a hivatalos *meccsnap/draw* megfeleltetése még külön folyamat; a torna évének/kategóriájának, résztvevőinek és match ID-jának egyenlősége igazolt. Nem használható kontrollálatlanul modellbe, MCP licenc nem kereskedelmi, mintavétel önkéntes.
 - A kutatási PR #13 külön ágán írva, `main` és PR #14 nem módosítva. **Új ATP szál** e CSV-kből folytassa, ne a 150 fős általános kutatást ismételje.
+
+
+## 2026-11-23 – A november 22-i privát források leltára
+
+A visszaolvasott fájllistában három szöveges bejegyzés (az archivált példánnyal együtt), két képernyőkép és két generált ZIP található. A Macen készült teljes mentés útvonalát a korábbi beszélgetés terminálkimenete azonosította; annak helyi tartalmát ebből a munkamenetből nem ellenőriztük. A személyes fájlokhoz tartozó linkek a tulajdonos ChatGPT-beszélgetésében érhetők el. A 72 mérkőzés eredményellenőrzése a következő kutatási feladat.
