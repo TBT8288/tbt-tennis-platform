@@ -51,3 +51,6 @@ Az `ATP` kód **nem programozott rendszerparancs**, és egy új beszélgetésben
 ## Üzenetenkénti, veszteségmentes archiválás – új, még nem implementált követelmény
 
 Lásd: [teljes beszélgetésarchívum architektúrája](ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md). A jelenlegi `ATP` hívószó és projektmemória nem azonos a szó szerinti új chatek automatikus mentésével; ezt csak olyan rendszer tudja igazolhatóan megoldani, amely minden üzenetet rögzít. A meglevő GitHub/Library/Space projekt mentése nem helyettesíti a közvetlen rögzítőt.
+
+
+**Top 150 adatleltár, 2026-11-23.** A `main` ágon a `research/player_profiles/atp_top150_profile_register_2026_11_21.csv` 150 játékos adatlapját tartalmazza 51 oszloppal. A Notion 08-as oldalán elérhető a névsor. A kutatási ág a 16 testalkati és a 46 fonáktípus-pótlást külön táblákban őrzi. A teljes technikai és mentális validáció darabszáma önálló mérőszám. A Mac helyi példányának egyezősége külön ellenőrzendő.
