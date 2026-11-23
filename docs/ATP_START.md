@@ -4,6 +4,16 @@
 **Állapotkezelés:** verziókezelt GitHub projektállapot + privát ChatGPT Space forrásarchívum.
 **Utolsó specifikációfrissítés:** 2026-11-22.
 
+## 2026-11-23 · Mentés minden elvégzett ATP-feladat után
+
+A feladat lezárásakor mentsd a létrehozott adatokat, kódot és forráshivatkozásokat a megfelelő GitHub-munkaágra. A feladathoz tartozó privát anyagot a projekt privát archívumában őrizd meg. A nyilvános repóba csak közzétehető adatok kerülhetnek. Kulcsokat és hitelesítési adatokat hagyj a titoktárban.
+
+A közös Notion-memóriaoldalra írd be a dátumot, az elvégzett feladatot, az adatfájlok és a pontos GitHub-commit linkjét, az ellenőrzés eredményét, a nyitott hiányokat és a következő konkrét lépést. A feladat végén olvasd vissza mindkét mentést. Részleges mentésnél nevezd meg a sikeres és az elakadt célhelyet. Új szálnál az ATP hívószóra nyisd meg a legfrissebb Notion-bejegyzést, majd az abban hivatkozott ágat és fájlokat.
+
+Claude és Cursor ugyanebből a Notion-oldalból és GitHub-verzióból folytassa a feladatot. A kliens saját visszaolvasásával igazolható a hozzáférése. Firecrawl-kutatásnál őrizd meg az érdemi találatokat, a forrás URL-jét, a lekérés dátumát és az ellenőrzött adatot a feladat kutatási fájljaiban.
+
+**Átadás 2026-11-23.** Kutatás: PR #13, V4 átadás. Fejlesztés: PR #14. 150/150 forrásolt profil, 105 teljes hétmutatós TDI-sor, 0/150 többmeccsesen validált teljes technikai és mentális profil. A 72 külön ATP/GS főtáblás meccs azonosítása és dátumegyeztetése megvan. A következő adatkutatási feladat a győztes, szetteredmény és feladási státusz tételes ellenőrzése.
+
 ## Kötelező menet, amikor a felhasználó csak ennyit ír: ATP
 1. **Ne kezdj nulláról.** Keresd meg az ATP projektet, és ténylegesen olvasd be a kapcsolódó tartós forrásokat. A memória csak támpont, nem megbízható teljes transcript.
 2. GitHub `TBT8288/tbt-tennis-platform`: olvasd el `PROJECT_MASTER.md`, `docs/ATP_START.md`, `docs/ATP_SESSION_LOG.md`, `docs/ATP_9_HIANYZOTT_TERULET_POTLASA_2026_11_22.md`, `docs/ORIGINAL_ATP_THREAD_GAP_AUDIT_2026_11_22.md`, `docs/TEMPORAL_RELEVANCE_POLICY.md`, `research/player_profiles/ATP_COACH_SCOUTING_INDEX_2026_11_22.md`; szükség szerint a csatolt forrásokat, a jelenlegi `app.py` és `atp_intelligence/` kódot, és az aktív issue-kat.
@@ -41,3 +51,6 @@ Az `ATP` kód **nem programozott rendszerparancs**, és egy új beszélgetésben
 ## Üzenetenkénti, veszteségmentes archiválás – új, még nem implementált követelmény
 
 Lásd: [teljes beszélgetésarchívum architektúrája](ATP_FULL_CONVERSATION_ARCHIVE_ARCHITECTURE.md). A jelenlegi `ATP` hívószó és projektmemória nem azonos a szó szerinti új chatek automatikus mentésével; ezt csak olyan rendszer tudja igazolhatóan megoldani, amely minden üzenetet rögzít. A meglevő GitHub/Library/Space projekt mentése nem helyettesíti a közvetlen rögzítőt.
+
+
+**Top 150 adatleltár, 2026-11-23.** A `main` ágon a `research/player_profiles/atp_top150_profile_register_2026_11_21.csv` 150 játékos adatlapját tartalmazza 51 oszloppal. A Notion 08-as oldalán elérhető a névsor. A kutatási ág a 16 testalkati és a 46 fonáktípus-pótlást külön táblákban őrzi. A teljes technikai és mentális validáció darabszáma önálló mérőszám. A Mac helyi példányának egyezősége külön ellenőrzendő.

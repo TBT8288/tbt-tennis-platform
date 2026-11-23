@@ -1,0 +1,14 @@
+rank,player,existing_2_metric_snapshot,missing_metrics,official_source_url
+3,Carlos Alcaraz,2026-02-18,"in_attack_pct;conversion_pct;steal_pct;serve_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/21b1f48ba90043f9a7c29311005f8d0e.pdf
+4,Ben Shelton,2026-06-17,"in_attack_pct;conversion_pct;return_quality_0_10;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/07ece44d82f1404cbdf3fc2f7df5673d.pdf
+12,Novak Djokovic,2026-03-07,"in_attack_pct;conversion_pct;steal_pct;return_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/2088c2c2c93541b5935d241d12c1a3db.pdf
+17,Felix Auger-Aliassime,2026-06-17,"in_attack_pct;conversion_pct;steal_pct;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/07ece44d82f1404cbdf3fc2f7df5673d.pdf
+22,Learner Tien,2026-06-17,"in_attack_pct;serve_quality_0_10;return_quality_0_10;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/07ece44d82f1404cbdf3fc2f7df5673d.pdf
+53,Sebastian Baez,2026-05-06,"in_attack_pct;conversion_pct;return_quality_0_10;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/54fb34f1d1df4283a2d225d26ae5fdbf.pdf
+64,Miomir Kecmanovic,2026-05-09,"in_attack_pct;conversion_pct;steal_pct;serve_quality_0_10;forehand_quality_0_10",https://www.atptour.com/-/media/4a3b45bac9184ce5aeb58204c929f5f8.pdf
+72,Daniel Altmaier,2026-06-20,"in_attack_pct;conversion_pct;steal_pct;serve_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/a9cea1bc4795485daaf07d052028ab7f.pdf
+75,Terence Atmane,2026-06-17,"in_attack_pct;conversion_pct;steal_pct;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/07ece44d82f1404cbdf3fc2f7df5673d.pdf
+79,Hamad Medjedovic,2026-06-19,"conversion_pct;steal_pct;return_quality_0_10;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/95f4effdc9984d658c987a90c7d2c4ad.pdf
+94,Jenson Brooksby,2026-05-06,"in_attack_pct;conversion_pct;return_quality_0_10;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/54fb34f1d1df4283a2d225d26ae5fdbf.pdf
+110,Lorenzo Sonego,2026-06-17,"in_attack_pct;conversion_pct;steal_pct;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/07ece44d82f1404cbdf3fc2f7df5673d.pdf
+123,Valentin Royer,2026-02-18,"in_attack_pct;conversion_pct;return_quality_0_10;forehand_quality_0_10;backhand_quality_0_10",https://www.atptour.com/-/media/21b1f48ba90043f9a7c29311005f8d0e.pdf
