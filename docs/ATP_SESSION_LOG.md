@@ -110,3 +110,10 @@ Létrehoztuk a meglévő Notion ATP Intelligence projektközpontban a **[09 · A
 ## 2026-11-23 – A november 22-i privát források leltára
 
 A visszaolvasott fájllistában három szöveges bejegyzés (az archivált példánnyal együtt), két képernyőkép és két generált ZIP található. A Macen készült teljes mentés útvonalát a korábbi beszélgetés terminálkimenete azonosította; annak helyi tartalmát ebből a munkamenetből nem ellenőriztük. A személyes fájlokhoz tartozó linkek a tulajdonos ChatGPT-beszélgetésében érhetők el. A 72 mérkőzés eredményellenőrzése a következő kutatási feladat.
+
+
+## 2026-11-23 · Kapcsolatok ellenőrzése
+
+GitHub: a projektleírás és a #13, #14 PR olvasható. Notion: az ATP-CROSSAI-001 rekord visszaolvasható. Firecrawl: a hivatalos Jannik Sinner ATP-profil lekérése sikeres (https://www.atptour.com/en/players/jannik-sinner/s0ag/overview). Claude: a bejelentkezési műveletet az automatikus jóváhagyás használati limitje megállította. Cursor: a webes felület biztonsági ellenőrzést mutatott. A Claude és Cursor saját Notion- és GitHub-visszaolvasása egyelőre ellenőrizetlen.
+
+A kutatás folytatási pontja a 72 azonosított főtáblás meccs győztesének, szetteredményének és feladási státuszának egyeztetése.
